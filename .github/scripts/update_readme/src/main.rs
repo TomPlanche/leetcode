@@ -204,11 +204,11 @@ Each solution file must include a documentation header in this format:
 
     // Add tools and license sections
     content.push_str(
-            "\n## Tools\n\n\
-            - [LeetCode CLI](./leetcode_cli/): A command-line tool to create new LeetCode problem projects.\n\n\
-            ## License\n\n\
-            This project is open-source and available under the MIT License.\n",
-        );
+        "\n## Tools\n\n\
+- [LeetCode CLI](./leetcode_cli/): A command-line tool to create new LeetCode problem projects.\n\n\
+## License\n\n\
+This project is open-source and available under the MIT License.\n",
+    );
 
     content
 }
