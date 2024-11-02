@@ -27,62 +27,100 @@ struct Stats {
     hard: u32,
 }
 
+/// Valid difficulty levels for LeetCode problems
+const VALID_DIFFICULTIES: [&str; 3] = ["Easy", "Medium", "Hard"];
+
 ///
 /// # get_problem_info
 /// Extracts all problem information from a source file.
+/// If the file doesn't contain valid problem information, returns None.
 ///
 /// ## Arguments
 /// * `file_path` - Path to the source file
 ///
 /// ## Returns
-/// * `Result<ProblemInfo, Box<dyn Error>>` - The extracted problem information
+/// * `Option<ProblemInfo>` - The extracted problem information if valid
 ///
-fn get_problem_info(file_path: &Path) -> Result<ProblemInfo, Box<dyn Error>> {
-    let content = fs::read_to_string(file_path)?;
+fn get_problem_info(file_path: &Path) -> Option<ProblemInfo> {
+    // Read file content
+    let content = match fs::read_to_string(file_path) {
+        Ok(content) => content,
+        Err(e) => {
+            eprintln!("Warning: Failed to read file {:?}: {}", file_path, e);
+            return None;
+        }
+    };
 
-    // Regex pattern to match: # Title (Difficulty) [Tags]
-    let pattern = Regex::new(r"#\s*(.*?)\s*\((.*?)\)\s*\[(.*?)\]")?;
+    // Regex pattern with named groups for better readability
+    let pattern = Regex::new(
+        r"#\s*(?P<title>[^(\n]+)\s*\((?P<difficulty>Easy|Medium|Hard)\)\s*\[(?P<tags>[^\]]*)\]",
+    )
+    .expect("Invalid regex pattern");
 
-    let captures = pattern
-        .captures(&content)
-        .ok_or("Failed to parse problem information")?;
+    let captures = match pattern.captures(&content) {
+        Some(caps) => caps,
+        None => {
+            eprintln!(
+                "Warning: File {:?} doesn't match the expected format:\n\
+                # Title (Difficulty) [Tags]",
+                file_path
+            );
+            return None;
+        }
+    };
 
+    // Extract and validate problem information
     let title = captures
-        .get(1)
-        .ok_or("No title found")?
-        .as_str()
-        .trim()
-        .to_string();
+        .name("title")
+        .map(|m| m.as_str().trim().to_string())
+        .unwrap_or_default();
 
     let difficulty = captures
-        .get(2)
-        .ok_or("No difficulty found")?
-        .as_str()
-        .trim()
-        .to_string();
+        .name("difficulty")
+        .map(|m| m.as_str().trim().to_string())
+        .unwrap_or_default();
 
+    // Validate difficulty
+    if !VALID_DIFFICULTIES.contains(&difficulty.as_str()) {
+        eprintln!(
+            "Warning: Invalid difficulty '{}' in {:?}. Expected one of: {:?}",
+            difficulty, file_path, VALID_DIFFICULTIES
+        );
+        return None;
+    }
+
+    // Process tags
     let tags = captures
-        .get(3)
-        .ok_or("No tags found")?
-        .as_str()
-        .split(',')
-        .map(|s| s.trim().to_string())
-        .collect();
+        .name("tags")
+        .map(|m| {
+            m.as_str()
+                .split(',')
+                .map(|s| s.trim().to_string())
+                .filter(|s| !s.is_empty())
+                .collect()
+        })
+        .unwrap_or_default();
 
+    // Extract ID from directory name
     let id = file_path
         .parent()
         .and_then(|p| p.parent())
         .and_then(|p| p.file_name())
         .and_then(|name| name.to_str())
-        .map(|s| s.replace("id_", ""))
-        .ok_or("Failed to extract problem ID")?;
+        .map(|s| s.replace("id_", ""));
 
-    Ok(ProblemInfo {
-        id,
-        title,
-        difficulty,
-        tags,
-    })
+    match id {
+        Some(id) if !id.is_empty() => Some(ProblemInfo {
+            id,
+            title,
+            difficulty,
+            tags,
+        }),
+        _ => {
+            eprintln!("Warning: Failed to extract problem ID from {:?}", file_path);
+            None
+        }
+    }
 }
 
 ///
@@ -109,7 +147,7 @@ fn generate_readme(problems: &[ProblemInfo], stats: &Stats) -> String {
         let tags_str = if !problem.tags.is_empty() {
             format!("`{}`", problem.tags.join("`, `"))
         } else {
-            String::new()
+            String::from("-")
         };
 
         content.push_str(&format!(
@@ -118,20 +156,24 @@ fn generate_readme(problems: &[ProblemInfo], stats: &Stats) -> String {
         ));
     }
 
+    let total = stats.easy + stats.medium + stats.hard;
     content.push_str(&format!(
         "\n## Tools\n\n\
         - [LeetCode CLI](./leetcode_cli/): A command-line tool to create new LeetCode problem projects.\n\n\
         ## Stats\n\n\
         - Total problems solved: {}\n\
-        - Easy: {}\n\
-        - Medium: {}\n\
-        - Hard: {}\n\n\
+        - Easy: {} ({:.1}%)\n\
+        - Medium: {} ({:.1}%)\n\
+        - Hard: {} ({:.1}%)\n\n\
         ## License\n\n\
         This project is open-source and available under the MIT License.\n",
-        stats.easy + stats.medium + stats.hard,
+        total,
         stats.easy,
+        (stats.easy as f64 / total as f64) * 100.0,
         stats.medium,
-        stats.hard
+        (stats.medium as f64 / total as f64) * 100.0,
+        stats.hard,
+        (stats.hard as f64 / total as f64) * 100.0
     ));
 
     content
@@ -159,15 +201,14 @@ fn main() -> Result<(), Box<dyn Error>> {
                 if dir_name.starts_with("id_") {
                     let main_rs = path.join("src").join("main.rs");
                     if main_rs.exists() {
-                        if let Ok(info) = get_problem_info(&main_rs) {
+                        if let Some(info) = get_problem_info(&main_rs) {
                             // Update statistics
                             match info.difficulty.as_str() {
                                 "Easy" => stats.easy += 1,
                                 "Medium" => stats.medium += 1,
                                 "Hard" => stats.hard += 1,
-                                _ => {}
+                                _ => {} // Should never happen due to regex validation
                             }
-
                             problems.push(info);
                         }
                     }
@@ -176,17 +217,14 @@ fn main() -> Result<(), Box<dyn Error>> {
         }
     }
 
-    // Sort problems by ID
-    problems.sort_by(|a, b| {
-        a.id.parse::<u32>()
-            .unwrap_or(0)
-            .cmp(&b.id.parse::<u32>().unwrap_or(0))
-    });
+    // Sort problems by ID numerically
+    problems.sort_by_key(|p| p.id.parse::<u32>().unwrap_or(0));
 
     // Generate and write README
     let readme_content = generate_readme(&problems, &stats);
     let mut file = fs::File::create(current_dir.join("README.md"))?;
     file.write_all(readme_content.as_bytes())?;
 
+    println!("Successfully updated README.md");
     Ok(())
 }
