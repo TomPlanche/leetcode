@@ -6,11 +6,11 @@
 /// ## Author
 /// Tom Planche <github.com/tomPlanche>
 ///
-use std::collections::HashMap;
+use regex::Regex;
 use std::error::Error;
 use std::fs;
 use std::io::Write;
-use std::path::{Path, PathBuf};
+use std::path::Path;
 
 #[derive(Debug)]
 struct ProblemInfo {
@@ -28,24 +28,6 @@ struct Stats {
 }
 
 ///
-/// # extract_metadata
-/// Extracts problem metadata from the source file comments.
-///
-/// ## Arguments
-/// * `content` - The content of the source file
-/// * `pattern` - The regex pattern to match
-///
-/// ## Returns
-/// * `Option<String>` - The extracted metadata if found
-///
-fn extract_metadata(content: &str, pattern: &str) -> Option<String> {
-    content
-        .lines()
-        .find(|line| line.contains(pattern))
-        .and_then(|line| line.split(pattern).nth(1).map(|s| s.trim().to_string()))
-}
-
-///
 /// # get_problem_info
 /// Extracts all problem information from a source file.
 ///
@@ -58,12 +40,34 @@ fn extract_metadata(content: &str, pattern: &str) -> Option<String> {
 fn get_problem_info(file_path: &Path) -> Result<ProblemInfo, Box<dyn Error>> {
     let content = fs::read_to_string(file_path)?;
 
-    let difficulty =
-        extract_metadata(&content, "Difficulty:").unwrap_or_else(|| "Unknown".to_string());
-    let tags = extract_metadata(&content, "Tags:")
-        .map(|t| t.split(',').map(|s| s.trim().to_string()).collect())
-        .unwrap_or_default();
-    let title = extract_metadata(&content, "Title:").unwrap_or_else(|| "Unknown".to_string());
+    // Regex pattern to match: # Title (Difficulty) [Tags]
+    let pattern = Regex::new(r"#\s*(.*?)\s*\((.*?)\)\s*\[(.*?)\]")?;
+
+    let captures = pattern
+        .captures(&content)
+        .ok_or("Failed to parse problem information")?;
+
+    let title = captures
+        .get(1)
+        .ok_or("No title found")?
+        .as_str()
+        .trim()
+        .to_string();
+
+    let difficulty = captures
+        .get(2)
+        .ok_or("No difficulty found")?
+        .as_str()
+        .trim()
+        .to_string();
+
+    let tags = captures
+        .get(3)
+        .ok_or("No tags found")?
+        .as_str()
+        .split(',')
+        .map(|s| s.trim().to_string())
+        .collect();
 
     let id = file_path
         .parent()
@@ -155,17 +159,17 @@ fn main() -> Result<(), Box<dyn Error>> {
                 if dir_name.starts_with("id_") {
                     let main_rs = path.join("src").join("main.rs");
                     if main_rs.exists() {
-                        let info = get_problem_info(&main_rs)?;
+                        if let Ok(info) = get_problem_info(&main_rs) {
+                            // Update statistics
+                            match info.difficulty.as_str() {
+                                "Easy" => stats.easy += 1,
+                                "Medium" => stats.medium += 1,
+                                "Hard" => stats.hard += 1,
+                                _ => {}
+                            }
 
-                        // Update statistics
-                        match info.difficulty.as_str() {
-                            "Easy" => stats.easy += 1,
-                            "Medium" => stats.medium += 1,
-                            "Hard" => stats.hard += 1,
-                            _ => {}
+                            problems.push(info);
                         }
-
-                        problems.push(info);
                     }
                 }
             }
