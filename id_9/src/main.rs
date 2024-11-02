@@ -97,4 +97,10 @@ mod tests {
         assert!(!is_palindrome(100));
         assert!(is_palindrome(0));
     }
+
+    #[test]
+    fn test_palindrome_sequence() {
+        assert!(is_palindrome(12321));
+        assert!(!is_palindrome(12345));
+    }
 }
