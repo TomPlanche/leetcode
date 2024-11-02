@@ -20,12 +20,12 @@ jobs:
 
             - name: Build update script
               run: |
-                  cd .github/scripts
+                  cd .github/scripts/update_readme
                   cargo build --release
 
             - name: Update README
               run: |
-                  ./.github/scripts/target/release/update_readme
+                  ./.github/scripts/update_readme/target/release/update_readme
 
             - name: Commit changes
               run: |
