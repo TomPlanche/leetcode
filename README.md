@@ -25,6 +25,8 @@ Each solution file must include a documentation header in this format:
 /// LeetCode Problem {id}
 ///
 ```
+| ID | Title | Difficulty | Tags |
+|----|-------|------------|------|
 | [7](./id_7) | Reverse Integer | Medium | `Math` |
 | [9](./id_9) | Palindrome Number | Easy | `Math` |
 | [37](./id_37) | Sudoku Solver | Hard | `Array`, `Hash Table`, `Backtracking`, `Matrix` |

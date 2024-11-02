@@ -162,7 +162,9 @@ Each solution file must include a documentation header in this format:
 /// # Problem Title (Difficulty) [Tag1, Tag2]
 /// LeetCode Problem {id}
 ///
-```\n",
+```
+| ID | Title | Difficulty | Tags |
+|----|-------|------------|------|\n",
     );
 
     for problem in problems {
