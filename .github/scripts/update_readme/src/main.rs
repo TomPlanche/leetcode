@@ -135,21 +135,42 @@ fn get_problem_info(file_path: &Path) -> Option<ProblemInfo> {
 /// * `String` - The generated README content
 ///
 fn generate_readme(problems: &[ProblemInfo], stats: &Stats) -> String {
+    let total = stats.easy + stats.medium + stats.hard;
     let mut content = String::from(
         "# LeetCode Solutions in Rust 🦀.
 This repository contains my solutions to LeetCode problems implemented in Rust.
 
-## Automated Documentation
+## Stats\n\n",
+    );
+
+    // Add stats section first
+    content.push_str(&format!(
+        "- Total problems solved: {}\n\
+            - Easy: {} ({:.1}%)\n\
+            - Medium: {} ({:.1}%)\n\
+            - Hard: {} ({:.1}%)\n\n",
+        total,
+        stats.easy,
+        (stats.easy as f64 / total as f64) * 100.0,
+        stats.medium,
+        (stats.medium as f64 / total as f64) * 100.0,
+        stats.hard,
+        (stats.hard as f64 / total as f64) * 100.0
+    ));
+
+    // Add the automation documentation
+    content.push_str(
+            "## Automated Documentation
 
 This repository uses GitHub Actions to automatically maintain an up-to-date listing of all solutions. The automation:
 
 1. Triggers whenever a new solution is pushed to the main branch
 2. Scans all solution directories (those starting with `id_`)
 3. Extracts problem metadata from the source files, including:
-- Problem ID
-- Title
-- Difficulty level
-- Topic tags
+    - Problem ID
+    - Title
+    - Difficulty level
+    - Topic tags
 4. Generates a formatted table of all solutions
 5. Updates statistics about problem difficulties
 6. Automatically commits and pushes the updated README.md
@@ -165,8 +186,9 @@ Each solution file must include a documentation header in this format:
 ```
 | ID | Title | Difficulty | Tags |
 |----|-------|------------|------|\n",
-    );
+        );
 
+    // Add problems table
     for problem in problems {
         let tags_str = if !problem.tags.is_empty() {
             format!("`{}`", problem.tags.join("`, `"))
@@ -180,25 +202,13 @@ Each solution file must include a documentation header in this format:
         ));
     }
 
-    let total = stats.easy + stats.medium + stats.hard;
-    content.push_str(&format!(
-        "\n## Tools\n\n\
-        - [LeetCode CLI](./leetcode_cli/): A command-line tool to create new LeetCode problem projects.\n\n\
-        ## Stats\n\n\
-        - Total problems solved: {}\n\
-        - Easy: {} ({:.1}%)\n\
-        - Medium: {} ({:.1}%)\n\
-        - Hard: {} ({:.1}%)\n\n\
-        ## License\n\n\
-        This project is open-source and available under the MIT License.\n",
-        total,
-        stats.easy,
-        (stats.easy as f64 / total as f64) * 100.0,
-        stats.medium,
-        (stats.medium as f64 / total as f64) * 100.0,
-        stats.hard,
-        (stats.hard as f64 / total as f64) * 100.0
-    ));
+    // Add tools and license sections
+    content.push_str(
+            "\n## Tools\n\n\
+            - [LeetCode CLI](./leetcode_cli/): A command-line tool to create new LeetCode problem projects.\n\n\
+            ## License\n\n\
+            This project is open-source and available under the MIT License.\n",
+        );
 
     content
 }

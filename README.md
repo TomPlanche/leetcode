@@ -1,6 +1,13 @@
 # LeetCode Solutions in Rust 🦀.
 This repository contains my solutions to LeetCode problems implemented in Rust.
 
+## Stats
+
+- Total problems solved: 39
+- Easy: 6 (15.4%)
+- Medium: 24 (61.5%)
+- Hard: 9 (23.1%)
+
 ## Automated Documentation
 
 This repository uses GitHub Actions to automatically maintain an up-to-date listing of all solutions. The automation:
@@ -70,13 +77,6 @@ Each solution file must include a documentation header in this format:
 ## Tools
 
 - [LeetCode CLI](./leetcode_cli/): A command-line tool to create new LeetCode problem projects.
-
-## Stats
-
-- Total problems solved: 39
-- Easy: 6 (15.4%)
-- Medium: 24 (61.5%)
-- Hard: 9 (23.1%)
 
 ## License
 
