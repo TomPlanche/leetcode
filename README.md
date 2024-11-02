@@ -1,11 +1,30 @@
-# LeetCode Solutions in Rust 🦀
-
+# LeetCode Solutions in Rust 🦀.
 This repository contains my solutions to LeetCode problems implemented in Rust.
 
-## Problems
+## Automated Documentation
 
-| ID | Title | Difficulty | Tags |
-|----|-------|------------|------|
+This repository uses GitHub Actions to automatically maintain an up-to-date listing of all solutions. The automation:
+
+1. Triggers whenever a new solution is pushed to the main branch
+2. Scans all solution directories (those starting with `id_`)
+3. Extracts problem metadata from the source files, including:
+- Problem ID
+- Title
+- Difficulty level
+- Topic tags
+4. Generates a formatted table of all solutions
+5. Updates statistics about problem difficulties
+6. Automatically commits and pushes the updated README.md
+
+The automation script is written in Rust and can be found in `.github/scripts/update_readme/`.
+
+Each solution file must include a documentation header in this format:
+```rust
+///
+/// # Problem Title (Difficulty) [Tag1, Tag2]
+/// LeetCode Problem {id}
+///
+```
 | [7](./id_7) | Reverse Integer | Medium | `Math` |
 | [9](./id_9) | Palindrome Number | Easy | `Math` |
 | [37](./id_37) | Sudoku Solver | Hard | `Array`, `Hash Table`, `Backtracking`, `Matrix` |
