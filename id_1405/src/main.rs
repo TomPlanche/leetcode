@@ -1,3 +1,7 @@
+///
+/// # Longest Happy String (Medium) [String, Greedy, Heap (Priority Queue)]
+/// Leetcode Problem 1405
+///
 use std::cmp::Ordering;
 use std::collections::BinaryHeap;
 

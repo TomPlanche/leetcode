@@ -1,3 +1,7 @@
+///
+/// # Height of Binary Tree After Subtree Removal Queries (Hard) [Array, Tree, Depth-First Search, Breadth-First Search, Binary Tree]
+/// Leetcode Problem 2458
+///
 use std::cell::RefCell;
 use std::collections::HashMap;
 use std::rc::Rc;

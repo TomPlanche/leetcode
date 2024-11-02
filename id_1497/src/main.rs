@@ -1,3 +1,7 @@
+///
+/// # Check If Array Pairs Are Divisible by k (Medium) [Array, Hash Table, Counting]
+/// Leetcode Problem 1331
+///
 use std::collections::HashMap;
 
 ///

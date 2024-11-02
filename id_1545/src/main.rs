@@ -1,3 +1,8 @@
+///
+/// # Find Kth Bit in Nth Binary String (Medium) [String, Recursion, Simulation]
+/// Leetcode Problem 1545
+///
+
 pub fn find_kth_bit(n: i32, k: i32) -> char {
     // Base case: if n is 1, the string is just "0"
     if n == 1 {

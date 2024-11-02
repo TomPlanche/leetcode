@@ -1,3 +1,8 @@
+///
+/// # My Calendar I (Medium) [Array, Binary Search, Design, Segment Tree, Ordered Set]
+/// LeetCode Problem 729
+///
+
 #[derive(Default)]
 struct MyCalendar {
     events: std::collections::BTreeSet<(i32, i32)>,

@@ -1,3 +1,7 @@
+///
+/// # Longest Square Streak in an Array (Medium) [Array, Hash Table, Binary Search, Dynamic Programming, Sorting]
+/// Leetcode Problem 2501
+///
 use std::collections::HashSet;
 
 const MAX_SQUARE: i32 = 46340; // ~sqrt(2^31-1)

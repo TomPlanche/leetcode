@@ -1,4 +1,9 @@
 ///
+/// # Number of Ways to Select Buildings (Medium) [String, Dynamic Programming, Prefix Sum]
+/// Leetcode Problem 2222
+///
+
+///
 /// # number_of_ways
 /// Calculates the number of valid ways to select 3 buildings for inspection where
 /// no two consecutive selected buildings can be of the same type.

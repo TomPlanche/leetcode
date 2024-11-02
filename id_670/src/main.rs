@@ -1,3 +1,8 @@
+///
+/// # Maximum Swap (Medium) [Math, Greedy]
+/// Leetcode Problem 670
+///
+
 pub fn maximum_swap(num: i32) -> i32 {
     // Convert the number to a vector of digits
     let mut digits: Vec<u8> = num.to_string().bytes().map(|b| b - b'0').collect();

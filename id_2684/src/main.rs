@@ -1,4 +1,9 @@
 ///
+/// # Maximum Number of Moves in a Grid (Medium) [Array, Dynamic Programming, Matrix]
+/// Leetcode Problem 2684
+///
+
+///
 /// # Maximum Moves in Grid
 /// Given a matrix of integers, finds the maximum number of moves possible starting from
 /// the first column and moving right while ensuring each move goes to a strictly larger value.

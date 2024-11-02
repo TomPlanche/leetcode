@@ -1,3 +1,8 @@
+///
+/// # Rank Transform of an Array (Easy) [Array, Hash Table, Sorting]
+/// Leetcode Problem 1331
+///
+
 /// # array_rank_transform
 ///
 /// Given an array of integers arr, replace each element with its rank.

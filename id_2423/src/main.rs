@@ -1,4 +1,7 @@
 ///
+/// # Remove Letter To Equalize Frequency (Easy) [Hash Table, String, Counting]
+/// Leetcode Problem 2423
+///
 /// # 2423. Remove Letter To Equalize Frequency
 /// You are given a 0-indexed string word, consisting of lowercase English letters.
 /// You need to select one index and remove the letter at that index from word so that the

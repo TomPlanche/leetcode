@@ -1,4 +1,9 @@
 ///
+/// # Minimum Total Distance Traveled (Hard) [Array, Dynamic Programming, Sorting]
+/// Leetcode Problem 2463
+///
+
+///
 /// # Minimum Total Distance Problem
 /// Calculates the minimum total distance traveled by robots to reach repair factories.
 ///

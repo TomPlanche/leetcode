@@ -1,4 +1,9 @@
 ///
+/// # Minimum String Length After Removing Substrings (Easy) [String, Stack, Simulation]
+/// Leetcode Problem 2696
+///
+
+///
 /// # min_length
 /// Return the minimum possible length of the resulting string that you can obtain after removing
 /// any occurrence of one of the substrings "AB" or "CD" from s.

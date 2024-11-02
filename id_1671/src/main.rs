@@ -1,4 +1,9 @@
 ///
+/// # Minimum Number of Removals to Make Mountain Array (Hard) [Array, Binary Search, Dynamic Programming, Greedy]
+/// Leetcode Problem 1671
+///
+
+///
 /// # Minimum Mountain Removals
 /// Returns the minimum number of elements to remove from the array to make it a mountain array.
 ///

@@ -1,4 +1,9 @@
 ///
+/// # Delete Characters to Make Fancy String (Easy) [String]
+/// Leetcode Problem 1957
+///
+
+///
 /// # make_fancy_string
 /// Converts a string into a fancy string where no three consecutive characters are equal.
 ///

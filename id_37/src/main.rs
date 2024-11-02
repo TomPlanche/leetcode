@@ -1,4 +1,9 @@
 ///
+/// # Sudoku Solver (Hard) [Array, Hash Table, Backtracking, Matrix]
+/// Leetcode Problem 37
+///
+
+///
 /// # Sudoku struct
 /// - `board` - a mutable reference to a 9x9 board.
 /// - `squares` - a 9x10 array to store the number of occurrences of each digit in each 3x3 square.

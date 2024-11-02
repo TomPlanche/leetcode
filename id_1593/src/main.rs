@@ -1,3 +1,7 @@
+///
+/// # Split a String Into the Max Number of Unique Substrings (Medium) [Hash Table, String, Backtracking]
+/// Leetcode Problem 1593
+///
 use std::collections::HashSet;
 
 ///

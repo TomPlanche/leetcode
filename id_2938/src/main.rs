@@ -1,4 +1,9 @@
 ///
+/// # Separate Black and White Balls (Medium) [Two Pointers, String, Greedy]
+/// Leetcode Problem 2938
+///
+
+///
 /// # minimum_steps
 ///
 /// Calculates the minimum number of steps to group all black balls to the right.

@@ -1,3 +1,7 @@
+///
+/// # The Number of the Smallest Unoccupied Chair (Medium) [Array, Hash Table, Heap (Priority Queue)]
+/// Leetcode Problem 1942
+///
 use std::cmp::Reverse;
 use std::collections::BinaryHeap;
 

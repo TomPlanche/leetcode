@@ -1,3 +1,7 @@
+///
+/// # Find the Length of the Longest Common Prefix (Medium) [Array, Hash Table, String, Trie]
+/// Leetcode Problem 3043
+///
 use std::collections::HashSet;
 
 fn longest_common_prefix(arr1: Vec<i32>, arr2: Vec<i32>) -> i32 {

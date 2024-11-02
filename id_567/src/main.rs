@@ -1,4 +1,9 @@
 ///
+/// # Permutation in String (Medium) [Hash Table, Two Pointers, String, Sliding Window]
+/// Leetcode Problem 567
+///
+
+///
 /// # check_inclusion
 /// Return true if one of s1's permutations is the substring of s2.
 ///
