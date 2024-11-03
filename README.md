@@ -3,10 +3,10 @@ This repository contains my solutions to LeetCode problems implemented in Rust.
 
 ## Stats
 
-- Total problems solved: 39
-- Easy: 6 (15.4%)
-- Medium: 24 (61.5%)
-- Hard: 9 (23.1%)
+- Total problems solved: 40
+- Easy: 7 (17.5%)
+- Medium: 24 (60.0%)
+- Hard: 9 (22.5%)
 
 ## Automated Documentation
 
@@ -15,10 +15,10 @@ This repository uses GitHub Actions to automatically maintain an up-to-date list
 1. Triggers whenever a new solution is pushed to the main branch
 2. Scans all solution directories (those starting with `id_`)
 3. Extracts problem metadata from the source files, including:
-- Problem ID
-- Title
-- Difficulty level
-- Topic tags
+    - Problem ID
+    - Title
+    - Difficulty level
+    - Topic tags
 4. Generates a formatted table of all solutions
 5. Updates statistics about problem difficulties
 6. Automatically commits and pushes the updated README.md
@@ -42,6 +42,7 @@ Each solution file must include a documentation header in this format:
 | [567](./id_567) | Permutation in String | Medium | `Hash Table`, `Two Pointers`, `String`, `Sliding Window` |
 | [670](./id_670) | Maximum Swap | Medium | `Math`, `Greedy` |
 | [729](./id_729) | My Calendar I | Medium | `Array`, `Binary Search`, `Design`, `Segment Tree`, `Ordered Set` |
+| [796](./id_796) | Rotate String | Easy | `String`, `String Matching` |
 | [921](./id_921) | Minimum Add to Make Parentheses Valid | Medium | `String`, `Stack`, `Greedy` |
 | [951](./id_951) | Minimum Add to Make Parentheses Valid | Medium | `String`, `Stack`, `Greedy` |
 | [962](./id_962) | Maximum Width Ramp | Medium | `Array`, `Stack`, `Monotonic Stack` |
