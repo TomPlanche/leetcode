@@ -35,7 +35,7 @@ struct Cli {
     difficulty: Option<String>,
 
     /// Problem tags (multiple tags allowed)
-    #[arg(short, long, num_args = 1.., value_delimiter = ' ')]
+    #[arg(short, long, value_delimiter = ',')] // Changed from space to comma
     tags: Option<Vec<String>>,
 
     /// Problem title
