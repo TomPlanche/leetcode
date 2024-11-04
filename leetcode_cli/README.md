@@ -32,7 +32,7 @@ new_leetcode [OPTIONS] <PROBLEM_ID>
 ### Options
 
 - `-d, --difficulty <DIFFICULTY>`: Set problem difficulty (Easy, Medium, Hard)
-- `-t, --tags <TAGS>`: Set problem tags (space-separated)
+- `-t, --tags <TAGS>`: Set problem tags (coma-separated)
 - `-t, --title <TITLE>`: Set problem title
 - `-v, --verbose`: Enable verbose output
 
@@ -43,7 +43,7 @@ new_leetcode [OPTIONS] <PROBLEM_ID>
 new_leetcode 1
 
 # Create a project with full metadata
-new_leetcode 1 --difficulty Easy --tags "array hash-table" --title "Two Sum"
+new_leetcode 1 --difficulty Easy --tags "array, hash-table, string manipulation" --title "Two Sum"
 
 # Create a project with verbose output
 new_leetcode 1 -v

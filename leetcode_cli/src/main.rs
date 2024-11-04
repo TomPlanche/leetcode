@@ -11,6 +11,10 @@
 /// ## Author
 /// Tom Planche <github.com/tomPlanche>
 ///
+pub mod string_utils;
+
+use crate::string_utils::TitleCase;
+
 use ansi_term::Colour::{Green, Red};
 use clap::Parser;
 use std::fs;
@@ -35,7 +39,8 @@ struct Cli {
     difficulty: Option<String>,
 
     /// Problem tags (multiple tags allowed)
-    #[arg(short, long, value_delimiter = ',')] // Changed from space to comma
+    #[arg(short, long, value_delimiter = ',')]
+    // e.g. `--tags=tag1,tag2,tag3` or `--tags tag1,tag2,tag3`
     tags: Option<Vec<String>>,
 
     /// Problem title
@@ -68,7 +73,15 @@ fn create_docstring(
 ) -> String {
     let title_str = title.map_or("Untitled".to_string(), |t| t.clone());
     let difficulty_str = difficulty.map_or("".to_string(), |d| format!("({})", d));
-    let tags_str = tags.map_or("".to_string(), |t| format!(" [{}]", t.join(", ")));
+    let tags_str = tags.map_or("".to_string(), |t| {
+        format!(
+            " [{}]",
+            t.into_iter()
+                .map(|s| s.to_title_case())
+                .collect::<Vec<String>>()
+                .join(", ")
+        )
+    });
 
     format!(
         r#"///
@@ -204,5 +217,28 @@ fn main() {
     ) {
         eprintln!("{} {} ❌", Red.bold().paint("Error:"), e);
         std::process::exit(1);
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_create_docstring() {
+        let problem_id = "1";
+        let title = "Two Sum".to_string();
+        let difficulty = "Easy".to_string();
+        let tags = &vec!["Array".to_string(), "Hash-table".to_string()];
+
+        let docstring = create_docstring(problem_id, Some(&title), Some(&difficulty), Some(&tags));
+
+        assert_eq!(
+            docstring,
+            r#"///
+/// # Two Sum (Easy) [Array, Hash Table]
+/// LeetCode Problem 1
+///"#
+        );
     }
 }
