@@ -3,10 +3,10 @@ This repository contains my solutions to LeetCode problems implemented in Rust.
 
 ## Stats
 
-- Total problems solved: 41
-- Easy: 7 (17.1%)
-- Medium: 25 (61.0%)
-- Hard: 9 (22.0%)
+- Total problems solved: 42
+- Easy: 7 (16.7%)
+- Medium: 26 (61.9%)
+- Hard: 9 (21.4%)
 
 ## Automated Documentation
 
@@ -72,6 +72,7 @@ Each solution file must include a documentation header in this format:
 | [2684](./id_2684) | Maximum Number of Moves in a Grid | Medium | `Array`, `Dynamic Programming`, `Matrix` |
 | [2696](./id_2696) | Minimum String Length After Removing Substrings | Easy | `String`, `Stack`, `Simulation` |
 | [2938](./id_2938) | Separate Black and White Balls | Medium | `Two Pointers`, `String`, `Greedy` |
+| [3011](./id_3011) | Find if Array Can Be Sorted | Medium | `Array`, `Bit Manipulation`, `Sorting` |
 | [3017](./id_3017) | Count the Number of Houses at a Certain Distance II | Hard | `Graph`, `Prefix Sum` |
 | [3043](./id_3043) | Find the Length of the Longest Common Prefix | Medium | `Array`, `Hash Table`, `String`, `Trie` |
 | [3163](./id_3163) | String Compression III | Medium | `String` |
