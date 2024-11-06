@@ -3,10 +3,10 @@ This repository contains my solutions to LeetCode problems implemented in Rust.
 
 ## Stats
 
-- Total problems solved: 42
-- Easy: 7 (16.7%)
-- Medium: 26 (61.9%)
-- Hard: 9 (21.4%)
+- Total problems solved: 48
+- Easy: 9 (18.8%)
+- Medium: 30 (62.5%)
+- Hard: 9 (18.8%)
 
 ## Automated Documentation
 
@@ -34,8 +34,12 @@ Each solution file must include a documentation header in this format:
 ```
 | ID | Title | Difficulty | Tags |
 |----|-------|------------|------|
+| [1](./id_1) | Two sums | Easy | `Array`, `Hash Table` |
 | [7](./id_7) | Reverse Integer | Medium | `Math` |
 | [9](./id_9) | Palindrome Number | Easy | `Math` |
+| [12](./id_12) | Integer to Roman | Medium | `Hash Table`, `Math`, `String` |
+| [20](./id_20) | Valid Parentheses | Easy | `String`, `Stack` |
+| [29](./id_29) | Divide Two Integers | Medium | `Math`, `Bit Manipulation` |
 | [37](./id_37) | Sudoku Solver | Hard | `Array`, `Hash Table`, `Backtracking`, `Matrix` |
 | [239](./id_239) | Sliding Window Maximum | Hard | `Array`, `Queue`, `Sliding Window`, `Heap (Priority Queue)`, `Monotonic Queue` |
 | [273](./id_273) | Integer to English Words | Hard | `Math`, `String`, `Recursion` |
@@ -56,6 +60,7 @@ Each solution file must include a documentation header in this format:
 | [1590](./id_1590) | Make Sum Divisible by P | Medium | `Array`, `Hash Table`, `Prefix Sum` |
 | [1593](./id_1593) | Split a String Into the Max Number of Unique Substrings | Medium | `Hash Table`, `String`, `Backtracking` |
 | [1671](./id_1671) | Minimum Number of Removals to Make Mountain Array | Hard | `Array`, `Binary Search`, `Dynamic Programming`, `Greedy` |
+| [1813](./id_1813) | Sentence Similarity III | Medium | `Array`, `Two Pointers`, `String` |
 | [1942](./id_1942) | The Number of the Smallest Unoccupied Chair | Medium | `Array`, `Hash Table`, `Heap (Priority Queue)` |
 | [1957](./id_1957) | Delete Characters to Make Fancy String | Easy | `String` |
 | [1963](./id_1963) | Minimum Number of Swaps to Make the String Balanced | Medium | `Two Pointers`, `String`, `Stack`, `Greedy` |
@@ -71,6 +76,7 @@ Each solution file must include a documentation header in this format:
 | [2641](./id_2641) | Cousins in Binary Tree II | Medium | `Hash Table`, `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` |
 | [2684](./id_2684) | Maximum Number of Moves in a Grid | Medium | `Array`, `Dynamic Programming`, `Matrix` |
 | [2696](./id_2696) | Minimum String Length After Removing Substrings | Easy | `String`, `Stack`, `Simulation` |
+| [2914](./id_2914) | Minimum Changes to Make Binary String Beautiful | Medium | `String` |
 | [2938](./id_2938) | Separate Black and White Balls | Medium | `Two Pointers`, `String`, `Greedy` |
 | [3011](./id_3011) | Find if Array Can Be Sorted | Medium | `Array`, `Bit Manipulation`, `Sorting` |
 | [3017](./id_3017) | Count the Number of Houses at a Certain Distance II | Hard | `Graph`, `Prefix Sum` |
