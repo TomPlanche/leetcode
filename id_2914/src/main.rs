@@ -1,5 +1,8 @@
 ///
-/// # Minimum Changes to Make Binary String Beautiful (Medium)
+/// # Minimum Changes to Make Binary String Beautiful (Medium) [String]
+/// Leetcode Problem 2696
+///
+
 ///
 /// Given a binary string of even length, determine the minimum number of changes
 /// required to make it "beautiful". A beautiful string can be partitioned into
