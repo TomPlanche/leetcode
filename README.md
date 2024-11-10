@@ -3,10 +3,10 @@ This repository contains my solutions to LeetCode problems implemented in Rust.
 
 ## Stats
 
-- Total problems solved: 48
-- Easy: 9 (18.8%)
-- Medium: 30 (62.5%)
-- Hard: 9 (18.8%)
+- Total problems solved: 52
+- Easy: 9 (17.3%)
+- Medium: 34 (65.4%)
+- Hard: 9 (17.3%)
 
 ## Automated Documentation
 
@@ -61,11 +61,13 @@ Each solution file must include a documentation header in this format:
 | [1593](./id_1593) | Split a String Into the Max Number of Unique Substrings | Medium | `Hash Table`, `String`, `Backtracking` |
 | [1671](./id_1671) | Minimum Number of Removals to Make Mountain Array | Hard | `Array`, `Binary Search`, `Dynamic Programming`, `Greedy` |
 | [1813](./id_1813) | Sentence Similarity III | Medium | `Array`, `Two Pointers`, `String` |
+| [1829](./id_1829) | Maximum XOR for Each Query | Medium | `Array`, `Bit Manipulation`, `Prefix Sum` |
 | [1942](./id_1942) | The Number of the Smallest Unoccupied Chair | Medium | `Array`, `Hash Table`, `Heap (Priority Queue)` |
 | [1957](./id_1957) | Delete Characters to Make Fancy String | Easy | `String` |
 | [1963](./id_1963) | Minimum Number of Swaps to Make the String Balanced | Medium | `Two Pointers`, `String`, `Stack`, `Greedy` |
 | [2044](./id_2044) | Count Number of Maximum Bitwise-OR Subsets | Medium | `Array`, `Backtracking`, `Bit Manipulation`, `Enumeration` |
 | [2222](./id_2222) | Number of Ways to Select Buildings | Medium | `String`, `Dynamic Programming`, `Prefix Sum` |
+| [2275](./id_2275) | Largest Combination With Bitwise AND Greater Than Zero | Medium | `Array`, `Hash Table`, `Bit Manipulation`, `Counting` |
 | [2416](./id_2416) | Sum of Prefix Scores of Strings | Hard | `Array`, `String`, `Trie`, `Counting` |
 | [2423](./id_2423) | Remove Letter To Equalize Frequency | Easy | `Hash Table`, `String`, `Counting` |
 | [2458](./id_2458) | Height of Binary Tree After Subtree Removal Queries | Hard | `Array`, `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` |
@@ -81,6 +83,8 @@ Each solution file must include a documentation header in this format:
 | [3011](./id_3011) | Find if Array Can Be Sorted | Medium | `Array`, `Bit Manipulation`, `Sorting` |
 | [3017](./id_3017) | Count the Number of Houses at a Certain Distance II | Hard | `Graph`, `Prefix Sum` |
 | [3043](./id_3043) | Find the Length of the Longest Common Prefix | Medium | `Array`, `Hash Table`, `String`, `Trie` |
+| [3090](./id_3090) | Shortest Subarray With OR at Least K II | Medium | `Array`, `Bit Manipulation`, `Sliding Window` |
+| [3133](./id_3133) | Minimum Array End | Medium | `Bit Manipulation` |
 | [3163](./id_3163) | String Compression III | Medium | `String` |
 
 ## Tools
