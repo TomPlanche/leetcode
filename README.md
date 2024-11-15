@@ -3,10 +3,10 @@ This repository contains my solutions to LeetCode problems implemented in Rust.
 
 ## Stats
 
-- Total problems solved: 52
-- Easy: 9 (17.3%)
-- Medium: 34 (65.4%)
-- Hard: 9 (17.3%)
+- Total problems solved: 57
+- Easy: 9 (15.8%)
+- Medium: 39 (68.4%)
+- Hard: 9 (15.8%)
 
 ## Automated Documentation
 
@@ -57,6 +57,7 @@ Each solution file must include a documentation header in this format:
 | [1405](./id_1405) | Longest Happy String | Medium | `String`, `Greedy`, `Heap (Priority Queue)` |
 | [1497](./id_1497) | Check If Array Pairs Are Divisible by k | Medium | `Array`, `Hash Table`, `Counting` |
 | [1545](./id_1545) | Find Kth Bit in Nth Binary String | Medium | `String`, `Recursion`, `Simulation` |
+| [1574](./id_1574) | Shortest Subarray to be Removed to Make Array Sorted | Medium | `Array`, `Two Pointers`, `Binary Search`, `Stack`, `Monotonic Stack` |
 | [1590](./id_1590) | Make Sum Divisible by P | Medium | `Array`, `Hash Table`, `Prefix Sum` |
 | [1593](./id_1593) | Split a String Into the Max Number of Unique Substrings | Medium | `Hash Table`, `String`, `Backtracking` |
 | [1671](./id_1671) | Minimum Number of Removals to Make Mountain Array | Hard | `Array`, `Binary Search`, `Dynamic Programming`, `Greedy` |
@@ -66,6 +67,8 @@ Each solution file must include a documentation header in this format:
 | [1957](./id_1957) | Delete Characters to Make Fancy String | Easy | `String` |
 | [1963](./id_1963) | Minimum Number of Swaps to Make the String Balanced | Medium | `Two Pointers`, `String`, `Stack`, `Greedy` |
 | [2044](./id_2044) | Count Number of Maximum Bitwise-OR Subsets | Medium | `Array`, `Backtracking`, `Bit Manipulation`, `Enumeration` |
+| [2064](./id_2064) | Minimized Maximum of Products Distributed to Any Store | Medium | `Array`, `Binary Search` |
+| [2070](./id_2070) | Most Beautiful Item for Each Query | Medium | `Array`, `Binary Search`, `Sorting` |
 | [2222](./id_2222) | Number of Ways to Select Buildings | Medium | `String`, `Dynamic Programming`, `Prefix Sum` |
 | [2275](./id_2275) | Largest Combination With Bitwise AND Greater Than Zero | Medium | `Array`, `Hash Table`, `Bit Manipulation`, `Counting` |
 | [2416](./id_2416) | Sum of Prefix Scores of Strings | Hard | `Array`, `String`, `Trie`, `Counting` |
@@ -74,7 +77,9 @@ Each solution file must include a documentation header in this format:
 | [2463](./id_2463) | Minimum Total Distance Traveled | Hard | `Array`, `Dynamic Programming`, `Sorting` |
 | [2490](./id_2490) | Circular Sentence | Easy | `String` |
 | [2501](./id_2501) | Longest Square Streak in an Array | Medium | `Array`, `Hash Table`, `Binary Search`, `Dynamic Programming`, `Sorting` |
+| [2563](./id_2563) | Count the Number of Fair Pairs | Medium | `Array`, `Two Pointers`, `Binary Search`, `Sorting` |
 | [2583](./id_2583) | Kth Largest Sum in a Binary Tree | Medium | `Tree`, `Breadth-First Search`, `Sorting`, `Binary Tree` |
+| [2601](./id_2601) | Prime Subtraction Operation | Medium | `Array`, `Math`, `Binary Search`, `Greedy`, `Number Theory` |
 | [2641](./id_2641) | Cousins in Binary Tree II | Medium | `Hash Table`, `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` |
 | [2684](./id_2684) | Maximum Number of Moves in a Grid | Medium | `Array`, `Dynamic Programming`, `Matrix` |
 | [2696](./id_2696) | Minimum String Length After Removing Substrings | Easy | `String`, `Stack`, `Simulation` |
