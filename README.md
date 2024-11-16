@@ -3,10 +3,10 @@ This repository contains my solutions to LeetCode problems implemented in Rust.
 
 ## Stats
 
-- Total problems solved: 57
-- Easy: 9 (15.8%)
-- Medium: 39 (68.4%)
-- Hard: 9 (15.8%)
+- Total problems solved: 58
+- Easy: 9 (15.5%)
+- Medium: 40 (69.0%)
+- Hard: 9 (15.5%)
 
 ## Automated Documentation
 
@@ -91,6 +91,7 @@ Each solution file must include a documentation header in this format:
 | [3090](./id_3090) | Shortest Subarray With OR at Least K II | Medium | `Array`, `Bit Manipulation`, `Sliding Window` |
 | [3133](./id_3133) | Minimum Array End | Medium | `Bit Manipulation` |
 | [3163](./id_3163) | String Compression III | Medium | `String` |
+| [3254](./id_3254) | Find the Power of K-Size Subarrays I | Medium | `Array`, `Sliding Window` |
 
 ## Tools
 
