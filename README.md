@@ -3,10 +3,10 @@ This repository contains my solutions to LeetCode problems implemented in Rust.
 
 ## Stats
 
-- Total problems solved: 58
-- Easy: 9 (15.5%)
-- Medium: 40 (69.0%)
-- Hard: 9 (15.5%)
+- Total problems solved: 60
+- Easy: 10 (16.7%)
+- Medium: 40 (66.7%)
+- Hard: 10 (16.7%)
 
 ## Automated Documentation
 
@@ -47,6 +47,7 @@ Each solution file must include a documentation header in this format:
 | [670](./id_670) | Maximum Swap | Medium | `Math`, `Greedy` |
 | [729](./id_729) | My Calendar I | Medium | `Array`, `Binary Search`, `Design`, `Segment Tree`, `Ordered Set` |
 | [796](./id_796) | Rotate String | Easy | `String`, `String Matching` |
+| [862](./id_862) | Shortest Subarray with Sum at Least K | Hard | `Array`, `Binary Search`, `Queue`, `Sliding Window`, `Heap (Priority Queue)`, `Prefix Sum`, `Monotonic Queue` |
 | [921](./id_921) | Minimum Add to Make Parentheses Valid | Medium | `String`, `Stack`, `Greedy` |
 | [951](./id_951) | Minimum Add to Make Parentheses Valid | Medium | `String`, `Stack`, `Greedy` |
 | [962](./id_962) | Maximum Width Ramp | Medium | `Array`, `Stack`, `Monotonic Stack` |
@@ -60,6 +61,7 @@ Each solution file must include a documentation header in this format:
 | [1574](./id_1574) | Shortest Subarray to be Removed to Make Array Sorted | Medium | `Array`, `Two Pointers`, `Binary Search`, `Stack`, `Monotonic Stack` |
 | [1590](./id_1590) | Make Sum Divisible by P | Medium | `Array`, `Hash Table`, `Prefix Sum` |
 | [1593](./id_1593) | Split a String Into the Max Number of Unique Substrings | Medium | `Hash Table`, `String`, `Backtracking` |
+| [1652](./id_1652) | Defuse the Bomb | Easy | `Array`, `Sliding Window` |
 | [1671](./id_1671) | Minimum Number of Removals to Make Mountain Array | Hard | `Array`, `Binary Search`, `Dynamic Programming`, `Greedy` |
 | [1813](./id_1813) | Sentence Similarity III | Medium | `Array`, `Two Pointers`, `String` |
 | [1829](./id_1829) | Maximum XOR for Each Query | Medium | `Array`, `Bit Manipulation`, `Prefix Sum` |
