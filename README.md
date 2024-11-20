@@ -3,10 +3,10 @@ This repository contains my solutions to LeetCode problems implemented in Rust.
 
 ## Stats
 
-- Total problems solved: 60
-- Easy: 10 (16.7%)
-- Medium: 40 (66.7%)
-- Hard: 10 (16.7%)
+- Total problems solved: 63
+- Easy: 10 (15.9%)
+- Medium: 42 (66.7%)
+- Hard: 11 (17.5%)
 
 ## Automated Documentation
 
@@ -37,6 +37,7 @@ Each solution file must include a documentation header in this format:
 | [1](./id_1) | Two sums | Easy | `Array`, `Hash Table` |
 | [7](./id_7) | Reverse Integer | Medium | `Math` |
 | [9](./id_9) | Palindrome Number | Easy | `Math` |
+| [10](./id_10) | Regular Expression Matching | Hard | `String`, `Dynamic Programming`, `Recursion` |
 | [12](./id_12) | Integer to Roman | Medium | `Hash Table`, `Math`, `String` |
 | [20](./id_20) | Valid Parentheses | Easy | `String`, `Stack` |
 | [29](./id_29) | Divide Two Integers | Medium | `Math`, `Bit Manipulation` |
@@ -76,9 +77,11 @@ Each solution file must include a documentation header in this format:
 | [2416](./id_2416) | Sum of Prefix Scores of Strings | Hard | `Array`, `String`, `Trie`, `Counting` |
 | [2423](./id_2423) | Remove Letter To Equalize Frequency | Easy | `Hash Table`, `String`, `Counting` |
 | [2458](./id_2458) | Height of Binary Tree After Subtree Removal Queries | Hard | `Array`, `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` |
+| [2461](./id_2461) | Maximum Sum of Distinct Subarrays With Length K | Medium | `Array`, `Hash Table`, `Sliding Window` |
 | [2463](./id_2463) | Minimum Total Distance Traveled | Hard | `Array`, `Dynamic Programming`, `Sorting` |
 | [2490](./id_2490) | Circular Sentence | Easy | `String` |
 | [2501](./id_2501) | Longest Square Streak in an Array | Medium | `Array`, `Hash Table`, `Binary Search`, `Dynamic Programming`, `Sorting` |
+| [2516](./id_2516) | Take K of Each Character From Left and Right | Medium | `Hash Table`, `String`, `Sliding Window` |
 | [2563](./id_2563) | Count the Number of Fair Pairs | Medium | `Array`, `Two Pointers`, `Binary Search`, `Sorting` |
 | [2583](./id_2583) | Kth Largest Sum in a Binary Tree | Medium | `Tree`, `Breadth-First Search`, `Sorting`, `Binary Tree` |
 | [2601](./id_2601) | Prime Subtraction Operation | Medium | `Array`, `Math`, `Binary Search`, `Greedy`, `Number Theory` |
