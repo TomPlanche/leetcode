@@ -3,10 +3,10 @@ This repository contains my solutions to LeetCode problems implemented in Rust.
 
 ## Stats
 
-- Total problems solved: 63
-- Easy: 10 (15.9%)
-- Medium: 42 (66.7%)
-- Hard: 11 (17.5%)
+- Total problems solved: 67
+- Easy: 10 (14.9%)
+- Medium: 46 (68.7%)
+- Hard: 11 (16.4%)
 
 ## Automated Documentation
 
@@ -52,6 +52,7 @@ Each solution file must include a documentation header in this format:
 | [921](./id_921) | Minimum Add to Make Parentheses Valid | Medium | `String`, `Stack`, `Greedy` |
 | [951](./id_951) | Minimum Add to Make Parentheses Valid | Medium | `String`, `Stack`, `Greedy` |
 | [962](./id_962) | Maximum Width Ramp | Medium | `Array`, `Stack`, `Monotonic Stack` |
+| [1072](./id_1072) | Flip Columns For Maximum Number of Equal Rows | Medium | `Array`, `Hash Table`, `Matrix` |
 | [1106](./id_1106) | Parsing A Boolean Expression | Hard | `String`, `Stack`, `Recursion` |
 | [1233](./id_1233) | Remove Sub-Folders from the Filesystem | Medium | `Array`, `String`, `Depth-First Search`, `Trie` |
 | [1277](./id_1277) | Count Square Submatrices with All Ones | Medium | `Array`, `Dynamic Programming`, `Matrix` |
@@ -66,13 +67,16 @@ Each solution file must include a documentation header in this format:
 | [1671](./id_1671) | Minimum Number of Removals to Make Mountain Array | Hard | `Array`, `Binary Search`, `Dynamic Programming`, `Greedy` |
 | [1813](./id_1813) | Sentence Similarity III | Medium | `Array`, `Two Pointers`, `String` |
 | [1829](./id_1829) | Maximum XOR for Each Query | Medium | `Array`, `Bit Manipulation`, `Prefix Sum` |
+| [1861](./id_1861) | Rotating the Box | Medium | `Array`, `Two Pointers`, `Matrix` |
 | [1942](./id_1942) | The Number of the Smallest Unoccupied Chair | Medium | `Array`, `Hash Table`, `Heap (Priority Queue)` |
 | [1957](./id_1957) | Delete Characters to Make Fancy String | Easy | `String` |
 | [1963](./id_1963) | Minimum Number of Swaps to Make the String Balanced | Medium | `Two Pointers`, `String`, `Stack`, `Greedy` |
+| [1975](./id_1975) | Maximum Matrix Sum | Medium | `Array`, `Greedy`, `Matrix` |
 | [2044](./id_2044) | Count Number of Maximum Bitwise-OR Subsets | Medium | `Array`, `Backtracking`, `Bit Manipulation`, `Enumeration` |
 | [2064](./id_2064) | Minimized Maximum of Products Distributed to Any Store | Medium | `Array`, `Binary Search` |
 | [2070](./id_2070) | Most Beautiful Item for Each Query | Medium | `Array`, `Binary Search`, `Sorting` |
 | [2222](./id_2222) | Number of Ways to Select Buildings | Medium | `String`, `Dynamic Programming`, `Prefix Sum` |
+| [2257](./id_2257) | Count Unguarded Cells in the Grid | Medium | `Array`, `Matrix`, `Simulation` |
 | [2275](./id_2275) | Largest Combination With Bitwise AND Greater Than Zero | Medium | `Array`, `Hash Table`, `Bit Manipulation`, `Counting` |
 | [2416](./id_2416) | Sum of Prefix Scores of Strings | Hard | `Array`, `String`, `Trie`, `Counting` |
 | [2423](./id_2423) | Remove Letter To Equalize Frequency | Easy | `Hash Table`, `String`, `Counting` |
