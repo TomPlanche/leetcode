@@ -3,10 +3,10 @@ This repository contains my solutions to LeetCode problems implemented in Rust.
 
 ## Stats
 
-- Total problems solved: 67
-- Easy: 10 (14.9%)
-- Medium: 46 (68.7%)
-- Hard: 11 (16.4%)
+- Total problems solved: 69
+- Easy: 10 (14.5%)
+- Medium: 47 (68.1%)
+- Hard: 12 (17.4%)
 
 ## Automated Documentation
 
@@ -47,6 +47,7 @@ Each solution file must include a documentation header in this format:
 | [567](./id_567) | Permutation in String | Medium | `Hash Table`, `Two Pointers`, `String`, `Sliding Window` |
 | [670](./id_670) | Maximum Swap | Medium | `Math`, `Greedy` |
 | [729](./id_729) | My Calendar I | Medium | `Array`, `Binary Search`, `Design`, `Segment Tree`, `Ordered Set` |
+| [773](./id_773) | Sliding Puzzle | Hard | `Array`, `Breadth First Search`, `Matrix` |
 | [796](./id_796) | Rotate String | Easy | `String`, `String Matching` |
 | [862](./id_862) | Shortest Subarray with Sum at Least K | Hard | `Array`, `Binary Search`, `Queue`, `Sliding Window`, `Heap (Priority Queue)`, `Prefix Sum`, `Monotonic Queue` |
 | [921](./id_921) | Minimum Add to Make Parentheses Valid | Medium | `String`, `Stack`, `Greedy` |
@@ -93,6 +94,7 @@ Each solution file must include a documentation header in this format:
 | [2684](./id_2684) | Maximum Number of Moves in a Grid | Medium | `Array`, `Dynamic Programming`, `Matrix` |
 | [2696](./id_2696) | Minimum String Length After Removing Substrings | Easy | `String`, `Stack`, `Simulation` |
 | [2914](./id_2914) | Minimum Changes to Make Binary String Beautiful | Medium | `String` |
+| [2924](./id_2924) | Find Champion II | Medium | `Graph` |
 | [2938](./id_2938) | Separate Black and White Balls | Medium | `Two Pointers`, `String`, `Greedy` |
 | [3011](./id_3011) | Find if Array Can Be Sorted | Medium | `Array`, `Bit Manipulation`, `Sorting` |
 | [3017](./id_3017) | Count the Number of Houses at a Certain Distance II | Hard | `Graph`, `Prefix Sum` |
