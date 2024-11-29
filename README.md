@@ -3,10 +3,10 @@ This repository contains my solutions to LeetCode problems implemented in Rust.
 
 ## Stats
 
-- Total problems solved: 69
-- Easy: 10 (14.5%)
-- Medium: 47 (68.1%)
-- Hard: 12 (17.4%)
+- Total problems solved: 71
+- Easy: 10 (14.1%)
+- Medium: 48 (67.6%)
+- Hard: 13 (18.3%)
 
 ## Automated Documentation
 
@@ -88,6 +88,7 @@ Each solution file must include a documentation header in this format:
 | [2501](./id_2501) | Longest Square Streak in an Array | Medium | `Array`, `Hash Table`, `Binary Search`, `Dynamic Programming`, `Sorting` |
 | [2516](./id_2516) | Take K of Each Character From Left and Right | Medium | `Hash Table`, `String`, `Sliding Window` |
 | [2563](./id_2563) | Count the Number of Fair Pairs | Medium | `Array`, `Two Pointers`, `Binary Search`, `Sorting` |
+| [2577](./id_2577) | Minimum Time to Visit a Cell In a Grid | Hard | `Array`, `Breadth First Search`, `Graph`, `Heap (priority Queue)`, `Matrix`, `Shortest Path` |
 | [2583](./id_2583) | Kth Largest Sum in a Binary Tree | Medium | `Tree`, `Breadth-First Search`, `Sorting`, `Binary Tree` |
 | [2601](./id_2601) | Prime Subtraction Operation | Medium | `Array`, `Math`, `Binary Search`, `Greedy`, `Number Theory` |
 | [2641](./id_2641) | Cousins in Binary Tree II | Medium | `Hash Table`, `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` |
@@ -102,6 +103,7 @@ Each solution file must include a documentation header in this format:
 | [3090](./id_3090) | Shortest Subarray With OR at Least K II | Medium | `Array`, `Bit Manipulation`, `Sliding Window` |
 | [3133](./id_3133) | Minimum Array End | Medium | `Bit Manipulation` |
 | [3163](./id_3163) | String Compression III | Medium | `String` |
+| [3243](./id_3243) | Shortest Distance After Road Addition Queries I | Medium | `Array`, `Breadth First Search`, `Graph` |
 | [3254](./id_3254) | Find the Power of K-Size Subarrays I | Medium | `Array`, `Sliding Window` |
 
 ## Tools
