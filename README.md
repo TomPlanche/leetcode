@@ -3,10 +3,10 @@ This repository contains my solutions to LeetCode problems implemented in Rust.
 
 ## Stats
 
-- Total problems solved: 71
-- Easy: 10 (14.1%)
-- Medium: 48 (67.6%)
-- Hard: 13 (18.3%)
+- Total problems solved: 74
+- Easy: 12 (16.2%)
+- Medium: 48 (64.9%)
+- Hard: 14 (18.9%)
 
 ## Automated Documentation
 
@@ -58,7 +58,9 @@ Each solution file must include a documentation header in this format:
 | [1233](./id_1233) | Remove Sub-Folders from the Filesystem | Medium | `Array`, `String`, `Depth-First Search`, `Trie` |
 | [1277](./id_1277) | Count Square Submatrices with All Ones | Medium | `Array`, `Dynamic Programming`, `Matrix` |
 | [1331](./id_1331) | Rank Transform of an Array | Easy | `Array`, `Hash Table`, `Sorting` |
+| [1346](./id_1346) | Check If N and Its Double Exist | Easy | `Array`, `Hash Table`, `Two Pointers`, `Binary Search`, `Sorting` |
 | [1405](./id_1405) | Longest Happy String | Medium | `String`, `Greedy`, `Heap (Priority Queue)` |
+| [1455](./id_1455) | Check If a Word Occurs As a Prefix of Any Word in a Sentence | Easy | `Two Pointers`, `String`, `String Matching` |
 | [1497](./id_1497) | Check If Array Pairs Are Divisible by k | Medium | `Array`, `Hash Table`, `Counting` |
 | [1545](./id_1545) | Find Kth Bit in Nth Binary String | Medium | `String`, `Recursion`, `Simulation` |
 | [1574](./id_1574) | Shortest Subarray to be Removed to Make Array Sorted | Medium | `Array`, `Two Pointers`, `Binary Search`, `Stack`, `Monotonic Stack` |
@@ -76,6 +78,7 @@ Each solution file must include a documentation header in this format:
 | [2044](./id_2044) | Count Number of Maximum Bitwise-OR Subsets | Medium | `Array`, `Backtracking`, `Bit Manipulation`, `Enumeration` |
 | [2064](./id_2064) | Minimized Maximum of Products Distributed to Any Store | Medium | `Array`, `Binary Search` |
 | [2070](./id_2070) | Most Beautiful Item for Each Query | Medium | `Array`, `Binary Search`, `Sorting` |
+| [2097](./id_2097) | Valid Arrangement of Pairs | Hard | `Depth First Search`, `Graph`, `Eulerian Circuit` |
 | [2222](./id_2222) | Number of Ways to Select Buildings | Medium | `String`, `Dynamic Programming`, `Prefix Sum` |
 | [2257](./id_2257) | Count Unguarded Cells in the Grid | Medium | `Array`, `Matrix`, `Simulation` |
 | [2275](./id_2275) | Largest Combination With Bitwise AND Greater Than Zero | Medium | `Array`, `Hash Table`, `Bit Manipulation`, `Counting` |
