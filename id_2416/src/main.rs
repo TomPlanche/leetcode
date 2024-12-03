@@ -41,3 +41,7 @@ pub fn sum_prefix_scores(words: Vec<String>) -> Vec<i32> {
 
     res
 }
+
+fn main() {
+    println!("LeetCode problem 2416: Sum of Prefix Scores of Strings (Hard)");
+}

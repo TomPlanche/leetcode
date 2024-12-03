@@ -94,3 +94,7 @@ mod tests {
         assert_eq!(min_changes(String::from("010101")), 3);
     }
 }
+
+fn main() {
+    println!("LeetCode problem 2696: Minimum Changes to Make Binary String Beautiful");
+}

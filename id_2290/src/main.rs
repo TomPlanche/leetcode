@@ -1,3 +1,7 @@
+///
+/// # Minimum Obstacle Removal to Reach Corner (Hard) [Array, Breadth-First Search, Graph, Heap (Priority Queue), Matrix,Shortest Path]
+/// LeetCode Problem 2290
+///
 use std::collections::VecDeque;
 
 ///

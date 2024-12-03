@@ -30,3 +30,7 @@ impl MyCalendar {
         left && right && self.events.insert((start, end))
     }
 }
+
+fn main() {
+    println!("LeetCode problem 729: My Calendar I");
+}
