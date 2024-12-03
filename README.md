@@ -1,37 +1,87 @@
-# LeetCode Solutions in Rust 🦀.
-This repository contains my solutions to LeetCode problems implemented in Rust.
+# LeetCode Solutions in Rust 🦀
 
-## Stats
+> A collection of LeetCode problem solutions implemented in Rust, with a focus on clean code and detailed explanations.
 
-- Total problems solved: 76
-- Easy: 12 (15.8%)
-- Medium: 49 (64.5%)
-- Hard: 15 (19.7%)
+<div
+    style="display: flex; justify-content: center; align-items: center;"
+>
+    <img src="https://img.shields.io/badge/Solutions-76-green" alt="Solutions" />
+    <img src="https://img.shields.io/github/languages/top/tomPlanche/leetcode" alt="Top Language" />
+    <img src="https://img.shields.io/badge/license-MIT-blue" alt="License" />
+</div>
 
-## Automated Documentation
+## 📊 Progress
 
-This repository uses GitHub Actions to automatically maintain an up-to-date listing of all solutions. The automation:
+- **Total Solved**: 76 problems
+    - **Easy**: 12 (15.8%) 🟢
+    - **Medium**: 49 (64.5%) 🟡
+    - **Hard**: 15 (19.7%) 🔴
 
-1. Triggers whenever a new solution is pushed to the main branch
-2. Scans all solution directories (those starting with `id_`)
-3. Extracts problem metadata from the source files, including:
-    - Problem ID
-    - Title
-    - Difficulty level
-    - Topic tags
-4. Generates a formatted table of all solutions
-5. Updates statistics about problem difficulties
-6. Automatically commits and pushes the updated README.md
+## 🌟 Featured Solutions
 
-The automation script is written in Rust and can be found in `.github/scripts/update_readme/`.
+Here are some noteworthy solutions with interesting approaches:
 
-Each solution file must include a documentation header in this format:
+1. [Regular Expression Matching](./id_10) (Hard)
+    - Uses dynamic programming
+    - Complex pattern matching implementation
+    - 98th percentile runtime performance
+
+2. [Sliding Window Maximum](./id_239) (Hard)
+    - Implements a monotonic queue
+    - O(n) time complexity solution
+    - Detailed explanation of the algorithm
+
+3. [Two Sum](./id_1) (Easy)
+    - Classic hash table approach
+    - Optimal space-time trade-off
+    - Perfect for beginners
+
+## 📁 Repository Structure
+
+```text
+leetcode/
+├── id_*/ (Solution directories)
+│   ├── src/
+│   │   └── main.rs (Solution implementation)
+│   └── Cargo.toml
+├── leetcode_cli/ (Project creation tool)
+└── .github/
+    └── scripts/ (Automation tools)
+```
+
+## 🛠️ Tools & Utilities
+
+### LeetCode CLI
+
+A command-line tool for quickly creating new solution projects:
+
+```bash
+new_leetcode 1234 --difficulty Medium --tags "array,dp" --title "Problem Title"
+```
+
+[Learn more about LeetCode CLI](./leetcode_cli)
+
+### Automated Documentation
+
+This repository uses GitHub Actions to:
+- Automatically update the README
+- Track solving statistics
+- Maintain consistent documentation
+- Generate solution listings
+
+## 📝 Solution Format
+
+Each solution includes this header format for easy navigation and reference (and for the readme generator to parse):
+
 ```rust
 ///
 /// # Problem Title (Difficulty) [Tag1, Tag2]
 /// LeetCode Problem {id}
 ///
 ```
+
+## 📋 Solutions Table
+
 | ID | Title | Difficulty | Tags |
 |----|-------|------------|------|
 | [1](./id_1) | Two sums | Easy | `Array`, `Hash Table` |
@@ -111,10 +161,29 @@ Each solution file must include a documentation header in this format:
 | [3243](./id_3243) | Shortest Distance After Road Addition Queries I | Medium | `Array`, `Breadth First Search`, `Graph` |
 | [3254](./id_3254) | Find the Power of K-Size Subarrays I | Medium | `Array`, `Sliding Window` |
 
-## Tools
+## 🚀 Getting Started
 
-- [LeetCode CLI](./leetcode_cli/): A command-line tool to create new LeetCode problem projects.
+1. Clone the repository:
+```bash
+git clone https://github.com/tomPlanche/leetcode.git
+```
 
-## License
+2. Navigate to a solution:
+```bash
+cd id_<problem_number>
+```
 
-This project is open-source and available under the MIT License.
+3. Run the solution:
+```bash
+cargo run
+```
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+## 👤 Author
+
+**Tom Planche**
+- GitHub: [@tomPlanche](https://github.com/tomPlanche)
+- LinkedIn: [Tom Planche](https://www.linkedin.com/in/tom-planche/)

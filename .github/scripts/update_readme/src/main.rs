@@ -137,19 +137,27 @@ fn get_problem_info(file_path: &Path) -> Option<ProblemInfo> {
 fn generate_readme(problems: &[ProblemInfo], stats: &Stats) -> String {
     let total = stats.easy + stats.medium + stats.hard;
     let mut content = String::from(
-        "# LeetCode Solutions in Rust 🦀.
-This repository contains my solutions to LeetCode problems implemented in Rust.
+        &format!("# LeetCode Solutions in Rust 🦀
 
-## Stats\n\n",
+> A collection of LeetCode problem solutions implemented in Rust, with a focus on clean code and detailed explanations.
+
+<div
+    style=\"display: flex; justify-content: center; align-items: center;\"
+>
+    <img src=\"https://img.shields.io/badge/Solutions-{total}-green\" alt=\"Solutions\" />
+    <img src=\"https://img.shields.io/github/languages/top/tomPlanche/leetcode\" alt=\"Top Language\" />
+    <img src=\"https://img.shields.io/badge/license-MIT-blue\" alt=\"License\" />
+</div>
+
+## 📊 Progress\n\n", ),
     );
 
     // Add stats section first
     content.push_str(&format!(
-        "- Total problems solved: {}\n\
-            - Easy: {} ({:.1}%)\n\
-            - Medium: {} ({:.1}%)\n\
-            - Hard: {} ({:.1}%)\n\n",
-        total,
+        "- **Total Solved**: {total} problems
+    - **Easy**: {} ({:.1}%) 🟢
+    - **Medium**: {} ({:.1}%) 🟡
+    - **Hard**: {} ({:.1}%) 🔴\n\n",
         stats.easy,
         (stats.easy as f64 / total as f64) * 100.0,
         stats.medium,
@@ -160,33 +168,74 @@ This repository contains my solutions to LeetCode problems implemented in Rust.
 
     // Add the automation documentation
     content.push_str(
-            "## Automated Documentation
+        "## 🌟 Featured Solutions
 
-This repository uses GitHub Actions to automatically maintain an up-to-date listing of all solutions. The automation:
+Here are some noteworthy solutions with interesting approaches:
 
-1. Triggers whenever a new solution is pushed to the main branch
-2. Scans all solution directories (those starting with `id_`)
-3. Extracts problem metadata from the source files, including:
-    - Problem ID
-    - Title
-    - Difficulty level
-    - Topic tags
-4. Generates a formatted table of all solutions
-5. Updates statistics about problem difficulties
-6. Automatically commits and pushes the updated README.md
+1. [Regular Expression Matching](./id_10) (Hard)
+    - Uses dynamic programming
+    - Complex pattern matching implementation
+    - 98th percentile runtime performance
 
-The automation script is written in Rust and can be found in `.github/scripts/update_readme/`.
+2. [Sliding Window Maximum](./id_239) (Hard)
+    - Implements a monotonic queue
+    - O(n) time complexity solution
+    - Detailed explanation of the algorithm
 
-Each solution file must include a documentation header in this format:
+3. [Two Sum](./id_1) (Easy)
+    - Classic hash table approach
+    - Optimal space-time trade-off
+    - Perfect for beginners
+
+## 📁 Repository Structure
+
+```text
+leetcode/
+├── id_*/ (Solution directories)
+│   ├── src/
+│   │   └── main.rs (Solution implementation)
+│   └── Cargo.toml
+├── leetcode_cli/ (Project creation tool)
+└── .github/
+    └── scripts/ (Automation tools)
+```
+
+## 🛠️ Tools & Utilities
+
+### LeetCode CLI
+
+A command-line tool for quickly creating new solution projects:
+
+```bash
+new_leetcode 1234 --difficulty Medium --tags \"array,dp\" --title \"Problem Title\"
+```
+
+[Learn more about LeetCode CLI](./leetcode_cli)
+
+### Automated Documentation
+
+This repository uses GitHub Actions to:
+- Automatically update the README
+- Track solving statistics
+- Maintain consistent documentation
+- Generate solution listings
+
+## 📝 Solution Format
+
+Each solution includes this header format for easy navigation and reference (and for the readme generator to parse):
+
 ```rust
 ///
 /// # Problem Title (Difficulty) [Tag1, Tag2]
 /// LeetCode Problem {id}
 ///
 ```
+
+## 📋 Solutions Table
+
 | ID | Title | Difficulty | Tags |
 |----|-------|------------|------|\n",
-        );
+    );
 
     // Add problems table
     for problem in problems {
@@ -204,10 +253,32 @@ Each solution file must include a documentation header in this format:
 
     // Add tools and license sections
     content.push_str(
-        "\n## Tools\n\n\
-- [LeetCode CLI](./leetcode_cli/): A command-line tool to create new LeetCode problem projects.\n\n\
-## License\n\n\
-This project is open-source and available under the MIT License.\n",
+        "\n## 🚀 Getting Started
+
+1. Clone the repository:
+```bash
+git clone https://github.com/tomPlanche/leetcode.git
+```
+
+2. Navigate to a solution:
+```bash
+cd id_<problem_number>
+```
+
+3. Run the solution:
+```bash
+cargo run
+```
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+## 👤 Author
+
+**Tom Planche**
+- GitHub: [@tomPlanche](https://github.com/tomPlanche)
+- LinkedIn: [Tom Planche](https://www.linkedin.com/in/tom-planche/)",
     );
 
     content
