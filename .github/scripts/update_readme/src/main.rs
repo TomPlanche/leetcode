@@ -191,10 +191,11 @@ Here are some noteworthy solutions with interesting approaches:
 
 ```text
 leetcode/
-├── id_*/ (Solution directories)
-│   ├── src/
-│   │   └── main.rs (Solution implementation)
-│   └── Cargo.toml
+├── problems/
+│   └── id_*/ (Solution directories)
+│       ├── src/
+│       │   └── main.rs (Solution implementation)
+│       └── Cargo.toml
 ├── leetcode_cli/ (Project creation tool)
 └── .github/
     └── scripts/ (Automation tools)
@@ -246,7 +247,7 @@ Each solution includes this header format for easy navigation and reference (and
         };
 
         content.push_str(&format!(
-            "| [{}](./id_{}) | {} | {} | {} |\n",
+            "| [{}](./problems/id_{}) | {} | {} | {} |\n",
             problem.id, problem.id, problem.title, problem.difficulty, tags_str
         ));
     }
@@ -262,7 +263,7 @@ git clone https://github.com/tomPlanche/leetcode.git
 
 2. Navigate to a solution:
 ```bash
-cd id_<problem_number>
+cd problems/id_<problem_number>
 ```
 
 3. Run the solution:
@@ -293,11 +294,12 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 ///
 fn main() -> Result<(), Box<dyn Error>> {
     let current_dir = std::env::current_dir()?;
+    let problems_dir = current_dir.join("problems");
     let mut problems = Vec::new();
     let mut stats = Stats::default();
 
     // Collect all problem information
-    for entry in fs::read_dir(&current_dir)? {
+    for entry in fs::read_dir(&problems_dir)? {
         let entry = entry?;
         let path = entry.path();
 

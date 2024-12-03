@@ -22,7 +22,7 @@ use std::path::PathBuf;
 use std::process::Command;
 
 /// Base path for all LeetCode projects
-const LEETCODE_BASE_PATH: &str = "/Users/tom_planche/Desktop/Prog/leetcode";
+const LEETCODE_BASE_PATH: &str = "/Users/tom_planche/Desktop/Prog/leetcode/problems";
 
 /// CLI argument parser struct
 #[derive(Parser, Clone)]
