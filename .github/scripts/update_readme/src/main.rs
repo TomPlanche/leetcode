@@ -59,7 +59,7 @@ fn get_problem_info(file_path: &Path) -> Option<ProblemInfo> {
 
     let captures = match pattern.captures(&content) {
         Some(caps) => caps,
-        None => {
+        _ => {
             eprintln!(
                 "Warning: File {:?} doesn't match the expected format:\n\
                 # Title (Difficulty) [Tags]",
