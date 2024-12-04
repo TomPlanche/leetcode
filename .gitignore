@@ -1,0 +1,7 @@
+# Rust files
+**/target
+**/Cargo.lock
+
+# My git files
+.commitignore
+commit_message.md
