@@ -197,8 +197,7 @@ leetcode/
 │       │   └── main.rs (Solution implementation)
 │       └── Cargo.toml
 ├── leetcode_cli/ (Project creation tool)
-└── .github/
-    └── scripts/ (Automation tools)
+└── update_readme/ (README update script)
 ```
 
 ## 🛠️ Tools & Utilities
@@ -213,14 +212,49 @@ new_leetcode 1234 --difficulty Medium --tags \"array,dp\" --title \"Problem Titl
 
 [Learn more about LeetCode CLI](./leetcode_cli)
 
-### Automated Documentation
+### Automatic README Updates
 
-This repository uses GitHub Actions to:
-- Automatically update the README
-- Track solving statistics
-- Maintain consistent documentation
-- Generate solution listings
+This repository uses a pre-commit hook to automatically update the README.md file whenever changes are committed. The system includes:
 
+1. **update_readme** - A Rust script that:
+   - Scans the problems directory
+   - Extracts solution metadata
+   - Updates statistics
+   - Generates the solutions table
+   - Updates the README.md file
+
+2. **Pre-commit Hook Setup**
+    - Add the following script to `.git/hooks/pre-commit`:
+    ```bash
+    #!/usr/bin/env bash
+    # run the `./update_readme/target/release/update_readme` binary to update the README.md
+    # when files in `./problems/id_*` are changed.
+
+    # get the list of files that have been changed
+    # since the last commit
+    files=$(git diff --cached --name-only)
+
+    # check if any of the files are in the `./problems/id_*` directory
+    if [[ $files == *\"problems/id_\"* ]]; then
+        # if so, run the `update_readme` binary
+        ./update_readme/target/release/update_readme
+        # add the changes to the commit
+        git add README.md
+    fi
+
+    # continue with the commit
+    exit 0
+    ```
+
+    Make sure to give the script execution permissions:
+    ```bash
+    chmod +x .git/hooks/pre-commit
+    ```
+
+The script will run automatically before each commit, ensuring the README is always up to date with:
+- Current solution count and statistics
+- Complete solutions table
+- Difficulty distribution
 ## 📝 Solution Format
 
 Each solution includes this header format for easy navigation and reference (and for the readme generator to parse):
