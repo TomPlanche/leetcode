@@ -5,17 +5,17 @@
 <div
     style="display: flex; justify-content: center; align-items: center;"
 >
-    <img src="https://img.shields.io/badge/Solutions-76-green" alt="Solutions" />
+    <img src="https://img.shields.io/badge/Solutions-77-green" alt="Solutions" />
     <img src="https://img.shields.io/github/languages/top/tomPlanche/leetcode" alt="Top Language" />
     <img src="https://img.shields.io/badge/license-MIT-blue" alt="License" />
 </div>
 
 ## 📊 Progress
 
-- **Total Solved**: 76 problems
-    - **Easy**: 12 (15.8%) 🟢
-    - **Medium**: 49 (64.5%) 🟡
-    - **Hard**: 15 (19.7%) 🔴
+- **Total Solved**: 77 problems
+    - **Easy**: 12 (15.6%) 🟢
+    - **Medium**: 50 (64.9%) 🟡
+    - **Hard**: 15 (19.5%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -150,6 +150,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2641](./problems/id_2641) | Cousins in Binary Tree II | Medium | `Hash Table`, `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` |
 | [2684](./problems/id_2684) | Maximum Number of Moves in a Grid | Medium | `Array`, `Dynamic Programming`, `Matrix` |
 | [2696](./problems/id_2696) | Minimum String Length After Removing Substrings | Easy | `String`, `Stack`, `Simulation` |
+| [2825](./problems/id_2825) | Make String a Subsequence Using Cyclic Increments | Medium | `Two Pointers`, `String` |
 | [2914](./problems/id_2914) | Minimum Changes to Make Binary String Beautiful | Medium | `String` |
 | [2924](./problems/id_2924) | Find Champion II | Medium | `Graph` |
 | [2938](./problems/id_2938) | Separate Black and White Balls | Medium | `Two Pointers`, `String`, `Greedy` |
