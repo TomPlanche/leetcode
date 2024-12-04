@@ -5,17 +5,17 @@
 <div
     style="display: flex; justify-content: center; align-items: center;"
 >
-    <img src="https://img.shields.io/badge/Solutions-77-green" alt="Solutions" />
+    <img src="https://img.shields.io/badge/Solutions-78-green" alt="Solutions" />
     <img src="https://img.shields.io/github/languages/top/tomPlanche/leetcode" alt="Top Language" />
     <img src="https://img.shields.io/badge/license-MIT-blue" alt="License" />
 </div>
 
 ## 📊 Progress
 
-- **Total Solved**: 77 problems
-    - **Easy**: 12 (15.6%) 🟢
-    - **Medium**: 50 (64.9%) 🟡
-    - **Hard**: 15 (19.5%) 🔴
+- **Total Solved**: 78 problems
+    - **Easy**: 12 (15.4%) 🟢
+    - **Medium**: 51 (65.4%) 🟡
+    - **Hard**: 15 (19.2%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -91,6 +91,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [10](./problems/id_10) | Regular Expression Matching | Hard | `String`, `Dynamic Programming`, `Recursion` |
 | [12](./problems/id_12) | Integer to Roman | Medium | `Hash Table`, `Math`, `String` |
 | [20](./problems/id_20) | Valid Parentheses | Easy | `String`, `Stack` |
+| [22](./problems/id_22) | Generate Parentheses | Medium | `String`, `Dynamic Programming`, `Backtracking` |
 | [29](./problems/id_29) | Divide Two Integers | Medium | `Math`, `Bit Manipulation` |
 | [37](./problems/id_37) | Sudoku Solver | Hard | `Array`, `Hash Table`, `Backtracking`, `Matrix` |
 | [239](./problems/id_239) | Sliding Window Maximum | Hard | `Array`, `Queue`, `Sliding Window`, `Heap (Priority Queue)`, `Monotonic Queue` |
