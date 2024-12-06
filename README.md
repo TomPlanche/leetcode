@@ -5,17 +5,17 @@
 <div
     style="display: flex; justify-content: center; align-items: center;"
 >
-    <img src="https://img.shields.io/badge/Solutions-78-green" alt="Solutions" />
+    <img src="https://img.shields.io/badge/Solutions-80-green" alt="Solutions" />
     <img src="https://img.shields.io/github/languages/top/tomPlanche/leetcode" alt="Top Language" />
     <img src="https://img.shields.io/badge/license-MIT-blue" alt="License" />
 </div>
 
 ## 📊 Progress
 
-- **Total Solved**: 78 problems
-    - **Easy**: 12 (15.4%) 🟢
-    - **Medium**: 51 (65.4%) 🟡
-    - **Hard**: 15 (19.2%) 🔴
+- **Total Solved**: 80 problems
+    - **Easy**: 12 (15.0%) 🟢
+    - **Medium**: 53 (66.2%) 🟡
+    - **Hard**: 15 (18.8%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -170,6 +170,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2257](./problems/id_2257) | Count Unguarded Cells in the Grid | Medium | `Array`, `Matrix`, `Simulation` |
 | [2275](./problems/id_2275) | Largest Combination With Bitwise AND Greater Than Zero | Medium | `Array`, `Hash Table`, `Bit Manipulation`, `Counting` |
 | [2290](./problems/id_2290) | Minimum Obstacle Removal to Reach Corner | Hard | `Array`, `Breadth-First Search`, `Graph`, `Heap (Priority Queue)`, `Matrix`, `Shortest Path` |
+| [2335](./problems/id_2335) | Moving Pieces to Obtain a String | Medium | `String`, `Two Pointers` |
 | [2416](./problems/id_2416) | Sum of Prefix Scores of Strings | Hard | `Array`, `String`, `Trie`, `Counting` |
 | [2423](./problems/id_2423) | Remove Letter To Equalize Frequency | Easy | `Hash Table`, `String`, `Counting` |
 | [2458](./problems/id_2458) | Height of Binary Tree After Subtree Removal Queries | Hard | `Array`, `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` |
@@ -178,6 +179,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2490](./problems/id_2490) | Circular Sentence | Easy | `String` |
 | [2501](./problems/id_2501) | Longest Square Streak in an Array | Medium | `Array`, `Hash Table`, `Binary Search`, `Dynamic Programming`, `Sorting` |
 | [2516](./problems/id_2516) | Take K of Each Character From Left and Right | Medium | `Hash Table`, `String`, `Sliding Window` |
+| [2554](./problems/id_2554) | Maximum Number of Integers to Choose From a Range I | Medium | `Array`, `Hash Table`, `Binary Search`, `Greedy`, `Sorting` |
 | [2563](./problems/id_2563) | Count the Number of Fair Pairs | Medium | `Array`, `Two Pointers`, `Binary Search`, `Sorting` |
 | [2577](./problems/id_2577) | Minimum Time to Visit a Cell In a Grid | Hard | `Array`, `Breadth First Search`, `Graph`, `Heap (priority Queue)`, `Matrix`, `Shortest Path` |
 | [2583](./problems/id_2583) | Kth Largest Sum in a Binary Tree | Medium | `Tree`, `Breadth-First Search`, `Sorting`, `Binary Tree` |
