@@ -5,17 +5,17 @@
 <div
     style="display: flex; justify-content: center; align-items: center;"
 >
-    <img src="https://img.shields.io/badge/Solutions-80-green" alt="Solutions" />
+    <img src="https://img.shields.io/badge/Solutions-81-green" alt="Solutions" />
     <img src="https://img.shields.io/github/languages/top/tomPlanche/leetcode" alt="Top Language" />
     <img src="https://img.shields.io/badge/license-MIT-blue" alt="License" />
 </div>
 
 ## 📊 Progress
 
-- **Total Solved**: 80 problems
-    - **Easy**: 12 (15.0%) 🟢
-    - **Medium**: 53 (66.2%) 🟡
-    - **Hard**: 15 (18.8%) 🔴
+- **Total Solved**: 81 problems
+    - **Easy**: 12 (14.8%) 🟢
+    - **Medium**: 54 (66.7%) 🟡
+    - **Hard**: 15 (18.5%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -154,6 +154,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1593](./problems/id_1593) | Split a String Into the Max Number of Unique Substrings | Medium | `Hash Table`, `String`, `Backtracking` |
 | [1652](./problems/id_1652) | Defuse the Bomb | Easy | `Array`, `Sliding Window` |
 | [1671](./problems/id_1671) | Minimum Number of Removals to Make Mountain Array | Hard | `Array`, `Binary Search`, `Dynamic Programming`, `Greedy` |
+| [1760](./problems/id_1760) | Minimum Limit of Balls in a Bag | Medium | `Array`, `Binary Search` |
 | [1813](./problems/id_1813) | Sentence Similarity III | Medium | `Array`, `Two Pointers`, `String` |
 | [1829](./problems/id_1829) | Maximum XOR for Each Query | Medium | `Array`, `Bit Manipulation`, `Prefix Sum` |
 | [1861](./problems/id_1861) | Rotating the Box | Medium | `Array`, `Two Pointers`, `Matrix` |
