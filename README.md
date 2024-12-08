@@ -5,17 +5,17 @@
 <div
     style="display: flex; justify-content: center; align-items: center;"
 >
-    <img src="https://img.shields.io/badge/Solutions-81-green" alt="Solutions" />
+    <img src="https://img.shields.io/badge/Solutions-82-green" alt="Solutions" />
     <img src="https://img.shields.io/github/languages/top/tomPlanche/leetcode" alt="Top Language" />
     <img src="https://img.shields.io/badge/license-MIT-blue" alt="License" />
 </div>
 
 ## 📊 Progress
 
-- **Total Solved**: 81 problems
-    - **Easy**: 12 (14.8%) 🟢
-    - **Medium**: 54 (66.7%) 🟡
-    - **Hard**: 15 (18.5%) 🔴
+- **Total Solved**: 82 problems
+    - **Easy**: 12 (14.6%) 🟢
+    - **Medium**: 55 (67.1%) 🟡
+    - **Hard**: 15 (18.3%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -163,6 +163,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1963](./problems/id_1963) | Minimum Number of Swaps to Make the String Balanced | Medium | `Two Pointers`, `String`, `Stack`, `Greedy` |
 | [1975](./problems/id_1975) | Maximum Matrix Sum | Medium | `Array`, `Greedy`, `Matrix` |
 | [2044](./problems/id_2044) | Count Number of Maximum Bitwise-OR Subsets | Medium | `Array`, `Backtracking`, `Bit Manipulation`, `Enumeration` |
+| [2054](./problems/id_2054) | Two Best Non-Overlapping Events | Medium | `Array`, `Binary Search`, `Dynamic Programming`, `Sorting`, `Heap (priority Queue)` |
 | [2064](./problems/id_2064) | Minimized Maximum of Products Distributed to Any Store | Medium | `Array`, `Binary Search` |
 | [2070](./problems/id_2070) | Most Beautiful Item for Each Query | Medium | `Array`, `Binary Search`, `Sorting` |
 | [2097](./problems/id_2097) | Valid Arrangement of Pairs | Hard | `Depth First Search`, `Graph`, `Eulerian Circuit` |
