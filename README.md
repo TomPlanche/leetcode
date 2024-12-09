@@ -5,17 +5,17 @@
 <div
     style="display: flex; justify-content: center; align-items: center;"
 >
-    <img src="https://img.shields.io/badge/Solutions-82-green" alt="Solutions" />
+    <img src="https://img.shields.io/badge/Solutions-83-green" alt="Solutions" />
     <img src="https://img.shields.io/github/languages/top/tomPlanche/leetcode" alt="Top Language" />
     <img src="https://img.shields.io/badge/license-MIT-blue" alt="License" />
 </div>
 
 ## 📊 Progress
 
-- **Total Solved**: 82 problems
-    - **Easy**: 12 (14.6%) 🟢
-    - **Medium**: 55 (67.1%) 🟡
-    - **Hard**: 15 (18.3%) 🔴
+- **Total Solved**: 83 problems
+    - **Easy**: 12 (14.5%) 🟢
+    - **Medium**: 56 (67.5%) 🟡
+    - **Hard**: 15 (18.1%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -198,6 +198,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [3043](./problems/id_3043) | Find the Length of the Longest Common Prefix | Medium | `Array`, `Hash Table`, `String`, `Trie` |
 | [3090](./problems/id_3090) | Shortest Subarray With OR at Least K II | Medium | `Array`, `Bit Manipulation`, `Sliding Window` |
 | [3133](./problems/id_3133) | Minimum Array End | Medium | `Bit Manipulation` |
+| [3152](./problems/id_3152) | Special Array II | Medium | `Array`, `Binary Search`, `Prefix Sum` |
 | [3163](./problems/id_3163) | String Compression III | Medium | `String` |
 | [3243](./problems/id_3243) | Shortest Distance After Road Addition Queries I | Medium | `Array`, `Breadth First Search`, `Graph` |
 | [3254](./problems/id_3254) | Find the Power of K-Size Subarrays I | Medium | `Array`, `Sliding Window` |
