@@ -5,9 +5,29 @@
 <div
     style="display: flex; justify-content: center; align-items: center;"
 >
-    <img src="https://img.shields.io/badge/Solutions-84-green" alt="Solutions" />
-    <img src="https://img.shields.io/github/languages/top/tomPlanche/leetcode" alt="Top Language" />
-    <img src="https://img.shields.io/badge/license-MIT-blue" alt="License" />
+    <img
+        src="https://img.shields.io/badge/Solutions-84-green" width="7.5%"
+        alt="Solutions"
+    />
+    <img
+        src="https://img.shields.io/github/languages/top/tomPlanche/leetcode" width="7.5%" al
+        ="Top Language"
+    />
+    <img
+        src="https://img.shields.io/badge/license-MIT-blue" width="7.5%"
+        alt="License"
+    />
+    <br />
+    <img
+        src="https://assets.leetcode.com/static_assets/marketing/2024-50-lg.png"
+        alt="Leetcode 50 days badge"
+        width="7.5%"
+    />
+    <img
+        src="https://leetcode.com/static/images/badges/dcc-2024-11.png"
+        alt="Leetcode November badge"
+        width="7.5%"
+    />
 </div>
 
 ## 📊 Progress
