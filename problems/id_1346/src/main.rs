@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # check_if_exist
+/// # `check_if_exist`
 ///
 /// Given an array arr of integers, check if there exist two indices i and j such that :
 /// - i != j

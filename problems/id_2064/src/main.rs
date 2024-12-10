@@ -18,12 +18,12 @@ impl BinarySearchRange {
 
 /// Checks if it's possible to distribute products to n stores with the given maximum limit
 ///
-/// # Arguments
+/// ## Arguments
 /// * `n` - Number of available stores
 /// * `quantities` - Reference to vector of product quantities
 /// * `max_per_store` - Maximum number of products allowed per store
 ///
-/// # Returns
+/// ## Returns
 /// true if distribution is possible, false otherwise
 fn is_distribution_possible(n: i32, quantities: &[i32], max_per_store: i32) -> bool {
     let stores_needed: i32 = quantities
@@ -36,11 +36,11 @@ fn is_distribution_possible(n: i32, quantities: &[i32], max_per_store: i32) -> b
 
 /// Calculates number of stores needed for a given quantity with max limit per store
 ///
-/// # Arguments
+/// ## Arguments
 /// * `quantity` - Total quantity of products to distribute
 /// * `max_per_store` - Maximum number of products allowed per store
 ///
-/// # Returns
+/// ## Returns
 /// Number of stores needed
 #[inline]
 fn calculate_stores_needed(quantity: i32, max_per_store: i32) -> i32 {
@@ -48,7 +48,7 @@ fn calculate_stores_needed(quantity: i32, max_per_store: i32) -> i32 {
 }
 
 ///
-/// # minimized_maximum
+/// # `minimized_maximum`
 ///
 /// Given n stores and an array of quantities for different product types,
 /// distribute all products to stores such that:

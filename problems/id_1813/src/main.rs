@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # are_sentences_similar
+/// # `are_sentences_similar`
 ///
 /// Check if two sentences are similar, meaning that it is possible to insert an
 /// arbitrary sentence (possibly empty) inside one of these sentences such that

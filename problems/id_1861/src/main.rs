@@ -2,7 +2,7 @@
 /// # Rotating the Box (Medium) [Array, Two Pointers, Matrix]
 /// LeetCode Problem 1861
 
-/// # rotate_the_box
+/// # `rotate_the_box`
 ///
 /// You are given an m x n matrix representing a side-view of a box with stones('#'),
 /// obstacles('*'), and empty spaces('.'). The box is rotated 90 degrees clockwise,

@@ -5,19 +5,16 @@
 
 /// Counts the number of unguarded cells in a grid with guards and walls
 ///
-/// # Arguments
-///
+/// ## Arguments
 /// * `m` - Number of rows in the grid (height)
 /// * `n` - Number of columns in the grid (width)
 /// * `guards` - 2D vector of guard positions
 /// * `walls` - 2D vector of wall positions
 ///
-/// # Returns
-///
+/// ## Returns
 /// * `i32` - Number of unguarded cells in the grid
 ///
-/// # Approach
-///
+/// ## Approach
 /// 1. Create a grid to track cell status
 /// 2. Mark wall and guard positions
 /// 3. Propagate guard visibility in four directions

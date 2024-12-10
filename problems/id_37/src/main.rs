@@ -18,8 +18,7 @@ struct Sudoku<'a> {
 
 /// This struct represents a Sudoku puzzle solver.
 ///
-/// # Fields
-///
+/// ## Arguments
 /// * `board`: A mutable reference to a 9x9 board represented as a vector of vectors of characters.
 /// * `squares`: A 9x10 array to store the number of occurrences of each digit (1-9) in each 3x3 square.
 /// * `rows`: A 9x10 array to store the number of occurrences of each digit (1-9) in each row.
@@ -27,12 +26,10 @@ struct Sudoku<'a> {
 ///
 /// The extra element in each array (making them 10 instead of 9) is to allow for 1-based indexing of digits.
 ///
-/// # Lifetime
-///
+/// ## Lifetime
 /// The lifetime 'a is used to ensure that the reference to the board remains valid for the entire lifetime of the Sudoku struct.
 ///
-/// # Implementation
-///
+/// ## Implementation
 /// The implementation of this struct includes methods for:
 /// - Creating a new Sudoku instance
 /// - Solving the Sudoku puzzle
@@ -44,20 +41,20 @@ struct Sudoku<'a> {
 impl<'a> Sudoku<'a> {
     /// Creates a new Sudoku instance from a given board.
     ///
-    /// # Arguments
+    /// ## Arguments
     /// * `board` - A mutable reference to a 9x9 vector of characters representing the Sudoku board.
     ///
-    /// # Returns
+    /// ## Returns
     /// Returns a new Sudoku struct initialized with the given board and empty counting arrays.
     ///
-    /// # Details
+    /// ## Details
     /// This function performs the following steps:
     /// 1. Creates a new Sudoku struct with the given board and zeroed-out counting arrays.
     /// 2. Iterates through each cell of the board.
     /// 3. For non-empty cells (cells not containing '.'), it calls the `place` method to update the counting arrays.
     /// 4. Returns the fully initialized Sudoku struct.
     ///
-    /// # Note
+    /// ## Note
     /// The `place` method is responsible for updating the `squares`, `rows`, and `cols` arrays
     /// to reflect the presence of digits on the board.
     pub fn new(board: &'a mut Vec<Vec<char>>) -> Self {
@@ -80,13 +77,13 @@ impl<'a> Sudoku<'a> {
 
     /// Solves the Sudoku puzzle using a backtracking algorithm.
     ///
-    /// # Arguments
+    /// ## Arguments
     /// * `i` - The current index in the board (0 to 80, representing cells from left to right, top to bottom).
     ///
-    /// # Returns
+    /// ## Returns
     /// Returns a boolean indicating whether a solution was found.
     ///
-    /// # Details
+    /// ## Details
     /// This recursive function performs the following steps:
     /// 1. If the index is 81 or greater, the entire board has been filled, so return true.
     /// 2. Calculate the current row and column from the index.
@@ -98,7 +95,7 @@ impl<'a> Sudoku<'a> {
     ///    d. If not, backtrack by reversing the placement and try the next digit.
     /// 5. If no digit works, return false to trigger backtracking.
     ///
-    /// # Note
+    /// ## Note
     /// This method uses the `is_valid`, `place`, and `reverse` helper methods to manage
     /// the board state and check move validity.
     pub fn solve(&mut self, i: usize) -> bool {
@@ -131,26 +128,26 @@ impl<'a> Sudoku<'a> {
 
     /// Checks if placing a digit in a specific position is valid.
     ///
-    /// # Arguments
+    /// ## Arguments
     /// * `row` - The row index (0-8) of the position to check.
     /// * `col` - The column index (0-8) of the position to check.
     /// * `digit` - The digit (character '1' to '9') to check for validity.
     ///
-    /// # Returns
+    /// ## Returns
     /// Returns a boolean indicating whether the digit can be placed at the specified position.
     ///
-    /// # Details
+    /// ## Details
     /// This function performs the following checks:
     /// 1. Converts the character digit to its numeric value (1-9).
     /// 2. Checks if the digit is already present in the 3x3 square containing the cell.
     /// 3. Checks if the digit is already present in the same row.
     /// 4. Checks if the digit is already present in the same column.
     ///
-    /// # Note
+    /// ## Note
     /// The function uses the `squares`, `rows`, and `cols` arrays to perform quick checks
     /// without needing to iterate through the entire board.
     ///
-    /// # Complexity
+    /// ## Complexity
     /// Time complexity: O(1) - constant time operations
     /// Space complexity: O(1) - no additional space used
     pub fn is_valid(&self, row: usize, col: usize, digit: char) -> bool {
@@ -163,12 +160,12 @@ impl<'a> Sudoku<'a> {
 
     /// Places a digit on the Sudoku board and updates the counting arrays.
     ///
-    /// # Arguments
+    /// ## Arguments
     /// * `row` - The row index (0-8) where the digit will be placed.
     /// * `col` - The column index (0-8) where the digit will be placed.
     /// * `digit` - The digit (character '1' to '9') to be placed.
     ///
-    /// # Details
+    /// ## Details
     /// This function performs the following steps:
     /// 1. Places the digit character on the board at the specified position.
     /// 2. Converts the character digit to its numeric value (1-9).
@@ -176,11 +173,11 @@ impl<'a> Sudoku<'a> {
     /// 4. Increments the count for this digit in the corresponding row.
     /// 5. Increments the count for this digit in the corresponding column.
     ///
-    /// # Note
+    /// ## Note
     /// - This method assumes that the placement is valid and does not perform any validity checks.
     /// - The `squares`, `rows`, and `cols` arrays are updated to reflect the new digit placement.
     ///
-    /// # Complexity
+    /// ## Complexity
     /// Time complexity: O(1) - constant time operations
     /// Space complexity: O(1) - no additional space used
     pub fn place(&mut self, row: usize, col: usize, digit: char) {
@@ -195,11 +192,11 @@ impl<'a> Sudoku<'a> {
 
     /// Reverses a digit placement on the Sudoku board and updates the counting arrays.
     ///
-    /// # Arguments
+    /// ## Arguments
     /// * `row` - The row index (0-8) of the digit to be removed.
     /// * `col` - The column index (0-8) of the digit to be removed.
     ///
-    /// # Details
+    /// ## Details
     /// This function performs the following steps:
     /// 1. Retrieves the digit at the specified position and converts it to its numeric value (1-9).
     /// 2. Decrements the count for this digit in the corresponding 3x3 square.
@@ -207,11 +204,11 @@ impl<'a> Sudoku<'a> {
     /// 4. Decrements the count for this digit in the corresponding column.
     /// 5. Replaces the digit on the board with a '.' to indicate an empty cell.
     ///
-    /// # Note
+    /// ## Note
     /// - This method is typically used during backtracking to undo a previous placement.
     /// - The `squares`, `rows`, and `cols` arrays are updated to reflect the removal of the digit.
     ///
-    /// # Complexity
+    /// ## Complexity
     /// Time complexity: O(1) - constant time operations
     /// Space complexity: O(1) - no additional space used
 

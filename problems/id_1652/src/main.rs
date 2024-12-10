@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # decrypt
+/// # `decrypt`
 ///
 /// Decrypts a circular array according to a given key by replacing each number with the sum of k adjacent numbers.
 ///

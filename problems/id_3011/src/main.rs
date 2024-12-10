@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # can_sort_array_by_bits
+/// # `can_sort_array_by_bits`
 ///
 /// Given a 0-indexed array of positive integers, determines if it's possible to sort
 /// the array by swapping adjacent elements that have the same number of set bits (1s)

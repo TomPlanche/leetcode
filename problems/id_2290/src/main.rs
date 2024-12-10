@@ -5,7 +5,7 @@
 use std::collections::VecDeque;
 
 ///
-/// # minimum_obstacles
+/// # `minimum_obstacles`
 ///
 /// You are given a 0-indexed 2D integer array grid of size m x n. Each cell has one of two values:
 /// 0 represents an empty cell,

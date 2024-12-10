@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # results_array
+/// # `results_array`
 ///
 /// You are given an array of integers `nums` of length `n` and a positive integer `k`.
 ///

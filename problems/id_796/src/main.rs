@@ -23,7 +23,7 @@
 ///
 
 ///
-/// # rotate_string
+/// # `rotate_string`
 /// Determines if one string can become another through rotations.
 ///
 /// ## Arguments

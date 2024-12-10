@@ -6,7 +6,7 @@ use std::collections::HashSet;
 
 const MAX_SQUARE: i32 = 46340; // ~sqrt(2^31-1)
 
-/// # longest_square_streak
+/// # `longest_square_streak`
 ///
 /// Finds the length of the longest square streak in the given array.
 ///

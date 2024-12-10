@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # divide
+/// # `divide`
 ///
 /// Performs integer division with overflow handling.
 ///

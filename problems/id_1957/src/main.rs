@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # make_fancy_string
+/// # `make_fancy_string`
 /// Converts a string into a fancy string where no three consecutive characters are equal.
 ///
 /// ## Arguments

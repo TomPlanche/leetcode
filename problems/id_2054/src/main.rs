@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # max_two_events
+/// # `max_two_events`
 ///
 /// Given a list of events where each event has a start time, end time, and value,
 /// find the maximum sum of values that can be obtained by attending at most two

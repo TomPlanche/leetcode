@@ -10,7 +10,7 @@
 /// - Each substring has even length
 /// - Each substring contains only 1's or only 0's
 ///
-/// # Algorithm
+/// ## Algorithm
 ///
 /// The approach is to:
 /// 1. Process the string in chunks of size 2
@@ -18,12 +18,12 @@
 /// 3. Choose the minimum cost option for each chunk
 /// 4. Sum up all minimal costs
 ///
-/// # Complexity
+/// ## Complexity
 ///
 /// - Time complexity: O(n) where n is the length of the string
 /// - Space complexity: O(1) as we only use constant extra space
 ///
-/// # min_changes
+/// # `min_changes`
 ///
 /// ## Arguments
 ///

@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # min_length
+/// # `min_length`
 /// Return the minimum possible length of the resulting string that you can obtain after removing
 /// any occurrence of one of the substrings "AB" or "CD" from s.
 ///

@@ -6,16 +6,16 @@ use std::cmp::Reverse;
 use std::collections::BinaryHeap;
 
 ///
-/// # smallest_chair
+/// # `smallest_chair`
 ///
 /// Finds the smallest chair number that the target friend will sit on.
 ///
-/// # Arguments
+/// ## Arguments
 ///
 /// * `times` - A vector of arrival and departure times for each friend.
 /// * `target_friend` - The index of the friend we're interested in.
 ///
-/// # Returns
+/// ## Returns
 ///
 /// * The chair number that the target friend will sit on.
 pub fn smallest_chair(times: Vec<Vec<i32>>, target_friend: i32) -> i32 {

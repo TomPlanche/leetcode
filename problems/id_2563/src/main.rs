@@ -3,7 +3,7 @@
 /// LeetCode Problem 2563
 
 ///
-/// # count_fair_pairs
+/// # `count_fair_pairs`
 ///
 /// ## Approach
 /// 1. Sort the array to enable efficient two-pointer technique
@@ -43,12 +43,12 @@ pub fn count_fair_pairs(mut nums: Vec<i32>, lower: i32, upper: i32) -> i64 {
 ///
 /// Helper function to count pairs with sum less than or equal to target
 ///
-/// # Arguments
+/// ## Arguments
 ///
 /// * `nums` - Sorted vector of integers
 /// * `target` - Target sum to compare against
 ///
-/// # Returns
+/// ## Returns
 ///
 /// * `i64` - Number of pairs with sum <= target
 ///

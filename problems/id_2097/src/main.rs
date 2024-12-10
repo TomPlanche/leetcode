@@ -4,7 +4,7 @@
 use std::collections::HashMap;
 
 ///
-/// # valid_arrangement
+/// # `valid_arrangement`
 ///
 /// Given a list of pairs representing directed edges, find a valid arrangement where each pair's end
 /// connects to the next pair's start. This is equivalent to finding an Eulerian path in a directed graph.
@@ -69,7 +69,7 @@ pub fn valid_arrangement(pairs: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
 }
 
 ///
-/// # build_arrangement_dfs
+/// # `build_arrangement_dfs`
 ///
 /// Builds the arrangement using depth-first search.
 ///

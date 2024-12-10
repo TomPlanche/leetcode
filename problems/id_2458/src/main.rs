@@ -25,7 +25,7 @@ impl TreeNode {
 }
 
 ///
-/// # tree_queries
+/// # `tree_queries`
 ///
 /// Given the root of a binary tree and an array of queries, return the height of the tree after each query.
 ///
@@ -39,7 +39,7 @@ impl TreeNode {
 /// * `Vec<i32>` - An array of integers representing the height of the tree after each query.
 pub fn tree_queries(root: Option<Rc<RefCell<TreeNode>>>, queries: Vec<i32>) -> Vec<i32> {
     ///
-    /// # map
+    /// # `map`
     ///
     /// Maps nodes to their levels and maximum subtree heights.
     ///

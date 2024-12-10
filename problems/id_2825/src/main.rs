@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # can_make_subsequence
+/// # `can_make_subsequence`
 ///
 /// Determines if it's possible to make str2 a subsequence of str1 by performing
 /// at most one cyclic increment operation on selected characters of str1.
@@ -53,7 +53,7 @@ pub fn can_make_subsequence(str1: String, str2: String) -> bool {
 }
 
 ///
-/// # next_char
+/// # `next_char`
 ///
 /// Helper function that returns the next character in cyclic order
 /// ('a' -> 'b', 'b' -> 'c', ..., 'z' -> 'a')

@@ -15,7 +15,7 @@
 ///
 
 ///
-/// # equal_frequency
+/// # `equal_frequency`
 /// My approach to solve the problem is to get a set of all the letters in the word and then
 /// iterate over the set and remove one letter at a time and check if the frequency of all the
 /// letters is equal. If it is, return true, otherwise return false.

@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # minimum_size
+/// # `minimum_size`
 ///
 /// Determines the minimum possible maximum number of balls in any bag after performing
 /// at most maxOperations divisions of bags.

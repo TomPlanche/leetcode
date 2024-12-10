@@ -6,7 +6,7 @@
 /// any number of times: Choose any two adjacent elements of the matrix and multiply
 /// each of them by -1. Two elements are considered adjacent if they share a border.
 
-/// # max_matrix_sum
+/// # `max_matrix_sum`
 ///
 /// Calculates the maximum possible sum of matrix elements after performing any number
 /// of operations where each operation multiplies two adjacent elements by -1.

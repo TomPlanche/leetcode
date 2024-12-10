@@ -26,7 +26,7 @@ impl TreeNode {
 }
 
 ///
-/// # kth_largest_level_sum
+/// # `kth_largest_level_sum`
 ///
 /// Given the root of a binary tree, return the kth largest sum of any subtree in the tree.
 ///
@@ -39,7 +39,7 @@ impl TreeNode {
 ///
 /// * `i64` - The kth largest sum of any subtree in the tree.
 ///
-/// # Algorithm
+/// ## Algorithm
 ///
 /// 1. Check if the root is None. If so, return -1 as there are no levels.
 /// 2. Initialize a queue with the root node for level-order traversal.

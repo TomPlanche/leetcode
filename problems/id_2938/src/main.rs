@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # minimum_steps
+/// # `minimum_steps`
 ///
 /// Calculates the minimum number of steps to group all black balls to the right.
 ///
@@ -12,15 +12,15 @@
 /// represents a white ball. It computes the minimum number of adjacent swaps
 /// needed to move all black balls to the right side of the string.
 ///
-/// # Arguments
+/// ## Arguments
 ///
 /// * `s` - A string slice containing '0's and '1's, representing white and black balls respectively.
 ///
-/// # Returns
+/// ## Returns
 ///
 /// Returns an `i64` representing the minimum number of steps (swaps) required.
 ///
-/// # Examples
+/// ## Examples
 ///
 /// ```
 /// let result = minimum_steps("101".to_string());
@@ -33,7 +33,7 @@
 /// assert_eq!(result, 0);
 /// ```
 ///
-/// # Algorithm
+/// ## Algorithm
 ///
 /// The function works by:
 /// 1. Iterating through the string from left to right.

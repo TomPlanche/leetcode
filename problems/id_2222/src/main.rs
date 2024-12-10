@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # number_of_ways
+/// # `number_of_ways`
 /// Calculates the number of valid ways to select 3 buildings for inspection where
 /// no two consecutive selected buildings can be of the same type.
 /// Uses dynamic programming for efficient calculation.

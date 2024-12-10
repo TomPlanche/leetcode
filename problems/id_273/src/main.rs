@@ -14,7 +14,7 @@ use std::collections::HashMap;
 // Structure and Implementation ========================================================
 
 ///
-/// # number_to_words
+/// # `number_to_words`
 /// Converts a non-negative integer into its English words representation.
 ///
 /// ## Arguments

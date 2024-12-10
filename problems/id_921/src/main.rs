@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # min_add_to_make_valid
+/// # `min_add_to_make_valid`
 ///
 /// Given a string of parentheses, return the minimum number of parentheses that need to be added to make the string valid.
 ///

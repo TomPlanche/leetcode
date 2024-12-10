@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # maximum_subarray_sum
+/// # `maximum_subarray_sum`
 ///
 /// Find the maximum subarray sum of all the subarrays of nums that meet the following conditions:
 ///

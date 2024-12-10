@@ -5,7 +5,7 @@
 /// You are given an array of non-negative integers and need to find the shortest subarray
 /// whose bitwise OR sum is at least k.
 ///
-/// # minimum_subarray_length
+/// # `minimum_subarray_length`
 ///
 /// ## Arguments
 ///

@@ -28,12 +28,12 @@ pub fn flip_equiv(
 ) -> bool {
     /// A recursive function that checks if two binary trees are flip equivalent
     ///
-    /// # Arguments
+    /// ## Arguments
     ///
     /// * `node1` - An Option containing the root of the first tree
     /// * `node2` - An Option containing the root of the second tree
     ///
-    /// # Returns
+    /// ## Returns
     ///
     /// * `bool` - true if the trees are flip equivalent, false otherwise
     fn is_flip_equiv(

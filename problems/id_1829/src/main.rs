@@ -10,7 +10,7 @@
 ///
 /// The function returns an array `answer` where `answer[i]` is the answer to the `i`th query.
 ///
-/// # Examples
+/// ## Examples
 /// ```
 /// # Example 1
 /// Input: nums = [0,1,1,3], maximumBit = 2
@@ -25,7 +25,7 @@
 /// Output: [4,3,6,4,6,7]
 /// ```
 ///
-/// # Constraints
+/// ## Constraints
 /// - `nums.length == n`
 /// - `1 <= n <= 10^5`
 /// - `1 <= maximumBit <= 20`

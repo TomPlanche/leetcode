@@ -53,7 +53,7 @@ struct Cli {
 }
 
 ///
-/// # create_docstring
+/// # `create_docstring`
 /// Creates a formatted docstring for the problem file.
 ///
 /// ## Arguments
@@ -93,7 +93,7 @@ fn create_docstring(
 }
 
 ///
-/// # update_main_file
+/// # `update_main_file`
 /// Updates the main.rs file with problem information and basic structure.
 ///
 /// ## Arguments
@@ -131,7 +131,7 @@ fn main() {{
 }
 
 ///
-/// # create_leetcode_project
+/// # `create_leetcode_project`
 /// Creates a new Cargo project for a LeetCode problem and sets it up.
 ///
 /// ## Arguments

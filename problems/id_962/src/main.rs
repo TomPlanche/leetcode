@@ -8,7 +8,7 @@
 /// Given an integer array nums, return the maximum width of a ramp in nums. If there is no ramp in nums, return 0.
 
 ///
-/// # max_width_ramp
+/// # `max_width_ramp`
 ///
 /// Given an integer array nums, return the maximum width of a ramp in nums. If there is no ramp in nums, return 0.
 ///

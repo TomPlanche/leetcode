@@ -5,7 +5,7 @@
 use std::collections::HashSet;
 
 ///
-/// # max_count
+/// # `max_count`
 ///
 /// Given an array of banned numbers and constraints, finds the maximum number of integers
 /// that can be chosen from range [1, n] such that:

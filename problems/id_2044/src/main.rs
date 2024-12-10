@@ -6,7 +6,7 @@
 const DEBUG: bool = true;
 
 ///
-/// # count_max_or_subsets
+/// # `count_max_or_subsets`
 ///
 /// Given an integer array nums, find the maximum possible bitwise OR of a subset of nums and return the number of different non-empty subsets with the maximum bitwise OR.
 /// An array a is a subset of an array b if a can be obtained from b by deleting some (possibly zero) elements of b.

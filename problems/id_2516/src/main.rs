@@ -6,7 +6,7 @@
 /// non-negative integer k. Each minute, you may take either the leftmost character
 /// of s, or the rightmost character of s.
 
-/// # take_characters
+/// # `take_characters`
 ///
 /// Uses a sliding window approach:
 /// 1. First check if we have enough characters (at least k of each)

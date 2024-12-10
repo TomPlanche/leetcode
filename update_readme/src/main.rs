@@ -31,7 +31,7 @@ struct Stats {
 const VALID_DIFFICULTIES: [&str; 3] = ["Easy", "Medium", "Hard"];
 
 ///
-/// # get_problem_info
+/// # `get_problem_info`
 /// Extracts all problem information from a source file.
 /// If the file doesn't contain valid problem information, returns None.
 ///
@@ -124,7 +124,7 @@ fn get_problem_info(file_path: &Path) -> Option<ProblemInfo> {
 }
 
 ///
-/// # generate_readme
+/// # `generate_readme`
 /// Generates the README.md content with the problem table and statistics.
 ///
 /// ## Arguments
@@ -149,7 +149,8 @@ fn generate_readme(problems: &[ProblemInfo], stats: &Stats) -> String {
     <img src=\"https://img.shields.io/badge/license-MIT-blue\" alt=\"License\" />
 </div>
 
-## 📊 Progress\n\n", ),
+## 📊 Progress\n\n"
+        ),
     );
 
     // Add stats section first
@@ -320,7 +321,7 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 }
 
 ///
-/// # main
+/// # `main`
 /// Main function that orchestrates the README update process.
 ///
 /// ## Returns

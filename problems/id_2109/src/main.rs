@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # add_spaces
+/// # `add_spaces`
 ///
 /// Given a 0-indexed string and a 0-indexed integer array of indices, adds spaces
 /// before characters at the specified indices in the string.

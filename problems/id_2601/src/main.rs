@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # prime_sub_operation
+/// # `prime_sub_operation`
 ///
 /// You are given a 0-indexed integer array `nums` of length `n`.
 /// You can perform the following operation as many times as you want:

@@ -9,7 +9,7 @@
 ///
 
 ///
-/// # find_length_of_shortest_subarray
+/// # `find_length_of_shortest_subarray`
 ///
 /// Given an integer array `arr`, remove a subarray (can be empty) from `arr`
 /// such that the remaining elements in `arr` are non-decreasing.

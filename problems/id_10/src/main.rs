@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # is_match
+/// # `is_match`
 ///
 /// Implement regular expression matching with support for '.' and '*' characters:
 /// - '.' Matches any single character
@@ -44,29 +44,28 @@ pub fn is_match(s: String, p: String) -> bool {
 
     // Handle patterns like a*, a*b*, etc.
     for j in 2..=p_chars.len() {
-        if p_chars[j-1] == '*' {
-            dp[0][j] = dp[0][j-2];
+        if p_chars[j - 1] == '*' {
+            dp[0][j] = dp[0][j - 2];
         }
     }
 
     for i in 1..=s_chars.len() {
         for j in 1..=p_chars.len() {
-            match p_chars[j-1] {
-                '.' => dp[i][j] = dp[i-1][j-1],
+            match p_chars[j - 1] {
+                '.' => dp[i][j] = dp[i - 1][j - 1],
                 '*' => {
-                    dp[i][j] = dp[i][j-2]; // Zero occurrence
+                    dp[i][j] = dp[i][j - 2]; // Zero occurrence
 
-                    if p_chars[j-2] == '.' || p_chars[j-2] == s_chars[i-1] {
-                        dp[i][j] |= dp[i-1][j]; // One or more occurrences
+                    if p_chars[j - 2] == '.' || p_chars[j - 2] == s_chars[i - 1] {
+                        dp[i][j] |= dp[i - 1][j]; // One or more occurrences
                     }
-                },
+                }
                 _ => {
-                    if s_chars[i-1] == p_chars[j-1] {
-                        dp[i][j] = dp[i-1][j-1];
+                    if s_chars[i - 1] == p_chars[j - 1] {
+                        dp[i][j] = dp[i - 1][j - 1];
                     }
                 }
             }
-
         }
     }
 
@@ -87,6 +86,9 @@ mod tests {
         assert!(is_match("aa".to_string(), "a*".to_string()));
         assert!(is_match("ab".to_string(), ".*".to_string()));
         assert!(is_match("aab".to_string(), "c*a*b".to_string()));
-        assert!(!is_match("mississippi".to_string(), "mis*is*p*.".to_string()));
+        assert!(!is_match(
+            "mississippi".to_string(),
+            "mis*is*p*.".to_string()
+        ));
     }
 }

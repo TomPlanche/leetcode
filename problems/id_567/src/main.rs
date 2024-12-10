@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # check_inclusion
+/// # `check_inclusion`
 /// Return true if one of s1's permutations is the substring of s2.
 ///
 /// ## Arguments

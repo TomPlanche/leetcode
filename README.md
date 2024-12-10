@@ -5,17 +5,17 @@
 <div
     style="display: flex; justify-content: center; align-items: center;"
 >
-    <img src="https://img.shields.io/badge/Solutions-83-green" alt="Solutions" />
+    <img src="https://img.shields.io/badge/Solutions-84-green" alt="Solutions" />
     <img src="https://img.shields.io/github/languages/top/tomPlanche/leetcode" alt="Top Language" />
     <img src="https://img.shields.io/badge/license-MIT-blue" alt="License" />
 </div>
 
 ## 📊 Progress
 
-- **Total Solved**: 83 problems
-    - **Easy**: 12 (14.5%) 🟢
-    - **Medium**: 56 (67.5%) 🟡
-    - **Hard**: 15 (18.1%) 🔴
+- **Total Solved**: 84 problems
+    - **Easy**: 12 (14.3%) 🟢
+    - **Medium**: 57 (67.9%) 🟡
+    - **Hard**: 15 (17.9%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -193,6 +193,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2914](./problems/id_2914) | Minimum Changes to Make Binary String Beautiful | Medium | `String` |
 | [2924](./problems/id_2924) | Find Champion II | Medium | `Graph` |
 | [2938](./problems/id_2938) | Separate Black and White Balls | Medium | `Two Pointers`, `String`, `Greedy` |
+| [2981](./problems/id_2981) | Find Longest Special Substring That Occurs Thrice I | Medium | `Hash Table`, `String`, `Binary Search`, `Sliding Window`, `Counting` |
 | [3011](./problems/id_3011) | Find if Array Can Be Sorted | Medium | `Array`, `Bit Manipulation`, `Sorting` |
 | [3017](./problems/id_3017) | Count the Number of Houses at a Certain Distance II | Hard | `Graph`, `Prefix Sum` |
 | [3043](./problems/id_3043) | Find the Length of the Longest Common Prefix | Medium | `Array`, `Hash Table`, `String`, `Trie` |

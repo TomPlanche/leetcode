@@ -16,7 +16,7 @@
 use std::collections::HashMap;
 
 ///
-/// # minimum_total_distance
+/// # `minimum_total_distance`
 /// Calculates the minimum total distance required for all robots to reach repair factories.
 ///
 /// ## Arguments
@@ -39,7 +39,7 @@ pub fn minimum_total_distance(mut robot: Vec<i32>, mut factory: Vec<Vec<i32>>) -
 }
 
 ///
-/// # solve
+/// # `solve`
 /// Recursive helper function to solve the minimum distance problem.
 ///
 /// ## Arguments

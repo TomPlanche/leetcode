@@ -5,7 +5,7 @@ use std::collections::HashMap;
 /// LeetCode Problem 1072
 ///
 ///
-/// # max_equal_rows_after_flips
+/// # `max_equal_rows_after_flips`
 ///
 /// You are given an m x n binary matrix matrix.
 /// You can choose any number of columns in the matrix and flip every cell in that column

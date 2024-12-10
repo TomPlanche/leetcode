@@ -5,7 +5,7 @@
 use std::collections::VecDeque;
 
 ///
-/// # shortest_distance_after_queries
+/// # `shortest_distance_after_queries`
 ///
 /// Given an integer `n` and a 2D integer array `queries`, this function returns an array where
 /// for each query, it computes the length of the shortest path from city 0 to city n - 1 after

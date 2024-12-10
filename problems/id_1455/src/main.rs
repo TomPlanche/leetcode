@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # is_prefix_of_word
+/// # `is_prefix_of_word`
 ///
 /// Given a `sentence` that consists of some words separated by a single space, and a `searchWord`.
 /// You have to check if `searchWord` is a prefix of any word in sentence.

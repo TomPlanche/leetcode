@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # generate_parenthesis
+/// # `generate_parenthesis`
 ///
 /// Given n pairs of parentheses, generates all combinations of well-formed parentheses.
 /// Uses a backtracking approach to build valid combinations by maintaining the count
@@ -31,7 +31,7 @@ pub fn generate_parenthesis(n: i32) -> Vec<String> {
 }
 
 ///
-/// # backtrack
+/// # `backtrack`
 ///
 /// Helper function that implements the backtracking logic for generating parentheses.
 ///

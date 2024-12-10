@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # is_valid
+/// # `is_valid`
 ///
 /// A string is considered valid if:
 /// - Open brackets must be closed by the same type of closing bracket

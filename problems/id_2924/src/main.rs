@@ -2,7 +2,7 @@
 /// # Find Champion II (Medium) [Graph]
 /// LeetCode Problem 2924
 
-/// # find_champion
+/// # `find_champion`
 ///
 /// There are n teams numbered from 0 to n - 1 in a tournament; each team is also a node in a DAG.
 ///

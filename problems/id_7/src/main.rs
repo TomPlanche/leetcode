@@ -3,7 +3,7 @@
 /// LeetCode Problem 7
 ///
 
-/// # reverse
+/// # `reverse`
 /// Reverses the digits of a signed 32-bit integer.
 ///
 /// ## Arguments

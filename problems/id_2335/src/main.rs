@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # can_change
+/// # `can_change`
 ///
 /// Determines if it's possible to transform the start string into the target string
 /// by moving 'L' and 'R' pieces according to the rules:

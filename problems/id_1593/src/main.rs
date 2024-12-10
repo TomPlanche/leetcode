@@ -5,7 +5,7 @@
 use std::collections::HashSet;
 
 ///
-/// # max_unique_split
+/// # `max_unique_split`
 ///
 /// Finds the maximum number of unique substrings that the given string can be split into.
 ///
@@ -13,15 +13,15 @@ use std::collections::HashSet;
 /// the string into unique substrings. It keeps track of the maximum number of unique substrings
 /// found so far.
 ///
-/// # Arguments
+/// ## Arguments
 ///
 /// * `s` - The input string to be split.
 ///
-/// # Returns
+/// ## Returns
 ///
 /// The maximum number of unique substrings that the input string can be split into.
 ///
-/// # Examples
+/// ## Examples
 ///
 /// ```
 /// assert_eq!(max_unique_split("ababccc".to_string()), 5);
@@ -37,17 +37,17 @@ use std::collections::HashSet;
 /// O(n), where n is the length of the string. This accounts for the recursion stack and the HashSet
 pub fn max_unique_split(s: String) -> i32 {
     ///
-    /// # backtrack
+    /// # `backtrack`
     ///
     /// Helper function to perform recursive backtracking
     ///
-    /// # Arguments
+    /// ## Arguments
     ///
     /// * `s` - The original input string.
     /// * `start` - The starting index for the current substring.
     /// * `seen` - A HashSet to keep track of seen substrings.
     ///
-    /// # Returns
+    /// ## Returns
     ///
     /// The maximum number of unique substrings that can be created from the remaining part of the string.
     fn backtrack(s: &str, start: usize, seen: &mut HashSet<String>) -> i32 {

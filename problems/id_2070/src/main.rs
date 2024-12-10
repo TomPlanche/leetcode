@@ -5,7 +5,7 @@
 use std::collections::BTreeMap;
 
 ///
-/// # maximum_beauty
+/// # `maximum_beauty`
 ///
 /// You are given a 2D integer array `items` where `items[i] = [pricei, beautyi]`
 /// denotes the price and beauty of an item respectively. You are also given a

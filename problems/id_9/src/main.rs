@@ -16,7 +16,7 @@
 ///
 
 ///
-/// # is_palindrome
+/// # `is_palindrome`
 /// Checks if a given integer is a palindrome.
 ///
 /// ## Arguments

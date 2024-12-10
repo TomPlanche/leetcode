@@ -6,7 +6,7 @@ use std::cmp::Reverse;
 use std::collections::{BinaryHeap, HashSet};
 
 ///
-/// # minimum_time
+/// # `minimum_time`
 ///
 /// Given a matrix where each cell has a minimum time requirement, find the minimum time
 /// to reach the bottom-right cell starting from top-left at t=0. Can only move to adjacent cells,

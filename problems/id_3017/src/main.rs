@@ -4,7 +4,7 @@
 ///
 
 ///
-/// # count_of_pairs
+/// # `count_of_pairs`
 ///
 /// In a city, there exist houses numbered $1$ to $n$ connected by $n$ streets. There
 /// is a street connecting the house numbered i with the house numbered $i + 1$
