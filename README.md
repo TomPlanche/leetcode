@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-84-green" width="7.5%"
+        src="https://img.shields.io/badge/Solutions-85-green" width="7.5%"
         alt="Solutions"
     />
     <img
@@ -32,10 +32,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 84 problems
-    - **Easy**: 12 (14.3%) 🟢
-    - **Medium**: 57 (67.9%) 🟡
-    - **Hard**: 15 (17.9%) 🔴
+- **Total Solved**: 85 problems
+    - **Easy**: 12 (14.1%) 🟢
+    - **Medium**: 58 (68.2%) 🟡
+    - **Hard**: 15 (17.6%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -209,6 +209,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2641](./problems/id_2641) | Cousins in Binary Tree II | Medium | `Hash Table`, `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` |
 | [2684](./problems/id_2684) | Maximum Number of Moves in a Grid | Medium | `Array`, `Dynamic Programming`, `Matrix` |
 | [2696](./problems/id_2696) | Minimum String Length After Removing Substrings | Easy | `String`, `Stack`, `Simulation` |
+| [2779](./problems/id_2779) | Maximum Beauty of an Array After Applying Operation | Medium | `Array`, `Binary Search`, `Sliding Window`, `Sorting` |
 | [2825](./problems/id_2825) | Make String a Subsequence Using Cyclic Increments | Medium | `Two Pointers`, `String` |
 | [2914](./problems/id_2914) | Minimum Changes to Make Binary String Beautiful | Medium | `String` |
 | [2924](./problems/id_2924) | Find Champion II | Medium | `Graph` |
