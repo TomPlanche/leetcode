@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-86-green" width="7.5%"
+        src="https://img.shields.io/badge/Solutions-89-green" width="7.5%"
         alt="Solutions"
     />
     <img
@@ -32,10 +32,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 86 problems
-    - **Easy**: 13 (15.1%) 🟢
-    - **Medium**: 58 (67.4%) 🟡
-    - **Hard**: 15 (17.4%) 🔴
+- **Total Solved**: 89 problems
+    - **Easy**: 13 (14.6%) 🟢
+    - **Medium**: 61 (68.5%) 🟡
+    - **Hard**: 15 (16.9%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -175,6 +175,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1652](./problems/id_1652) | Defuse the Bomb | Easy | `Array`, `Sliding Window` |
 | [1671](./problems/id_1671) | Minimum Number of Removals to Make Mountain Array | Hard | `Array`, `Binary Search`, `Dynamic Programming`, `Greedy` |
 | [1760](./problems/id_1760) | Minimum Limit of Balls in a Bag | Medium | `Array`, `Binary Search` |
+| [1792](./problems/id_1792) | Maximum Average Pass Ratio | Medium | `Array`, `Greedy`, `Heap (Priority Queue)` |
 | [1813](./problems/id_1813) | Sentence Similarity III | Medium | `Array`, `Two Pointers`, `String` |
 | [1829](./problems/id_1829) | Maximum XOR for Each Query | Medium | `Array`, `Bit Manipulation`, `Prefix Sum` |
 | [1861](./problems/id_1861) | Rotating the Box | Medium | `Array`, `Two Pointers`, `Matrix` |
@@ -206,10 +207,12 @@ Each solution includes this header format for easy navigation and reference (and
 | [2563](./problems/id_2563) | Count the Number of Fair Pairs | Medium | `Array`, `Two Pointers`, `Binary Search`, `Sorting` |
 | [2577](./problems/id_2577) | Minimum Time to Visit a Cell In a Grid | Hard | `Array`, `Breadth First Search`, `Graph`, `Heap (priority Queue)`, `Matrix`, `Shortest Path` |
 | [2583](./problems/id_2583) | Kth Largest Sum in a Binary Tree | Medium | `Tree`, `Breadth-First Search`, `Sorting`, `Binary Tree` |
+| [2593](./problems/id_2593) | Find Score of an Array After Marking All Elements | Medium | `Array`, `Hash Table`, `Sorting`, `Heap (priority Queue)`, `Simulation` |
 | [2601](./problems/id_2601) | Prime Subtraction Operation | Medium | `Array`, `Math`, `Binary Search`, `Greedy`, `Number Theory` |
 | [2641](./problems/id_2641) | Cousins in Binary Tree II | Medium | `Hash Table`, `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` |
 | [2684](./problems/id_2684) | Maximum Number of Moves in a Grid | Medium | `Array`, `Dynamic Programming`, `Matrix` |
 | [2696](./problems/id_2696) | Minimum String Length After Removing Substrings | Easy | `String`, `Stack`, `Simulation` |
+| [2762](./problems/id_2762) | Continuous Subarrays | Medium | `Array`, `Queue`, `Sliding Window`, `Heap (priority Queue)`, `Ordered Set`, `Monotonic Queue` |
 | [2779](./problems/id_2779) | Maximum Beauty of an Array After Applying Operation | Medium | `Array`, `Binary Search`, `Sliding Window`, `Sorting` |
 | [2825](./problems/id_2825) | Make String a Subsequence Using Cyclic Increments | Medium | `Two Pointers`, `String` |
 | [2914](./problems/id_2914) | Minimum Changes to Make Binary String Beautiful | Medium | `String` |
