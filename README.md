@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-89-green" width="7.5%"
+        src="https://img.shields.io/badge/Solutions-90-green" width="7.5%"
         alt="Solutions"
     />
     <img
@@ -32,10 +32,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 89 problems
-    - **Easy**: 13 (14.6%) 🟢
-    - **Medium**: 61 (68.5%) 🟡
-    - **Hard**: 15 (16.9%) 🔴
+- **Total Solved**: 90 problems
+    - **Easy**: 14 (15.6%) 🟢
+    - **Medium**: 61 (67.8%) 🟡
+    - **Hard**: 15 (16.7%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -228,6 +228,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [3163](./problems/id_3163) | String Compression III | Medium | `String` |
 | [3243](./problems/id_3243) | Shortest Distance After Road Addition Queries I | Medium | `Array`, `Breadth First Search`, `Graph` |
 | [3254](./problems/id_3254) | Find the Power of K-Size Subarrays I | Medium | `Array`, `Sliding Window` |
+| [3264](./problems/id_3264) | Final Array State After K Multiplication Operations I | Easy | `Array`, `Math`, `Heap (priority Queue)`, `Simulation` |
 
 ## 🚀 Getting Started
 
