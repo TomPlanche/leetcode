@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-90-green" width="7.5%"
+        src="https://img.shields.io/badge/Solutions-91-green" width="7.5%"
         alt="Solutions"
     />
     <img
@@ -32,10 +32,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 90 problems
-    - **Easy**: 14 (15.6%) 🟢
-    - **Medium**: 61 (67.8%) 🟡
-    - **Hard**: 15 (16.7%) 🔴
+- **Total Solved**: 91 problems
+    - **Easy**: 14 (15.4%) 🟢
+    - **Medium**: 62 (68.1%) 🟡
+    - **Hard**: 15 (16.5%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -189,6 +189,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2070](./problems/id_2070) | Most Beautiful Item for Each Query | Medium | `Array`, `Binary Search`, `Sorting` |
 | [2097](./problems/id_2097) | Valid Arrangement of Pairs | Hard | `Depth First Search`, `Graph`, `Eulerian Circuit` |
 | [2109](./problems/id_2109) | Adding Spaces to a String | Medium | `Array`, `Two Pointers`, `String`, `Simulation` |
+| [2182](./problems/id_2182) | Construct String With Repeat Limit | Medium | `Hash Table`, `String`, `Greedy`, `Heap (priority Queue)`, `Counting` |
 | [2222](./problems/id_2222) | Number of Ways to Select Buildings | Medium | `String`, `Dynamic Programming`, `Prefix Sum` |
 | [2257](./problems/id_2257) | Count Unguarded Cells in the Grid | Medium | `Array`, `Matrix`, `Simulation` |
 | [2275](./problems/id_2275) | Largest Combination With Bitwise AND Greater Than Zero | Medium | `Array`, `Hash Table`, `Bit Manipulation`, `Counting` |
