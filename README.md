@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-91-green" width="7.5%"
+        src="https://img.shields.io/badge/Solutions-92-green" width="7.5%"
         alt="Solutions"
     />
     <img
@@ -32,10 +32,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 91 problems
-    - **Easy**: 14 (15.4%) 🟢
-    - **Medium**: 62 (68.1%) 🟡
-    - **Hard**: 15 (16.5%) 🔴
+- **Total Solved**: 92 problems
+    - **Easy**: 15 (16.3%) 🟢
+    - **Medium**: 62 (67.4%) 🟡
+    - **Hard**: 15 (16.3%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -167,6 +167,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1346](./problems/id_1346) | Check If N and Its Double Exist | Easy | `Array`, `Hash Table`, `Two Pointers`, `Binary Search`, `Sorting` |
 | [1405](./problems/id_1405) | Longest Happy String | Medium | `String`, `Greedy`, `Heap (Priority Queue)` |
 | [1455](./problems/id_1455) | Check If a Word Occurs As a Prefix of Any Word in a Sentence | Easy | `Two Pointers`, `String`, `String Matching` |
+| [1475](./problems/id_1475) | Final Prices With a Special Discount in a Shop | Easy | `Array`, `Stack`, `Monotonic Stack` |
 | [1497](./problems/id_1497) | Check If Array Pairs Are Divisible by k | Medium | `Array`, `Hash Table`, `Counting` |
 | [1545](./problems/id_1545) | Find Kth Bit in Nth Binary String | Medium | `String`, `Recursion`, `Simulation` |
 | [1574](./problems/id_1574) | Shortest Subarray to be Removed to Make Array Sorted | Medium | `Array`, `Two Pointers`, `Binary Search`, `Stack`, `Monotonic Stack` |
