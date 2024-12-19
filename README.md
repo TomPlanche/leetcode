@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-92-green" width="7.5%"
+        src="https://img.shields.io/badge/Solutions-93-green" width="7.5%"
         alt="Solutions"
     />
     <img
@@ -32,10 +32,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 92 problems
-    - **Easy**: 15 (16.3%) 🟢
-    - **Medium**: 62 (67.4%) 🟡
-    - **Hard**: 15 (16.3%) 🔴
+- **Total Solved**: 93 problems
+    - **Easy**: 15 (16.1%) 🟢
+    - **Medium**: 63 (67.7%) 🟡
+    - **Hard**: 15 (16.1%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -153,6 +153,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [567](./problems/id_567) | Permutation in String | Medium | `Hash Table`, `Two Pointers`, `String`, `Sliding Window` |
 | [670](./problems/id_670) | Maximum Swap | Medium | `Math`, `Greedy` |
 | [729](./problems/id_729) | My Calendar I | Medium | `Array`, `Binary Search`, `Design`, `Segment Tree`, `Ordered Set` |
+| [769](./problems/id_769) | Max Chunks To Make Sorted | Medium | `Array`, `Stack`, `Greedy`, `Sorting`, `Monotonic Stack` |
 | [773](./problems/id_773) | Sliding Puzzle | Hard | `Array`, `Breadth First Search`, `Matrix` |
 | [796](./problems/id_796) | Rotate String | Easy | `String`, `String Matching` |
 | [862](./problems/id_862) | Shortest Subarray with Sum at Least K | Hard | `Array`, `Binary Search`, `Queue`, `Sliding Window`, `Heap (Priority Queue)`, `Prefix Sum`, `Monotonic Queue` |
