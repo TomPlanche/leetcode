@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-94-green" width="7.5%"
+        src="https://img.shields.io/badge/Solutions-97-green" width="7.5%"
         alt="Solutions"
     />
     <img
@@ -32,10 +32,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 94 problems
-    - **Easy**: 15 (16.0%) 🟢
-    - **Medium**: 64 (68.1%) 🟡
-    - **Hard**: 15 (16.0%) 🔴
+- **Total Solved**: 97 problems
+    - **Easy**: 15 (15.5%) 🟢
+    - **Medium**: 65 (67.0%) 🟡
+    - **Hard**: 17 (17.5%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -203,6 +203,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2458](./problems/id_2458) | Height of Binary Tree After Subtree Removal Queries | Hard | `Array`, `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` |
 | [2461](./problems/id_2461) | Maximum Sum of Distinct Subarrays With Length K | Medium | `Array`, `Hash Table`, `Sliding Window` |
 | [2463](./problems/id_2463) | Minimum Total Distance Traveled | Hard | `Array`, `Dynamic Programming`, `Sorting` |
+| [2471](./problems/id_2471) | Minimum Number of Operations to Sort a Binary Tree by Level | Medium | `Tree`, `Breadth First Search`, `Binary Tree` |
 | [2490](./problems/id_2490) | Circular Sentence | Easy | `String` |
 | [2501](./problems/id_2501) | Longest Square Streak in an Array | Medium | `Array`, `Hash Table`, `Binary Search`, `Dynamic Programming`, `Sorting` |
 | [2516](./problems/id_2516) | Take K of Each Character From Left and Right | Medium | `Hash Table`, `String`, `Sliding Window` |
@@ -219,9 +220,11 @@ Each solution includes this header format for easy navigation and reference (and
 | [2762](./problems/id_2762) | Continuous Subarrays | Medium | `Array`, `Queue`, `Sliding Window`, `Heap (priority Queue)`, `Ordered Set`, `Monotonic Queue` |
 | [2779](./problems/id_2779) | Maximum Beauty of an Array After Applying Operation | Medium | `Array`, `Binary Search`, `Sliding Window`, `Sorting` |
 | [2825](./problems/id_2825) | Make String a Subsequence Using Cyclic Increments | Medium | `Two Pointers`, `String` |
+| [2872](./problems/id_2872) | Maximum Number of K-Divisible Components | Hard | `Tree`, `Depth First Search` |
 | [2914](./problems/id_2914) | Minimum Changes to Make Binary String Beautiful | Medium | `String` |
 | [2924](./problems/id_2924) | Find Champion II | Medium | `Graph` |
 | [2938](./problems/id_2938) | Separate Black and White Balls | Medium | `Two Pointers`, `String`, `Greedy` |
+| [2940](./problems/id_2940) | Find Building Where Alice and Bob Can Meet | Hard | `Array`, `Binary Search`, `Stack`, `Monotonic Stack` |
 | [2981](./problems/id_2981) | Find Longest Special Substring That Occurs Thrice I | Medium | `Hash Table`, `String`, `Binary Search`, `Sliding Window`, `Counting` |
 | [3011](./problems/id_3011) | Find if Array Can Be Sorted | Medium | `Array`, `Bit Manipulation`, `Sorting` |
 | [3017](./problems/id_3017) | Count the Number of Houses at a Certain Distance II | Hard | `Graph`, `Prefix Sum` |
