@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-97-green" width="7.5%"
+        src="https://img.shields.io/badge/Solutions-100-green" width="7.5%"
         alt="Solutions"
     />
     <img
@@ -32,10 +32,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 97 problems
-    - **Easy**: 15 (15.5%) 🟢
-    - **Medium**: 65 (67.0%) 🟡
-    - **Hard**: 17 (17.5%) 🔴
+- **Total Solved**: 100 problems
+    - **Easy**: 15 (15.0%) 🟢
+    - **Medium**: 67 (67.0%) 🟡
+    - **Hard**: 18 (18.0%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -150,6 +150,8 @@ Each solution includes this header format for easy navigation and reference (and
 | [37](./problems/id_37) | Sudoku Solver | Hard | `Array`, `Hash Table`, `Backtracking`, `Matrix` |
 | [239](./problems/id_239) | Sliding Window Maximum | Hard | `Array`, `Queue`, `Sliding Window`, `Heap (Priority Queue)`, `Monotonic Queue` |
 | [273](./problems/id_273) | Integer to English Words | Hard | `Math`, `String`, `Recursion` |
+| [494](./problems/id_494) | Target Sum | Medium | `Array`, `Dynamic Programming`, `Backtracking` |
+| [515](./problems/id_515) | Find Largest Value in Each Tree Row | Medium | `Tree`, `Depth First Search`, `Breadth First Search`, `Binary Tree` |
 | [567](./problems/id_567) | Permutation in String | Medium | `Hash Table`, `Two Pointers`, `String`, `Sliding Window` |
 | [670](./problems/id_670) | Maximum Swap | Medium | `Math`, `Greedy` |
 | [729](./problems/id_729) | My Calendar I | Medium | `Array`, `Binary Search`, `Design`, `Segment Tree`, `Ordered Set` |
@@ -233,6 +235,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [3133](./problems/id_3133) | Minimum Array End | Medium | `Bit Manipulation` |
 | [3152](./problems/id_3152) | Special Array II | Medium | `Array`, `Binary Search`, `Prefix Sum` |
 | [3163](./problems/id_3163) | String Compression III | Medium | `String` |
+| [3203](./problems/id_3203) | Find Minimum Diameter After Merging Two Trees | Hard | `Tree`, `Depth First Search`, `Breadth First Search`, `Graph` |
 | [3243](./problems/id_3243) | Shortest Distance After Road Addition Queries I | Medium | `Array`, `Breadth First Search`, `Graph` |
 | [3254](./problems/id_3254) | Find the Power of K-Size Subarrays I | Medium | `Array`, `Sliding Window` |
 | [3264](./problems/id_3264) | Final Array State After K Multiplication Operations I | Easy | `Array`, `Math`, `Heap (priority Queue)`, `Simulation` |
