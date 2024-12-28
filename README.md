@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-100-green" width="7.5%"
+        src="https://img.shields.io/badge/Solutions-101-green" width="7.5%"
         alt="Solutions"
     />
     <img
@@ -32,10 +32,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 100 problems
-    - **Easy**: 15 (15.0%) 🟢
-    - **Medium**: 67 (67.0%) 🟡
-    - **Hard**: 18 (18.0%) 🔴
+- **Total Solved**: 101 problems
+    - **Easy**: 15 (14.9%) 🟢
+    - **Medium**: 67 (66.3%) 🟡
+    - **Hard**: 19 (18.8%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -154,6 +154,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [515](./problems/id_515) | Find Largest Value in Each Tree Row | Medium | `Tree`, `Depth First Search`, `Breadth First Search`, `Binary Tree` |
 | [567](./problems/id_567) | Permutation in String | Medium | `Hash Table`, `Two Pointers`, `String`, `Sliding Window` |
 | [670](./problems/id_670) | Maximum Swap | Medium | `Math`, `Greedy` |
+| [689](./problems/id_689) | Maximum Sum of 3 Non-Overlapping Subarrays | Hard | `Array`, `Dynamic Programming` |
 | [729](./problems/id_729) | My Calendar I | Medium | `Array`, `Binary Search`, `Design`, `Segment Tree`, `Ordered Set` |
 | [769](./problems/id_769) | Max Chunks To Make Sorted | Medium | `Array`, `Stack`, `Greedy`, `Sorting`, `Monotonic Stack` |
 | [773](./problems/id_773) | Sliding Puzzle | Hard | `Array`, `Breadth First Search`, `Matrix` |
