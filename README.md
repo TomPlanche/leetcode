@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-101-green" width="7.5%"
+        src="https://img.shields.io/badge/Solutions-102-green" width="7.5%"
         alt="Solutions"
     />
     <img
@@ -32,10 +32,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 101 problems
-    - **Easy**: 15 (14.9%) 🟢
-    - **Medium**: 67 (66.3%) 🟡
-    - **Hard**: 19 (18.8%) 🔴
+- **Total Solved**: 102 problems
+    - **Easy**: 15 (14.7%) 🟢
+    - **Medium**: 68 (66.7%) 🟡
+    - **Hard**: 19 (18.6%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -206,6 +206,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2458](./problems/id_2458) | Height of Binary Tree After Subtree Removal Queries | Hard | `Array`, `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` |
 | [2461](./problems/id_2461) | Maximum Sum of Distinct Subarrays With Length K | Medium | `Array`, `Hash Table`, `Sliding Window` |
 | [2463](./problems/id_2463) | Minimum Total Distance Traveled | Hard | `Array`, `Dynamic Programming`, `Sorting` |
+| [2466](./problems/id_2466) | Count Ways To Build Good Strings | Medium | `Dynamic Programming` |
 | [2471](./problems/id_2471) | Minimum Number of Operations to Sort a Binary Tree by Level | Medium | `Tree`, `Breadth First Search`, `Binary Tree` |
 | [2490](./problems/id_2490) | Circular Sentence | Easy | `String` |
 | [2501](./problems/id_2501) | Longest Square Streak in an Array | Medium | `Array`, `Hash Table`, `Binary Search`, `Dynamic Programming`, `Sorting` |
