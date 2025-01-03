@@ -271,27 +271,22 @@ fn check_projects_integrity(verbose: bool) -> Result<(), Box<dyn std::error::Err
 }
 
 fn main() {
-    // let cli = Cli::parse();
+    let cli = Cli::parse();
 
-    // if let Err(e) = create_leetcode_project(
-    //     &cli.problem_id,
-    //     cli.title.as_ref(),
-    //     cli.difficulty.as_ref(),
-    //     cli.tags.as_ref(),
-    //     cli.verbose,
-    // ) {
-    //     eprintln!("{} {} ❌", Red.bold().paint("Error:"), e);
-    //     std::process::exit(1);
-    // }
-    //
-    if let Err(e) = check_projects_integrity(false) {
+    if let Err(e) = create_leetcode_project(
+        &cli.problem_id,
+        cli.title.as_ref(),
+        cli.difficulty.as_ref(),
+        cli.tags.as_ref(),
+        cli.verbose,
+    ) {
         eprintln!("{} {} ❌", Red.bold().paint("Error:"), e);
+
+        if let Err(e) = check_projects_integrity(false) {
+            eprintln!("{} {} ❌", Red.bold().paint("Error:"), e);
+        }
+
         std::process::exit(1);
-    } else {
-        println!(
-            "{} All projects have proper documentation ✅",
-            Green.bold().paint("Success:")
-        );
     }
 }
 

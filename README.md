@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-107-green" width="7.5%"
+        src="https://img.shields.io/badge/Solutions-108-green" width="7.5%"
         alt="Solutions"
     />
     <img
@@ -32,10 +32,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 107 problems
-    - **Easy**: 16 (15.0%) 🟢
-    - **Medium**: 71 (66.4%) 🟡
-    - **Hard**: 20 (18.7%) 🔴
+- **Total Solved**: 108 problems
+    - **Easy**: 16 (14.8%) 🟢
+    - **Medium**: 72 (66.7%) 🟡
+    - **Hard**: 20 (18.5%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -164,6 +164,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [951](./problems/id_951) | Minimum Add to Make Parentheses Valid | Medium | `String`, `Stack`, `Greedy` |
 | [962](./problems/id_962) | Maximum Width Ramp | Medium | `Array`, `Stack`, `Monotonic Stack` |
 | [983](./problems/id_983) | Minimum Cost For Tickets | Medium | `Array`, `Dynamic Programming` |
+| [1014](./problems/id_1014) | Best Sightseeing Pair | Medium | `Array`, `Dynamic Programming` |
 | [1072](./problems/id_1072) | Flip Columns For Maximum Number of Equal Rows | Medium | `Array`, `Hash Table`, `Matrix` |
 | [1106](./problems/id_1106) | Parsing A Boolean Expression | Hard | `String`, `Stack`, `Recursion` |
 | [1233](./problems/id_1233) | Remove Sub-Folders from the Filesystem | Medium | `Array`, `String`, `Depth-First Search`, `Trie` |
