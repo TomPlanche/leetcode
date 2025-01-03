@@ -6,27 +6,32 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-108-green" width="7.5%"
+        src="https://img.shields.io/badge/Solutions-108-green" width="10%"
         alt="Solutions"
     />
     <img
-        src="https://img.shields.io/github/languages/top/tomPlanche/leetcode" width="7.5%" al
+        src="https://img.shields.io/github/languages/top/tomPlanche/leetcode" width="10%" al
         ="Top Language"
     />
     <img
-        src="https://img.shields.io/badge/license-MIT-blue" width="7.5%"
+        src="https://img.shields.io/badge/license-MIT-blue" width="10%"
         alt="License"
     />
     <br />
     <img
         src="https://assets.leetcode.com/static_assets/marketing/2024-50-lg.png"
         alt="Leetcode 50 days badge"
-        width="7.5%"
+        width="10%"
     />
     <img
-        src="https://leetcode.com/static/images/badges/dcc-2024-11.png"
+        src="https://leetcode.com/static/images/badges/2024/gif/2024-11.gif"
         alt="Leetcode November badge"
-        width="7.5%"
+        width="10%"
+    />
+    <img
+        src="https://leetcode.com/static/images/badges/2024/gif/2024-12.gif"
+        alt="Leetcode November badge"
+        width="10%"
     />
 </div>
 
