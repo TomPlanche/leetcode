@@ -1,5 +1,3 @@
-use std::cmp;
-
 ///
 /// # Target Sum (Medium) [Array, Dynamic Programming, Backtracking]
 /// LeetCode Problem 494
@@ -10,6 +8,7 @@ use std::cmp;
 ///
 /// This implementation provides both recursive and dynamic programming solutions.
 ///
+use std::cmp;
 
 pub fn max_score_sightseeing_pair(values: Vec<i32>) -> i32 {
     let mut max_score = i32::MIN;

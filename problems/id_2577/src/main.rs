@@ -1,8 +1,8 @@
-use std::cmp::Reverse;
 ///
 /// # Minimum Time to Visit a Cell In a Grid (Hard) [Array, Breadth First Search, Graph, Heap (priority Queue), Matrix, Shortest Path]
 /// LeetCode Problem 2577
 ///
+use std::cmp::Reverse;
 use std::collections::{BinaryHeap, HashSet};
 
 ///

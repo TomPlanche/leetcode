@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-106-green" width="7.5%"
+        src="https://img.shields.io/badge/Solutions-107-green" width="7.5%"
         alt="Solutions"
     />
     <img
@@ -32,10 +32,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 106 problems
-    - **Easy**: 16 (15.1%) 🟢
-    - **Medium**: 71 (67.0%) 🟡
-    - **Hard**: 19 (17.9%) 🔴
+- **Total Solved**: 107 problems
+    - **Easy**: 16 (15.0%) 🟢
+    - **Medium**: 71 (66.4%) 🟡
+    - **Hard**: 20 (18.7%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -179,6 +179,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1574](./problems/id_1574) | Shortest Subarray to be Removed to Make Array Sorted | Medium | `Array`, `Two Pointers`, `Binary Search`, `Stack`, `Monotonic Stack` |
 | [1590](./problems/id_1590) | Make Sum Divisible by P | Medium | `Array`, `Hash Table`, `Prefix Sum` |
 | [1593](./problems/id_1593) | Split a String Into the Max Number of Unique Substrings | Medium | `Hash Table`, `String`, `Backtracking` |
+| [1639](./problems/id_1639) | Number of Ways to Form a Target String Given a Dictionary | Hard | `Array`, `String`, `Dynamic Programming` |
 | [1652](./problems/id_1652) | Defuse the Bomb | Easy | `Array`, `Sliding Window` |
 | [1671](./problems/id_1671) | Minimum Number of Removals to Make Mountain Array | Hard | `Array`, `Binary Search`, `Dynamic Programming`, `Greedy` |
 | [1760](./problems/id_1760) | Minimum Limit of Balls in a Bag | Medium | `Array`, `Binary Search` |

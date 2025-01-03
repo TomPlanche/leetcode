@@ -1,9 +1,8 @@
-use std::collections::BinaryHeap;
-
 ///
 /// # Take Gifts From the Richest Pile (Easy) [Array, Heap (priority Queue), Simulation]
 /// LeetCode Problem 2558
 ///
+use std::collections::BinaryHeap;
 
 ///
 /// # `pick_gifts`

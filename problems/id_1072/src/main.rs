@@ -1,9 +1,9 @@
-use std::collections::HashMap;
-
 ///
 /// # Flip Columns For Maximum Number of Equal Rows (Medium) [Array, Hash Table, Matrix]
 /// LeetCode Problem 1072
 ///
+use std::collections::HashMap;
+
 ///
 /// # `max_equal_rows_after_flips`
 ///

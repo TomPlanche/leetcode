@@ -18,7 +18,7 @@ use crate::string_utils::TitleCase;
 use ansi_term::Colour::{Green, Red};
 use clap::Parser;
 use std::fs;
-use std::path::PathBuf;
+use std::path::{Path, PathBuf};
 use std::process::Command;
 
 /// Base path for all LeetCode projects
@@ -205,18 +205,93 @@ fn create_leetcode_project(
     }
 }
 
-fn main() {
-    let cli = Cli::parse();
+fn has_docstring(content: &str) -> bool {
+    content.trim().starts_with("///")
+}
 
-    if let Err(e) = create_leetcode_project(
-        &cli.problem_id,
-        cli.title.as_ref(),
-        cli.difficulty.as_ref(),
-        cli.tags.as_ref(),
-        cli.verbose,
-    ) {
+fn check_projects_integrity(verbose: bool) -> Result<(), Box<dyn std::error::Error>> {
+    let base_path = Path::new(LEETCODE_BASE_PATH);
+    let mut issues_found = false;
+
+    if verbose {
+        println!("Checking projects in: {}", base_path.display());
+    }
+
+    for entry in fs::read_dir(base_path)? {
+        let entry = entry?;
+        let path = entry.path();
+
+        // Skip if not a directory or doesn't start with "id_"
+        if !path.is_dir()
+            || !path
+                .file_name()
+                .and_then(|n| n.to_str())
+                .map(|n| n.starts_with("id_"))
+                .unwrap_or(false)
+        {
+            continue;
+        }
+
+        let main_rs_path = path.join("src").join("main.rs");
+        if !main_rs_path.exists() {
+            println!(
+                "{} Missing main.rs in {}",
+                Red.bold().paint("Warning:"),
+                path.display()
+            );
+            issues_found = true;
+            continue;
+        }
+
+        let content = fs::read_to_string(&main_rs_path)?;
+        if !has_docstring(&content) {
+            println!(
+                "{} Missing docstring in {}",
+                Red.bold().paint("Warning:"),
+                main_rs_path.display()
+            );
+            issues_found = true;
+        } else if verbose {
+            println!(
+                "{} Docstring found in {}",
+                Green.bold().paint("OK:"),
+                main_rs_path.display()
+            );
+        }
+    }
+
+    if !issues_found {
+        println!(
+            "{} All projects have proper documentation ✅",
+            Green.bold().paint("Success:")
+        );
+    }
+
+    Ok(())
+}
+
+fn main() {
+    // let cli = Cli::parse();
+
+    // if let Err(e) = create_leetcode_project(
+    //     &cli.problem_id,
+    //     cli.title.as_ref(),
+    //     cli.difficulty.as_ref(),
+    //     cli.tags.as_ref(),
+    //     cli.verbose,
+    // ) {
+    //     eprintln!("{} {} ❌", Red.bold().paint("Error:"), e);
+    //     std::process::exit(1);
+    // }
+    //
+    if let Err(e) = check_projects_integrity(false) {
         eprintln!("{} {} ❌", Red.bold().paint("Error:"), e);
         std::process::exit(1);
+    } else {
+        println!(
+            "{} All projects have proper documentation ✅",
+            Green.bold().paint("Success:")
+        );
     }
 }
 

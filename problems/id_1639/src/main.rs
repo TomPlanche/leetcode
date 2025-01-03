@@ -1,3 +1,7 @@
+///
+/// # Number of Ways to Form a Target String Given a Dictionary (Hard) [Array, String, Dynamic Programming]
+/// Leetcode Problem 1639
+///
 use std::collections::HashMap;
 
 ///

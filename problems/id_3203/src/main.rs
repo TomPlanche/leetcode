@@ -1,13 +1,8 @@
+///
+/// # Find Minimum Diameter After Merging Two Trees (Hard) [Tree, Depth First Search, Breadth First Search, Graph]
+/// LeetCode Problem 3203
+///
 use std::collections::VecDeque;
-
-///
-/// # Find Minimum Diameter After Merging Two Trees (Hard) [Tree, Depth First Search, Breadth First Search, Graph]
-/// LeetCode Problem 3203
-///
-///
-/// # Find Minimum Diameter After Merging Two Trees (Hard) [Tree, Depth First Search, Breadth First Search, Graph]
-/// LeetCode Problem 3203
-///
 
 ///
 /// # `minimum_diameter_after_merge`

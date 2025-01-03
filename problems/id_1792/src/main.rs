@@ -1,9 +1,8 @@
-use std::collections::BinaryHeap;
-
 ///
 /// # Maximum Average Pass Ratio (Medium) [Array, Greedy, Heap (Priority Queue)]
 /// LeetCode Problem 1792
 ///
+use std::collections::BinaryHeap;
 
 /// # Ratio difference calculation
 ///
