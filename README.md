@@ -6,41 +6,36 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-108-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-109-green" width="7.5%"
         alt="Solutions"
     />
     <img
-        src="https://img.shields.io/github/languages/top/tomPlanche/leetcode" width="10%" al
+        src="https://img.shields.io/github/languages/top/tomPlanche/leetcode" width="7.5%" al
         ="Top Language"
     />
     <img
-        src="https://img.shields.io/badge/license-MIT-blue" width="10%"
+        src="https://img.shields.io/badge/license-MIT-blue" width="7.5%"
         alt="License"
     />
     <br />
     <img
         src="https://assets.leetcode.com/static_assets/marketing/2024-50-lg.png"
         alt="Leetcode 50 days badge"
-        width="10%"
+        width="7.5%"
     />
     <img
-        src="https://leetcode.com/static/images/badges/2024/gif/2024-11.gif"
+        src="https://leetcode.com/static/images/badges/dcc-2024-11.png"
         alt="Leetcode November badge"
-        width="10%"
-    />
-    <img
-        src="https://leetcode.com/static/images/badges/2024/gif/2024-12.gif"
-        alt="Leetcode November badge"
-        width="10%"
+        width="7.5%"
     />
 </div>
 
 ## 📊 Progress
 
-- **Total Solved**: 108 problems
-    - **Easy**: 16 (14.8%) 🟢
-    - **Medium**: 72 (66.7%) 🟡
-    - **Hard**: 20 (18.5%) 🔴
+- **Total Solved**: 109 problems
+    - **Easy**: 16 (14.7%) 🟢
+    - **Medium**: 73 (67.0%) 🟡
+    - **Hard**: 20 (18.3%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -193,6 +188,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1813](./problems/id_1813) | Sentence Similarity III | Medium | `Array`, `Two Pointers`, `String` |
 | [1829](./problems/id_1829) | Maximum XOR for Each Query | Medium | `Array`, `Bit Manipulation`, `Prefix Sum` |
 | [1861](./problems/id_1861) | Rotating the Box | Medium | `Array`, `Two Pointers`, `Matrix` |
+| [1930](./problems/id_1930) | Unique Length-3 Palindromic Subsequences | Medium | `Hash Table`, `String`, `Bit Manipulation`, `Prefix Sum` |
 | [1942](./problems/id_1942) | The Number of the Smallest Unoccupied Chair | Medium | `Array`, `Hash Table`, `Heap (Priority Queue)` |
 | [1957](./problems/id_1957) | Delete Characters to Make Fancy String | Easy | `String` |
 | [1963](./problems/id_1963) | Minimum Number of Swaps to Make the String Balanced | Medium | `Two Pointers`, `String`, `Stack`, `Greedy` |
