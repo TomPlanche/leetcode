@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-111-green" width="7.5%"
+        src="https://img.shields.io/badge/Solutions-112-green" width="7.5%"
         alt="Solutions"
     />
     <img
@@ -32,10 +32,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 111 problems
-    - **Easy**: 16 (14.4%) 🟢
-    - **Medium**: 75 (67.6%) 🟡
-    - **Hard**: 20 (18.0%) 🔴
+- **Total Solved**: 112 problems
+    - **Easy**: 17 (15.2%) 🟢
+    - **Medium**: 75 (67.0%) 🟡
+    - **Hard**: 20 (17.9%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -172,6 +172,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1331](./problems/id_1331) | Rank Transform of an Array | Easy | `Array`, `Hash Table`, `Sorting` |
 | [1346](./problems/id_1346) | Check If N and Its Double Exist | Easy | `Array`, `Hash Table`, `Two Pointers`, `Binary Search`, `Sorting` |
 | [1405](./problems/id_1405) | Longest Happy String | Medium | `String`, `Greedy`, `Heap (Priority Queue)` |
+| [1408](./problems/id_1408) | String Matching in an Array | Easy | `Array`, `String`, `String Matching` |
 | [1422](./problems/id_1422) | Maximum Score After Splitting a String | Easy | `String`, `Prefix Sum` |
 | [1455](./problems/id_1455) | Check If a Word Occurs As a Prefix of Any Word in a Sentence | Easy | `Two Pointers`, `String`, `String Matching` |
 | [1475](./problems/id_1475) | Final Prices With a Special Discount in a Shop | Easy | `Array`, `Stack`, `Monotonic Stack` |
