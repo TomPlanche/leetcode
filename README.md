@@ -6,36 +6,41 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-116-green" width="7.5%"
+        src="https://img.shields.io/badge/Solutions-117-green" width="10%"
         alt="Solutions"
     />
     <img
-        src="https://img.shields.io/github/languages/top/tomPlanche/leetcode" width="7.5%" al
-        ="Top Language"
+        src="https://img.shields.io/github/languages/top/tomPlanche/leetcode" width="10%"
+        alt="Top Language"
     />
     <img
-        src="https://img.shields.io/badge/license-MIT-blue" width="7.5%"
+        src="https://img.shields.io/badge/license-MIT-blue" width="10%"
         alt="License"
     />
     <br />
     <img
         src="https://assets.leetcode.com/static_assets/marketing/2024-50-lg.png"
         alt="Leetcode 50 days badge"
-        width="7.5%"
+        width="10%"
     />
     <img
-        src="https://leetcode.com/static/images/badges/dcc-2024-11.png"
+        src="https://leetcode.com/static/images/badges/2024/gif/2024-11.gif"
         alt="Leetcode November badge"
-        width="7.5%"
+        width="10%"
+    />
+    <img
+        src="https://leetcode.com/static/images/badges/2024/gif/2024-12.gif"
+        alt="Leetcode November badge"
+        width="10%"
     />
 </div>
 
 ## 📊 Progress
 
-- **Total Solved**: 116 problems
-    - **Easy**: 18 (15.5%) 🟢
-    - **Medium**: 78 (67.2%) 🟡
-    - **Hard**: 20 (17.2%) 🔴
+- **Total Solved**: 117 problems
+    - **Easy**: 19 (16.2%) 🟢
+    - **Medium**: 78 (66.7%) 🟡
+    - **Hard**: 20 (17.1%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -205,6 +210,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2109](./problems/id_2109) | Adding Spaces to a String | Medium | `Array`, `Two Pointers`, `String`, `Simulation` |
 | [2116](./problems/id_2116) | Check if a Parentheses String Can Be Valid | Medium | `String`, `Stack`, `Greedy` |
 | [2182](./problems/id_2182) | Construct String With Repeat Limit | Medium | `Hash Table`, `String`, `Greedy`, `Heap (priority Queue)`, `Counting` |
+| [2185](./problems/id_2185) | Counting Words With a Given Prefix | Easy | `Array`, `String`, `String Matching` |
 | [2222](./problems/id_2222) | Number of Ways to Select Buildings | Medium | `String`, `Dynamic Programming`, `Prefix Sum` |
 | [2257](./problems/id_2257) | Count Unguarded Cells in the Grid | Medium | `Array`, `Matrix`, `Simulation` |
 | [2270](./problems/id_2270) | Number of Ways to Split Array | Medium | `Array`, `Prefix Sum` |

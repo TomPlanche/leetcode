@@ -1,5 +1,5 @@
 ///
-/// # Counting Words With a Given Prefix  [Array, String, String Matching]
+/// # Counting Words With a Given Prefix (Easy) [Array, String, String Matching]
 /// LeetCode Problem 2185
 ///
 

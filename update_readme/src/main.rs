@@ -378,6 +378,8 @@ fn main() -> Result<(), Box<dyn Error>> {
                                 _ => {} // Should never happen due to regex validation
                             }
                             problems.push(info);
+                        } else {
+                            eprintln!("Warning: Failed to extract problem info from {:?}", main_rs);
                         }
                     }
                 }
