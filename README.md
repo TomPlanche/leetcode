@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-117-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-118-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -37,10 +37,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 117 problems
-    - **Easy**: 19 (16.2%) 🟢
-    - **Medium**: 78 (66.7%) 🟡
-    - **Hard**: 20 (17.1%) 🔴
+- **Total Solved**: 118 problems
+    - **Easy**: 19 (16.1%) 🟢
+    - **Medium**: 79 (66.9%) 🟡
+    - **Hard**: 20 (16.9%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -258,6 +258,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [3152](./problems/id_3152) | Special Array II | Medium | `Array`, `Binary Search`, `Prefix Sum` |
 | [3163](./problems/id_3163) | String Compression III | Medium | `String` |
 | [3203](./problems/id_3203) | Find Minimum Diameter After Merging Two Trees | Hard | `Tree`, `Depth First Search`, `Breadth First Search`, `Graph` |
+| [3223](./problems/id_3223) | Minimum Length of String After Operations | Medium | `Hash Table`, `String`, `Counting` |
 | [3243](./problems/id_3243) | Shortest Distance After Road Addition Queries I | Medium | `Array`, `Breadth First Search`, `Graph` |
 | [3254](./problems/id_3254) | Find the Power of K-Size Subarrays I | Medium | `Array`, `Sliding Window` |
 | [3264](./problems/id_3264) | Final Array State After K Multiplication Operations I | Easy | `Array`, `Math`, `Heap (priority Queue)`, `Simulation` |
