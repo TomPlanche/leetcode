@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-118-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-121-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -37,10 +37,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 118 problems
-    - **Easy**: 19 (16.1%) 🟢
-    - **Medium**: 79 (66.9%) 🟡
-    - **Hard**: 20 (16.9%) 🔴
+- **Total Solved**: 121 problems
+    - **Easy**: 19 (15.7%) 🟢
+    - **Medium**: 82 (67.8%) 🟡
+    - **Hard**: 20 (16.5%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -221,6 +221,8 @@ Each solution includes this header format for easy navigation and reference (and
 | [2415](./problems/id_2415) | Reverse Odd Levels of Binary Tree | Medium | `Tree`, `Depth First Search`, `Breadth First Search`, `Binary Tree` |
 | [2416](./problems/id_2416) | Sum of Prefix Scores of Strings | Hard | `Array`, `String`, `Trie`, `Counting` |
 | [2423](./problems/id_2423) | Remove Letter To Equalize Frequency | Easy | `Hash Table`, `String`, `Counting` |
+| [2425](./problems/id_2425) | Bitwise XOR of All Pairings | Medium | `Array`, `Bit Manipulation`, `Brainteaser` |
+| [2429](./problems/id_2429) | Minimize XOR | Medium | `Greedy`, `Bit Manipulation` |
 | [2458](./problems/id_2458) | Height of Binary Tree After Subtree Removal Queries | Hard | `Array`, `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` |
 | [2461](./problems/id_2461) | Maximum Sum of Distinct Subarrays With Length K | Medium | `Array`, `Hash Table`, `Sliding Window` |
 | [2463](./problems/id_2463) | Minimum Total Distance Traveled | Hard | `Array`, `Dynamic Programming`, `Sorting` |
@@ -238,6 +240,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2593](./problems/id_2593) | Find Score of an Array After Marking All Elements | Medium | `Array`, `Hash Table`, `Sorting`, `Heap (priority Queue)`, `Simulation` |
 | [2601](./problems/id_2601) | Prime Subtraction Operation | Medium | `Array`, `Math`, `Binary Search`, `Greedy`, `Number Theory` |
 | [2641](./problems/id_2641) | Cousins in Binary Tree II | Medium | `Hash Table`, `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` |
+| [2657](./problems/id_2657) | Find the Prefix Common Array of Two Arrays | Medium | `Array`, `Hash Table`, `Bit Manipulation` |
 | [2684](./problems/id_2684) | Maximum Number of Moves in a Grid | Medium | `Array`, `Dynamic Programming`, `Matrix` |
 | [2696](./problems/id_2696) | Minimum String Length After Removing Substrings | Easy | `String`, `Stack`, `Simulation` |
 | [2762](./problems/id_2762) | Continuous Subarrays | Medium | `Array`, `Queue`, `Sliding Window`, `Heap (priority Queue)`, `Ordered Set`, `Monotonic Queue` |
