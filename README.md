@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-125-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-126-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -37,10 +37,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 125 problems
-    - **Easy**: 19 (15.2%) 🟢
-    - **Medium**: 84 (67.2%) 🟡
-    - **Hard**: 22 (17.6%) 🔴
+- **Total Solved**: 126 problems
+    - **Easy**: 19 (15.1%) 🟢
+    - **Medium**: 85 (67.5%) 🟡
+    - **Hard**: 22 (17.5%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -194,6 +194,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1652](./problems/id_1652) | Defuse the Bomb | Easy | `Array`, `Sliding Window` |
 | [1671](./problems/id_1671) | Minimum Number of Removals to Make Mountain Array | Hard | `Array`, `Binary Search`, `Dynamic Programming`, `Greedy` |
 | [1760](./problems/id_1760) | Minimum Limit of Balls in a Bag | Medium | `Array`, `Binary Search` |
+| [1765](./problems/id_1765) | Map of Highest Peak | Medium | `Array`, `Breadth First Search`, `Matrix` |
 | [1769](./problems/id_1769) | Minimum Number of Operations to Move All Balls to Each Box | Medium | `Array`, `String`, `Prefix Sum` |
 | [1792](./problems/id_1792) | Maximum Average Pass Ratio | Medium | `Array`, `Greedy`, `Heap (Priority Queue)` |
 | [1813](./problems/id_1813) | Sentence Similarity III | Medium | `Array`, `Two Pointers`, `String` |
