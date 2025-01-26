@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-126-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-130-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -37,10 +37,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 126 problems
-    - **Easy**: 19 (15.1%) 🟢
-    - **Medium**: 85 (67.5%) 🟡
-    - **Hard**: 22 (17.5%) 🔴
+- **Total Solved**: 130 problems
+    - **Easy**: 19 (14.6%) 🟢
+    - **Medium**: 88 (67.7%) 🟡
+    - **Hard**: 23 (17.7%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -165,6 +165,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [769](./problems/id_769) | Max Chunks To Make Sorted | Medium | `Array`, `Stack`, `Greedy`, `Sorting`, `Monotonic Stack` |
 | [773](./problems/id_773) | Sliding Puzzle | Hard | `Array`, `Breadth First Search`, `Matrix` |
 | [796](./problems/id_796) | Rotate String | Easy | `String`, `String Matching` |
+| [802](./problems/id_802) | Find Eventual Safe States | Medium | `Depth First Search`, `Breadth First Search`, `Graph`, `Topological Sort` |
 | [862](./problems/id_862) | Shortest Subarray with Sum at Least K | Hard | `Array`, `Binary Search`, `Queue`, `Sliding Window`, `Heap (Priority Queue)`, `Prefix Sum`, `Monotonic Queue` |
 | [916](./problems/id_916) | Word Subsets | Medium | `Array`, `Hash Table`, `String` |
 | [921](./problems/id_921) | Minimum Add to Make Parentheses Valid | Medium | `String`, `Stack`, `Greedy` |
@@ -175,6 +176,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1072](./problems/id_1072) | Flip Columns For Maximum Number of Equal Rows | Medium | `Array`, `Hash Table`, `Matrix` |
 | [1106](./problems/id_1106) | Parsing A Boolean Expression | Hard | `String`, `Stack`, `Recursion` |
 | [1233](./problems/id_1233) | Remove Sub-Folders from the Filesystem | Medium | `Array`, `String`, `Depth-First Search`, `Trie` |
+| [1267](./problems/id_1267) | Count Servers that Communicate | Medium | `Array`, `Depth First Search`, `Breadth First Search`, `Union Find`, `Matrix`, `Counting` |
 | [1277](./problems/id_1277) | Count Square Submatrices with All Ones | Medium | `Array`, `Dynamic Programming`, `Matrix` |
 | [1331](./problems/id_1331) | Rank Transform of an Array | Easy | `Array`, `Hash Table`, `Sorting` |
 | [1346](./problems/id_1346) | Check If N and Its Double Exist | Easy | `Array`, `Hash Table`, `Two Pointers`, `Binary Search`, `Sorting` |
@@ -212,6 +214,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2097](./problems/id_2097) | Valid Arrangement of Pairs | Hard | `Depth First Search`, `Graph`, `Eulerian Circuit` |
 | [2109](./problems/id_2109) | Adding Spaces to a String | Medium | `Array`, `Two Pointers`, `String`, `Simulation` |
 | [2116](./problems/id_2116) | Check if a Parentheses String Can Be Valid | Medium | `String`, `Stack`, `Greedy` |
+| [2127](./problems/id_2127) | Maximum Employees to Be Invited to a Meeting | Hard | `Depth First Search`, `Graph`, `Topological Sort` |
 | [2182](./problems/id_2182) | Construct String With Repeat Limit | Medium | `Hash Table`, `String`, `Greedy`, `Heap (priority Queue)`, `Counting` |
 | [2185](./problems/id_2185) | Counting Words With a Given Prefix | Easy | `Array`, `String`, `String Matching` |
 | [2222](./problems/id_2222) | Number of Ways to Select Buildings | Medium | `String`, `Dynamic Programming`, `Prefix Sum` |
@@ -256,6 +259,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2924](./problems/id_2924) | Find Champion II | Medium | `Graph` |
 | [2938](./problems/id_2938) | Separate Black and White Balls | Medium | `Two Pointers`, `String`, `Greedy` |
 | [2940](./problems/id_2940) | Find Building Where Alice and Bob Can Meet | Hard | `Array`, `Binary Search`, `Stack`, `Monotonic Stack` |
+| [2948](./problems/id_2948) | Make Lexicographically Smallest Array by Swapping Elements | Medium | `Array`, `Union Find`, `Sorting` |
 | [2981](./problems/id_2981) | Find Longest Special Substring That Occurs Thrice I | Medium | `Hash Table`, `String`, `Binary Search`, `Sliding Window`, `Counting` |
 | [3011](./problems/id_3011) | Find if Array Can Be Sorted | Medium | `Array`, `Bit Manipulation`, `Sorting` |
 | [3017](./problems/id_3017) | Count the Number of Houses at a Certain Distance II | Hard | `Graph`, `Prefix Sum` |
