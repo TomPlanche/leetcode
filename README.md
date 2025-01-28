@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-130-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-132-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -37,10 +37,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 130 problems
-    - **Easy**: 19 (14.6%) 🟢
-    - **Medium**: 88 (67.7%) 🟡
-    - **Hard**: 23 (17.7%) 🔴
+- **Total Solved**: 132 problems
+    - **Easy**: 19 (14.4%) 🟢
+    - **Medium**: 90 (68.2%) 🟡
+    - **Hard**: 23 (17.4%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -186,6 +186,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1408](./problems/id_1408) | String Matching in an Array | Easy | `Array`, `String`, `String Matching` |
 | [1422](./problems/id_1422) | Maximum Score After Splitting a String | Easy | `String`, `Prefix Sum` |
 | [1455](./problems/id_1455) | Check If a Word Occurs As a Prefix of Any Word in a Sentence | Easy | `Two Pointers`, `String`, `String Matching` |
+| [1462](./problems/id_1462) | Course Schedule IV | Medium | `Depth First Search`, `Breadth First Search`, `Graph`, `Topological Sort` |
 | [1475](./problems/id_1475) | Final Prices With a Special Discount in a Shop | Easy | `Array`, `Stack`, `Monotonic Stack` |
 | [1497](./problems/id_1497) | Check If Array Pairs Are Divisible by k | Medium | `Array`, `Hash Table`, `Counting` |
 | [1545](./problems/id_1545) | Find Kth Bit in Nth Binary String | Medium | `String`, `Recursion`, `Simulation` |
@@ -247,6 +248,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2601](./problems/id_2601) | Prime Subtraction Operation | Medium | `Array`, `Math`, `Binary Search`, `Greedy`, `Number Theory` |
 | [2641](./problems/id_2641) | Cousins in Binary Tree II | Medium | `Hash Table`, `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` |
 | [2657](./problems/id_2657) | Find the Prefix Common Array of Two Arrays | Medium | `Array`, `Hash Table`, `Bit Manipulation` |
+| [2658](./problems/id_2658) | Maximum Number of Fish in a Grid | Medium | `Array`, `Depth First Search`, `Breadth First Search`, `Union Find`, `Matrix` |
 | [2661](./problems/id_2661) | First Completely Painted Row or Column | Medium | `Array`, `Hash Table`, `Matrix` |
 | [2683](./problems/id_2683) | Neighboring Bitwise XOR | Medium | `Array`, `Bit Manipulation` |
 | [2684](./problems/id_2684) | Maximum Number of Moves in a Grid | Medium | `Array`, `Dynamic Programming`, `Matrix` |
