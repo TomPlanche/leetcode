@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-132-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-133-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -37,10 +37,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 132 problems
-    - **Easy**: 19 (14.4%) 🟢
-    - **Medium**: 90 (68.2%) 🟡
-    - **Hard**: 23 (17.4%) 🔴
+- **Total Solved**: 133 problems
+    - **Easy**: 19 (14.3%) 🟢
+    - **Medium**: 90 (67.7%) 🟡
+    - **Hard**: 24 (18.0%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -236,6 +236,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2466](./problems/id_2466) | Count Ways To Build Good Strings | Medium | `Dynamic Programming` |
 | [2471](./problems/id_2471) | Minimum Number of Operations to Sort a Binary Tree by Level | Medium | `Tree`, `Breadth First Search`, `Binary Tree` |
 | [2490](./problems/id_2490) | Circular Sentence | Easy | `String` |
+| [2493](./problems/id_2493) | Divide Nodes Into the Maximum Number of Groups | Hard | `Breadth First Search`, `Union Find`, `Graph` |
 | [2501](./problems/id_2501) | Longest Square Streak in an Array | Medium | `Array`, `Hash Table`, `Binary Search`, `Dynamic Programming`, `Sorting` |
 | [2516](./problems/id_2516) | Take K of Each Character From Left and Right | Medium | `Hash Table`, `String`, `Sliding Window` |
 | [2554](./problems/id_2554) | Maximum Number of Integers to Choose From a Range I | Medium | `Array`, `Hash Table`, `Binary Search`, `Greedy`, `Sorting` |
