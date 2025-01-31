@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-133-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-134-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -37,10 +37,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 133 problems
-    - **Easy**: 19 (14.3%) 🟢
-    - **Medium**: 90 (67.7%) 🟡
-    - **Hard**: 24 (18.0%) 🔴
+- **Total Solved**: 134 problems
+    - **Easy**: 19 (14.2%) 🟢
+    - **Medium**: 90 (67.2%) 🟡
+    - **Hard**: 25 (18.7%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -166,6 +166,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [773](./problems/id_773) | Sliding Puzzle | Hard | `Array`, `Breadth First Search`, `Matrix` |
 | [796](./problems/id_796) | Rotate String | Easy | `String`, `String Matching` |
 | [802](./problems/id_802) | Find Eventual Safe States | Medium | `Depth First Search`, `Breadth First Search`, `Graph`, `Topological Sort` |
+| [827](./problems/id_827) | Making A Large Island | Hard | `Array`, `Depth First Search`, `Breadth First Search`, `Union Find`, `Matrix` |
 | [862](./problems/id_862) | Shortest Subarray with Sum at Least K | Hard | `Array`, `Binary Search`, `Queue`, `Sliding Window`, `Heap (Priority Queue)`, `Prefix Sum`, `Monotonic Queue` |
 | [916](./problems/id_916) | Word Subsets | Medium | `Array`, `Hash Table`, `String` |
 | [921](./problems/id_921) | Minimum Add to Make Parentheses Valid | Medium | `String`, `Stack`, `Greedy` |
