@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-134-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-137-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -37,10 +37,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 134 problems
-    - **Easy**: 19 (14.2%) 🟢
-    - **Medium**: 90 (67.2%) 🟡
-    - **Hard**: 25 (18.7%) 🔴
+- **Total Solved**: 137 problems
+    - **Easy**: 20 (14.6%) 🟢
+    - **Medium**: 92 (67.2%) 🟡
+    - **Hard**: 25 (18.2%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -160,6 +160,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [515](./problems/id_515) | Find Largest Value in Each Tree Row | Medium | `Tree`, `Depth First Search`, `Breadth First Search`, `Binary Tree` |
 | [567](./problems/id_567) | Permutation in String | Medium | `Hash Table`, `Two Pointers`, `String`, `Sliding Window` |
 | [670](./problems/id_670) | Maximum Swap | Medium | `Math`, `Greedy` |
+| [684](./problems/id_684) | Redundant Connection | Medium | `Depth First Search`, `Breadth First Search`, `Union Find`, `Graph` |
 | [689](./problems/id_689) | Maximum Sum of 3 Non-Overlapping Subarrays | Hard | `Array`, `Dynamic Programming` |
 | [729](./problems/id_729) | My Calendar I | Medium | `Array`, `Binary Search`, `Design`, `Segment Tree`, `Ordered Set` |
 | [769](./problems/id_769) | Max Chunks To Make Sorted | Medium | `Array`, `Stack`, `Greedy`, `Sorting`, `Monotonic Stack` |
@@ -209,6 +210,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1957](./problems/id_1957) | Delete Characters to Make Fancy String | Easy | `String` |
 | [1963](./problems/id_1963) | Minimum Number of Swaps to Make the String Balanced | Medium | `Two Pointers`, `String`, `Stack`, `Greedy` |
 | [1975](./problems/id_1975) | Maximum Matrix Sum | Medium | `Array`, `Greedy`, `Matrix` |
+| [2017](./problems/id_2017) | Grid Game | Medium | `Array`, `Matrix`, `Prefix Sum` |
 | [2044](./problems/id_2044) | Count Number of Maximum Bitwise-OR Subsets | Medium | `Array`, `Backtracking`, `Bit Manipulation`, `Enumeration` |
 | [2054](./problems/id_2054) | Two Best Non-Overlapping Events | Medium | `Array`, `Binary Search`, `Dynamic Programming`, `Sorting`, `Heap (priority Queue)` |
 | [2064](./problems/id_2064) | Minimized Maximum of Products Distributed to Any Store | Medium | `Array`, `Binary Search` |
@@ -271,6 +273,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [3043](./problems/id_3043) | Find the Length of the Longest Common Prefix | Medium | `Array`, `Hash Table`, `String`, `Trie` |
 | [3090](./problems/id_3090) | Shortest Subarray With OR at Least K II | Medium | `Array`, `Bit Manipulation`, `Sliding Window` |
 | [3133](./problems/id_3133) | Minimum Array End | Medium | `Bit Manipulation` |
+| [3151](./problems/id_3151) | Special Array I | Easy | `Array` |
 | [3152](./problems/id_3152) | Special Array II | Medium | `Array`, `Binary Search`, `Prefix Sum` |
 | [3163](./problems/id_3163) | String Compression III | Medium | `String` |
 | [3203](./problems/id_3203) | Find Minimum Diameter After Merging Two Trees | Hard | `Tree`, `Depth First Search`, `Breadth First Search`, `Graph` |

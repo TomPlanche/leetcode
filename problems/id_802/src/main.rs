@@ -1,7 +1,7 @@
-//!
-//! # Find Eventual Safe States (Medium) [Depth First Search, Breadth First Search, Graph, Topological Sort]
-//! LeetCode Problem 802
-//!
+///
+/// # Find Eventual Safe States (Medium) [Depth First Search, Breadth First Search, Graph, Topological Sort]
+/// LeetCode Problem 802
+///
 
 /// Represents the state of a node during DFS traversal
 #[derive(PartialEq, Clone)]
