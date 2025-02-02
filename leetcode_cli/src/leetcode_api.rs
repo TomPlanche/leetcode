@@ -24,6 +24,14 @@ pub struct TopicTag {
 }
 
 #[derive(Debug, Deserialize)]
+pub struct CodeSnippet {
+    pub lang: String,
+    #[serde(rename = "langSlug")]
+    pub lang_slug: String,
+    pub code: String,
+}
+
+#[derive(Debug, Deserialize)]
 pub struct Question {
     pub title: String,
     pub difficulty: String,
@@ -34,6 +42,8 @@ pub struct Question {
     pub topic_tags: Vec<TopicTag>,
     #[serde(rename = "questionFrontendId")]
     pub id: String,
+    #[serde(rename = "codeSnippets")]
+    pub code_snippets: Vec<CodeSnippet>,
 }
 
 pub async fn fetch_daily_challenge() -> Result<DailyChallenge, Box<dyn std::error::Error>> {
@@ -51,6 +61,11 @@ pub async fn fetch_daily_challenge() -> Result<DailyChallenge, Box<dyn std::erro
                 topicTags {
                     name
                     slug
+                }
+                codeSnippets {
+                    lang
+                    langSlug
+                    code
                 }
             }
         }

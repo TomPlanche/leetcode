@@ -116,18 +116,21 @@ fn update_main_file(
     title: Option<&String>,
     difficulty: Option<&String>,
     tags: Option<&Vec<String>>,
+    code: Option<&String>,
 ) -> Result<(), Box<dyn std::error::Error>> {
     let main_file_path = project_path.join("src").join("main.rs");
     let docstring = create_docstring(problem_id, title, difficulty, tags);
 
     let main_content = format!(
-        r#"{}
+        r#"{docstring}
+
+{}
 
 fn main() {{
-    println!("LeetCode problem {}")
+    println!("LeetCode problem {problem_id}")
 }}
 "#,
-        docstring, problem_id
+        code.unwrap_or(&"".to_string()),
     );
 
     fs::write(main_file_path, main_content)?;
@@ -153,6 +156,7 @@ fn create_leetcode_project(
     title: Option<&String>,
     difficulty: Option<&String>,
     tags: Option<&Vec<String>>,
+    code: Option<&String>,
     verbose: bool,
 ) -> Result<(), Box<dyn std::error::Error>> {
     // Create the full path for the new project
@@ -180,7 +184,7 @@ fn create_leetcode_project(
         );
 
         // Update main.rs with docstring
-        update_main_file(&project_path, problem_id, title, difficulty, tags)?;
+        update_main_file(&project_path, problem_id, title, difficulty, tags, code)?;
 
         if verbose {
             println!("Project created at: {:?}", project_path);
@@ -306,22 +310,24 @@ async fn main() {
                     .map(|tag| tag.name.clone())
                     .collect();
 
+                let rust_code = challenge
+                    .question
+                    .code_snippets
+                    .iter()
+                    .find(|snippet| snippet.lang == "Rust")
+                    .map(|snippet| snippet.code.clone());
+
                 if let Err(e) = create_leetcode_project(
                     &challenge.question.id,
                     Some(&challenge.question.title),
                     Some(&challenge.question.difficulty),
                     Some(&tags),
+                    rust_code.as_ref(),
                     cli.verbose,
                 ) {
                     eprintln!("{} {} ❌", Red.bold().paint("Error:"), e);
                     std::process::exit(1);
                 }
-
-                println!(
-                    "{} Created LeetCode project for problem {} ✅",
-                    Green.bold().paint("Success:"),
-                    Green.bold().paint(&challenge.question.id)
-                );
             }
             Err(e) => {
                 eprintln!(
@@ -340,6 +346,7 @@ async fn main() {
         cli.title.as_ref(),
         cli.difficulty.as_ref(),
         cli.tags.as_ref(),
+        None,
         cli.verbose,
     ) {
         eprintln!("{} {} ❌", Red.bold().paint("Error:"), e);
