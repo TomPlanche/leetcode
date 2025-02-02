@@ -31,8 +31,8 @@ const LEETCODE_BASE_PATH: &str = "/Users/tom_planche/Desktop/Prog/leetcode/probl
 #[command(help_template = "{about}\nMade by: {author}\n\nUSAGE:\n{usage}\n\n{all-args}\n")]
 struct Cli {
     /// LeetCode problem ID
-    #[arg(required = true)]
-    problem_id: String,
+    #[arg(required = false)]
+    problem_id: Option<String>,
 
     /// Problem difficulty (Easy, Medium, Hard)
     #[arg(short, long, value_parser = ["Easy", "Medium", "Hard"])]
@@ -50,6 +50,10 @@ struct Cli {
     /// Verbose output
     #[arg(short, long)]
     verbose: bool,
+
+    /// Fetch daily challenge
+    #[arg(long)]
+    daily: bool,
 }
 
 ///
@@ -270,11 +274,69 @@ fn check_projects_integrity(verbose: bool) -> Result<(), Box<dyn std::error::Err
     Ok(())
 }
 
-fn main() {
+mod leetcode_api;
+
+fn extract_problem_id(link: &str) -> Option<String> {
+    // First try to get the problem ID from the URL path
+    // Format is usually /problems/two-sum/ or /problems/123-two-sum/
+    let parts: Vec<&str> = link.split('/').collect();
+    if parts.len() >= 3 {
+        let slug = parts[2];
+        if let Some(id) = slug.split('-').next() {
+            if id.parse::<u32>().is_ok() {
+                return Some(id.to_string());
+            }
+        }
+    }
+    None
+}
+
+#[tokio::main]
+async fn main() {
     let cli = Cli::parse();
 
+    if cli.daily {
+        match leetcode_api::fetch_daily_challenge().await {
+            Ok(challenge) => {
+                // Convert topic tags to the expected format
+                let tags: Vec<String> = challenge
+                    .question
+                    .topic_tags
+                    .iter()
+                    .map(|tag| tag.name.clone())
+                    .collect();
+
+                if let Err(e) = create_leetcode_project(
+                    &challenge.question.id,
+                    Some(&challenge.question.title),
+                    Some(&challenge.question.difficulty),
+                    Some(&tags),
+                    cli.verbose,
+                ) {
+                    eprintln!("{} {} ❌", Red.bold().paint("Error:"), e);
+                    std::process::exit(1);
+                }
+
+                println!(
+                    "{} Created LeetCode project for problem {} ✅",
+                    Green.bold().paint("Success:"),
+                    Green.bold().paint(&challenge.question.id)
+                );
+            }
+            Err(e) => {
+                eprintln!(
+                    "{} Failed to fetch daily challenge: {} ❌",
+                    Red.bold().paint("Error:"),
+                    e
+                );
+                std::process::exit(1);
+            }
+        }
+        return;
+    }
+
     if let Err(e) = create_leetcode_project(
-        &cli.problem_id,
+        cli.problem_id.as_ref().unwrap().as_str(),
         cli.title.as_ref(),
         cli.difficulty.as_ref(),
         cli.tags.as_ref(),
