@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-137-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-138-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -37,10 +37,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 137 problems
-    - **Easy**: 20 (14.6%) 🟢
-    - **Medium**: 92 (67.2%) 🟡
-    - **Hard**: 25 (18.2%) 🔴
+- **Total Solved**: 138 problems
+    - **Easy**: 21 (15.2%) 🟢
+    - **Medium**: 92 (66.7%) 🟡
+    - **Hard**: 25 (18.1%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -198,6 +198,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1639](./problems/id_1639) | Number of Ways to Form a Target String Given a Dictionary | Hard | `Array`, `String`, `Dynamic Programming` |
 | [1652](./problems/id_1652) | Defuse the Bomb | Easy | `Array`, `Sliding Window` |
 | [1671](./problems/id_1671) | Minimum Number of Removals to Make Mountain Array | Hard | `Array`, `Binary Search`, `Dynamic Programming`, `Greedy` |
+| [1752](./problems/id_1752) | Check if Array Is Sorted and Rotated | Easy | `Array` |
 | [1760](./problems/id_1760) | Minimum Limit of Balls in a Bag | Medium | `Array`, `Binary Search` |
 | [1765](./problems/id_1765) | Map of Highest Peak | Medium | `Array`, `Breadth First Search`, `Matrix` |
 | [1769](./problems/id_1769) | Minimum Number of Operations to Move All Balls to Each Box | Medium | `Array`, `String`, `Prefix Sum` |
