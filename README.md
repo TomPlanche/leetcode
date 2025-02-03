@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-138-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-139-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -37,10 +37,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 138 problems
-    - **Easy**: 21 (15.2%) 🟢
-    - **Medium**: 92 (66.7%) 🟡
-    - **Hard**: 25 (18.1%) 🔴
+- **Total Solved**: 139 problems
+    - **Easy**: 22 (15.8%) 🟢
+    - **Medium**: 92 (66.2%) 🟡
+    - **Hard**: 25 (18.0%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -273,6 +273,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [3042](./problems/id_3042) | Count Prefix and Suffix Pairs I | Easy | `Array`, `String`, `Trie`, `Rolling Hash`, `String Matching`, `Hash Function` |
 | [3043](./problems/id_3043) | Find the Length of the Longest Common Prefix | Medium | `Array`, `Hash Table`, `String`, `Trie` |
 | [3090](./problems/id_3090) | Shortest Subarray With OR at Least K II | Medium | `Array`, `Bit Manipulation`, `Sliding Window` |
+| [3105](./problems/id_3105) | Longest Strictly Increasing or Strictly Decreasing Subarray | Easy | `Array` |
 | [3133](./problems/id_3133) | Minimum Array End | Medium | `Bit Manipulation` |
 | [3151](./problems/id_3151) | Special Array I | Easy | `Array` |
 | [3152](./problems/id_3152) | Special Array II | Medium | `Array`, `Binary Search`, `Prefix Sum` |
