@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-139-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-141-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -37,10 +37,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 139 problems
-    - **Easy**: 22 (15.8%) 🟢
-    - **Medium**: 92 (66.2%) 🟡
-    - **Hard**: 25 (18.0%) 🔴
+- **Total Solved**: 141 problems
+    - **Easy**: 24 (17.0%) 🟢
+    - **Medium**: 92 (65.2%) 🟡
+    - **Hard**: 25 (17.7%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -202,7 +202,9 @@ Each solution includes this header format for easy navigation and reference (and
 | [1760](./problems/id_1760) | Minimum Limit of Balls in a Bag | Medium | `Array`, `Binary Search` |
 | [1765](./problems/id_1765) | Map of Highest Peak | Medium | `Array`, `Breadth First Search`, `Matrix` |
 | [1769](./problems/id_1769) | Minimum Number of Operations to Move All Balls to Each Box | Medium | `Array`, `String`, `Prefix Sum` |
+| [1790](./problems/id_1790) | Check if One String Swap Can Make Strings Equal | Easy | `Hash Table`, `String`, `Counting` |
 | [1792](./problems/id_1792) | Maximum Average Pass Ratio | Medium | `Array`, `Greedy`, `Heap (Priority Queue)` |
+| [1800](./problems/id_1800) | Maximum Ascending Subarray Sum | Easy | `Array` |
 | [1813](./problems/id_1813) | Sentence Similarity III | Medium | `Array`, `Two Pointers`, `String` |
 | [1829](./problems/id_1829) | Maximum XOR for Each Query | Medium | `Array`, `Bit Manipulation`, `Prefix Sum` |
 | [1861](./problems/id_1861) | Rotating the Box | Medium | `Array`, `Two Pointers`, `Matrix` |
