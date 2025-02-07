@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-142-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-143-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -37,10 +37,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 142 problems
-    - **Easy**: 24 (16.9%) 🟢
-    - **Medium**: 93 (65.5%) 🟡
-    - **Hard**: 25 (17.6%) 🔴
+- **Total Solved**: 143 problems
+    - **Easy**: 24 (16.8%) 🟢
+    - **Medium**: 94 (65.7%) 🟡
+    - **Hard**: 25 (17.5%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -280,6 +280,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [3133](./problems/id_3133) | Minimum Array End | Medium | `Bit Manipulation` |
 | [3151](./problems/id_3151) | Special Array I | Easy | `Array` |
 | [3152](./problems/id_3152) | Special Array II | Medium | `Array`, `Binary Search`, `Prefix Sum` |
+| [3160](./problems/id_3160) | Find the Number of Distinct Colors Among the Balls | Medium | `Array`, `Hash Table`, `Simulation` |
 | [3163](./problems/id_3163) | String Compression III | Medium | `String` |
 | [3203](./problems/id_3203) | Find Minimum Diameter After Merging Two Trees | Hard | `Tree`, `Depth First Search`, `Breadth First Search`, `Graph` |
 | [3223](./problems/id_3223) | Minimum Length of String After Operations | Medium | `Hash Table`, `String`, `Counting` |
