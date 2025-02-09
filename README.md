@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-144-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-145-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -37,10 +37,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 144 problems
-    - **Easy**: 24 (16.7%) 🟢
-    - **Medium**: 95 (66.0%) 🟡
-    - **Hard**: 25 (17.4%) 🔴
+- **Total Solved**: 145 problems
+    - **Easy**: 24 (16.6%) 🟢
+    - **Medium**: 96 (66.2%) 🟡
+    - **Hard**: 25 (17.2%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -232,6 +232,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2290](./problems/id_2290) | Minimum Obstacle Removal to Reach Corner | Hard | `Array`, `Breadth-First Search`, `Graph`, `Heap (Priority Queue)`, `Matrix`, `Shortest Path` |
 | [2335](./problems/id_2335) | Moving Pieces to Obtain a String | Medium | `String`, `Two Pointers` |
 | [2349](./problems/id_2349) | Design a Number Container System | Medium | `Hash Table`, `Design`, `Heap (priority Queue)`, `Ordered Set` |
+| [2364](./problems/id_2364) | Count Number of Bad Pairs | Medium | `Array`, `Hash Table`, `Math`, `Counting` |
 | [2381](./problems/id_2381) | Shifting Letters II | Medium | `Array`, `String`, `Prefix Sum` |
 | [2415](./problems/id_2415) | Reverse Odd Levels of Binary Tree | Medium | `Tree`, `Depth First Search`, `Breadth First Search`, `Binary Tree` |
 | [2416](./problems/id_2416) | Sum of Prefix Scores of Strings | Hard | `Array`, `String`, `Trie`, `Counting` |
