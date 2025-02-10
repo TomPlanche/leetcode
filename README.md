@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-145-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-146-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -37,10 +37,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 145 problems
-    - **Easy**: 24 (16.6%) 🟢
-    - **Medium**: 96 (66.2%) 🟡
-    - **Hard**: 25 (17.2%) 🔴
+- **Total Solved**: 146 problems
+    - **Easy**: 25 (17.1%) 🟢
+    - **Medium**: 96 (65.8%) 🟡
+    - **Hard**: 25 (17.1%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -284,6 +284,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [3152](./problems/id_3152) | Special Array II | Medium | `Array`, `Binary Search`, `Prefix Sum` |
 | [3160](./problems/id_3160) | Find the Number of Distinct Colors Among the Balls | Medium | `Array`, `Hash Table`, `Simulation` |
 | [3163](./problems/id_3163) | String Compression III | Medium | `String` |
+| [3174](./problems/id_3174) | Clear Digits | Easy | `String`, `Stack`, `Simulation` |
 | [3203](./problems/id_3203) | Find Minimum Diameter After Merging Two Trees | Hard | `Tree`, `Depth First Search`, `Breadth First Search`, `Graph` |
 | [3223](./problems/id_3223) | Minimum Length of String After Operations | Medium | `Hash Table`, `String`, `Counting` |
 | [3243](./problems/id_3243) | Shortest Distance After Road Addition Queries I | Medium | `Array`, `Breadth First Search`, `Graph` |
