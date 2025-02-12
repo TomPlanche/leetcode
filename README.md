@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-147-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-148-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -37,10 +37,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 147 problems
-    - **Easy**: 25 (17.0%) 🟢
-    - **Medium**: 97 (66.0%) 🟡
-    - **Hard**: 25 (17.0%) 🔴
+- **Total Solved**: 148 problems
+    - **Easy**: 25 (16.9%) 🟢
+    - **Medium**: 98 (66.2%) 🟡
+    - **Hard**: 25 (16.9%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -232,6 +232,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2275](./problems/id_2275) | Largest Combination With Bitwise AND Greater Than Zero | Medium | `Array`, `Hash Table`, `Bit Manipulation`, `Counting` |
 | [2290](./problems/id_2290) | Minimum Obstacle Removal to Reach Corner | Hard | `Array`, `Breadth-First Search`, `Graph`, `Heap (Priority Queue)`, `Matrix`, `Shortest Path` |
 | [2335](./problems/id_2335) | Moving Pieces to Obtain a String | Medium | `String`, `Two Pointers` |
+| [2342](./problems/id_2342) | Max Sum of a Pair With Equal Sum of Digits | Medium | `Array`, `Hash Table`, `Sorting`, `Heap (priority Queue)` |
 | [2349](./problems/id_2349) | Design a Number Container System | Medium | `Hash Table`, `Design`, `Heap (priority Queue)`, `Ordered Set` |
 | [2364](./problems/id_2364) | Count Number of Bad Pairs | Medium | `Array`, `Hash Table`, `Math`, `Counting` |
 | [2381](./problems/id_2381) | Shifting Letters II | Medium | `Array`, `String`, `Prefix Sum` |
