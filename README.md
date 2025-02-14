@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-148-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-149-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -37,10 +37,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 148 problems
-    - **Easy**: 25 (16.9%) 🟢
-    - **Medium**: 98 (66.2%) 🟡
-    - **Hard**: 25 (16.9%) 🔴
+- **Total Solved**: 149 problems
+    - **Easy**: 25 (16.8%) 🟢
+    - **Medium**: 99 (66.4%) 🟡
+    - **Hard**: 25 (16.8%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -182,6 +182,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1277](./problems/id_1277) | Count Square Submatrices with All Ones | Medium | `Array`, `Dynamic Programming`, `Matrix` |
 | [1331](./problems/id_1331) | Rank Transform of an Array | Easy | `Array`, `Hash Table`, `Sorting` |
 | [1346](./problems/id_1346) | Check If N and Its Double Exist | Easy | `Array`, `Hash Table`, `Two Pointers`, `Binary Search`, `Sorting` |
+| [1352](./problems/id_1352) | Product of the Last K Numbers | Medium | `Array`, `Math`, `Design`, `Data Stream`, `Prefix Sum` |
 | [1368](./problems/id_1368) | Minimum Cost to Make at Least One Valid Path in a Grid | Hard | `Array`, `Breadth First Search`, `Graph`, `Heap (priority Queue)`, `Matrix`, `Shortest Path` |
 | [1400](./problems/id_1400) | Construct K Palindrome Strings | Medium | `Hash Table`, `String`, `Greedy`, `Counting` |
 | [1405](./problems/id_1405) | Longest Happy String | Medium | `String`, `Greedy`, `Heap (Priority Queue)` |
