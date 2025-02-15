@@ -27,7 +27,7 @@ impl TitleCase for str {
             .filter(|s| !s.is_empty())
             .map(|word| {
                 // If the word is all uppercase and longer than 1 character, preserve it
-                if word.chars().all(|c| c.is_uppercase()) && word.len() > 1 {
+                if word.chars().all(char::is_uppercase) && word.len() > 1 {
                     word.to_string()
                 } else {
                     let mut chars = word.chars();
@@ -36,7 +36,7 @@ impl TitleCase for str {
                         Some(first) => {
                             let first_upper = first.to_uppercase().collect::<String>();
                             let rest_lower = chars.as_str().to_lowercase();
-                            format!("{}{}", first_upper, rest_lower)
+                            format!("{first_upper}{rest_lower}")
                         }
                     }
                 }

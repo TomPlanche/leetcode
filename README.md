@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-149-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-150-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -37,10 +37,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 149 problems
-    - **Easy**: 25 (16.8%) 🟢
-    - **Medium**: 99 (66.4%) 🟡
-    - **Hard**: 25 (16.8%) 🔴
+- **Total Solved**: 150 problems
+    - **Easy**: 25 (16.7%) 🟢
+    - **Medium**: 100 (66.7%) 🟡
+    - **Hard**: 25 (16.7%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -266,6 +266,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2683](./problems/id_2683) | Neighboring Bitwise XOR | Medium | `Array`, `Bit Manipulation` |
 | [2684](./problems/id_2684) | Maximum Number of Moves in a Grid | Medium | `Array`, `Dynamic Programming`, `Matrix` |
 | [2696](./problems/id_2696) | Minimum String Length After Removing Substrings | Easy | `String`, `Stack`, `Simulation` |
+| [2698](./problems/id_2698) | Find the Punishment Number of an Integer | Medium | `Math`, `Backtracking` |
 | [2762](./problems/id_2762) | Continuous Subarrays | Medium | `Array`, `Queue`, `Sliding Window`, `Heap (priority Queue)`, `Ordered Set`, `Monotonic Queue` |
 | [2779](./problems/id_2779) | Maximum Beauty of an Array After Applying Operation | Medium | `Array`, `Binary Search`, `Sliding Window`, `Sorting` |
 | [2825](./problems/id_2825) | Make String a Subsequence Using Cyclic Increments | Medium | `Two Pointers`, `String` |

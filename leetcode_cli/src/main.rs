@@ -1,9 +1,9 @@
 ///
-/// # leetcode_cli/src/main.rs
-/// A CLI tool for creating new LeetCode problem projects with a standardized structure.
+/// # `leetcode_cli/src/main.rs`
+/// A CLI tool for creating new `LeetCode` problem projects with a standardized structure.
 ///
 /// ## Features
-/// - Creates a new Cargo project for a LeetCode problem
+/// - Creates a new Cargo project for a `LeetCode` problem
 /// - Adds customizable documentation with problem details
 /// - Supports problem difficulty and tags
 /// - Opens the project in Zed editor automatically
@@ -13,15 +13,15 @@
 ///
 pub mod string_utils;
 
-use crate::string_utils::TitleCase;
-
 use ansi_term::Colour::{Green, Red};
 use clap::Parser;
+use clipboard::{ClipboardContext, ClipboardProvider};
+use html2text::from_read;
 use std::fs;
 use std::path::{Path, PathBuf};
 use std::process::Command;
 
-/// Base path for all LeetCode projects
+/// Base path for all `LeetCode` projects
 const LEETCODE_BASE_PATH: &str = "/Users/tom_planche/Desktop/Prog/leetcode/problems";
 
 /// CLI argument parser struct
@@ -30,7 +30,7 @@ const LEETCODE_BASE_PATH: &str = "/Users/tom_planche/Desktop/Prog/leetcode/probl
 #[command(author = "Tom P. <tomplanche@icloud.com>")]
 #[command(help_template = "{about}\nMade by: {author}\n\nUSAGE:\n{usage}\n\n{all-args}\n")]
 struct Cli {
-    /// LeetCode problem ID
+    /// `LeetCode` problem ID
     #[arg(required = false)]
     problem_id: Option<String>,
 
@@ -61,7 +61,7 @@ struct Cli {
 /// Creates a formatted docstring for the problem file.
 ///
 /// ## Arguments
-/// * `problem_id` - The LeetCode problem ID
+/// * `problem_id` - The `LeetCode` problem ID
 /// * `title` - Optional problem title
 /// * `difficulty` - Optional problem difficulty
 /// * `tags` - Optional vector of problem tags
@@ -75,43 +75,43 @@ fn create_docstring(
     difficulty: Option<&String>,
     tags: Option<&Vec<String>>,
 ) -> String {
-    let title_str = title.map_or("Untitled".to_string(), |t| t.clone());
-    let difficulty_str = difficulty.map_or("".to_string(), |d| format!("({})", d));
-    let tags_str = tags.map_or("".to_string(), |t| {
+    let title_str = title.map_or("Untitled".to_string(), std::clone::Clone::clone);
+    let difficulty_str = difficulty.map_or(String::new(), |d| format!("({d})"));
+    let tags_str = tags.map_or(String::new(), |t| {
         format!(
             " [{}]",
-            t.into_iter()
-                .map(|s| s.to_title_case())
+            t.iter()
+                .map(string_utils::TitleCase::to_title_case)
                 .collect::<Vec<String>>()
                 .join(", ")
         )
     });
 
     format!(
-        r#"///
-/// # {} {}{}
-/// LeetCode Problem {}
-///"#,
-        title_str, difficulty_str, tags_str, problem_id
+        "///
+/// # {title_str} {difficulty_str}{tags_str}
+/// LeetCode Problem {problem_id}
+///",
     )
 }
 
 ///
-/// # `update_main_file`
+/// # `__main_file`
 /// Updates the main.rs file with problem information and basic structure.
 ///
 /// ## Arguments
 /// * `project_path` - Path to the project directory
-/// * `problem_id` - The LeetCode problem ID
+/// * `problem_id` - The `LeetCode` problem ID
 /// * `title` - Optional problem title
 /// * `difficulty` - Optional problem difficulty
 /// * `tags` - Optional vector of problem tags
+/// * `description` - Optional problem description
 ///
 /// ## Returns
 /// * `Result<(), Box<dyn std::error::Error>>` - Success or error result
 ///
 fn update_main_file(
-    project_path: &PathBuf,
+    project_path: &Path,
     problem_id: &str,
     title: Option<&String>,
     difficulty: Option<&String>,
@@ -123,14 +123,13 @@ fn update_main_file(
 
     let main_content = format!(
         r#"{docstring}
-
 {}
 
 fn main() {{
     println!("LeetCode problem {problem_id}")
 }}
 "#,
-        code.unwrap_or(&"".to_string()),
+        code.unwrap_or(&String::new()),
     );
 
     fs::write(main_file_path, main_content)?;
@@ -139,13 +138,15 @@ fn main() {{
 
 ///
 /// # `create_leetcode_project`
-/// Creates a new Cargo project for a LeetCode problem and sets it up.
+/// Creates a new Cargo project for a `LeetCode` problem and sets it up.
 ///
 /// ## Arguments
-/// * `problem_id` - The LeetCode problem ID
+/// * `problem_id` - The `LeetCode` problem ID
 /// * `title` - Optional problem title
 /// * `difficulty` - Optional problem difficulty
 /// * `tags` - Optional vector of problem tags
+/// * `code` - Optional problem code
+/// * `description` - Optional problem description
 /// * `verbose` - Whether to show detailed output
 ///
 /// ## Returns
@@ -157,10 +158,27 @@ fn create_leetcode_project(
     difficulty: Option<&String>,
     tags: Option<&Vec<String>>,
     code: Option<&String>,
+    description: Option<&String>,
     verbose: bool,
 ) -> Result<(), Box<dyn std::error::Error>> {
+    // If we have a description, clean it and copy to clipboard
+    if let Some(desc) = description {
+        // Convert HTML to plain text
+        let clean_desc = from_read(desc.as_bytes(), 80);
+
+        // Copy to clipboard
+        if let Ok(mut ctx) = ClipboardContext::new() {
+            if ctx.set_contents(clean_desc).is_ok() && verbose {
+                println!(
+                    "{} Problem description copied to clipboard ✅",
+                    Green.bold().paint("Success:")
+                );
+            }
+        }
+    }
+
     // Create the full path for the new project
-    let project_name = format!("id_{}", problem_id);
+    let project_name = format!("id_{problem_id}");
     let project_path = PathBuf::from(LEETCODE_BASE_PATH).join(&project_name);
 
     // Create new cargo project
@@ -183,11 +201,11 @@ fn create_leetcode_project(
             Green.bold().paint(problem_id)
         );
 
-        // Update main.rs with docstring
+        // Update main.rs without description
         update_main_file(&project_path, problem_id, title, difficulty, tags, code)?;
 
         if verbose {
-            println!("Project created at: {:?}", project_path);
+            println!("Project created at: {project_path:?}");
             println!("Main.rs updated with problem information");
         }
 
@@ -234,8 +252,7 @@ fn check_projects_integrity(verbose: bool) -> Result<(), Box<dyn std::error::Err
             || !path
                 .file_name()
                 .and_then(|n| n.to_str())
-                .map(|n| n.starts_with("id_"))
-                .unwrap_or(false)
+                .is_some_and(|n| n.starts_with("id_"))
         {
             continue;
         }
@@ -280,21 +297,6 @@ fn check_projects_integrity(verbose: bool) -> Result<(), Box<dyn std::error::Err
 
 mod leetcode_api;
 
-fn extract_problem_id(link: &str) -> Option<String> {
-    // First try to get the problem ID from the URL path
-    // Format is usually /problems/two-sum/ or /problems/123-two-sum/
-    let parts: Vec<&str> = link.split('/').collect();
-    if parts.len() >= 3 {
-        let slug = parts[2];
-        if let Some(id) = slug.split('-').next() {
-            if id.parse::<u32>().is_ok() {
-                return Some(id.to_string());
-            }
-        }
-    }
-    None
-}
-
 #[tokio::main]
 async fn main() {
     let cli = Cli::parse();
@@ -302,7 +304,6 @@ async fn main() {
     if cli.daily {
         match leetcode_api::fetch_daily_challenge().await {
             Ok(challenge) => {
-                // Convert topic tags to the expected format
                 let tags: Vec<String> = challenge
                     .question
                     .topic_tags
@@ -323,6 +324,7 @@ async fn main() {
                     Some(&challenge.question.difficulty),
                     Some(&tags),
                     rust_code.as_ref(),
+                    Some(&challenge.question.content),
                     cli.verbose,
                 ) {
                     eprintln!("{} {} ❌", Red.bold().paint("Error:"), e);
@@ -346,6 +348,7 @@ async fn main() {
         cli.title.as_ref(),
         cli.difficulty.as_ref(),
         cli.tags.as_ref(),
+        None,
         None,
         cli.verbose,
     ) {

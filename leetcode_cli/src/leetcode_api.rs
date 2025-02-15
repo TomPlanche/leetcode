@@ -1,4 +1,3 @@
-use reqwest;
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
 
@@ -12,22 +11,17 @@ struct GraphQLQuery {
 
 #[derive(Debug, Deserialize)]
 pub struct DailyChallenge {
-    pub date: String,
-    pub link: String,
     pub question: Question,
 }
 
 #[derive(Debug, Deserialize)]
 pub struct TopicTag {
     pub name: String,
-    pub slug: String,
 }
 
 #[derive(Debug, Deserialize)]
 pub struct CodeSnippet {
     pub lang: String,
-    #[serde(rename = "langSlug")]
-    pub lang_slug: String,
     pub code: String,
 }
 
@@ -36,8 +30,6 @@ pub struct Question {
     pub title: String,
     pub difficulty: String,
     pub content: String,
-    #[serde(rename = "titleSlug")]
-    pub title_slug: String,
     #[serde(rename = "topicTags")]
     pub topic_tags: Vec<TopicTag>,
     #[serde(rename = "questionFrontendId")]
