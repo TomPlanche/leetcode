@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-150-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-152-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -37,10 +37,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 150 problems
-    - **Easy**: 25 (16.7%) 🟢
-    - **Medium**: 100 (66.7%) 🟡
-    - **Hard**: 25 (16.7%) 🔴
+- **Total Solved**: 152 problems
+    - **Easy**: 25 (16.4%) 🟢
+    - **Medium**: 102 (67.1%) 🟡
+    - **Hard**: 25 (16.4%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -176,6 +176,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [983](./problems/id_983) | Minimum Cost For Tickets | Medium | `Array`, `Dynamic Programming` |
 | [1014](./problems/id_1014) | Best Sightseeing Pair | Medium | `Array`, `Dynamic Programming` |
 | [1072](./problems/id_1072) | Flip Columns For Maximum Number of Equal Rows | Medium | `Array`, `Hash Table`, `Matrix` |
+| [1079](./problems/id_1079) | Letter Tile Possibilities | Medium | `Hash Table`, `String`, `Backtracking`, `Counting` |
 | [1106](./problems/id_1106) | Parsing A Boolean Expression | Hard | `String`, `Stack`, `Recursion` |
 | [1233](./problems/id_1233) | Remove Sub-Folders from the Filesystem | Medium | `Array`, `String`, `Depth-First Search`, `Trie` |
 | [1267](./problems/id_1267) | Count Servers that Communicate | Medium | `Array`, `Depth First Search`, `Breadth First Search`, `Union Find`, `Matrix`, `Counting` |
@@ -199,6 +200,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1639](./problems/id_1639) | Number of Ways to Form a Target String Given a Dictionary | Hard | `Array`, `String`, `Dynamic Programming` |
 | [1652](./problems/id_1652) | Defuse the Bomb | Easy | `Array`, `Sliding Window` |
 | [1671](./problems/id_1671) | Minimum Number of Removals to Make Mountain Array | Hard | `Array`, `Binary Search`, `Dynamic Programming`, `Greedy` |
+| [1718](./problems/id_1718) | Construct the Lexicographically Largest Valid Sequence | Medium | `Array`, `Backtracking` |
 | [1726](./problems/id_1726) | Tuple with Same Product | Medium | `Array`, `Hash Table`, `Counting` |
 | [1752](./problems/id_1752) | Check if Array Is Sorted and Rotated | Easy | `Array` |
 | [1760](./problems/id_1760) | Minimum Limit of Balls in a Bag | Medium | `Array`, `Binary Search` |
