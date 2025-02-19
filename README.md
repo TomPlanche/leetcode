@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-152-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-154-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -37,10 +37,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 152 problems
-    - **Easy**: 25 (16.4%) 🟢
-    - **Medium**: 102 (67.1%) 🟡
-    - **Hard**: 25 (16.4%) 🔴
+- **Total Solved**: 154 problems
+    - **Easy**: 25 (16.2%) 🟢
+    - **Medium**: 104 (67.5%) 🟡
+    - **Hard**: 25 (16.2%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -188,6 +188,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1400](./problems/id_1400) | Construct K Palindrome Strings | Medium | `Hash Table`, `String`, `Greedy`, `Counting` |
 | [1405](./problems/id_1405) | Longest Happy String | Medium | `String`, `Greedy`, `Heap (Priority Queue)` |
 | [1408](./problems/id_1408) | String Matching in an Array | Easy | `Array`, `String`, `String Matching` |
+| [1415](./problems/id_1415) | The k-th Lexicographical String of All Happy Strings of Length n | Medium | `String`, `Backtracking` |
 | [1422](./problems/id_1422) | Maximum Score After Splitting a String | Easy | `String`, `Prefix Sum` |
 | [1455](./problems/id_1455) | Check If a Word Occurs As a Prefix of Any Word in a Sentence | Easy | `Two Pointers`, `String`, `String Matching` |
 | [1462](./problems/id_1462) | Course Schedule IV | Medium | `Depth First Search`, `Breadth First Search`, `Graph`, `Topological Sort` |
@@ -238,6 +239,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2342](./problems/id_2342) | Max Sum of a Pair With Equal Sum of Digits | Medium | `Array`, `Hash Table`, `Sorting`, `Heap (priority Queue)` |
 | [2349](./problems/id_2349) | Design a Number Container System | Medium | `Hash Table`, `Design`, `Heap (priority Queue)`, `Ordered Set` |
 | [2364](./problems/id_2364) | Count Number of Bad Pairs | Medium | `Array`, `Hash Table`, `Math`, `Counting` |
+| [2375](./problems/id_2375) | Construct Smallest Number From DI String | Medium | `String`, `Backtracking`, `Stack`, `Greedy` |
 | [2381](./problems/id_2381) | Shifting Letters II | Medium | `Array`, `String`, `Prefix Sum` |
 | [2415](./problems/id_2415) | Reverse Odd Levels of Binary Tree | Medium | `Tree`, `Depth First Search`, `Breadth First Search`, `Binary Tree` |
 | [2416](./problems/id_2416) | Sum of Prefix Scores of Strings | Hard | `Array`, `String`, `Trie`, `Counting` |
