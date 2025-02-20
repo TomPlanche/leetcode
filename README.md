@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-154-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-155-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -37,10 +37,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 154 problems
-    - **Easy**: 25 (16.2%) 🟢
-    - **Medium**: 104 (67.5%) 🟡
-    - **Hard**: 25 (16.2%) 🔴
+- **Total Solved**: 155 problems
+    - **Easy**: 25 (16.1%) 🟢
+    - **Medium**: 105 (67.7%) 🟡
+    - **Hard**: 25 (16.1%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -219,6 +219,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1957](./problems/id_1957) | Delete Characters to Make Fancy String | Easy | `String` |
 | [1963](./problems/id_1963) | Minimum Number of Swaps to Make the String Balanced | Medium | `Two Pointers`, `String`, `Stack`, `Greedy` |
 | [1975](./problems/id_1975) | Maximum Matrix Sum | Medium | `Array`, `Greedy`, `Matrix` |
+| [1980](./problems/id_1980) | Find Unique Binary String | Medium | `Array`, `Hash Table`, `String`, `Backtracking` |
 | [2017](./problems/id_2017) | Grid Game | Medium | `Array`, `Matrix`, `Prefix Sum` |
 | [2044](./problems/id_2044) | Count Number of Maximum Bitwise-OR Subsets | Medium | `Array`, `Backtracking`, `Bit Manipulation`, `Enumeration` |
 | [2054](./problems/id_2054) | Two Best Non-Overlapping Events | Medium | `Array`, `Binary Search`, `Dynamic Programming`, `Sorting`, `Heap (priority Queue)` |
