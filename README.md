@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-155-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-158-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -37,10 +37,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 155 problems
-    - **Easy**: 25 (16.1%) 🟢
-    - **Medium**: 105 (67.7%) 🟡
-    - **Hard**: 25 (16.1%) 🔴
+- **Total Solved**: 158 problems
+    - **Easy**: 25 (15.8%) 🟢
+    - **Medium**: 107 (67.7%) 🟡
+    - **Hard**: 26 (16.5%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -169,16 +169,19 @@ Each solution includes this header format for easy navigation and reference (and
 | [802](./problems/id_802) | Find Eventual Safe States | Medium | `Depth First Search`, `Breadth First Search`, `Graph`, `Topological Sort` |
 | [827](./problems/id_827) | Making A Large Island | Hard | `Array`, `Depth First Search`, `Breadth First Search`, `Union Find`, `Matrix` |
 | [862](./problems/id_862) | Shortest Subarray with Sum at Least K | Hard | `Array`, `Binary Search`, `Queue`, `Sliding Window`, `Heap (Priority Queue)`, `Prefix Sum`, `Monotonic Queue` |
+| [889](./problems/id_889) | Construct Binary Tree from Preorder and Postorder Traversal | Medium | `Array`, `Hash Table`, `Divide And Conquer`, `Tree`, `Binary Tree` |
 | [916](./problems/id_916) | Word Subsets | Medium | `Array`, `Hash Table`, `String` |
 | [921](./problems/id_921) | Minimum Add to Make Parentheses Valid | Medium | `String`, `Stack`, `Greedy` |
 | [951](./problems/id_951) | Minimum Add to Make Parentheses Valid | Medium | `String`, `Stack`, `Greedy` |
 | [962](./problems/id_962) | Maximum Width Ramp | Medium | `Array`, `Stack`, `Monotonic Stack` |
 | [983](./problems/id_983) | Minimum Cost For Tickets | Medium | `Array`, `Dynamic Programming` |
 | [1014](./problems/id_1014) | Best Sightseeing Pair | Medium | `Array`, `Dynamic Programming` |
+| [1028](./problems/id_1028) | Recover a Tree From Preorder Traversal | Hard | `String`, `Tree`, `Depth First Search`, `Binary Tree` |
 | [1072](./problems/id_1072) | Flip Columns For Maximum Number of Equal Rows | Medium | `Array`, `Hash Table`, `Matrix` |
 | [1079](./problems/id_1079) | Letter Tile Possibilities | Medium | `Hash Table`, `String`, `Backtracking`, `Counting` |
 | [1106](./problems/id_1106) | Parsing A Boolean Expression | Hard | `String`, `Stack`, `Recursion` |
 | [1233](./problems/id_1233) | Remove Sub-Folders from the Filesystem | Medium | `Array`, `String`, `Depth-First Search`, `Trie` |
+| [1261](./problems/id_1261) | Find Elements in a Contaminated Binary Tree | Medium | `Hash Table`, `Tree`, `Depth First Search`, `Breadth First Search`, `Design`, `Binary Tree` |
 | [1267](./problems/id_1267) | Count Servers that Communicate | Medium | `Array`, `Depth First Search`, `Breadth First Search`, `Union Find`, `Matrix`, `Counting` |
 | [1277](./problems/id_1277) | Count Square Submatrices with All Ones | Medium | `Array`, `Dynamic Programming`, `Matrix` |
 | [1331](./problems/id_1331) | Rank Transform of an Array | Easy | `Array`, `Hash Table`, `Sorting` |
