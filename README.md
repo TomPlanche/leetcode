@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-158-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-159-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -37,10 +37,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 158 problems
-    - **Easy**: 25 (15.8%) 🟢
-    - **Medium**: 107 (67.7%) 🟡
-    - **Hard**: 26 (16.5%) 🔴
+- **Total Solved**: 159 problems
+    - **Easy**: 25 (15.7%) 🟢
+    - **Medium**: 108 (67.9%) 🟡
+    - **Hard**: 26 (16.4%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -254,6 +254,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2461](./problems/id_2461) | Maximum Sum of Distinct Subarrays With Length K | Medium | `Array`, `Hash Table`, `Sliding Window` |
 | [2463](./problems/id_2463) | Minimum Total Distance Traveled | Hard | `Array`, `Dynamic Programming`, `Sorting` |
 | [2466](./problems/id_2466) | Count Ways To Build Good Strings | Medium | `Dynamic Programming` |
+| [2467](./problems/id_2467) | Most Profitable Path in a Tree | Medium | `Array`, `Tree`, `Depth First Search`, `Breadth First Search`, `Graph` |
 | [2471](./problems/id_2471) | Minimum Number of Operations to Sort a Binary Tree by Level | Medium | `Tree`, `Breadth First Search`, `Binary Tree` |
 | [2490](./problems/id_2490) | Circular Sentence | Easy | `String` |
 | [2493](./problems/id_2493) | Divide Nodes Into the Maximum Number of Groups | Hard | `Breadth First Search`, `Union Find`, `Graph` |
