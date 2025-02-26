@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-159-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-161-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -37,10 +37,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 159 problems
-    - **Easy**: 25 (15.7%) 🟢
-    - **Medium**: 108 (67.9%) 🟡
-    - **Hard**: 26 (16.4%) 🔴
+- **Total Solved**: 161 problems
+    - **Easy**: 25 (15.5%) 🟢
+    - **Medium**: 110 (68.3%) 🟡
+    - **Hard**: 26 (16.1%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -197,6 +197,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1462](./problems/id_1462) | Course Schedule IV | Medium | `Depth First Search`, `Breadth First Search`, `Graph`, `Topological Sort` |
 | [1475](./problems/id_1475) | Final Prices With a Special Discount in a Shop | Easy | `Array`, `Stack`, `Monotonic Stack` |
 | [1497](./problems/id_1497) | Check If Array Pairs Are Divisible by k | Medium | `Array`, `Hash Table`, `Counting` |
+| [1524](./problems/id_1524) | Number of Sub-arrays With Odd Sum | Medium | `Array`, `Math`, `Dynamic Programming`, `Prefix Sum` |
 | [1545](./problems/id_1545) | Find Kth Bit in Nth Binary String | Medium | `String`, `Recursion`, `Simulation` |
 | [1574](./problems/id_1574) | Shortest Subarray to be Removed to Make Array Sorted | Medium | `Array`, `Two Pointers`, `Binary Search`, `Stack`, `Monotonic Stack` |
 | [1590](./problems/id_1590) | Make Sum Divisible by P | Medium | `Array`, `Hash Table`, `Prefix Sum` |
@@ -206,6 +207,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1671](./problems/id_1671) | Minimum Number of Removals to Make Mountain Array | Hard | `Array`, `Binary Search`, `Dynamic Programming`, `Greedy` |
 | [1718](./problems/id_1718) | Construct the Lexicographically Largest Valid Sequence | Medium | `Array`, `Backtracking` |
 | [1726](./problems/id_1726) | Tuple with Same Product | Medium | `Array`, `Hash Table`, `Counting` |
+| [1749](./problems/id_1749) | Maximum Absolute Sum of Any Subarray | Medium | `Array`, `Dynamic Programming` |
 | [1752](./problems/id_1752) | Check if Array Is Sorted and Rotated | Easy | `Array` |
 | [1760](./problems/id_1760) | Minimum Limit of Balls in a Bag | Medium | `Array`, `Binary Search` |
 | [1765](./problems/id_1765) | Map of Highest Peak | Medium | `Array`, `Breadth First Search`, `Matrix` |
