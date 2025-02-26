@@ -158,18 +158,28 @@ fn generate_readme(problems: &[ProblemInfo], stats: &Stats) -> String {
     />
     <br />
     <img
-        src=\"https://assets.leetcode.com/static_assets/marketing/2024-50-lg.png\"
-        alt=\"Leetcode 50 days badge\"
+        src=\"https://assets.leetcode.com/static_assets/marketing/2024-50.gif\"
+        alt=\"Leetcode 50 days badge 2024\"
+        width=\"10%\"
+    />
+    <img
+        src=\"https://assets.leetcode.com/static_assets/others/2550.gif\"
+        alt=\"Leetcode 50 days badge 2025\"
         width=\"10%\"
     />
     <img
         src=\"https://leetcode.com/static/images/badges/2024/gif/2024-11.gif\"
-        alt=\"Leetcode November badge\"
+        alt=\"Leetcode November 2024 badge\"
         width=\"10%\"
     />
     <img
         src=\"https://leetcode.com/static/images/badges/2024/gif/2024-12.gif\"
-        alt=\"Leetcode November badge\"
+        alt=\"Leetcode December 2024 badge\"
+        width=\"10%\"
+    />
+    <img
+        src=\"https://assets.leetcode.com/static_assets/marketing/202501.gif\"
+        alt=\"Leetcode January 2025 badge\"
         width=\"10%\"
     />
 </div>
