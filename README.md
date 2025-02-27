@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-161-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-162-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -47,10 +47,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 161 problems
-    - **Easy**: 25 (15.5%) 🟢
-    - **Medium**: 110 (68.3%) 🟡
-    - **Hard**: 26 (16.1%) 🔴
+- **Total Solved**: 162 problems
+    - **Easy**: 25 (15.4%) 🟢
+    - **Medium**: 111 (68.5%) 🟡
+    - **Hard**: 26 (16.0%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -179,6 +179,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [802](./problems/id_802) | Find Eventual Safe States | Medium | `Depth First Search`, `Breadth First Search`, `Graph`, `Topological Sort` |
 | [827](./problems/id_827) | Making A Large Island | Hard | `Array`, `Depth First Search`, `Breadth First Search`, `Union Find`, `Matrix` |
 | [862](./problems/id_862) | Shortest Subarray with Sum at Least K | Hard | `Array`, `Binary Search`, `Queue`, `Sliding Window`, `Heap (Priority Queue)`, `Prefix Sum`, `Monotonic Queue` |
+| [873](./problems/id_873) | Length of Longest Fibonacci Subsequence | Medium | `Array`, `Hash Table`, `Dynamic Programming` |
 | [889](./problems/id_889) | Construct Binary Tree from Preorder and Postorder Traversal | Medium | `Array`, `Hash Table`, `Divide And Conquer`, `Tree`, `Binary Tree` |
 | [916](./problems/id_916) | Word Subsets | Medium | `Array`, `Hash Table`, `String` |
 | [921](./problems/id_921) | Minimum Add to Make Parentheses Valid | Medium | `String`, `Stack`, `Greedy` |
