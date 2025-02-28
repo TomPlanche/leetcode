@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-162-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-163-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -47,10 +47,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 162 problems
-    - **Easy**: 25 (15.4%) 🟢
-    - **Medium**: 111 (68.5%) 🟡
-    - **Hard**: 26 (16.0%) 🔴
+- **Total Solved**: 163 problems
+    - **Easy**: 25 (15.3%) 🟢
+    - **Medium**: 111 (68.1%) 🟡
+    - **Hard**: 27 (16.6%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -190,6 +190,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1028](./problems/id_1028) | Recover a Tree From Preorder Traversal | Hard | `String`, `Tree`, `Depth First Search`, `Binary Tree` |
 | [1072](./problems/id_1072) | Flip Columns For Maximum Number of Equal Rows | Medium | `Array`, `Hash Table`, `Matrix` |
 | [1079](./problems/id_1079) | Letter Tile Possibilities | Medium | `Hash Table`, `String`, `Backtracking`, `Counting` |
+| [1092](./problems/id_1092) | Shortest Common Supersequence | Hard | `String`, `Dynamic Programming` |
 | [1106](./problems/id_1106) | Parsing A Boolean Expression | Hard | `String`, `Stack`, `Recursion` |
 | [1233](./problems/id_1233) | Remove Sub-Folders from the Filesystem | Medium | `Array`, `String`, `Depth-First Search`, `Trie` |
 | [1261](./problems/id_1261) | Find Elements in a Contaminated Binary Tree | Medium | `Hash Table`, `Tree`, `Depth First Search`, `Breadth First Search`, `Design`, `Binary Tree` |
