@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-163-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-165-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -43,14 +43,19 @@
         alt="Leetcode January 2025 badge"
         width="10%"
     />
+    <img
+        src="https://assets.leetcode.com/static_assets/marketing/202502.gif"
+        alt="Leetcode February 2025 badge"
+        width="10%"
+    />
 </div>
 
 ## 📊 Progress
 
-- **Total Solved**: 163 problems
-    - **Easy**: 25 (15.3%) 🟢
-    - **Medium**: 111 (68.1%) 🟡
-    - **Hard**: 27 (16.6%) 🔴
+- **Total Solved**: 165 problems
+    - **Easy**: 26 (15.8%) 🟢
+    - **Medium**: 112 (67.9%) 🟡
+    - **Hard**: 27 (16.4%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -265,6 +270,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2425](./problems/id_2425) | Bitwise XOR of All Pairings | Medium | `Array`, `Bit Manipulation`, `Brainteaser` |
 | [2429](./problems/id_2429) | Minimize XOR | Medium | `Greedy`, `Bit Manipulation` |
 | [2458](./problems/id_2458) | Height of Binary Tree After Subtree Removal Queries | Hard | `Array`, `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` |
+| [2460](./problems/id_2460) | Apply Operations to an Array | Easy | `Array`, `Two Pointers`, `Simulation` |
 | [2461](./problems/id_2461) | Maximum Sum of Distinct Subarrays With Length K | Medium | `Array`, `Hash Table`, `Sliding Window` |
 | [2463](./problems/id_2463) | Minimum Total Distance Traveled | Hard | `Array`, `Dynamic Programming`, `Sorting` |
 | [2466](./problems/id_2466) | Count Ways To Build Good Strings | Medium | `Dynamic Programming` |
@@ -304,6 +310,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [3017](./problems/id_3017) | Count the Number of Houses at a Certain Distance II | Hard | `Graph`, `Prefix Sum` |
 | [3042](./problems/id_3042) | Count Prefix and Suffix Pairs I | Easy | `Array`, `String`, `Trie`, `Rolling Hash`, `String Matching`, `Hash Function` |
 | [3043](./problems/id_3043) | Find the Length of the Longest Common Prefix | Medium | `Array`, `Hash Table`, `String`, `Trie` |
+| [3066](./problems/id_3066) | Minimum Operations to Exceed Threshold Value II | Medium | `Array`, `Heap (priority Queue)`, `Simulation` |
 | [3090](./problems/id_3090) | Shortest Subarray With OR at Least K II | Medium | `Array`, `Bit Manipulation`, `Sliding Window` |
 | [3105](./problems/id_3105) | Longest Strictly Increasing or Strictly Decreasing Subarray | Easy | `Array` |
 | [3133](./problems/id_3133) | Minimum Array End | Medium | `Bit Manipulation` |
