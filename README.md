@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-165-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-166-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -52,10 +52,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 165 problems
-    - **Easy**: 26 (15.8%) 🟢
-    - **Medium**: 112 (67.9%) 🟡
-    - **Hard**: 27 (16.4%) 🔴
+- **Total Solved**: 166 problems
+    - **Easy**: 27 (16.3%) 🟢
+    - **Medium**: 112 (67.5%) 🟡
+    - **Hard**: 27 (16.3%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -284,6 +284,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2558](./problems/id_2558) | Take Gifts From the Richest Pile | Easy | `Array`, `Heap (priority Queue)`, `Simulation` |
 | [2559](./problems/id_2559) | Count Vowel Strings in Ranges | Medium | `Array`, `String`, `Prefix Sum` |
 | [2563](./problems/id_2563) | Count the Number of Fair Pairs | Medium | `Array`, `Two Pointers`, `Binary Search`, `Sorting` |
+| [2570](./problems/id_2570) | Merge Two 2D Arrays by Summing Values | Easy | `Array`, `Hash Table`, `Two Pointers` |
 | [2577](./problems/id_2577) | Minimum Time to Visit a Cell In a Grid | Hard | `Array`, `Breadth First Search`, `Graph`, `Heap (priority Queue)`, `Matrix`, `Shortest Path` |
 | [2583](./problems/id_2583) | Kth Largest Sum in a Binary Tree | Medium | `Tree`, `Breadth-First Search`, `Sorting`, `Binary Tree` |
 | [2593](./problems/id_2593) | Find Score of an Array After Marking All Elements | Medium | `Array`, `Hash Table`, `Sorting`, `Heap (priority Queue)`, `Simulation` |
