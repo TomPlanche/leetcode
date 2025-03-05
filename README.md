@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-166-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-169-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -52,10 +52,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 166 problems
-    - **Easy**: 27 (16.3%) 🟢
-    - **Medium**: 112 (67.5%) 🟡
-    - **Hard**: 27 (16.3%) 🔴
+- **Total Solved**: 169 problems
+    - **Easy**: 27 (16.0%) 🟢
+    - **Medium**: 115 (68.0%) 🟡
+    - **Hard**: 27 (16.0%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -229,6 +229,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1760](./problems/id_1760) | Minimum Limit of Balls in a Bag | Medium | `Array`, `Binary Search` |
 | [1765](./problems/id_1765) | Map of Highest Peak | Medium | `Array`, `Breadth First Search`, `Matrix` |
 | [1769](./problems/id_1769) | Minimum Number of Operations to Move All Balls to Each Box | Medium | `Array`, `String`, `Prefix Sum` |
+| [1780](./problems/id_1780) | Check if Number is a Sum of Powers of Three | Medium | `Math` |
 | [1790](./problems/id_1790) | Check if One String Swap Can Make Strings Equal | Easy | `Hash Table`, `String`, `Counting` |
 | [1792](./problems/id_1792) | Maximum Average Pass Ratio | Medium | `Array`, `Greedy`, `Heap (Priority Queue)` |
 | [1800](./problems/id_1800) | Maximum Ascending Subarray Sum | Easy | `Array` |
@@ -251,6 +252,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2109](./problems/id_2109) | Adding Spaces to a String | Medium | `Array`, `Two Pointers`, `String`, `Simulation` |
 | [2116](./problems/id_2116) | Check if a Parentheses String Can Be Valid | Medium | `String`, `Stack`, `Greedy` |
 | [2127](./problems/id_2127) | Maximum Employees to Be Invited to a Meeting | Hard | `Depth First Search`, `Graph`, `Topological Sort` |
+| [2161](./problems/id_2161) | Partition Array According to Given Pivot | Medium | `Array`, `Two Pointers`, `Simulation` |
 | [2182](./problems/id_2182) | Construct String With Repeat Limit | Medium | `Hash Table`, `String`, `Greedy`, `Heap (priority Queue)`, `Counting` |
 | [2185](./problems/id_2185) | Counting Words With a Given Prefix | Easy | `Array`, `String`, `String Matching` |
 | [2222](./problems/id_2222) | Number of Ways to Select Buildings | Medium | `String`, `Dynamic Programming`, `Prefix Sum` |
@@ -286,6 +288,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2563](./problems/id_2563) | Count the Number of Fair Pairs | Medium | `Array`, `Two Pointers`, `Binary Search`, `Sorting` |
 | [2570](./problems/id_2570) | Merge Two 2D Arrays by Summing Values | Easy | `Array`, `Hash Table`, `Two Pointers` |
 | [2577](./problems/id_2577) | Minimum Time to Visit a Cell In a Grid | Hard | `Array`, `Breadth First Search`, `Graph`, `Heap (priority Queue)`, `Matrix`, `Shortest Path` |
+| [2579](./problems/id_2579) | Count Total Number of Colored Cells | Medium | `Math` |
 | [2583](./problems/id_2583) | Kth Largest Sum in a Binary Tree | Medium | `Tree`, `Breadth-First Search`, `Sorting`, `Binary Tree` |
 | [2593](./problems/id_2593) | Find Score of an Array After Marking All Elements | Medium | `Array`, `Hash Table`, `Sorting`, `Heap (priority Queue)`, `Simulation` |
 | [2601](./problems/id_2601) | Prime Subtraction Operation | Medium | `Array`, `Math`, `Binary Search`, `Greedy`, `Number Theory` |
