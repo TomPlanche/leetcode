@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-169-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-170-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -52,10 +52,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 169 problems
-    - **Easy**: 27 (16.0%) 🟢
-    - **Medium**: 115 (68.0%) 🟡
-    - **Hard**: 27 (16.0%) 🔴
+- **Total Solved**: 170 problems
+    - **Easy**: 28 (16.5%) 🟢
+    - **Medium**: 115 (67.6%) 🟡
+    - **Hard**: 27 (15.9%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -309,6 +309,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2938](./problems/id_2938) | Separate Black and White Balls | Medium | `Two Pointers`, `String`, `Greedy` |
 | [2940](./problems/id_2940) | Find Building Where Alice and Bob Can Meet | Hard | `Array`, `Binary Search`, `Stack`, `Monotonic Stack` |
 | [2948](./problems/id_2948) | Make Lexicographically Smallest Array by Swapping Elements | Medium | `Array`, `Union Find`, `Sorting` |
+| [2965](./problems/id_2965) | Find Missing and Repeated Values | Easy | `Array`, `Hash Table`, `Math`, `Matrix` |
 | [2981](./problems/id_2981) | Find Longest Special Substring That Occurs Thrice I | Medium | `Hash Table`, `String`, `Binary Search`, `Sliding Window`, `Counting` |
 | [3011](./problems/id_3011) | Find if Array Can Be Sorted | Medium | `Array`, `Bit Manipulation`, `Sorting` |
 | [3017](./problems/id_3017) | Count the Number of Houses at a Certain Distance II | Hard | `Graph`, `Prefix Sum` |
