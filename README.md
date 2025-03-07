@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-170-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-171-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -52,10 +52,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 170 problems
-    - **Easy**: 28 (16.5%) 🟢
-    - **Medium**: 115 (67.6%) 🟡
-    - **Hard**: 27 (15.9%) 🔴
+- **Total Solved**: 171 problems
+    - **Easy**: 28 (16.4%) 🟢
+    - **Medium**: 116 (67.8%) 🟡
+    - **Hard**: 27 (15.8%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -282,6 +282,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2493](./problems/id_2493) | Divide Nodes Into the Maximum Number of Groups | Hard | `Breadth First Search`, `Union Find`, `Graph` |
 | [2501](./problems/id_2501) | Longest Square Streak in an Array | Medium | `Array`, `Hash Table`, `Binary Search`, `Dynamic Programming`, `Sorting` |
 | [2516](./problems/id_2516) | Take K of Each Character From Left and Right | Medium | `Hash Table`, `String`, `Sliding Window` |
+| [2523](./problems/id_2523) | Closest Prime Numbers in Range | Medium | `Math`, `Number Theory` |
 | [2554](./problems/id_2554) | Maximum Number of Integers to Choose From a Range I | Medium | `Array`, `Hash Table`, `Binary Search`, `Greedy`, `Sorting` |
 | [2558](./problems/id_2558) | Take Gifts From the Richest Pile | Easy | `Array`, `Heap (priority Queue)`, `Simulation` |
 | [2559](./problems/id_2559) | Count Vowel Strings in Ranges | Medium | `Array`, `String`, `Prefix Sum` |
