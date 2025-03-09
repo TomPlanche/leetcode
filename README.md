@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-171-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-173-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -52,10 +52,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 171 problems
-    - **Easy**: 28 (16.4%) 🟢
-    - **Medium**: 116 (67.8%) 🟡
-    - **Hard**: 27 (15.8%) 🔴
+- **Total Solved**: 173 problems
+    - **Easy**: 29 (16.8%) 🟢
+    - **Medium**: 117 (67.6%) 🟡
+    - **Hard**: 27 (15.6%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -265,6 +265,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2349](./problems/id_2349) | Design a Number Container System | Medium | `Hash Table`, `Design`, `Heap (priority Queue)`, `Ordered Set` |
 | [2364](./problems/id_2364) | Count Number of Bad Pairs | Medium | `Array`, `Hash Table`, `Math`, `Counting` |
 | [2375](./problems/id_2375) | Construct Smallest Number From DI String | Medium | `String`, `Backtracking`, `Stack`, `Greedy` |
+| [2379](./problems/id_2379) | Minimum Recolors to Get K Consecutive Black Blocks | Easy | `String`, `Sliding Window` |
 | [2381](./problems/id_2381) | Shifting Letters II | Medium | `Array`, `String`, `Prefix Sum` |
 | [2415](./problems/id_2415) | Reverse Odd Levels of Binary Tree | Medium | `Tree`, `Depth First Search`, `Breadth First Search`, `Binary Tree` |
 | [2416](./problems/id_2416) | Sum of Prefix Scores of Strings | Hard | `Array`, `String`, `Trie`, `Counting` |
@@ -326,6 +327,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [3163](./problems/id_3163) | String Compression III | Medium | `String` |
 | [3174](./problems/id_3174) | Clear Digits | Easy | `String`, `Stack`, `Simulation` |
 | [3203](./problems/id_3203) | Find Minimum Diameter After Merging Two Trees | Hard | `Tree`, `Depth First Search`, `Breadth First Search`, `Graph` |
+| [3208](./problems/id_3208) | Alternating Groups II | Medium | `Array`, `Sliding Window` |
 | [3223](./problems/id_3223) | Minimum Length of String After Operations | Medium | `Hash Table`, `String`, `Counting` |
 | [3243](./problems/id_3243) | Shortest Distance After Road Addition Queries I | Medium | `Array`, `Breadth First Search`, `Graph` |
 | [3254](./problems/id_3254) | Find the Power of K-Size Subarrays I | Medium | `Array`, `Sliding Window` |
