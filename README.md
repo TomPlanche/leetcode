@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-173-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-175-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -52,10 +52,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 173 problems
-    - **Easy**: 29 (16.8%) 🟢
-    - **Medium**: 117 (67.6%) 🟡
-    - **Hard**: 27 (15.6%) 🔴
+- **Total Solved**: 175 problems
+    - **Easy**: 29 (16.6%) 🟢
+    - **Medium**: 119 (68.0%) 🟡
+    - **Hard**: 27 (15.4%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -204,6 +204,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1331](./problems/id_1331) | Rank Transform of an Array | Easy | `Array`, `Hash Table`, `Sorting` |
 | [1346](./problems/id_1346) | Check If N and Its Double Exist | Easy | `Array`, `Hash Table`, `Two Pointers`, `Binary Search`, `Sorting` |
 | [1352](./problems/id_1352) | Product of the Last K Numbers | Medium | `Array`, `Math`, `Design`, `Data Stream`, `Prefix Sum` |
+| [1358](./problems/id_1358) | Number of Substrings Containing All Three Characters | Medium | `Hash Table`, `String`, `Sliding Window` |
 | [1368](./problems/id_1368) | Minimum Cost to Make at Least One Valid Path in a Grid | Hard | `Array`, `Breadth First Search`, `Graph`, `Heap (priority Queue)`, `Matrix`, `Shortest Path` |
 | [1400](./problems/id_1400) | Construct K Palindrome Strings | Medium | `Hash Table`, `String`, `Greedy`, `Counting` |
 | [1405](./problems/id_1405) | Longest Happy String | Medium | `String`, `Greedy`, `Heap (Priority Queue)` |
@@ -332,6 +333,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [3243](./problems/id_3243) | Shortest Distance After Road Addition Queries I | Medium | `Array`, `Breadth First Search`, `Graph` |
 | [3254](./problems/id_3254) | Find the Power of K-Size Subarrays I | Medium | `Array`, `Sliding Window` |
 | [3264](./problems/id_3264) | Final Array State After K Multiplication Operations I | Easy | `Array`, `Math`, `Heap (priority Queue)`, `Simulation` |
+| [3306](./problems/id_3306) | Count of Substrings Containing Every Vowel and K Consonants II | Medium | `Hash Table`, `String`, `Sliding Window` |
 
 ## 🚀 Getting Started
 
