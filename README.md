@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-176-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-179-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -52,10 +52,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 176 problems
-    - **Easy**: 30 (17.0%) 🟢
-    - **Medium**: 119 (67.6%) 🟡
-    - **Hard**: 27 (15.3%) 🔴
+- **Total Solved**: 179 problems
+    - **Easy**: 30 (16.8%) 🟢
+    - **Medium**: 122 (68.2%) 🟡
+    - **Hard**: 27 (15.1%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -257,6 +257,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2182](./problems/id_2182) | Construct String With Repeat Limit | Medium | `Hash Table`, `String`, `Greedy`, `Heap (priority Queue)`, `Counting` |
 | [2185](./problems/id_2185) | Counting Words With a Given Prefix | Easy | `Array`, `String`, `String Matching` |
 | [2222](./problems/id_2222) | Number of Ways to Select Buildings | Medium | `String`, `Dynamic Programming`, `Prefix Sum` |
+| [2226](./problems/id_2226) | Maximum Candies Allocated to K Children | Medium | `Array`, `Binary Search` |
 | [2257](./problems/id_2257) | Count Unguarded Cells in the Grid | Medium | `Array`, `Matrix`, `Simulation` |
 | [2270](./problems/id_2270) | Number of Ways to Split Array | Medium | `Array`, `Prefix Sum` |
 | [2275](./problems/id_2275) | Largest Combination With Bitwise AND Greater Than Zero | Medium | `Array`, `Hash Table`, `Bit Manipulation`, `Counting` |
@@ -289,6 +290,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2554](./problems/id_2554) | Maximum Number of Integers to Choose From a Range I | Medium | `Array`, `Hash Table`, `Binary Search`, `Greedy`, `Sorting` |
 | [2558](./problems/id_2558) | Take Gifts From the Richest Pile | Easy | `Array`, `Heap (priority Queue)`, `Simulation` |
 | [2559](./problems/id_2559) | Count Vowel Strings in Ranges | Medium | `Array`, `String`, `Prefix Sum` |
+| [2560](./problems/id_2560) | House Robber IV | Medium | `Array`, `Binary Search` |
 | [2563](./problems/id_2563) | Count the Number of Fair Pairs | Medium | `Array`, `Two Pointers`, `Binary Search`, `Sorting` |
 | [2570](./problems/id_2570) | Merge Two 2D Arrays by Summing Values | Easy | `Array`, `Hash Table`, `Two Pointers` |
 | [2577](./problems/id_2577) | Minimum Time to Visit a Cell In a Grid | Hard | `Array`, `Breadth First Search`, `Graph`, `Heap (priority Queue)`, `Matrix`, `Shortest Path` |
@@ -335,6 +337,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [3254](./problems/id_3254) | Find the Power of K-Size Subarrays I | Medium | `Array`, `Sliding Window` |
 | [3264](./problems/id_3264) | Final Array State After K Multiplication Operations I | Easy | `Array`, `Math`, `Heap (priority Queue)`, `Simulation` |
 | [3306](./problems/id_3306) | Count of Substrings Containing Every Vowel and K Consonants II | Medium | `Hash Table`, `String`, `Sliding Window` |
+| [3356](./problems/id_3356) | Zero Array Transformation II | Medium | `Array`, `Binary Search`, `Prefix Sum` |
 
 ## 🚀 Getting Started
 
