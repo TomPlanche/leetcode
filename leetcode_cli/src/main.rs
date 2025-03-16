@@ -88,10 +88,10 @@ fn create_docstring(
     });
 
     format!(
-        "///
-/// # {title_str} {difficulty_str}{tags_str}
-/// LeetCode Problem {problem_id}
-///",
+        "//!
+//! # {title_str} {difficulty_str}{tags_str}
+//! LeetCode Problem {problem_id}
+//!",
     )
 }
 
@@ -377,10 +377,10 @@ mod tests {
 
         assert_eq!(
             docstring,
-            r#"///
-/// # Two Sum (Easy) [Array, Hash Table]
-/// LeetCode Problem 1
-///"#
+            r#"//!
+//! # Two Sum (Easy) [Array, Hash Table]
+//! LeetCode Problem 1
+//!"#
         );
     }
 }

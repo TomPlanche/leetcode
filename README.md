@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-179-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-180-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -52,10 +52,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 179 problems
-    - **Easy**: 30 (16.8%) 🟢
-    - **Medium**: 122 (68.2%) 🟡
-    - **Hard**: 27 (15.1%) 🔴
+- **Total Solved**: 180 problems
+    - **Easy**: 30 (16.7%) 🟢
+    - **Medium**: 123 (68.3%) 🟡
+    - **Hard**: 27 (15.0%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -297,6 +297,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2579](./problems/id_2579) | Count Total Number of Colored Cells | Medium | `Math` |
 | [2583](./problems/id_2583) | Kth Largest Sum in a Binary Tree | Medium | `Tree`, `Breadth-First Search`, `Sorting`, `Binary Tree` |
 | [2593](./problems/id_2593) | Find Score of an Array After Marking All Elements | Medium | `Array`, `Hash Table`, `Sorting`, `Heap (priority Queue)`, `Simulation` |
+| [2594](./problems/id_2594) | Minimum Time to Repair Cars | Medium | `Array`, `Binary Search` |
 | [2601](./problems/id_2601) | Prime Subtraction Operation | Medium | `Array`, `Math`, `Binary Search`, `Greedy`, `Number Theory` |
 | [2641](./problems/id_2641) | Cousins in Binary Tree II | Medium | `Hash Table`, `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` |
 | [2657](./problems/id_2657) | Find the Prefix Common Array of Two Arrays | Medium | `Array`, `Hash Table`, `Bit Manipulation` |
