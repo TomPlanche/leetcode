@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-180-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-181-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -52,10 +52,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 180 problems
-    - **Easy**: 30 (16.7%) 🟢
-    - **Medium**: 123 (68.3%) 🟡
-    - **Hard**: 27 (15.0%) 🔴
+- **Total Solved**: 181 problems
+    - **Easy**: 31 (17.1%) 🟢
+    - **Medium**: 123 (68.0%) 🟡
+    - **Hard**: 27 (14.9%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -256,6 +256,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2161](./problems/id_2161) | Partition Array According to Given Pivot | Medium | `Array`, `Two Pointers`, `Simulation` |
 | [2182](./problems/id_2182) | Construct String With Repeat Limit | Medium | `Hash Table`, `String`, `Greedy`, `Heap (priority Queue)`, `Counting` |
 | [2185](./problems/id_2185) | Counting Words With a Given Prefix | Easy | `Array`, `String`, `String Matching` |
+| [2206](./problems/id_2206) | Divide Array Into Equal Pairs | Easy | `Array`, `Hash Table`, `Bit Manipulation`, `Counting` |
 | [2222](./problems/id_2222) | Number of Ways to Select Buildings | Medium | `String`, `Dynamic Programming`, `Prefix Sum` |
 | [2226](./problems/id_2226) | Maximum Candies Allocated to K Children | Medium | `Array`, `Binary Search` |
 | [2257](./problems/id_2257) | Count Unguarded Cells in the Grid | Medium | `Array`, `Matrix`, `Simulation` |
