@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-181-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-182-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -52,10 +52,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 181 problems
-    - **Easy**: 31 (17.1%) 🟢
-    - **Medium**: 123 (68.0%) 🟡
-    - **Hard**: 27 (14.9%) 🔴
+- **Total Solved**: 182 problems
+    - **Easy**: 31 (17.0%) 🟢
+    - **Medium**: 124 (68.1%) 🟡
+    - **Hard**: 27 (14.8%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -270,6 +270,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2375](./problems/id_2375) | Construct Smallest Number From DI String | Medium | `String`, `Backtracking`, `Stack`, `Greedy` |
 | [2379](./problems/id_2379) | Minimum Recolors to Get K Consecutive Black Blocks | Easy | `String`, `Sliding Window` |
 | [2381](./problems/id_2381) | Shifting Letters II | Medium | `Array`, `String`, `Prefix Sum` |
+| [2401](./problems/id_2401) | Longest Nice Subarray | Medium | `Array`, `Bit Manipulation`, `Sliding Window` |
 | [2415](./problems/id_2415) | Reverse Odd Levels of Binary Tree | Medium | `Tree`, `Depth First Search`, `Breadth First Search`, `Binary Tree` |
 | [2416](./problems/id_2416) | Sum of Prefix Scores of Strings | Hard | `Array`, `String`, `Trie`, `Counting` |
 | [2423](./problems/id_2423) | Remove Letter To Equalize Frequency | Easy | `Hash Table`, `String`, `Counting` |
