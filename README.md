@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-182-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-183-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -52,9 +52,9 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 182 problems
-    - **Easy**: 31 (17.0%) 🟢
-    - **Medium**: 124 (68.1%) 🟡
+- **Total Solved**: 183 problems
+    - **Easy**: 31 (16.9%) 🟢
+    - **Medium**: 125 (68.3%) 🟡
     - **Hard**: 27 (14.8%) 🔴
 
 ## 🌟 Featured Solutions
@@ -333,6 +333,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [3160](./problems/id_3160) | Find the Number of Distinct Colors Among the Balls | Medium | `Array`, `Hash Table`, `Simulation` |
 | [3163](./problems/id_3163) | String Compression III | Medium | `String` |
 | [3174](./problems/id_3174) | Clear Digits | Easy | `String`, `Stack`, `Simulation` |
+| [3191](./problems/id_3191) | Minimum Operations to Make Binary Array Elements Equal to One I | Medium | `Array`, `Bit Manipulation`, `Queue`, `Sliding Window`, `Prefix Sum` |
 | [3203](./problems/id_3203) | Find Minimum Diameter After Merging Two Trees | Hard | `Tree`, `Depth First Search`, `Breadth First Search`, `Graph` |
 | [3208](./problems/id_3208) | Alternating Groups II | Medium | `Array`, `Sliding Window` |
 | [3223](./problems/id_3223) | Minimum Length of String After Operations | Medium | `Hash Table`, `String`, `Counting` |
