@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-183-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-185-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -52,10 +52,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 183 problems
-    - **Easy**: 31 (16.9%) 🟢
-    - **Medium**: 125 (68.3%) 🟡
-    - **Hard**: 27 (14.8%) 🔴
+- **Total Solved**: 185 problems
+    - **Easy**: 31 (16.8%) 🟢
+    - **Medium**: 126 (68.1%) 🟡
+    - **Hard**: 28 (15.1%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -251,6 +251,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2070](./problems/id_2070) | Most Beautiful Item for Each Query | Medium | `Array`, `Binary Search`, `Sorting` |
 | [2097](./problems/id_2097) | Valid Arrangement of Pairs | Hard | `Depth First Search`, `Graph`, `Eulerian Circuit` |
 | [2109](./problems/id_2109) | Adding Spaces to a String | Medium | `Array`, `Two Pointers`, `String`, `Simulation` |
+| [2115](./problems/id_2115) | Find All Possible Recipes from Given Supplies | Medium | `Array`, `Hash Table`, `String`, `Graph`, `Topological Sort` |
 | [2116](./problems/id_2116) | Check if a Parentheses String Can Be Valid | Medium | `String`, `Stack`, `Greedy` |
 | [2127](./problems/id_2127) | Maximum Employees to Be Invited to a Meeting | Hard | `Depth First Search`, `Graph`, `Topological Sort` |
 | [2161](./problems/id_2161) | Partition Array According to Given Pivot | Medium | `Array`, `Two Pointers`, `Simulation` |
@@ -327,6 +328,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [3066](./problems/id_3066) | Minimum Operations to Exceed Threshold Value II | Medium | `Array`, `Heap (priority Queue)`, `Simulation` |
 | [3090](./problems/id_3090) | Shortest Subarray With OR at Least K II | Medium | `Array`, `Bit Manipulation`, `Sliding Window` |
 | [3105](./problems/id_3105) | Longest Strictly Increasing or Strictly Decreasing Subarray | Easy | `Array` |
+| [3108](./problems/id_3108) | Minimum Cost Walk in Weighted Graph | Hard | `Array`, `Bit Manipulation`, `Union Find`, `Graph` |
 | [3133](./problems/id_3133) | Minimum Array End | Medium | `Bit Manipulation` |
 | [3151](./problems/id_3151) | Special Array I | Easy | `Array` |
 | [3152](./problems/id_3152) | Special Array II | Medium | `Array`, `Binary Search`, `Prefix Sum` |
