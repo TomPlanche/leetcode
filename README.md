@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-185-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-186-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -52,9 +52,9 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 185 problems
-    - **Easy**: 31 (16.8%) 🟢
-    - **Medium**: 126 (68.1%) 🟡
+- **Total Solved**: 186 problems
+    - **Easy**: 31 (16.7%) 🟢
+    - **Medium**: 127 (68.3%) 🟡
     - **Hard**: 28 (15.1%) 🔴
 
 ## 🌟 Featured Solutions
@@ -308,6 +308,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2661](./problems/id_2661) | First Completely Painted Row or Column | Medium | `Array`, `Hash Table`, `Matrix` |
 | [2683](./problems/id_2683) | Neighboring Bitwise XOR | Medium | `Array`, `Bit Manipulation` |
 | [2684](./problems/id_2684) | Maximum Number of Moves in a Grid | Medium | `Array`, `Dynamic Programming`, `Matrix` |
+| [2685](./problems/id_2685) | Count the Number of Complete Components | Medium | `Depth First Search`, `Breadth First Search`, `Union Find`, `Graph` |
 | [2696](./problems/id_2696) | Minimum String Length After Removing Substrings | Easy | `String`, `Stack`, `Simulation` |
 | [2698](./problems/id_2698) | Find the Punishment Number of an Integer | Medium | `Math`, `Backtracking` |
 | [2762](./problems/id_2762) | Continuous Subarrays | Medium | `Array`, `Queue`, `Sliding Window`, `Heap (priority Queue)`, `Ordered Set`, `Monotonic Queue` |
