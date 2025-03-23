@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-186-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-187-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -52,10 +52,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 186 problems
-    - **Easy**: 31 (16.7%) 🟢
-    - **Medium**: 127 (68.3%) 🟡
-    - **Hard**: 28 (15.1%) 🔴
+- **Total Solved**: 187 problems
+    - **Easy**: 31 (16.6%) 🟢
+    - **Medium**: 128 (68.4%) 🟡
+    - **Hard**: 28 (15.0%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -243,6 +243,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1957](./problems/id_1957) | Delete Characters to Make Fancy String | Easy | `String` |
 | [1963](./problems/id_1963) | Minimum Number of Swaps to Make the String Balanced | Medium | `Two Pointers`, `String`, `Stack`, `Greedy` |
 | [1975](./problems/id_1975) | Maximum Matrix Sum | Medium | `Array`, `Greedy`, `Matrix` |
+| [1976](./problems/id_1976) | Number of Ways to Arrive at Destination | Medium | `Dynamic Programming`, `Graph`, `Topological Sort`, `Shortest Path` |
 | [1980](./problems/id_1980) | Find Unique Binary String | Medium | `Array`, `Hash Table`, `String`, `Backtracking` |
 | [2017](./problems/id_2017) | Grid Game | Medium | `Array`, `Matrix`, `Prefix Sum` |
 | [2044](./problems/id_2044) | Count Number of Maximum Bitwise-OR Subsets | Medium | `Array`, `Backtracking`, `Bit Manipulation`, `Enumeration` |
