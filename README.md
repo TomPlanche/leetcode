@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-187-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-188-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -52,10 +52,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 187 problems
-    - **Easy**: 31 (16.6%) 🟢
-    - **Medium**: 128 (68.4%) 🟡
-    - **Hard**: 28 (15.0%) 🔴
+- **Total Solved**: 188 problems
+    - **Easy**: 31 (16.5%) 🟢
+    - **Medium**: 129 (68.6%) 🟡
+    - **Hard**: 28 (14.9%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -336,6 +336,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [3152](./problems/id_3152) | Special Array II | Medium | `Array`, `Binary Search`, `Prefix Sum` |
 | [3160](./problems/id_3160) | Find the Number of Distinct Colors Among the Balls | Medium | `Array`, `Hash Table`, `Simulation` |
 | [3163](./problems/id_3163) | String Compression III | Medium | `String` |
+| [3169](./problems/id_3169) | Count Days Without Meetings | Medium | `Array`, `Sorting` |
 | [3174](./problems/id_3174) | Clear Digits | Easy | `String`, `Stack`, `Simulation` |
 | [3191](./problems/id_3191) | Minimum Operations to Make Binary Array Elements Equal to One I | Medium | `Array`, `Bit Manipulation`, `Queue`, `Sliding Window`, `Prefix Sum` |
 | [3203](./problems/id_3203) | Find Minimum Diameter After Merging Two Trees | Hard | `Tree`, `Depth First Search`, `Breadth First Search`, `Graph` |
