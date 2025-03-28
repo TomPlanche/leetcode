@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-188-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-192-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -52,10 +52,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 188 problems
-    - **Easy**: 31 (16.5%) 🟢
-    - **Medium**: 129 (68.6%) 🟡
-    - **Hard**: 28 (14.9%) 🔴
+- **Total Solved**: 192 problems
+    - **Easy**: 31 (16.1%) 🟢
+    - **Medium**: 132 (68.8%) 🟡
+    - **Hard**: 29 (15.1%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -246,6 +246,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1976](./problems/id_1976) | Number of Ways to Arrive at Destination | Medium | `Dynamic Programming`, `Graph`, `Topological Sort`, `Shortest Path` |
 | [1980](./problems/id_1980) | Find Unique Binary String | Medium | `Array`, `Hash Table`, `String`, `Backtracking` |
 | [2017](./problems/id_2017) | Grid Game | Medium | `Array`, `Matrix`, `Prefix Sum` |
+| [2033](./problems/id_2033) | Minimum Operations to Make a Uni-Value Grid | Medium | `Array`, `Math`, `Sorting`, `Matrix` |
 | [2044](./problems/id_2044) | Count Number of Maximum Bitwise-OR Subsets | Medium | `Array`, `Backtracking`, `Bit Manipulation`, `Enumeration` |
 | [2054](./problems/id_2054) | Two Best Non-Overlapping Events | Medium | `Array`, `Binary Search`, `Dynamic Programming`, `Sorting`, `Heap (priority Queue)` |
 | [2064](./problems/id_2064) | Minimized Maximum of Products Distributed to Any Store | Medium | `Array`, `Binary Search` |
@@ -288,6 +289,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2490](./problems/id_2490) | Circular Sentence | Easy | `String` |
 | [2493](./problems/id_2493) | Divide Nodes Into the Maximum Number of Groups | Hard | `Breadth First Search`, `Union Find`, `Graph` |
 | [2501](./problems/id_2501) | Longest Square Streak in an Array | Medium | `Array`, `Hash Table`, `Binary Search`, `Dynamic Programming`, `Sorting` |
+| [2503](./problems/id_2503) | Maximum Number of Points From Grid Queries | Hard | `Array`, `Two Pointers`, `Breadth First Search`, `Union Find`, `Sorting`, `Heap (priority Queue)`, `Matrix` |
 | [2516](./problems/id_2516) | Take K of Each Character From Left and Right | Medium | `Hash Table`, `String`, `Sliding Window` |
 | [2523](./problems/id_2523) | Closest Prime Numbers in Range | Medium | `Math`, `Number Theory` |
 | [2529](./problems/id_2529) | Maximum Count of Positive Integer and Negative Integer | Easy | `Array`, `Binary Search`, `Counting` |
@@ -314,6 +316,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2698](./problems/id_2698) | Find the Punishment Number of an Integer | Medium | `Math`, `Backtracking` |
 | [2762](./problems/id_2762) | Continuous Subarrays | Medium | `Array`, `Queue`, `Sliding Window`, `Heap (priority Queue)`, `Ordered Set`, `Monotonic Queue` |
 | [2779](./problems/id_2779) | Maximum Beauty of an Array After Applying Operation | Medium | `Array`, `Binary Search`, `Sliding Window`, `Sorting` |
+| [2780](./problems/id_2780) | Minimum Index of a Valid Split | Medium | `Array`, `Hash Table`, `Sorting` |
 | [2825](./problems/id_2825) | Make String a Subsequence Using Cyclic Increments | Medium | `Two Pointers`, `String` |
 | [2872](./problems/id_2872) | Maximum Number of K-Divisible Components | Hard | `Tree`, `Depth First Search` |
 | [2914](./problems/id_2914) | Minimum Changes to Make Binary String Beautiful | Medium | `String` |
@@ -347,6 +350,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [3264](./problems/id_3264) | Final Array State After K Multiplication Operations I | Easy | `Array`, `Math`, `Heap (priority Queue)`, `Simulation` |
 | [3306](./problems/id_3306) | Count of Substrings Containing Every Vowel and K Consonants II | Medium | `Hash Table`, `String`, `Sliding Window` |
 | [3356](./problems/id_3356) | Zero Array Transformation II | Medium | `Array`, `Binary Search`, `Prefix Sum` |
+| [3394](./problems/id_3394) | Check if Grid can be Cut into Sections | Medium | `Array`, `Sorting` |
 
 ## 🚀 Getting Started
 
