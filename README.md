@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-192-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-193-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -52,10 +52,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 192 problems
+- **Total Solved**: 193 problems
     - **Easy**: 31 (16.1%) 🟢
-    - **Medium**: 132 (68.8%) 🟡
-    - **Hard**: 29 (15.1%) 🔴
+    - **Medium**: 132 (68.4%) 🟡
+    - **Hard**: 30 (15.5%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -317,6 +317,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2762](./problems/id_2762) | Continuous Subarrays | Medium | `Array`, `Queue`, `Sliding Window`, `Heap (priority Queue)`, `Ordered Set`, `Monotonic Queue` |
 | [2779](./problems/id_2779) | Maximum Beauty of an Array After Applying Operation | Medium | `Array`, `Binary Search`, `Sliding Window`, `Sorting` |
 | [2780](./problems/id_2780) | Minimum Index of a Valid Split | Medium | `Array`, `Hash Table`, `Sorting` |
+| [2818](./problems/id_2818) | Apply Operations to Maximize Score | Hard | `Array`, `Math`, `Stack`, `Greedy`, `Sorting`, `Monotonic Stack`, `Number Theory` |
 | [2825](./problems/id_2825) | Make String a Subsequence Using Cyclic Increments | Medium | `Two Pointers`, `String` |
 | [2872](./problems/id_2872) | Maximum Number of K-Divisible Components | Hard | `Tree`, `Depth First Search` |
 | [2914](./problems/id_2914) | Minimum Changes to Make Binary String Beautiful | Medium | `String` |
