@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-193-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-195-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -52,10 +52,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 193 problems
-    - **Easy**: 31 (16.1%) 🟢
-    - **Medium**: 132 (68.4%) 🟡
-    - **Hard**: 30 (15.5%) 🔴
+- **Total Solved**: 195 problems
+    - **Easy**: 31 (15.9%) 🟢
+    - **Medium**: 133 (68.2%) 🟡
+    - **Hard**: 31 (15.9%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -178,6 +178,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [684](./problems/id_684) | Redundant Connection | Medium | `Depth First Search`, `Breadth First Search`, `Union Find`, `Graph` |
 | [689](./problems/id_689) | Maximum Sum of 3 Non-Overlapping Subarrays | Hard | `Array`, `Dynamic Programming` |
 | [729](./problems/id_729) | My Calendar I | Medium | `Array`, `Binary Search`, `Design`, `Segment Tree`, `Ordered Set` |
+| [763](./problems/id_763) | Partition Labels | Medium | `Hash Table`, `Two Pointers`, `String`, `Greedy` |
 | [769](./problems/id_769) | Max Chunks To Make Sorted | Medium | `Array`, `Stack`, `Greedy`, `Sorting`, `Monotonic Stack` |
 | [773](./problems/id_773) | Sliding Puzzle | Hard | `Array`, `Breadth First Search`, `Matrix` |
 | [796](./problems/id_796) | Rotate String | Easy | `String`, `String Matching` |
@@ -293,6 +294,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2516](./problems/id_2516) | Take K of Each Character From Left and Right | Medium | `Hash Table`, `String`, `Sliding Window` |
 | [2523](./problems/id_2523) | Closest Prime Numbers in Range | Medium | `Math`, `Number Theory` |
 | [2529](./problems/id_2529) | Maximum Count of Positive Integer and Negative Integer | Easy | `Array`, `Binary Search`, `Counting` |
+| [2551](./problems/id_2551) | Put Marbles in Bags | Hard | `Array`, `Greedy`, `Sorting`, `Heap (priority Queue)` |
 | [2554](./problems/id_2554) | Maximum Number of Integers to Choose From a Range I | Medium | `Array`, `Hash Table`, `Binary Search`, `Greedy`, `Sorting` |
 | [2558](./problems/id_2558) | Take Gifts From the Richest Pile | Easy | `Array`, `Heap (priority Queue)`, `Simulation` |
 | [2559](./problems/id_2559) | Count Vowel Strings in Ranges | Medium | `Array`, `String`, `Prefix Sum` |

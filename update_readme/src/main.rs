@@ -1,11 +1,7 @@
-///
-/// # update_readme.rs
-/// A script to automatically update the README.md file with LeetCode problem solutions.
-/// Scans the project directory for solutions and generates a formatted markdown table.
-///
-/// ## Author
-/// Tom Planche <github.com/tomPlanche>
-///
+//!
+//! A script to automatically update the README.md file with `LeetCode` problem solutions.
+//! Scans the project directory for solutions and generates a formatted markdown table.
+//!
 use regex::Regex;
 use std::error::Error;
 use std::fs;
@@ -27,7 +23,7 @@ struct Stats {
     hard: u32,
 }
 
-/// Valid difficulty levels for LeetCode problems
+/// Valid difficulty levels for `LeetCode` problems
 const VALID_DIFFICULTIES: [&str; 3] = ["Easy", "Medium", "Hard"];
 
 ///
@@ -46,7 +42,7 @@ fn get_problem_info(file_path: &Path) -> Option<ProblemInfo> {
     let content = match fs::read_to_string(file_path) {
         Ok(content) => content,
         Err(e) => {
-            eprintln!("Warning: Failed to read file {:?}: {}", file_path, e);
+            eprintln!("Warning: Failed to read file {file_path:?}: {e}");
             return None;
         }
     };
@@ -57,16 +53,12 @@ fn get_problem_info(file_path: &Path) -> Option<ProblemInfo> {
     )
     .expect("Invalid regex pattern");
 
-    let captures = match pattern.captures(&content) {
-        Some(caps) => caps,
-        _ => {
-            eprintln!(
-                "Warning: File {:?} doesn't match the expected format:\n\
-                # Title (Difficulty) [Tags]",
-                file_path
-            );
-            return None;
-        }
+    let Some(captures) = pattern.captures(&content) else {
+        eprintln!(
+            "Warning: File {file_path:?} doesn't match the expected format:\n\
+                # Title (Difficulty) [Tags]"
+        );
+        return None;
     };
 
     // Extract and validate problem information
@@ -83,8 +75,7 @@ fn get_problem_info(file_path: &Path) -> Option<ProblemInfo> {
     // Validate difficulty
     if !VALID_DIFFICULTIES.contains(&difficulty.as_str()) {
         eprintln!(
-            "Warning: Invalid difficulty '{}' in {:?}. Expected one of: {:?}",
-            difficulty, file_path, VALID_DIFFICULTIES
+            "Warning: Invalid difficulty '{difficulty}' in {file_path:?}. Expected one of: {VALID_DIFFICULTIES:?}",
         );
         return None;
     }
@@ -117,7 +108,7 @@ fn get_problem_info(file_path: &Path) -> Option<ProblemInfo> {
             tags,
         }),
         _ => {
-            eprintln!("Warning: Failed to extract problem ID from {:?}", file_path);
+            eprintln!("Warning: Failed to extract problem ID from {file_path:?}");
             None
         }
     }
@@ -133,7 +124,7 @@ fn get_problem_info(file_path: &Path) -> Option<ProblemInfo> {
 ///
 /// ## Returns
 /// * `String` - The generated README content
-///
+#[allow(clippy::too_many_lines)]
 fn generate_readme(problems: &[ProblemInfo], stats: &Stats) -> String {
     let total = stats.easy + stats.medium + stats.hard;
     let mut content = String::from(
@@ -187,6 +178,11 @@ fn generate_readme(problems: &[ProblemInfo], stats: &Stats) -> String {
         alt=\"Leetcode February 2025 badge\"
         width=\"10%\"
     />
+    <img
+        src=\"https://assets.leetcode.com/static_assets/marketing/202503.gif\"
+        alt=\"Leetcode March 2025 badge\"
+        width=\"10%\"
+    />
 </div>
 
 ## 📊 Progress\n\n"
@@ -200,11 +196,11 @@ fn generate_readme(problems: &[ProblemInfo], stats: &Stats) -> String {
     - **Medium**: {} ({:.1}%) 🟡
     - **Hard**: {} ({:.1}%) 🔴\n\n",
         stats.easy,
-        (stats.easy as f64 / total as f64) * 100.0,
+        (f64::from(stats.easy) / f64::from(total)) * 100.0,
         stats.medium,
-        (stats.medium as f64 / total as f64) * 100.0,
+        (f64::from(stats.medium) / f64::from(total)) * 100.0,
         stats.hard,
-        (stats.hard as f64 / total as f64) * 100.0
+        (f64::from(stats.hard) / f64::from(total)) * 100.0
     ));
 
     // Add the automation documentation
@@ -315,10 +311,10 @@ Each solution includes this header format for easy navigation and reference (and
 
     // Add problems table
     for problem in problems {
-        let tags_str = if !problem.tags.is_empty() {
-            format!("`{}`", problem.tags.join("`, `"))
-        } else {
+        let tags_str = if problem.tags.is_empty() {
             String::from("-")
+        } else {
+            format!("`{}`", problem.tags.join("`, `"))
         };
 
         content.push_str(&format!(
@@ -394,7 +390,7 @@ fn main() -> Result<(), Box<dyn Error>> {
                             }
                             problems.push(info);
                         } else {
-                            eprintln!("Warning: Failed to extract problem info from {:?}", main_rs);
+                            eprintln!("Warning: Failed to extract problem info from {main_rs:?}");
                         }
                     }
                 }
