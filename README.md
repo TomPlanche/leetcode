@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-195-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-196-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -57,10 +57,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 195 problems
-    - **Easy**: 31 (15.9%) 🟢
-    - **Medium**: 133 (68.2%) 🟡
-    - **Hard**: 31 (15.9%) 🔴
+- **Total Solved**: 196 problems
+    - **Easy**: 31 (15.8%) 🟢
+    - **Medium**: 134 (68.4%) 🟡
+    - **Hard**: 31 (15.8%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -262,6 +262,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2115](./problems/id_2115) | Find All Possible Recipes from Given Supplies | Medium | `Array`, `Hash Table`, `String`, `Graph`, `Topological Sort` |
 | [2116](./problems/id_2116) | Check if a Parentheses String Can Be Valid | Medium | `String`, `Stack`, `Greedy` |
 | [2127](./problems/id_2127) | Maximum Employees to Be Invited to a Meeting | Hard | `Depth First Search`, `Graph`, `Topological Sort` |
+| [2140](./problems/id_2140) | Solving Questions With Brainpower | Medium | `Array`, `Dynamic Programming` |
 | [2161](./problems/id_2161) | Partition Array According to Given Pivot | Medium | `Array`, `Two Pointers`, `Simulation` |
 | [2182](./problems/id_2182) | Construct String With Repeat Limit | Medium | `Hash Table`, `String`, `Greedy`, `Heap (priority Queue)`, `Counting` |
 | [2185](./problems/id_2185) | Counting Words With a Given Prefix | Easy | `Array`, `String`, `String Matching` |
