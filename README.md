@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-196-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-197-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -57,10 +57,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 196 problems
-    - **Easy**: 31 (15.8%) 🟢
-    - **Medium**: 134 (68.4%) 🟡
-    - **Hard**: 31 (15.8%) 🔴
+- **Total Solved**: 197 problems
+    - **Easy**: 32 (16.2%) 🟢
+    - **Medium**: 134 (68.0%) 🟡
+    - **Hard**: 31 (15.7%) 🔴
 
 ## 🌟 Featured Solutions
 
@@ -328,6 +328,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2818](./problems/id_2818) | Apply Operations to Maximize Score | Hard | `Array`, `Math`, `Stack`, `Greedy`, `Sorting`, `Monotonic Stack`, `Number Theory` |
 | [2825](./problems/id_2825) | Make String a Subsequence Using Cyclic Increments | Medium | `Two Pointers`, `String` |
 | [2872](./problems/id_2872) | Maximum Number of K-Divisible Components | Hard | `Tree`, `Depth First Search` |
+| [2873](./problems/id_2873) | Maximum Value of an Ordered Triplet I | Easy | `Array` |
 | [2914](./problems/id_2914) | Minimum Changes to Make Binary String Beautiful | Medium | `String` |
 | [2924](./problems/id_2924) | Find Champion II | Medium | `Graph` |
 | [2938](./problems/id_2938) | Separate Black and White Balls | Medium | `Two Pointers`, `String`, `Greedy` |
