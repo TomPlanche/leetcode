@@ -1,23 +1,35 @@
 # LeetCode CLI
 
-A command-line interface tool to quickly create new LeetCode problem projects with Rust.
+A powerful command-line interface tool for managing LeetCode problem solutions in Rust, featuring automated project creation, API integration, and development workflow optimization.
 
-## Features
+## Key Features
 
-- Create new Cargo projects for LeetCode problems
-- Add problem metadata (difficulty, tags, title)
-- Automatic docstring generation
-- Integration with Zed editor
-- Fish shell completions
+- 🚀 Automated Cargo project creation for LeetCode problems
+- 📅 Daily challenge integration with LeetCode API
+- 📋 Automatic problem description copying to clipboard
+- 📝 Standardized documentation generation
+- ✨ Zed editor integration
+- 🐟 Fish shell completions
+- 🔍 Project integrity validation
 
 ## Installation
 
-1. Clone the repository
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/leetcode-cli.git
+cd leetcode-cli
+```
+
 2. Build the project:
 ```bash
 cargo build --release
 ```
-3. Copy the binary to your PATH
+
+3. Copy the binary to your PATH:
+```bash
+cp target/release/leetcode_cli /usr/local/bin/
+```
+
 4. Install fish completions (optional):
 ```bash
 cp completions/new_leetcode.fish ~/.config/fish/completions/
@@ -25,58 +37,69 @@ cp completions/new_leetcode.fish ~/.config/fish/completions/
 
 ## Usage
 
+### Basic Commands
+
 ```bash
-new_leetcode [OPTIONS] <PROBLEM_ID>
+# Create new problem project
+leetcode_cli <PROBLEM_ID>
+
+# Get daily challenge
+leetcode_cli --daily
+
+# Create project with metadata
+leetcode_cli <PROBLEM_ID> --difficulty Easy --tags "array,hash-table" --title "Two Sum"
+
+# Verbose output
+leetcode_cli <PROBLEM_ID> -v
 ```
 
-### Options
+### Command Options
 
-- `-d, --difficulty <DIFFICULTY>`: Set problem difficulty (Easy, Medium, Hard)
-- `-t, --tags <TAGS>`: Set problem tags (coma-separated)
-- `-t, --title <TITLE>`: Set problem title
-- `-v, --verbose`: Enable verbose output
-
-### Examples
-
-```bash
-# Create a new project for problem 1 with basic info
-new_leetcode 1
-
-# Create a project with full metadata
-new_leetcode 1 --difficulty Easy --tags "array, hash-table, string manipulation" --title "Two Sum"
-
-# Create a project with verbose output
-new_leetcode 1 -v
+```
+OPTIONS:
+    -d, --difficulty <DIFFICULTY>    Set problem difficulty (Easy, Medium, Hard)
+    -t, --tags <TAGS>               Set problem tags (comma-separated)
+    -t, --title <TITLE>             Set problem title
+    -v, --verbose                   Enable verbose output
+        --daily                     Fetch daily challenge
 ```
 
 ## Project Structure
 
-The CLI creates a new Cargo project with the following structure:
-
 ```
-id_<problem_number>/
-├── Cargo.toml
-└── src/
-    └── main.rs
+leetcode_cli/
+├── src/
+│   ├── main.rs           # Core CLI logic
+│   ├── leetcode_api.rs   # LeetCode API integration
+│   └── string_utils.rs   # String manipulation utilities
+├── completions/          # Shell completions
+└── Cargo.toml           # Project dependencies
 ```
-
-The `main.rs` file is automatically populated with a docstring containing the problem metadata.
 
 ## Configuration
 
-The base path for LeetCode projects is defined in `LEETCODE_BASE_PATH` constant. Modify this in the source code to match your preferred directory.
+Before using, modify `LEETCODE_BASE_PATH` in `src/main.rs` to your preferred project directory:
 
-## Requirements
+```rust
+const LEETCODE_BASE_PATH: &str = "/path/to/your/leetcode/projects";
+```
 
-- Rust toolchain
-- Cargo
-- Zed editor (optional)
-- Fish shell (optional, for completions)
+## Features in Detail
 
-## License
+### Project Creation
+- Generates standardized Rust project structure
+- Adds comprehensive documentation
+- Creates test templates
+- Validates project integrity
 
-MIT
+### API Integration
+- Fetches daily challenges automatically
+- Retrieves problem descriptions
+- Supports multiple programming languages
+- Handles HTML content conversion
 
-## Author
-
-Tom P. <tomplanche@icloud.com>
+### Development Workflow
+- Automated editor integration
+- Clipboard management for problem descriptions
+- Shell completion support
+- Project validation tools

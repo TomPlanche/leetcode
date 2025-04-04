@@ -205,25 +205,7 @@ fn generate_readme(problems: &[ProblemInfo], stats: &Stats) -> String {
 
     // Add the automation documentation
     content.push_str(
-        "## 🌟 Featured Solutions
-
-Here are some noteworthy solutions with interesting approaches:
-
-1. [Regular Expression Matching](./id_10) (Hard)
-    - Uses dynamic programming
-    - Complex pattern matching implementation
-    - 98th percentile runtime performance
-
-2. [Sliding Window Maximum](./id_239) (Hard)
-    - Implements a monotonic queue
-    - O(n) time complexity solution
-    - Detailed explanation of the algorithm
-
-3. [Two Sum](./id_1) (Easy)
-    - Classic hash table approach
-    - Optimal space-time trade-off
-    - Perfect for beginners
-
+        "
 ## 📁 Repository Structure
 
 ```text
@@ -244,6 +226,10 @@ leetcode/
 A command-line tool for quickly creating new solution projects:
 
 ```bash
+# todays
+new_leetcode --daily
+
+# specific id
 new_leetcode 1234 --difficulty Medium --tags \"array,dp\" --title \"Problem Title\"
 ```
 
@@ -297,10 +283,10 @@ The script will run automatically before each commit, ensuring the README is alw
 Each solution includes this header format for easy navigation and reference (and for the readme generator to parse):
 
 ```rust
-///
-/// # Problem Title (Difficulty) [Tag1, Tag2]
-/// LeetCode Problem {id}
-///
+//!
+//! # Problem Title (Difficulty) [Tag1, Tag2]
+//! LeetCode Problem {id}
+//!
 ```
 
 ## 📋 Solutions Table
