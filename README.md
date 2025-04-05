@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-199-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-200-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -57,10 +57,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 199 problems
-    - **Easy**: 32 (16.1%) 🟢
-    - **Medium**: 136 (68.3%) 🟡
-    - **Hard**: 31 (15.6%) 🔴
+- **Total Solved**: 200 problems
+    - **Easy**: 33 (16.5%) 🟢
+    - **Medium**: 136 (68.0%) 🟡
+    - **Hard**: 31 (15.5%) 🔴
 
 
 ## 📁 Repository Structure
@@ -230,6 +230,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1813](./problems/id_1813) | Sentence Similarity III | Medium | `Array`, `Two Pointers`, `String` |
 | [1829](./problems/id_1829) | Maximum XOR for Each Query | Medium | `Array`, `Bit Manipulation`, `Prefix Sum` |
 | [1861](./problems/id_1861) | Rotating the Box | Medium | `Array`, `Two Pointers`, `Matrix` |
+| [1863](./problems/id_1863) | Sum of All Subset XOR Totals | Easy | `Array`, `Math`, `Backtracking`, `Bit Manipulation`, `Combinatorics`, `Enumeration` |
 | [1910](./problems/id_1910) | Remove All Occurrences of a Substring | Medium | `String`, `Stack`, `Simulation` |
 | [1930](./problems/id_1930) | Unique Length-3 Palindromic Subsequences | Medium | `Hash Table`, `String`, `Bit Manipulation`, `Prefix Sum` |
 | [1942](./problems/id_1942) | The Number of the Smallest Unoccupied Chair | Medium | `Array`, `Hash Table`, `Heap (Priority Queue)` |
