@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-200-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-202-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -57,10 +57,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 200 problems
-    - **Easy**: 33 (16.5%) 🟢
-    - **Medium**: 136 (68.0%) 🟡
-    - **Hard**: 31 (15.5%) 🔴
+- **Total Solved**: 202 problems
+    - **Easy**: 33 (16.3%) 🟢
+    - **Medium**: 138 (68.3%) 🟡
+    - **Hard**: 31 (15.3%) 🔴
 
 
 ## 📁 Repository Structure
@@ -161,7 +161,9 @@ Each solution includes this header format for easy navigation and reference (and
 | [37](./problems/id_37) | Sudoku Solver | Hard | `Array`, `Hash Table`, `Backtracking`, `Matrix` |
 | [239](./problems/id_239) | Sliding Window Maximum | Hard | `Array`, `Queue`, `Sliding Window`, `Heap (Priority Queue)`, `Monotonic Queue` |
 | [273](./problems/id_273) | Integer to English Words | Hard | `Math`, `String`, `Recursion` |
+| [368](./problems/id_368) | Largest Divisible Subset | Medium | `Array`, `Math`, `Dynamic Programming`, `Sorting` |
 | [407](./problems/id_407) | Trapping Rain Water II | Hard | `Array`, `Breadth First Search`, `Heap (priority Queue)`, `Matrix` |
+| [416](./problems/id_416) | Partition Equal Subset Sum | Medium | `Array`, `Dynamic Programming` |
 | [494](./problems/id_494) | Target Sum | Medium | `Array`, `Dynamic Programming`, `Backtracking` |
 | [515](./problems/id_515) | Find Largest Value in Each Tree Row | Medium | `Tree`, `Depth First Search`, `Breadth First Search`, `Binary Tree` |
 | [567](./problems/id_567) | Permutation in String | Medium | `Hash Table`, `Two Pointers`, `String`, `Sliding Window` |
