@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-202-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-203-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -57,9 +57,9 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 202 problems
-    - **Easy**: 33 (16.3%) 🟢
-    - **Medium**: 138 (68.3%) 🟡
+- **Total Solved**: 203 problems
+    - **Easy**: 34 (16.7%) 🟢
+    - **Medium**: 138 (68.0%) 🟡
     - **Hard**: 31 (15.3%) 🔴
 
 
@@ -352,6 +352,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [3306](./problems/id_3306) | Count of Substrings Containing Every Vowel and K Consonants II | Medium | `Hash Table`, `String`, `Sliding Window` |
 | [3356](./problems/id_3356) | Zero Array Transformation II | Medium | `Array`, `Binary Search`, `Prefix Sum` |
 | [3394](./problems/id_3394) | Check if Grid can be Cut into Sections | Medium | `Array`, `Sorting` |
+| [3396](./problems/id_3396) | Minimum Number of Operations to Make Elements in Array Distinct | Easy | `Array`, `Hash Table` |
 
 ## 🚀 Getting Started
 
