@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-203-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-207-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -57,10 +57,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 203 problems
-    - **Easy**: 34 (16.7%) 🟢
-    - **Medium**: 138 (68.0%) 🟡
-    - **Hard**: 31 (15.3%) 🔴
+- **Total Solved**: 207 problems
+    - **Easy**: 36 (17.4%) 🟢
+    - **Medium**: 138 (66.7%) 🟡
+    - **Hard**: 33 (15.9%) 🔴
 
 
 ## 📁 Repository Structure
@@ -317,6 +317,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2780](./problems/id_2780) | Minimum Index of a Valid Split | Medium | `Array`, `Hash Table`, `Sorting` |
 | [2818](./problems/id_2818) | Apply Operations to Maximize Score | Hard | `Array`, `Math`, `Stack`, `Greedy`, `Sorting`, `Monotonic Stack`, `Number Theory` |
 | [2825](./problems/id_2825) | Make String a Subsequence Using Cyclic Increments | Medium | `Two Pointers`, `String` |
+| [2843](./problems/id_2843) | Count Symmetric Integers | Easy | `Math`, `Enumeration` |
 | [2872](./problems/id_2872) | Maximum Number of K-Divisible Components | Hard | `Tree`, `Depth First Search` |
 | [2873](./problems/id_2873) | Maximum Value of an Ordered Triplet I | Easy | `Array` |
 | [2874](./problems/id_2874) | Maximum Value of an Ordered Triplet II | Medium | `Array` |
@@ -327,6 +328,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2948](./problems/id_2948) | Make Lexicographically Smallest Array by Swapping Elements | Medium | `Array`, `Union Find`, `Sorting` |
 | [2965](./problems/id_2965) | Find Missing and Repeated Values | Easy | `Array`, `Hash Table`, `Math`, `Matrix` |
 | [2981](./problems/id_2981) | Find Longest Special Substring That Occurs Thrice I | Medium | `Hash Table`, `String`, `Binary Search`, `Sliding Window`, `Counting` |
+| [2999](./problems/id_2999) | Count the Number of Powerful Integers | Hard | `Math`, `String`, `Dynamic Programming` |
 | [3011](./problems/id_3011) | Find if Array Can Be Sorted | Medium | `Array`, `Bit Manipulation`, `Sorting` |
 | [3017](./problems/id_3017) | Count the Number of Houses at a Certain Distance II | Hard | `Graph`, `Prefix Sum` |
 | [3042](./problems/id_3042) | Count Prefix and Suffix Pairs I | Easy | `Array`, `String`, `Trie`, `Rolling Hash`, `String Matching`, `Hash Function` |
@@ -349,8 +351,10 @@ Each solution includes this header format for easy navigation and reference (and
 | [3243](./problems/id_3243) | Shortest Distance After Road Addition Queries I | Medium | `Array`, `Breadth First Search`, `Graph` |
 | [3254](./problems/id_3254) | Find the Power of K-Size Subarrays I | Medium | `Array`, `Sliding Window` |
 | [3264](./problems/id_3264) | Final Array State After K Multiplication Operations I | Easy | `Array`, `Math`, `Heap (priority Queue)`, `Simulation` |
+| [3272](./problems/id_3272) | Find the Count of Good Integers | Hard | `Hash Table`, `Math`, `Combinatorics`, `Enumeration` |
 | [3306](./problems/id_3306) | Count of Substrings Containing Every Vowel and K Consonants II | Medium | `Hash Table`, `String`, `Sliding Window` |
 | [3356](./problems/id_3356) | Zero Array Transformation II | Medium | `Array`, `Binary Search`, `Prefix Sum` |
+| [3375](./problems/id_3375) | Minimum Operations to Make Array Values Equal to K | Easy | `Array`, `Hash Table` |
 | [3394](./problems/id_3394) | Check if Grid can be Cut into Sections | Medium | `Array`, `Sorting` |
 | [3396](./problems/id_3396) | Minimum Number of Operations to Make Elements in Array Distinct | Easy | `Array`, `Hash Table` |
 
