@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-207-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-212-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -57,10 +57,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 207 problems
-    - **Easy**: 36 (17.4%) 🟢
-    - **Medium**: 138 (66.7%) 🟡
-    - **Hard**: 33 (15.9%) 🔴
+- **Total Solved**: 212 problems
+    - **Easy**: 38 (17.9%) 🟢
+    - **Medium**: 140 (66.0%) 🟡
+    - **Hard**: 34 (16.0%) 🔴
 
 
 ## 📁 Repository Structure
@@ -211,6 +211,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1475](./problems/id_1475) | Final Prices With a Special Discount in a Shop | Easy | `Array`, `Stack`, `Monotonic Stack` |
 | [1497](./problems/id_1497) | Check If Array Pairs Are Divisible by k | Medium | `Array`, `Hash Table`, `Counting` |
 | [1524](./problems/id_1524) | Number of Sub-arrays With Odd Sum | Medium | `Array`, `Math`, `Dynamic Programming`, `Prefix Sum` |
+| [1534](./problems/id_1534) | Count Good Triplets | Easy | `Array`, `Enumeration` |
 | [1545](./problems/id_1545) | Find Kth Bit in Nth Binary String | Medium | `String`, `Recursion`, `Simulation` |
 | [1574](./problems/id_1574) | Shortest Subarray to be Removed to Make Array Sorted | Medium | `Array`, `Two Pointers`, `Binary Search`, `Stack`, `Monotonic Stack` |
 | [1590](./problems/id_1590) | Make Sum Divisible by P | Medium | `Array`, `Hash Table`, `Prefix Sum` |
@@ -234,6 +235,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1861](./problems/id_1861) | Rotating the Box | Medium | `Array`, `Two Pointers`, `Matrix` |
 | [1863](./problems/id_1863) | Sum of All Subset XOR Totals | Easy | `Array`, `Math`, `Backtracking`, `Bit Manipulation`, `Combinatorics`, `Enumeration` |
 | [1910](./problems/id_1910) | Remove All Occurrences of a Substring | Medium | `String`, `Stack`, `Simulation` |
+| [1922](./problems/id_1922) | Count Good Numbers | Medium | `Math`, `Recursion` |
 | [1930](./problems/id_1930) | Unique Length-3 Palindromic Subsequences | Medium | `Hash Table`, `String`, `Bit Manipulation`, `Prefix Sum` |
 | [1942](./problems/id_1942) | The Number of the Smallest Unoccupied Chair | Medium | `Array`, `Hash Table`, `Heap (Priority Queue)` |
 | [1957](./problems/id_1957) | Delete Characters to Make Fancy String | Easy | `String` |
@@ -254,6 +256,8 @@ Each solution includes this header format for easy navigation and reference (and
 | [2127](./problems/id_2127) | Maximum Employees to Be Invited to a Meeting | Hard | `Depth First Search`, `Graph`, `Topological Sort` |
 | [2140](./problems/id_2140) | Solving Questions With Brainpower | Medium | `Array`, `Dynamic Programming` |
 | [2161](./problems/id_2161) | Partition Array According to Given Pivot | Medium | `Array`, `Two Pointers`, `Simulation` |
+| [2176](./problems/id_2176) | Count Equal and Divisible Pairs in an Array | Easy | `Array` |
+| [2179](./problems/id_2179) | Count Good Triplets in an Array | Hard | `Array`, `Binary Search`, `Divide And Conquer`, `Binary Indexed Tree`, `Segment Tree`, `Merge Sort`, `Ordered Set` |
 | [2182](./problems/id_2182) | Construct String With Repeat Limit | Medium | `Hash Table`, `String`, `Greedy`, `Heap (priority Queue)`, `Counting` |
 | [2185](./problems/id_2185) | Counting Words With a Given Prefix | Easy | `Array`, `String`, `String Matching` |
 | [2206](./problems/id_2206) | Divide Array Into Equal Pairs | Easy | `Array`, `Hash Table`, `Bit Manipulation`, `Counting` |
@@ -290,6 +294,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2516](./problems/id_2516) | Take K of Each Character From Left and Right | Medium | `Hash Table`, `String`, `Sliding Window` |
 | [2523](./problems/id_2523) | Closest Prime Numbers in Range | Medium | `Math`, `Number Theory` |
 | [2529](./problems/id_2529) | Maximum Count of Positive Integer and Negative Integer | Easy | `Array`, `Binary Search`, `Counting` |
+| [2537](./problems/id_2537) | Count the Number of Good Subarrays | Medium | `Array`, `Hash Table`, `Sliding Window` |
 | [2551](./problems/id_2551) | Put Marbles in Bags | Hard | `Array`, `Greedy`, `Sorting`, `Heap (priority Queue)` |
 | [2554](./problems/id_2554) | Maximum Number of Integers to Choose From a Range I | Medium | `Array`, `Hash Table`, `Binary Search`, `Greedy`, `Sorting` |
 | [2558](./problems/id_2558) | Take Gifts From the Richest Pile | Easy | `Array`, `Heap (priority Queue)`, `Simulation` |
