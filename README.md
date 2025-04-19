@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-212-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-213-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -57,9 +57,9 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 212 problems
-    - **Easy**: 38 (17.9%) 🟢
-    - **Medium**: 140 (66.0%) 🟡
+- **Total Solved**: 213 problems
+    - **Easy**: 38 (17.8%) 🟢
+    - **Medium**: 141 (66.2%) 🟡
     - **Hard**: 34 (16.0%) 🔴
 
 
@@ -159,6 +159,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [22](./problems/id_22) | Generate Parentheses | Medium | `String`, `Dynamic Programming`, `Backtracking` |
 | [29](./problems/id_29) | Divide Two Integers | Medium | `Math`, `Bit Manipulation` |
 | [37](./problems/id_37) | Sudoku Solver | Hard | `Array`, `Hash Table`, `Backtracking`, `Matrix` |
+| [38](./problems/id_38) | Count and Say | Medium | `String` |
 | [239](./problems/id_239) | Sliding Window Maximum | Hard | `Array`, `Queue`, `Sliding Window`, `Heap (Priority Queue)`, `Monotonic Queue` |
 | [273](./problems/id_273) | Integer to English Words | Hard | `Math`, `String`, `Recursion` |
 | [368](./problems/id_368) | Largest Divisible Subset | Medium | `Array`, `Math`, `Dynamic Programming`, `Sorting` |

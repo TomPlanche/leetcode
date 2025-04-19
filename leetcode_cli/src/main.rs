@@ -161,6 +161,11 @@ fn create_leetcode_project(
     description: Option<&String>,
     verbose: bool,
 ) -> Result<(), Box<dyn std::error::Error>> {
+    // Check if we already have a project with the same ID
+    if Path::new(&format!("{}/id_{}", LEETCODE_BASE_PATH, problem_id)).exists() {
+        return Err(format!("Project with ID {} already exists.", problem_id).into());
+    }
+
     // If we have a description, clean it and copy to clipboard
     if let Some(desc) = description {
         // Convert HTML to plain text
