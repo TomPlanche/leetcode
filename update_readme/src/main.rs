@@ -158,6 +158,12 @@ fn generate_readme(problems: &[ProblemInfo], stats: &Stats) -> String {
         alt=\"Leetcode 50 days badge 2025\"
         width=\"10%\"
     />
+    />
+    <img
+        src=\"https://assets.leetcode.com/static_assets/others/25100.gif\"
+        alt=\"Leetcode 100 days badge 2025\"
+        width=\"10%\"
+    />
     <img
         src=\"https://leetcode.com/static/images/badges/2024/gif/2024-11.gif\"
         alt=\"Leetcode November 2024 badge\"
