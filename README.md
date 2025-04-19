@@ -28,7 +28,6 @@
         alt="Leetcode 50 days badge 2025"
         width="10%"
     />
-    />
     <img
         src="https://assets.leetcode.com/static_assets/others/25100.gif"
         alt="Leetcode 100 days badge 2025"
