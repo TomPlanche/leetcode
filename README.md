@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-213-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-221-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -62,10 +62,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 213 problems
-    - **Easy**: 38 (17.8%) 🟢
-    - **Medium**: 141 (66.2%) 🟡
-    - **Hard**: 34 (16.0%) 🔴
+- **Total Solved**: 221 problems
+    - **Easy**: 40 (18.1%) 🟢
+    - **Medium**: 145 (65.6%) 🟡
+    - **Hard**: 36 (16.3%) 🔴
 
 
 ## 📁 Repository Structure
@@ -180,6 +180,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [763](./problems/id_763) | Partition Labels | Medium | `Hash Table`, `Two Pointers`, `String`, `Greedy` |
 | [769](./problems/id_769) | Max Chunks To Make Sorted | Medium | `Array`, `Stack`, `Greedy`, `Sorting`, `Monotonic Stack` |
 | [773](./problems/id_773) | Sliding Puzzle | Hard | `Array`, `Breadth First Search`, `Matrix` |
+| [781](./problems/id_781) | Rabbits in Forest | Medium | `Array`, `Hash Table`, `Math`, `Greedy` |
 | [796](./problems/id_796) | Rotate String | Easy | `String`, `String Matching` |
 | [802](./problems/id_802) | Find Eventual Safe States | Medium | `Depth First Search`, `Breadth First Search`, `Graph`, `Topological Sort` |
 | [827](./problems/id_827) | Making A Large Island | Hard | `Array`, `Depth First Search`, `Breadth First Search`, `Union Find`, `Matrix` |
@@ -207,6 +208,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1352](./problems/id_1352) | Product of the Last K Numbers | Medium | `Array`, `Math`, `Design`, `Data Stream`, `Prefix Sum` |
 | [1358](./problems/id_1358) | Number of Substrings Containing All Three Characters | Medium | `Hash Table`, `String`, `Sliding Window` |
 | [1368](./problems/id_1368) | Minimum Cost to Make at Least One Valid Path in a Grid | Hard | `Array`, `Breadth First Search`, `Graph`, `Heap (priority Queue)`, `Matrix`, `Shortest Path` |
+| [1399](./problems/id_1399) | Count Largest Group | Easy | `Hash Table`, `Math` |
 | [1400](./problems/id_1400) | Construct K Palindrome Strings | Medium | `Hash Table`, `String`, `Greedy`, `Counting` |
 | [1405](./problems/id_1405) | Longest Happy String | Medium | `String`, `Greedy`, `Heap (Priority Queue)` |
 | [1408](./problems/id_1408) | String Matching in an Array | Easy | `Array`, `String`, `String Matching` |
@@ -261,6 +263,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2116](./problems/id_2116) | Check if a Parentheses String Can Be Valid | Medium | `String`, `Stack`, `Greedy` |
 | [2127](./problems/id_2127) | Maximum Employees to Be Invited to a Meeting | Hard | `Depth First Search`, `Graph`, `Topological Sort` |
 | [2140](./problems/id_2140) | Solving Questions With Brainpower | Medium | `Array`, `Dynamic Programming` |
+| [2145](./problems/id_2145) | Count the Hidden Sequences | Medium | `Array`, `Prefix Sum` |
 | [2161](./problems/id_2161) | Partition Array According to Given Pivot | Medium | `Array`, `Two Pointers`, `Simulation` |
 | [2176](./problems/id_2176) | Count Equal and Divisible Pairs in an Array | Easy | `Array` |
 | [2179](./problems/id_2179) | Count Good Triplets in an Array | Hard | `Array`, `Binary Search`, `Divide And Conquer`, `Binary Indexed Tree`, `Segment Tree`, `Merge Sort`, `Ordered Set` |
@@ -274,6 +277,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2275](./problems/id_2275) | Largest Combination With Bitwise AND Greater Than Zero | Medium | `Array`, `Hash Table`, `Bit Manipulation`, `Counting` |
 | [2290](./problems/id_2290) | Minimum Obstacle Removal to Reach Corner | Hard | `Array`, `Breadth-First Search`, `Graph`, `Heap (Priority Queue)`, `Matrix`, `Shortest Path` |
 | [2335](./problems/id_2335) | Moving Pieces to Obtain a String | Medium | `String`, `Two Pointers` |
+| [2338](./problems/id_2338) | Count the Number of Ideal Arrays | Hard | `Math`, `Dynamic Programming`, `Combinatorics`, `Number Theory` |
 | [2342](./problems/id_2342) | Max Sum of a Pair With Equal Sum of Digits | Medium | `Array`, `Hash Table`, `Sorting`, `Heap (priority Queue)` |
 | [2349](./problems/id_2349) | Design a Number Container System | Medium | `Hash Table`, `Design`, `Heap (priority Queue)`, `Ordered Set` |
 | [2364](./problems/id_2364) | Count Number of Bad Pairs | Medium | `Array`, `Hash Table`, `Math`, `Counting` |
@@ -286,6 +290,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2423](./problems/id_2423) | Remove Letter To Equalize Frequency | Easy | `Hash Table`, `String`, `Counting` |
 | [2425](./problems/id_2425) | Bitwise XOR of All Pairings | Medium | `Array`, `Bit Manipulation`, `Brainteaser` |
 | [2429](./problems/id_2429) | Minimize XOR | Medium | `Greedy`, `Bit Manipulation` |
+| [2444](./problems/id_2444) | Count Subarrays With Fixed Bounds | Hard | `Array`, `Queue`, `Sliding Window`, `Monotonic Queue` |
 | [2458](./problems/id_2458) | Height of Binary Tree After Subtree Removal Queries | Hard | `Array`, `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` |
 | [2460](./problems/id_2460) | Apply Operations to an Array | Easy | `Array`, `Two Pointers`, `Simulation` |
 | [2461](./problems/id_2461) | Maximum Sum of Distinct Subarrays With Length K | Medium | `Array`, `Hash Table`, `Sliding Window` |
@@ -326,9 +331,11 @@ Each solution includes this header format for easy navigation and reference (and
 | [2762](./problems/id_2762) | Continuous Subarrays | Medium | `Array`, `Queue`, `Sliding Window`, `Heap (priority Queue)`, `Ordered Set`, `Monotonic Queue` |
 | [2779](./problems/id_2779) | Maximum Beauty of an Array After Applying Operation | Medium | `Array`, `Binary Search`, `Sliding Window`, `Sorting` |
 | [2780](./problems/id_2780) | Minimum Index of a Valid Split | Medium | `Array`, `Hash Table`, `Sorting` |
+| [2799](./problems/id_2799) | Count Complete Subarrays in an Array | Medium | `Array`, `Hash Table`, `Sliding Window` |
 | [2818](./problems/id_2818) | Apply Operations to Maximize Score | Hard | `Array`, `Math`, `Stack`, `Greedy`, `Sorting`, `Monotonic Stack`, `Number Theory` |
 | [2825](./problems/id_2825) | Make String a Subsequence Using Cyclic Increments | Medium | `Two Pointers`, `String` |
 | [2843](./problems/id_2843) | Count Symmetric Integers | Easy | `Math`, `Enumeration` |
+| [2845](./problems/id_2845) | Count of Interesting Subarrays | Medium | `Array`, `Hash Table`, `Prefix Sum` |
 | [2872](./problems/id_2872) | Maximum Number of K-Divisible Components | Hard | `Tree`, `Depth First Search` |
 | [2873](./problems/id_2873) | Maximum Value of an Ordered Triplet I | Easy | `Array` |
 | [2874](./problems/id_2874) | Maximum Value of an Ordered Triplet II | Medium | `Array` |
@@ -366,6 +373,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [3306](./problems/id_3306) | Count of Substrings Containing Every Vowel and K Consonants II | Medium | `Hash Table`, `String`, `Sliding Window` |
 | [3356](./problems/id_3356) | Zero Array Transformation II | Medium | `Array`, `Binary Search`, `Prefix Sum` |
 | [3375](./problems/id_3375) | Minimum Operations to Make Array Values Equal to K | Easy | `Array`, `Hash Table` |
+| [3392](./problems/id_3392) | Count Subarrays of Length Three With a Condition | Easy | `Array` |
 | [3394](./problems/id_3394) | Check if Grid can be Cut into Sections | Medium | `Array`, `Sorting` |
 | [3396](./problems/id_3396) | Minimum Number of Operations to Make Elements in Array Distinct | Easy | `Array`, `Hash Table` |
 
