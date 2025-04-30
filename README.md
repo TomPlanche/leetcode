@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-221-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-223-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -62,10 +62,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 221 problems
-    - **Easy**: 40 (18.1%) 🟢
-    - **Medium**: 145 (65.6%) 🟡
-    - **Hard**: 36 (16.3%) 🔴
+- **Total Solved**: 223 problems
+    - **Easy**: 41 (18.4%) 🟢
+    - **Medium**: 145 (65.0%) 🟡
+    - **Hard**: 37 (16.6%) 🔴
 
 
 ## 📁 Repository Structure
@@ -203,6 +203,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1261](./problems/id_1261) | Find Elements in a Contaminated Binary Tree | Medium | `Hash Table`, `Tree`, `Depth First Search`, `Breadth First Search`, `Design`, `Binary Tree` |
 | [1267](./problems/id_1267) | Count Servers that Communicate | Medium | `Array`, `Depth First Search`, `Breadth First Search`, `Union Find`, `Matrix`, `Counting` |
 | [1277](./problems/id_1277) | Count Square Submatrices with All Ones | Medium | `Array`, `Dynamic Programming`, `Matrix` |
+| [1295](./problems/id_1295) | Find Numbers with Even Number of Digits | Easy | `Array`, `Math` |
 | [1331](./problems/id_1331) | Rank Transform of an Array | Easy | `Array`, `Hash Table`, `Sorting` |
 | [1346](./problems/id_1346) | Check If N and Its Double Exist | Easy | `Array`, `Hash Table`, `Two Pointers`, `Binary Search`, `Sorting` |
 | [1352](./problems/id_1352) | Product of the Last K Numbers | Medium | `Array`, `Math`, `Design`, `Data Stream`, `Prefix Sum` |
@@ -276,6 +277,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2270](./problems/id_2270) | Number of Ways to Split Array | Medium | `Array`, `Prefix Sum` |
 | [2275](./problems/id_2275) | Largest Combination With Bitwise AND Greater Than Zero | Medium | `Array`, `Hash Table`, `Bit Manipulation`, `Counting` |
 | [2290](./problems/id_2290) | Minimum Obstacle Removal to Reach Corner | Hard | `Array`, `Breadth-First Search`, `Graph`, `Heap (Priority Queue)`, `Matrix`, `Shortest Path` |
+| [2302](./problems/id_2302) | Count Subarrays With Score Less Than K | Hard | `Array`, `Binary Search`, `Sliding Window`, `Prefix Sum` |
 | [2335](./problems/id_2335) | Moving Pieces to Obtain a String | Medium | `String`, `Two Pointers` |
 | [2338](./problems/id_2338) | Count the Number of Ideal Arrays | Hard | `Math`, `Dynamic Programming`, `Combinatorics`, `Number Theory` |
 | [2342](./problems/id_2342) | Max Sum of a Pair With Equal Sum of Digits | Medium | `Array`, `Hash Table`, `Sorting`, `Heap (priority Queue)` |
