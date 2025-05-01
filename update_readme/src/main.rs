@@ -188,6 +188,11 @@ fn generate_readme(problems: &[ProblemInfo], stats: &Stats) -> String {
         alt=\"Leetcode March 2025 badge\"
         width=\"10%\"
     />
+    <img
+        src=\"https://assets.leetcode.com/static_assets/marketing/202504.gif\"
+        alt=\"Leetcode April 2025 badge\"
+        width=\"10%\"
+    />
 </div>
 
 ## 📊 Progress\n\n"

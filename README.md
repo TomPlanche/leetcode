@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-223-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-225-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -62,10 +62,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 223 problems
-    - **Easy**: 41 (18.4%) 🟢
-    - **Medium**: 145 (65.0%) 🟡
-    - **Hard**: 37 (16.6%) 🔴
+- **Total Solved**: 225 problems
+    - **Easy**: 41 (18.2%) 🟢
+    - **Medium**: 146 (64.9%) 🟡
+    - **Hard**: 38 (16.9%) 🔴
 
 
 ## 📁 Repository Structure
@@ -258,6 +258,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2054](./problems/id_2054) | Two Best Non-Overlapping Events | Medium | `Array`, `Binary Search`, `Dynamic Programming`, `Sorting`, `Heap (priority Queue)` |
 | [2064](./problems/id_2064) | Minimized Maximum of Products Distributed to Any Store | Medium | `Array`, `Binary Search` |
 | [2070](./problems/id_2070) | Most Beautiful Item for Each Query | Medium | `Array`, `Binary Search`, `Sorting` |
+| [2071](./problems/id_2071) | Maximum Number of Tasks You Can Assign | Hard | `Array`, `Binary Search`, `Greedy`, `Queue`, `Sorting`, `Monotonic Queue` |
 | [2097](./problems/id_2097) | Valid Arrangement of Pairs | Hard | `Depth First Search`, `Graph`, `Eulerian Circuit` |
 | [2109](./problems/id_2109) | Adding Spaces to a String | Medium | `Array`, `Two Pointers`, `String`, `Simulation` |
 | [2115](./problems/id_2115) | Find All Possible Recipes from Given Supplies | Medium | `Array`, `Hash Table`, `String`, `Graph`, `Topological Sort` |
@@ -346,6 +347,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [2938](./problems/id_2938) | Separate Black and White Balls | Medium | `Two Pointers`, `String`, `Greedy` |
 | [2940](./problems/id_2940) | Find Building Where Alice and Bob Can Meet | Hard | `Array`, `Binary Search`, `Stack`, `Monotonic Stack` |
 | [2948](./problems/id_2948) | Make Lexicographically Smallest Array by Swapping Elements | Medium | `Array`, `Union Find`, `Sorting` |
+| [2962](./problems/id_2962) | Count Subarrays Where Max Element Appears at Least K Times | Medium | `Array`, `Sliding Window` |
 | [2965](./problems/id_2965) | Find Missing and Repeated Values | Easy | `Array`, `Hash Table`, `Math`, `Matrix` |
 | [2981](./problems/id_2981) | Find Longest Special Substring That Occurs Thrice I | Medium | `Hash Table`, `String`, `Binary Search`, `Sliding Window`, `Counting` |
 | [2999](./problems/id_2999) | Count the Number of Powerful Integers | Hard | `Math`, `String`, `Dynamic Programming` |
