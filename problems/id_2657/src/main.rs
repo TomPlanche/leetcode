@@ -1,7 +1,7 @@
-///
-/// # Find the Prefix Common Array of Two Arrays (Medium) [Array, Hash Table, Bit Manipulation]
-/// LeetCode Problem 2657
-///
+//!
+//! # Find the Prefix Common Array of Two Arrays (Medium) [Array, Hash Table, Bit Manipulation]
+//! LeetCode Problem 2657
+//!
 
 /// # `find_the_prefix_common_array`
 /// Finds the prefix common array of two permutations.

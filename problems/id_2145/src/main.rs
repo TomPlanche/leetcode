@@ -7,17 +7,17 @@
 /// Calculates the number of possible hidden sequences that satisfy given differences
 /// and bounds constraints.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Calculate running sum of differences to understand the pattern of changes
 /// 2. Find min and max values in running sum to determine sequence bounds
 /// 3. Calculate valid starting points that keep entire sequence within [lower, upper]
 ///
-/// ## Arguments
+/// # Arguments
 /// * `differences` - Vector of differences between consecutive numbers
 /// * `lower` - Lower bound (inclusive) for all numbers in sequence
 /// * `upper` - Upper bound (inclusive) for all numbers in sequence
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - Number of possible valid sequences (0 if none exist)
 pub fn number_of_arrays(differences: Vec<i32>, lower: i32, upper: i32) -> i32 {
     // Use 0 as reference point and calculate running sum

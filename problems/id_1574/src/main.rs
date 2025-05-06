@@ -1,25 +1,20 @@
-///
-/// # Shortest Subarray to be Removed to Make Array Sorted (Medium) [Array, Two Pointers, Binary Search, Stack, Monotonic Stack]
-/// LeetCode Problem 1574
-///
+//!
+//! # Shortest Subarray to be Removed to Make Array Sorted (Medium) [Array, Two Pointers, Binary Search, Stack, Monotonic Stack]
+//! LeetCode Problem 1574
+//!
 
 ///
 /// # Shortest Subarray to be Removed to Make Array Sorted (Medium) [Array, Two Pointers, Binary Search, Stack, Monotonic Stack]
 /// LeetCode Problem 1574
 ///
 
-///
-/// # `find_length_of_shortest_subarray`
-///
 /// Given an integer array `arr`, remove a subarray (can be empty) from `arr`
 /// such that the remaining elements in `arr` are non-decreasing.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `arr` - A vector of integers.
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `i32` - The length of the shortest subarray to remove.
 ///
 pub fn find_length_of_shortest_subarray(arr: Vec<i32>) -> i32 {

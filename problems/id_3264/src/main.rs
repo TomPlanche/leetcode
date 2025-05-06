@@ -1,7 +1,7 @@
-///
-/// # Final Array State After K Multiplication Operations I (Easy) [Array, Math, Heap (priority Queue), Simulation]
-/// LeetCode Problem 3264
-///
+//!
+//! # Final Array State After K Multiplication Operations I (Easy) [Array, Math, Heap (priority Queue), Simulation]
+//! LeetCode Problem 3264
+//!
 
 ///
 /// # `get_final_state`
@@ -10,11 +10,11 @@
 /// - Find the minimum value x in nums. If there are multiple occurrences of the minimum value, select the one that appears first.
 /// - Replace the selected minimum value x with x * multiplier.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums`: A vector of integers
 /// * `k`: An integer
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i32>`: The final state of nums after performing all k operations
 pub fn get_final_state(nums: Vec<i32>, k: i32, multiplier: i32) -> Vec<i32> {
     // Create a mutable copy of the input array

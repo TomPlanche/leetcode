@@ -1,23 +1,18 @@
-///
-/// # Minimum Obstacle Removal to Reach Corner (Hard) [Array, Breadth-First Search, Graph, Heap (Priority Queue), Matrix,Shortest Path]
-/// LeetCode Problem 2290
-///
+//!
+//! # Minimum Obstacle Removal to Reach Corner (Hard) [Array, Breadth-First Search, Graph, Heap (Priority Queue), Matrix,Shortest Path]
+//! LeetCode Problem 2290
+//!
 use std::collections::VecDeque;
 
-///
-/// # `minimum_obstacles`
-///
 /// You are given a 0-indexed 2D integer array grid of size m x n. Each cell has one of two values:
 /// 0 represents an empty cell,
 /// 1 represents an obstacle that may be removed.
 /// You can move up, down, left, or right from and to an empty cell.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `grid` - A 2D vector of integers representing the grid.
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `i32` - An integer representing the minimum number of obstacles to remove to reach from the upper left corner to the lower right corner of the grid.
 pub fn minimum_obstacles(grid: Vec<Vec<i32>>) -> i32 {
     let m = grid.len();

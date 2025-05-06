@@ -1,6 +1,7 @@
-///
-/// # Maximum Beauty of an Array After Applying Operation (Medium) [Array, Binary Search, Sliding Window, Sorting]
-/// LeetCode Problem 2779
+//!
+//! # Maximum Beauty of an Array After Applying Operation (Medium) [Array, Binary Search, Sliding Window, Sorting]
+//! LeetCode Problem 2779
+//!
 
 ///
 /// # maximum_beauty
@@ -8,20 +9,19 @@
 /// can be replaced with any number within k distance of its original value.
 ///
 /// Beauty is defined as the length of the longest subsequence consisting of equal elements.
-/// ## Algorithm
-///
+/// # Algorithm
 /// 1. Sort the array to group similar numbers together
 /// 2. Use sliding window technique to find the longest window where max-min <= 2*k
 /// 3. The size of this window represents the maximum possible beauty
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers representing the input array
 /// * `k` - An integer representing the maximum allowed change for each element
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The maximum possible beauty of the array after applying operations
 ///
-/// ## Example
+/// # Example
 /// ```
 /// let nums = vec![4,6,1,2];
 /// let k = 2;

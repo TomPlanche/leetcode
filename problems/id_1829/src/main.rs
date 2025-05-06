@@ -1,7 +1,7 @@
-///
-/// # Maximum XOR for Each Query (Medium) [Array, Bit Manipulation, Prefix Sum]
-/// LeetCode Problem 1829
-///
+//!
+//! # Maximum XOR for Each Query (Medium) [Array, Bit Manipulation, Prefix Sum]
+//! LeetCode Problem 1829
+//!
 /// Given a sorted array of non-negative integers `nums` and an integer `maximumBit`,
 /// perform `n` queries to find the maximum value of `nums[0] XOR nums[1] XOR ... XOR nums[i] XOR k`,
 /// where `k` is a non-negative integer less than `2^maximumBit`.
@@ -10,7 +10,7 @@
 ///
 /// The function returns an array `answer` where `answer[i]` is the answer to the `i`th query.
 ///
-/// ## Examples
+/// # Examples
 /// ```
 /// # Example 1
 /// Input: nums = [0,1,1,3], maximumBit = 2
@@ -25,7 +25,7 @@
 /// Output: [4,3,6,4,6,7]
 /// ```
 ///
-/// ## Constraints
+/// # Constraints
 /// - `nums.length == n`
 /// - `1 <= n <= 10^5`
 /// - `1 <= maximumBit <= 20`

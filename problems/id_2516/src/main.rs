@@ -1,30 +1,25 @@
-///
-/// # Take K of Each Character From Left and Right (Medium) [Hash Table, String, Sliding Window]
-/// LeetCode Problem 2516
-///
+//!
+//! # Take K of Each Character From Left and Right (Medium) [Hash Table, String, Sliding Window]
+//! LeetCode Problem 2516
+//!
 /// You are given a string s consisting of the characters 'a', 'b', and 'c' and a
 /// non-negative integer k. Each minute, you may take either the leftmost character
 /// of s, or the rightmost character of s.
 
-/// # `take_characters`
-///
 /// Uses a sliding window approach:
 /// 1. First check if we have enough characters (at least k of each)
 /// 2. Find the longest substring that we can exclude while maintaining k of each character
 /// 3. The answer is the total length minus the length of the longest excludable substring
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `s` - A string consisting only of characters 'a', 'b', and 'c'
 /// * `k` - A non-negative integer representing the minimum count required for each character
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `i32` - The minimum number of minutes needed to take at least k of each character,
 ///           or -1 if it's impossible
 ///
-/// ## Example
-///
+/// # Example
 /// ```
 /// let s = String::from("aabaaaacaabc");
 /// let k = 2;

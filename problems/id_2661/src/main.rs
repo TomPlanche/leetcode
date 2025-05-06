@@ -1,7 +1,7 @@
-///
-/// # First Completely Painted Row or Column (Medium) [Array, Hash Table, Matrix]
-/// LeetCode Problem 2661
-///
+//!
+//! # First Completely Painted Row or Column (Medium) [Array, Hash Table, Matrix]
+//! LeetCode Problem 2661
+//!
 use std::collections::HashMap;
 
 /// # `first_complete_index`

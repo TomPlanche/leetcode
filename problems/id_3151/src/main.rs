@@ -1,16 +1,16 @@
-///
-/// # Special Array I (Easy) [Array]
-/// LeetCode Problem 3151
-///
+//!
+//! # Special Array I (Easy) [Array]
+//! LeetCode Problem 3151
+//!
 
 /// # `is_array_special`
 /// Determines if an array is special by checking if every pair of adjacent elements
 /// has different parity (one even, one odd).
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers where 1 <= nums[i] <= 100
 ///
-/// ## Returns
+/// # Returns
 /// * `bool` - true if the array is special, false otherwise
 pub fn is_array_special(nums: Vec<i32>) -> bool {
     // Single element array is special by default (no adjacent pairs to check)

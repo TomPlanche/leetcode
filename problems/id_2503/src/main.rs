@@ -11,17 +11,17 @@ use std::collections::{BinaryHeap, HashSet};
 /// a grid starting from the top-left cell, where you can only move to adjacent cells with
 /// values less than the query value.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Sort queries while maintaining original indices
 /// 2. Use BFS with a priority queue to visit cells in ascending order of values
 /// 3. Keep track of visited cells count for each query threshold
 /// 4. Map results back to original query order
 ///
-/// ## Arguments
+/// # Arguments
 /// * `grid` - A 2D vector representing the integer matrix
 /// * `queries` - A vector of query values
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i32>` - Vector containing the maximum points possible for each query
 pub fn max_points(grid: Vec<Vec<i32>>, queries: Vec<i32>) -> Vec<i32> {
     let m = grid.len();

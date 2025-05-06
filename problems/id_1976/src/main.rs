@@ -1,7 +1,7 @@
-///
-/// # Number of Ways to Arrive at Destination (Medium) [Dynamic Programming, Graph, Topological Sort, Shortest Path]
-/// LeetCode Problem 1976
-///
+//!
+//! # Number of Ways to Arrive at Destination (Medium) [Dynamic Programming, Graph, Topological Sort, Shortest Path]
+//! LeetCode Problem 1976
+//!
 use std::cmp::Ordering;
 use std::collections::{BinaryHeap, HashMap};
 
@@ -31,16 +31,16 @@ impl PartialOrd for State {
 /// # `count_paths`
 /// Counts the number of different ways to reach destination with minimum time in a weighted undirected graph.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses a modified version of Dijkstra's algorithm that keeps track of both:
 /// - The minimum distance to reach each node
 /// - The number of different ways to reach each node with the minimum distance
 ///
-/// ## Arguments
+/// # Arguments
 /// * `n` - Number of nodes in the graph (0 to n-1)
 /// * `roads` - Vector of roads where each road is [from, to, time]
 ///
-/// ## Returns
+/// # Returns
 /// * Number of ways to reach node (n-1) from node 0 with minimum time, modulo 10^9 + 7
 pub fn count_paths(n: i32, roads: Vec<Vec<i32>>) -> i32 {
     let n = n as usize;

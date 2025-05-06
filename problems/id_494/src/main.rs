@@ -1,7 +1,7 @@
-///
-/// # Target Sum (Medium) [Array, Dynamic Programming, Backtracking]
-/// LeetCode Problem 494
-///
+//!
+//! # Target Sum (Medium) [Array, Dynamic Programming, Backtracking]
+//! LeetCode Problem 494
+//!
 /// You are given an integer array nums and an integer target. You want to build
 /// an expression out of nums by adding one of the symbols '+' and '-' before each
 /// integer in nums and then concatenate all the integers.
@@ -31,17 +31,17 @@ pub fn max_score_sightseeing_pair(values: Vec<i32>) -> i32 {
 /// Finds the number of different ways to build expressions that evaluate to the target sum
 /// using recursive approach with memoization.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of non-negative integers
 /// * `target` - The target sum to achieve
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The number of different ways to achieve the target sum
 ///
-/// ## Time Complexity
+/// # Time Complexity
 /// * O(n * sum) where n is the length of nums and sum is the sum of all numbers
 ///
-/// ## Space Complexity
+/// # Space Complexity
 /// * O(n * sum) for the memoization cache
 pub fn find_target_sum_ways(nums: Vec<i32>, target: i32) -> i32 {
     use std::collections::HashMap;
@@ -70,17 +70,17 @@ pub fn find_target_sum_ways(nums: Vec<i32>, target: i32) -> i32 {
 /// Finds the number of different ways to build expressions that evaluate to the target sum
 /// using dynamic programming approach.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of non-negative integers
 /// * `target` - The target sum to achieve
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The number of different ways to achieve the target sum
 ///
-/// ## Time Complexity
+/// # Time Complexity
 /// * O(n * sum) where n is the length of nums and sum is the sum of all numbers
 ///
-/// ## Space Complexity
+/// # Space Complexity
 /// * O(sum) as we only need to keep track of the current and previous states
 pub fn find_target_sum_ways_dp(nums: Vec<i32>, target: i32) -> i32 {
     let total: i32 = nums.iter().sum();

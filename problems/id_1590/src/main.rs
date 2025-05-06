@@ -1,7 +1,7 @@
-///
-/// # Make Sum Divisible by P (Medium) [Array, Hash Table, Prefix Sum]
-/// Leetcode Problem 1590
-///
+//!
+//! # Make Sum Divisible by P (Medium) [Array, Hash Table, Prefix Sum]
+//! Leetcode Problem 1590
+//!
 use std::collections::HashMap;
 
 pub fn min_subarray(nums: Vec<i32>, p: i32) -> i32 {

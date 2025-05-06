@@ -1,25 +1,19 @@
-///
-/// # Generate Parentheses (Medium) [String, Dynamic Programming, Backtracking]
-/// LeetCode Problem 22
-///
+//!
+//! # Generate Parentheses (Medium) [String, Dynamic Programming, Backtracking]
+//! LeetCode Problem 22
+//!
 
-///
-/// # `generate_parenthesis`
-///
 /// Given n pairs of parentheses, generates all combinations of well-formed parentheses.
 /// Uses a backtracking approach to build valid combinations by maintaining the count
 /// of open and closed parentheses.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `n` - An integer representing the number of pairs of parentheses to generate
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `Vec<String>` - A vector containing all valid combinations of parentheses
 ///
-/// ## Example
-///
+/// # Example
 /// ```
 /// let result = generate_parenthesis(3);
 /// assert_eq!(result, vec!["((()))", "(()())", "(())()", "()(())", "()()()"]);
@@ -30,13 +24,9 @@ pub fn generate_parenthesis(n: i32) -> Vec<String> {
     result
 }
 
-///
-/// # `backtrack`
-///
 /// Helper function that implements the backtracking logic for generating parentheses.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `result` - Mutable reference to the vector storing all valid combinations
 /// * `current` - Current string being built
 /// * `open` - Count of open parentheses in the current string

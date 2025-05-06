@@ -1,11 +1,8 @@
-///
-/// # Defuse the Bomb (Easy) [Array, Sliding Window]
-/// LeetCode Problem 1652
-///
+//!
+//! # Defuse the Bomb (Easy) [Array, Sliding Window]
+//! LeetCode Problem 1652
+//!
 
-///
-/// # `decrypt`
-///
 /// Decrypts a circular array according to a given key by replacing each number with the sum of k adjacent numbers.
 ///
 /// Given a circular array of integers and a key k, this function replaces each number according to the following rules:
@@ -17,14 +14,12 @@
 /// * The next element after the last element is the first element
 /// * The previous element before the first element is the last element
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `code` - A vector of integers representing the encrypted code
 /// * `k` - An integer key that determines how many numbers to sum and in which direction
 ///         Positive k sums forward, negative k sums backward, zero replaces with zeros
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `Vec<i32>` - A vector of integers representing the decrypted code
 pub fn decrypt(code: Vec<i32>, k: i32) -> Vec<i32> {
     let n = code.len();

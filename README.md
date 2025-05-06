@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-225-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-230-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -67,10 +67,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 225 problems
-    - **Easy**: 41 (18.2%) 🟢
-    - **Medium**: 146 (64.9%) 🟡
-    - **Hard**: 38 (16.9%) 🔴
+- **Total Solved**: 230 problems
+    - **Easy**: 43 (18.7%) 🟢
+    - **Medium**: 149 (64.8%) 🟡
+    - **Hard**: 38 (16.5%) 🔴
 
 
 ## 📁 Repository Structure
@@ -186,9 +186,11 @@ Each solution includes this header format for easy navigation and reference (and
 | [769](./problems/id_769) | Max Chunks To Make Sorted | Medium | `Array`, `Stack`, `Greedy`, `Sorting`, `Monotonic Stack` |
 | [773](./problems/id_773) | Sliding Puzzle | Hard | `Array`, `Breadth First Search`, `Matrix` |
 | [781](./problems/id_781) | Rabbits in Forest | Medium | `Array`, `Hash Table`, `Math`, `Greedy` |
+| [790](./problems/id_790) | Domino and Tromino Tiling | Medium | `Dynamic Programming` |
 | [796](./problems/id_796) | Rotate String | Easy | `String`, `String Matching` |
 | [802](./problems/id_802) | Find Eventual Safe States | Medium | `Depth First Search`, `Breadth First Search`, `Graph`, `Topological Sort` |
 | [827](./problems/id_827) | Making A Large Island | Hard | `Array`, `Depth First Search`, `Breadth First Search`, `Union Find`, `Matrix` |
+| [838](./problems/id_838) | Push Dominoes | Medium | `Two Pointers`, `String`, `Dynamic Programming` |
 | [862](./problems/id_862) | Shortest Subarray with Sum at Least K | Hard | `Array`, `Binary Search`, `Queue`, `Sliding Window`, `Heap (Priority Queue)`, `Prefix Sum`, `Monotonic Queue` |
 | [873](./problems/id_873) | Length of Longest Fibonacci Subsequence | Medium | `Array`, `Hash Table`, `Dynamic Programming` |
 | [889](./problems/id_889) | Construct Binary Tree from Preorder and Postorder Traversal | Medium | `Array`, `Hash Table`, `Divide And Conquer`, `Tree`, `Binary Tree` |
@@ -197,6 +199,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [951](./problems/id_951) | Minimum Add to Make Parentheses Valid | Medium | `String`, `Stack`, `Greedy` |
 | [962](./problems/id_962) | Maximum Width Ramp | Medium | `Array`, `Stack`, `Monotonic Stack` |
 | [983](./problems/id_983) | Minimum Cost For Tickets | Medium | `Array`, `Dynamic Programming` |
+| [1007](./problems/id_1007) | Minimum Domino Rotations For Equal Row | Medium | `Array`, `Greedy` |
 | [1014](./problems/id_1014) | Best Sightseeing Pair | Medium | `Array`, `Dynamic Programming` |
 | [1028](./problems/id_1028) | Recover a Tree From Preorder Traversal | Hard | `String`, `Tree`, `Depth First Search`, `Binary Tree` |
 | [1072](./problems/id_1072) | Flip Columns For Maximum Number of Equal Rows | Medium | `Array`, `Hash Table`, `Matrix` |
@@ -204,6 +207,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1092](./problems/id_1092) | Shortest Common Supersequence | Hard | `String`, `Dynamic Programming` |
 | [1106](./problems/id_1106) | Parsing A Boolean Expression | Hard | `String`, `Stack`, `Recursion` |
 | [1123](./problems/id_1123) | Lowest Common Ancestor of Deepest Leaves | Medium | `Hash Table`, `Tree`, `Depth First Search`, `Breadth First Search`, `Binary Tree` |
+| [1128](./problems/id_1128) | Number of Equivalent Domino Pairs | Easy | `Array`, `Hash Table`, `Counting` |
 | [1233](./problems/id_1233) | Remove Sub-Folders from the Filesystem | Medium | `Array`, `String`, `Depth-First Search`, `Trie` |
 | [1261](./problems/id_1261) | Find Elements in a Contaminated Binary Tree | Medium | `Hash Table`, `Tree`, `Depth First Search`, `Breadth First Search`, `Design`, `Binary Tree` |
 | [1267](./problems/id_1267) | Count Servers that Communicate | Medium | `Array`, `Depth First Search`, `Breadth First Search`, `Union Find`, `Matrix`, `Counting` |
@@ -249,6 +253,7 @@ Each solution includes this header format for easy navigation and reference (and
 | [1861](./problems/id_1861) | Rotating the Box | Medium | `Array`, `Two Pointers`, `Matrix` |
 | [1863](./problems/id_1863) | Sum of All Subset XOR Totals | Easy | `Array`, `Math`, `Backtracking`, `Bit Manipulation`, `Combinatorics`, `Enumeration` |
 | [1910](./problems/id_1910) | Remove All Occurrences of a Substring | Medium | `String`, `Stack`, `Simulation` |
+| [1920](./problems/id_1920) | Build Array from Permutation | Easy | `Array`, `Simulation` |
 | [1922](./problems/id_1922) | Count Good Numbers | Medium | `Math`, `Recursion` |
 | [1930](./problems/id_1930) | Unique Length-3 Palindromic Subsequences | Medium | `Hash Table`, `String`, `Bit Manipulation`, `Prefix Sum` |
 | [1942](./problems/id_1942) | The Number of the Smallest Unoccupied Chair | Medium | `Array`, `Hash Table`, `Heap (Priority Queue)` |

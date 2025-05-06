@@ -1,23 +1,23 @@
-///
-/// # Construct the Lexicographically Largest Valid Sequence (Medium) [Array, Backtracking]
-/// LeetCode Problem 1718
-///
+//!
+//! # Construct the Lexicographically Largest Valid Sequence (Medium) [Array, Backtracking]
+//! LeetCode Problem 1718
+//!
 
 /// # `construct_distanced_sequence`
 /// Constructs a sequence where each number between 2 and n appears twice with distance
 /// equal to its value, and 1 appears once. Returns the lexicographically largest such sequence.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses backtracking to construct the sequence:
 /// 1. Start with largest numbers to ensure lexicographically largest sequence
 /// 2. For each number, try to place it in valid positions
 /// 3. Recursively fill the rest of the sequence
 /// 4. Backtrack if no valid solution is found
 ///
-/// ## Arguments
+/// # Arguments
 /// * `n` - An integer representing the maximum number in the sequence
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i32>` - The lexicographically largest valid sequence
 pub fn construct_distanced_sequence(n: i32) -> Vec<i32> {
     let size = 2 * n as usize - 1;

@@ -10,10 +10,10 @@
 /// digits in the previous term. For example, "1" becomes "11" (one 1),
 /// "11" becomes "21" (two 1s), and so on.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `n` - The position in the sequence to generate (1 <= n <= 30)
 ///
-/// ## Returns
+/// # Returns
 /// * `String` - The nth term in the count-and-say sequence
 pub fn count_and_say(n: i32) -> String {
     let mut current = String::from("1");

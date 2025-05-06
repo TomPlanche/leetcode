@@ -1,7 +1,7 @@
-///
-/// # Find Longest Special Substring That Occurs Thrice I (Medium) [Hash Table, String, Binary Search, Sliding Window, Counting]
-/// LeetCode Problem 2981
-///
+//!
+//! # Find Longest Special Substring That Occurs Thrice I (Medium) [Hash Table, String, Binary Search, Sliding Window, Counting]
+//! LeetCode Problem 2981
+//!
 use std::collections::HashMap;
 
 ///
@@ -11,10 +11,10 @@ use std::collections::HashMap;
 ///
 /// Return the length of the longest special substring of s which occurs at least thrice.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `s` - The input string.
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The length of the longest special substring of `s` which occurs at least thrice, -1 if no such substring exists.
 pub fn maximum_length(s: String) -> i32 {
     // Create a HashMap to store frequency counts of character sequences

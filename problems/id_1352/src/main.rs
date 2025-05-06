@@ -1,18 +1,18 @@
-///
-/// # Product of the Last K Numbers (Medium) [Array, Math, Design, Data Stream, Prefix Sum]
-/// LeetCode Problem 1352
-///
+//!
+//! # Product of the Last K Numbers (Medium) [Array, Math, Design, Data Stream, Prefix Sum]
+//! LeetCode Problem 1352
+//!
 
 /// # `ProductOfNumbers`
 /// A data structure that maintains a stream of integers and efficiently computes
 /// the product of the last k numbers in the stream.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses a prefix product array with a clever reset mechanism for zeros. When a zero
 /// is encountered, the entire array is reset since any product including zero will be zero.
 /// The array starts with 1 to simplify prefix product calculations.
 ///
-/// ## Example
+/// # Example
 /// ```
 /// let mut prod = ProductOfNumbers::new();
 /// prod.add(3);  // [1,3]

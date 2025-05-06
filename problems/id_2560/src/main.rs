@@ -1,23 +1,23 @@
-///
-/// # House Robber IV (Medium) [Array, Binary Search]
-/// LeetCode Problem 2560
-///
+//!
+//! # House Robber IV (Medium) [Array, Binary Search]
+//! LeetCode Problem 2560
+//!
 
 /// # `min_capability`
 /// Finds the minimum capability needed for a robber to steal from at least k houses,
 /// where capability is defined as the maximum amount stolen from any single house.
 /// Adjacent houses cannot be robbed.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses binary search to find the minimum capability needed. For each potential
 /// capability, checks if it's possible to rob k houses without exceeding that
 /// capability using a greedy approach.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers representing money in each house
 /// * `k` - The minimum number of houses that must be robbed
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The minimum capability needed to rob at least k houses
 pub fn min_capability(nums: Vec<i32>, k: i32) -> i32 {
     let mut left = *nums.iter().min().unwrap();

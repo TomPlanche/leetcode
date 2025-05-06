@@ -1,7 +1,7 @@
-///
-/// # Minimum Number of Removals to Make Mountain Array (Hard) [Array, Binary Search, Dynamic Programming, Greedy]
-/// Leetcode Problem 1671
-///
+//!
+//! # Minimum Number of Removals to Make Mountain Array (Hard) [Array, Binary Search, Dynamic Programming, Greedy]
+//! Leetcode Problem 1671
+//!
 
 ///
 /// # Minimum Mountain Removals
@@ -11,22 +11,22 @@
 /// - Length >= 3
 /// - A peak index i where elements strictly increase before i and strictly decrease after i
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. For each possible peak position, compute:
 ///    - Longest increasing subsequence (LIS) from left to that position
 ///    - Longest decreasing subsequence (LDS) from that position to end
 /// 2. Find maximum mountain length possible and subtract from original length
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - Vector of integers to process
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - Minimum number of elements to remove
 ///
-/// ## Time Complexity
+/// # Time Complexity
 /// O(n²) where n is the length of nums
 ///
-/// ## Space Complexity
+/// # Space Complexity
 /// O(n) for the LIS and LDS arrays
 ///
 pub fn minimum_mountain_removals(nums: Vec<i32>) -> i32 {

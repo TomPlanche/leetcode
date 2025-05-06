@@ -1,22 +1,17 @@
-///
-/// # Continuous Subarrays (Medium) [Array, Queue, Sliding Window, Heap (priority Queue), Ordered Set, Monotonic Queue]
-/// LeetCode Problem 2762
-///
+//!
+//! # Continuous Subarrays (Medium) [Array, Queue, Sliding Window, Heap (priority Queue), Ordered Set, Monotonic Queue]
+//! LeetCode Problem 2762
+//!
 use std::collections::VecDeque;
 
-///
-/// # continuous_subarrays
-///
 /// You are given a 0-indexed integer array `nums`. A subarray of `nums` is called continuous if:
 /// Let `i, i + 1, ..., j` be the indices in the subarray. Then, for each pair of indices `i <= i1, i2 <= j`,
 /// `0 <= |nums[i1] - nums[i2]| <= 2`.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `nums` - A vector of integers.
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `i64` - The total number of continuous subarrays.
 ///
 pub fn continuous_subarrays(nums: Vec<i32>) -> i64 {

@@ -1,21 +1,21 @@
-///
-/// # Maximum Absolute Sum of Any Subarray (Medium) [Array, Dynamic Programming]
-/// LeetCode Problem 1749
-///
+//!
+//! # Maximum Absolute Sum of Any Subarray (Medium) [Array, Dynamic Programming]
+//! LeetCode Problem 1749
+//!
 
 /// # `max_absolute_sum`
 /// Finds the maximum absolute sum of any subarray in the given array.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses a modified version of Kadane's algorithm to track both maximum and minimum sums simultaneously:
 /// 1. Maintains current maximum and minimum sums
 /// 2. At each step, updates both based on whether to start new subarray or extend existing
 /// 3. Returns the maximum absolute value between the overall maximum and absolute of minimum
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers representing the input array
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The maximum absolute sum possible from any subarray
 pub fn max_absolute_sum(nums: Vec<i32>) -> i32 {
     let mut curr_max = 0;

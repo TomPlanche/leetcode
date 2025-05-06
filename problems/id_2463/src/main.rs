@@ -1,13 +1,13 @@
-///
-/// # Minimum Total Distance Traveled (Hard) [Array, Dynamic Programming, Sorting]
-/// Leetcode Problem 2463
-///
+//!
+//! # Minimum Total Distance Traveled (Hard) [Array, Dynamic Programming, Sorting]
+//! Leetcode Problem 2463
+//!
 
 ///
 /// # Minimum Total Distance Problem
 /// Calculates the minimum total distance traveled by robots to reach repair factories.
 ///
-/// ## Algorithm Overview
+/// # Algorithm Overview
 /// Uses dynamic programming to find optimal robot-factory assignments.
 /// 1. Sorts both robots and factories for efficient processing
 /// 2. Uses memoization to cache subproblem results
@@ -19,11 +19,11 @@ use std::collections::HashMap;
 /// # `minimum_total_distance`
 /// Calculates the minimum total distance required for all robots to reach repair factories.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `robot` - Vector of robot positions on X-axis
 /// * `factory` - Vector of factory positions and their repair limits
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - Minimum total distance required
 ///
 pub fn minimum_total_distance(mut robot: Vec<i32>, mut factory: Vec<Vec<i32>>) -> i64 {
@@ -42,7 +42,7 @@ pub fn minimum_total_distance(mut robot: Vec<i32>, mut factory: Vec<Vec<i32>>) -
 /// # `solve`
 /// Recursive helper function to solve the minimum distance problem.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `robot_idx` - Current robot index
 /// * `factory_idx` - Current factory index
 /// * `used` - Number of slots used in current factory
@@ -50,7 +50,7 @@ pub fn minimum_total_distance(mut robot: Vec<i32>, mut factory: Vec<Vec<i32>>) -
 /// * `factory` - Reference to sorted factory positions and limits
 /// * `memo` - Memoization cache
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - Minimum distance for current state
 ///
 fn solve(

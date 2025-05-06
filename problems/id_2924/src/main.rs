@@ -1,9 +1,8 @@
-///
-/// # Find Champion II (Medium) [Graph]
-/// LeetCode Problem 2924
+//!
+//! # Find Champion II (Medium) [Graph]
+//! LeetCode Problem 2924
+//!
 
-/// # `find_champion`
-///
 /// There are n teams numbered from 0 to n - 1 in a tournament; each team is also a node in a DAG.
 ///
 /// You are given the integer n and a 0-indexed 2D integer array edges of length m representing the DAG,
@@ -15,13 +14,11 @@
 ///
 /// Return the team that will be the champion of the tournament if there is a unique champion, otherwise, return -1.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `n` - An integer representing the number of teams.
 /// * `edges` - A vector of vectors of integers representing the directed edges in the graph.
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `i32` - The team that will be the champion of the tournament if there is a unique champion, otherwise, -1.
 ///
 pub fn find_champion(n: i32, edges: Vec<Vec<i32>>) -> i32 {

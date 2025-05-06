@@ -1,20 +1,20 @@
-///
-/// # Check if Number is a Sum of Powers of Three (Medium) [Math]
-/// LeetCode Problem 1780
-///
+//!
+//! # Check if Number is a Sum of Powers of Three (Medium) [Math]
+//! LeetCode Problem 1780
+//!
 
 /// # `check_powers_of_three`
 /// Determines if a given number can be represented as a sum of distinct powers of three.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// The function works by converting the number to base 3 and checking if any digit is 2.
 /// If there are no 2s in the base-3 representation, the number can be represented as
 /// a sum of distinct powers of three.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `n` - A positive integer to check
 ///
-/// ## Returns
+/// # Returns
 /// * `bool` - true if the number can be represented as a sum of distinct powers of three,
 ///           false otherwise
 pub fn check_powers_of_three(n: i32) -> bool {

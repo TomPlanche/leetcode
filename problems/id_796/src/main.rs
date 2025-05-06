@@ -1,23 +1,23 @@
-///
-/// # Rotate String (Easy) [String, String Matching]
-/// LeetCode Problem 796
-///
+//!
+//! # Rotate String (Easy) [String, String Matching]
+//! LeetCode Problem 796
+//!
 /// This module contains a solution for determining if one string can become another
 /// through rotations.
 ///
-/// ## Problem Description
+/// # Problem Description
 /// Given two strings s and goal, return true if and only if s can become goal after
 /// some number of shifts on s. A shift consists of moving the leftmost character to
 /// the rightmost position.
 ///
-/// ## Examples
+/// # Examples
 /// ```
 /// let s = "abcde".to_string();
 /// let goal = "cdeab".to_string();
 /// assert_eq!(rotate_string(s, goal), true);
 /// ```
 ///
-/// ## Complexity
+/// # Complexity
 /// - Time complexity: O(n²) where n is the length of the input string
 /// - Space complexity: O(n) for the concatenated string
 ///
@@ -26,14 +26,14 @@
 /// # `rotate_string`
 /// Determines if one string can become another through rotations.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `s` - The source string
 /// * `goal` - The target string to match through rotations
 ///
-/// ## Returns
+/// # Returns
 /// * `bool` - True if s can become goal through rotations, false otherwise
 ///
-/// ## Examples
+/// # Examples
 /// ```
 /// let result = rotate_string("abcde".to_string(), "cdeab".to_string());
 /// assert_eq!(result, true);

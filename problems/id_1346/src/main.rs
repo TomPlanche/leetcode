@@ -1,22 +1,17 @@
-///
-/// # Check If N and Its Double Exist (Easy) [Array, Hash Table, Two Pointers, Binary Search, Sorting]
-/// LeetCode Problem 1346
-///
+//!
+//! # Check If N and Its Double Exist (Easy) [Array, Hash Table, Two Pointers, Binary Search, Sorting]
+//! LeetCode Problem 1346
+//!
 
-///
-/// # `check_if_exist`
-///
 /// Given an array arr of integers, check if there exist two indices i and j such that :
 /// - i != j
 /// - 0 <= i, j < arr.length
 /// - arr[i] == 2 * arr[j]
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `arr` - A vector of integers
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `bool` - True if there exist two indices i and j such that arr[i] == 2 * arr[j]
 pub fn check_if_exist(arr: Vec<i32>) -> bool {
     for i in 0..arr.len() {

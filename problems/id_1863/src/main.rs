@@ -6,16 +6,16 @@
 /// # `subset_xor_sum`
 /// Calculates the sum of XOR totals for all possible subsets of the input array.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses bit manipulation to generate all possible subsets:
 /// - For array of length n, iterates from 0 to 2^n-1
 /// - Each number's binary representation determines which elements to include
 /// - Calculates XOR total for each subset and adds to final sum
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers where 1 <= nums[i] <= 20
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The sum of XOR totals of all possible subsets
 pub fn subset_xor_sum(nums: Vec<i32>) -> i32 {
     let n = nums.len();

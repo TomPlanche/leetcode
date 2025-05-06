@@ -6,16 +6,16 @@
 /// # `partition_labels`
 /// Partitions a string into as many parts as possible so that each letter appears in at most one part.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Create a hashmap to store the last occurrence of each character
 /// 2. Iterate through the string, keeping track of current partition's end
 /// 3. For each character, extend current partition if needed to include its last occurrence
 /// 4. When current index reaches partition end, we've found a valid partition
 ///
-/// ## Arguments
+/// # Arguments
 /// * `s` - Input string to be partitioned
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i32>` - Vector containing the sizes of each partition
 ///
 pub fn partition_labels(s: String) -> Vec<i32> {

@@ -7,11 +7,11 @@
 /// Counts the number of index pairs (i,j) in a vector where the values at those indices are equal
 /// and the product of the indices is divisible by a given number k.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers to check for pairs
 /// * `k` - An integer to check divisibility of index products
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The count of valid pairs meeting both conditions:
 ///   1. nums[i] == nums[j]
 ///   2. (i * j) is divisible by k

@@ -1,21 +1,21 @@
-///
-/// # Make Lexicographically Smallest Array by Swapping Elements (Medium) [Array, Union Find, Sorting]
-/// LeetCode Problem 2948
-///
+//!
+//! # Make Lexicographically Smallest Array by Swapping Elements (Medium) [Array, Union Find, Sorting]
+//! LeetCode Problem 2948
+//!
 
 /// # `lexicographically_smallest_array`
 /// Given a 0-indexed array of positive integers and a limit, returns the lexicographically
 /// smallest array that can be obtained by swapping elements where their absolute difference
 /// is less than or equal to the limit.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of positive integers
 /// * `limit` - A positive integer representing the maximum allowed difference for swaps
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i32>` - The lexicographically smallest possible array after performing valid swaps
 ///
-/// ## Example
+/// # Example
 /// ```
 /// let nums = vec![1,5,3,9,8];
 /// let limit = 2;

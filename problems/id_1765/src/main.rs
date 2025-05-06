@@ -1,7 +1,7 @@
-///
-/// # Map of Highest Peak (Medium) [Array, Breadth First Search, Matrix]
-/// LeetCode Problem 1765
-///
+//!
+//! # Map of Highest Peak (Medium) [Array, Breadth First Search, Matrix]
+//! LeetCode Problem 1765
+//!
 use std::collections::VecDeque;
 
 /// # `highest_peak`
@@ -10,13 +10,13 @@ use std::collections::VecDeque;
 /// - Land cells (0) must have non-negative heights
 /// - Adjacent cells can only differ in height by at most 1
 ///
-/// ## Arguments
+/// # Arguments
 /// * `is_water` - A matrix where 1 represents water cells and 0 represents land cells
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<Vec<i32>>` - A matrix of heights satisfying all constraints
 ///
-/// ## Example
+/// # Example
 /// ```
 /// let is_water = vec![vec![0, 1], vec![0, 0]];
 /// let result = highest_peak(is_water);

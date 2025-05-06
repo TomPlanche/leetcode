@@ -1,7 +1,7 @@
-///
-/// # Alternating Groups II (Medium) [Array, Sliding Window]
-/// LeetCode Problem 3208
-///
+//!
+//! # Alternating Groups II (Medium) [Array, Sliding Window]
+//! LeetCode Problem 3208
+//!
 
 /// # `number_of_alternating_groups`
 /// Calculates the number of alternating groups in a circular array of colors.
@@ -9,12 +9,12 @@
 /// An alternating group is a contiguous set of k tiles where each adjacent pair has different colors.
 /// Since the array represents a circle, the first and last elements are considered adjacent.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `colors` - A vector of integers representing the colors of the tiles.
 ///   `colors[i] == 0` means tile i is red, and `colors[i] == 1` means tile i is blue.
 /// * `k` - An integer representing the size of each alternating group.
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The number of alternating groups in the circular array.
 pub fn number_of_alternating_groups(colors: Vec<i32>, k: i32) -> i32 {
     let n = colors.len();

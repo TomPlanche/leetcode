@@ -1,28 +1,22 @@
-///
-/// # Two Best Non-Overlapping Events (Medium) [Array, Binary Search, Dynamic Programming, Sorting, Heap (priority Queue)]
-/// LeetCode Problem 2054
-///
+//!
+//! # Two Best Non-Overlapping Events (Medium) [Array, Binary Search, Dynamic Programming, Sorting, Heap (priority Queue)]
+//! LeetCode Problem 2054
+//!
 
-///
-/// # `max_two_events`
-///
 /// Given a list of events where each event has a start time, end time, and value,
 /// find the maximum sum of values that can be obtained by attending at most two
 /// non-overlapping events.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `events` - A vector of vectors where each inner vector contains three integers:
 ///   * `events[i][0]`: start time of event i
 ///   * `events[i][1]`: end time of event i
 ///   * `events[i][2]`: value of event i
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `i32` - The maximum sum of values that can be obtained from two non-overlapping events
 ///
-/// ## Algorithm
-///
+/// # Algorithm
 /// 1. Sort events by start time
 /// 2. For each event, we can either:
 ///    - Take only this event

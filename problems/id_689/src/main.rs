@@ -1,25 +1,26 @@
-///
-/// # Maximum Sum of 3 Non-Overlapping Subarrays (Hard) [Array, Dynamic Programming]
-/// LeetCode Problem 689
+//!
+//! # Maximum Sum of 3 Non-Overlapping Subarrays (Hard) [Array, Dynamic Programming]
+//! LeetCode Problem 689
+//!
 
 ///
 /// # `max_sum_of_three_subarrays`
 /// Returns the starting indices of three non-overlapping subarrays of length k with maximum sum.
 /// If there are multiple solutions, returns the lexicographically smallest one.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Calculate prefix sums for efficient subarray sum computation
 /// 2. Use dynamic programming to find optimal positions for subarrays
 /// 3. Track best single, double, and triple subarray combinations
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums`: Vector of integers representing the input array
 /// * `k`: Length of each subarray
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i32>` - Vector containing three indices (starting positions of the subarrays)
 ///
-/// ## Example
+/// # Example
 /// ```
 /// let nums = vec![1,2,1,2,6,7,5,1];
 /// let k = 2;

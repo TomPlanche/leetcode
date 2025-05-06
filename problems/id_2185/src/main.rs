@@ -1,20 +1,20 @@
-///
-/// # Counting Words With a Given Prefix (Easy) [Array, String, String Matching]
-/// LeetCode Problem 2185
-///
+//!
+//! # Counting Words With a Given Prefix (Easy) [Array, String, String Matching]
+//! LeetCode Problem 2185
+//!
 
 ///
 /// # `prefix_count`
 /// Counts the number of strings in a vector that contain a given prefix.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `words` - A vector of strings to check.
 /// * `pref` - The prefix string to search for.
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The number of strings that contain the prefix.
 ///
-/// ## Examples
+/// # Examples
 /// ```
 /// let words = vec!["pay".to_string(), "attention".to_string(),
 ///                  "practice".to_string(), "attend".to_string()];

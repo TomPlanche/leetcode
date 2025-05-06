@@ -1,20 +1,20 @@
-///
-/// # Clear Digits (Easy) [String, Stack, Simulation]
-/// LeetCode Problem 3174
-///
+//!
+//! # Clear Digits (Easy) [String, Stack, Simulation]
+//! LeetCode Problem 3174
+//!
 
 /// # `clear_digits`
 /// Removes all digits and their closest non-digit characters to the left from a string.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Converts string to char vector
 /// 2. Uses a boolean vector to mark positions to keep
 /// 3. Builds final string from unmarked positions
 ///
-/// ## Arguments
+/// # Arguments
 /// * `s` - Input string containing digits and non-digits
 ///
-/// ## Returns
+/// # Returns
 /// * `String` - Resulting string after removing all digits and their corresponding characters
 pub fn clear_digits(s: String) -> String {
     let chars: Vec<char> = s.chars().collect();

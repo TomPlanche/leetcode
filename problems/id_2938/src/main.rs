@@ -1,27 +1,21 @@
-///
-/// # Separate Black and White Balls (Medium) [Two Pointers, String, Greedy]
-/// Leetcode Problem 2938
-///
+//!
+//! # Separate Black and White Balls (Medium) [Two Pointers, String, Greedy]
+//! Leetcode Problem 2938
+//!
 
-///
-/// # `minimum_steps`
-///
 /// Calculates the minimum number of steps to group all black balls to the right.
 ///
 /// This function takes a binary string where '1' represents a black ball and '0'
 /// represents a white ball. It computes the minimum number of adjacent swaps
 /// needed to move all black balls to the right side of the string.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `s` - A string slice containing '0's and '1's, representing white and black balls respectively.
 ///
-/// ## Returns
-///
+/// # Returns
 /// Returns an `i64` representing the minimum number of steps (swaps) required.
 ///
-/// ## Examples
-///
+/// # Examples
 /// ```
 /// let result = minimum_steps("101".to_string());
 /// assert_eq!(result, 1);
@@ -33,8 +27,7 @@
 /// assert_eq!(result, 0);
 /// ```
 ///
-/// ## Algorithm
-///
+/// # Algorithm
 /// The function works by:
 /// 1. Iterating through the string from left to right.
 /// 2. For each white ball, it calculates the number of steps needed to move it to the right.

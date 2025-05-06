@@ -1,24 +1,24 @@
-///
-/// # Maximum Employees to Be Invited to a Meeting (Hard) [Depth First Search, Graph, Topological Sort]
-/// LeetCode Problem 2127
-///
+//!
+//! # Maximum Employees to Be Invited to a Meeting (Hard) [Depth First Search, Graph, Topological Sort]
+//! LeetCode Problem 2127
+//!
 use std::collections::VecDeque;
 
 /// # `maximum_invitations`
 /// Finds the maximum number of employees that can be invited to a meeting
 /// where each employee must sit next to their favorite person.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Uses topological sort to process leaf nodes and compute chain lengths
 /// 2. Identifies cycles and mutual pairs in the remaining graph
 /// 3. Returns maximum of either:
 ///    - Largest cycle length
 ///    - Sum of mutual pairs with their attached chains
 ///
-/// ## Arguments
+/// # Arguments
 /// * `favorite` - A vector where favorite[i] represents employee i's favorite person
 ///
-/// ## Returns
+/// # Returns
 /// * The maximum number of employees that can be invited
 pub fn maximum_invitations(favorite: Vec<i32>) -> i32 {
     let n = favorite.len();

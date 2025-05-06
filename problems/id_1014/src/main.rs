@@ -1,7 +1,7 @@
-///
-/// # Best Sightseeing Pair (Medium) [Array, Dynamic Programming]
-/// LeetCode Problem 1014
-///
+//!
+//! # Best Sightseeing Pair (Medium) [Array, Dynamic Programming]
+//! LeetCode Problem 1014
+//!
 
 ///
 /// # `max_score_sightseeing_pair`
@@ -9,13 +9,13 @@
 /// `i`th sightseeing spot. Two sightseeing spots `i` and `j` have a distance `j - i` between them.
 /// The score of a pair (`i < j`) of sightseeing spots is `values[i] + values[j] + i - j`.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `values` - A vector of integers representing the values of sightseeing spots.
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The maximum score of a pair of sightseeing spots.
 ///
-/// ## Example
+/// # Example
 /// ```
 /// let values = vec![8,1,5,2,6];
 /// assert_eq!(max_score_sightseeing_pair(values), 11);

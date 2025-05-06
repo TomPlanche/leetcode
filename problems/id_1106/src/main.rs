@@ -1,7 +1,7 @@
-///
-/// # Parsing A Boolean Expression (Hard) [String, Stack, Recursion]
-/// Leetcode Problem 1106
-///
+//!
+//! # Parsing A Boolean Expression (Hard) [String, Stack, Recursion]
+//! Leetcode Problem 1106
+//!
 
 pub fn parse_bool_expr(expression: String) -> bool {
     // Create a stack to keep track of operations and operands

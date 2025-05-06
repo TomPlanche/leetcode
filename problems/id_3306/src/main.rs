@@ -1,16 +1,16 @@
-///
-/// # Count of Substrings Containing Every Vowel and K Consonants II (Medium) [Hash Table, String, Sliding Window]
-/// LeetCode Problem 3306
-///
+//!
+//! # Count of Substrings Containing Every Vowel and K Consonants II (Medium) [Hash Table, String, Sliding Window]
+//! LeetCode Problem 3306
+//!
 use std::collections::HashMap;
 
 /// # `is_vowel`
 /// Determines whether a given character is a vowel (a, e, i, o, u).
 ///
-/// ## Arguments
+/// # Arguments
 /// * `c` - The character to check
 ///
-/// ## Returns
+/// # Returns
 /// * `bool` - true if the character is a vowel, false otherwise
 fn is_vowel(c: char) -> bool {
     matches!(c, 'a' | 'e' | 'i' | 'o' | 'u')
@@ -19,17 +19,17 @@ fn is_vowel(c: char) -> bool {
 /// # `at_least_k`
 /// Counts substrings containing all vowels and at least k consonants.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses sliding window with HashMap tracking:
 /// 1. Maintains vowel frequencies in current window
 /// 2. Counts consonants
 /// 3. When valid window found, adds all possible extensions
 ///
-/// ## Arguments
+/// # Arguments
 /// * `word` - Input string slice
 /// * `k` - Minimum number of consonants required
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - Number of valid substrings with at least k consonants
 fn at_least_k(word: &str, k: i32) -> i64 {
     let mut vowel_count = HashMap::new();
@@ -68,17 +68,17 @@ fn at_least_k(word: &str, k: i32) -> i64 {
 /// # `count_of_substrings`
 /// Counts the number of substrings that contain all vowels at least once and exactly k consonants.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses inclusion-exclusion principle:
 /// 1. Count substrings with >= k consonants
 /// 2. Subtract substrings with >= (k+1) consonants
 /// 3. Result is substrings with exactly k consonants
 ///
-/// ## Arguments
+/// # Arguments
 /// * `word` - Input string containing lowercase English letters
 /// * `k` - Number of consonants required in each valid substring
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - Number of valid substrings
 pub fn count_of_substrings(word: String, k: i32) -> i64 {
     at_least_k(&word, k) - at_least_k(&word, k + 1)

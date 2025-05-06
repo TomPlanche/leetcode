@@ -7,17 +7,17 @@
 /// Calculates the minimum number of operations needed to make a grid uni-value by adding
 /// or subtracting a given value x from grid elements.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Flattens the 2D grid into a 1D vector
 /// 2. Verifies if all numbers can be made equal by checking remainders
 /// 3. Finds the median value as the target
 /// 4. Calculates total operations needed to reach the target
 ///
-/// ## Arguments
+/// # Arguments
 /// * `grid` - A 2D vector of integers representing the input grid
 /// * `x` - The value that can be added or subtracted in each operation
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The minimum number of operations needed, or -1 if impossible
 pub fn min_operations(grid: Vec<Vec<i32>>, x: i32) -> i32 {
     // Flatten the grid into a 1D vector

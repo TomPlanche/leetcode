@@ -1,27 +1,21 @@
-///
-/// # Moving Pieces to Obtain a String (Medium) [String, Two Pointers]
-/// Leetcode Problem 2337
-///
+//!
+//! # Moving Pieces to Obtain a String (Medium) [String, Two Pointers]
+//! Leetcode Problem 2337
+//!
 
-///
-/// # `can_change`
-///
 /// Determines if it's possible to transform the start string into the target string
 /// by moving 'L' and 'R' pieces according to the rules:
 /// - 'L' can move left only if there's a blank space ('_') to its left
 /// - 'R' can move right only if there's a blank space ('_') to its right
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `start` - A string containing 'L', 'R', and '_' characters
 /// * `target` - A string containing 'L', 'R', and '_' characters
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `bool` - true if transformation is possible, false otherwise
 ///
-/// ## Examples
-///
+/// # Examples
 /// ```
 /// let start = "_L__R__R_".to_string();
 /// let target = "L______RR".to_string();

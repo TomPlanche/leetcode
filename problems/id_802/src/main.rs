@@ -1,7 +1,7 @@
-///
-/// # Find Eventual Safe States (Medium) [Depth First Search, Breadth First Search, Graph, Topological Sort]
-/// LeetCode Problem 802
-///
+//!
+//! # Find Eventual Safe States (Medium) [Depth First Search, Breadth First Search, Graph, Topological Sort]
+//! LeetCode Problem 802
+//!
 
 /// Represents the state of a node during DFS traversal
 #[derive(PartialEq, Clone)]
@@ -17,13 +17,13 @@ enum NodeState {
 /// A safe node is a node from which all paths lead to a terminal node.
 /// A terminal node is a node with no outgoing edges.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `graph` - A 2D vector where graph[i] contains the nodes that node i connects to
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i32>` - A sorted vector of all safe nodes
 ///
-/// ## Examples
+/// # Examples
 /// ```
 /// let graph = vec![vec![1,2], vec![2,3], vec![5], vec![0], vec![5], vec![], vec![]];
 /// let result = eventual_safe_nodes(graph);
@@ -52,13 +52,13 @@ pub fn eventual_safe_nodes(graph: Vec<Vec<i32>>) -> Vec<i32> {
 /// # `is_safe`
 /// Helper function to determine if a node is safe using DFS.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `graph` - Reference to the graph
 /// * `node` - Current node being examined
 /// * `state` - Mutable reference to node states
 /// * `safe` - Mutable reference to safe nodes tracking
 ///
-/// ## Returns
+/// # Returns
 /// * `bool` - Whether the current node is safe
 fn is_safe(
     graph: &Vec<Vec<i32>>,

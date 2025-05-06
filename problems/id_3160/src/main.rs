@@ -1,22 +1,22 @@
-///
-/// # Find the Number of Distinct Colors Among the Balls (Medium) [Array, Hash Table, Simulation]
-/// LeetCode Problem 3160
-///
+//!
+//! # Find the Number of Distinct Colors Among the Balls (Medium) [Array, Hash Table, Simulation]
+//! LeetCode Problem 3160
+//!
 use std::collections::{hash_map::Entry, HashMap};
 
 /// # `query_results`
 /// Processes a series of color queries on balls and returns the count of distinct colors after each query.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// - Maintains a direct count of distinct colors
 /// - Uses HashMap Entry API for efficient updates
 /// - Tracks both ball-to-color mapping and color frequency
 ///
-/// ## Arguments
+/// # Arguments
 /// * `limit` - The maximum ball number (0 to limit inclusive)
 /// * `queries` - A vector of queries where each query is [ball_number, color]
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i32>` - A vector containing the count of distinct colors after each query
 pub fn query_results(limit: i32, queries: Vec<Vec<i32>>) -> Vec<i32> {
     let mut ball_to_color = HashMap::new();

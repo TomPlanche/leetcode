@@ -1,36 +1,29 @@
-///
-/// # Valid Arrangement of Pairs (Hard) [Depth First Search, Graph, Eulerian Circuit]
-/// LeetCode Problem 2097
+//!
+//! # Valid Arrangement of Pairs (Hard) [Depth First Search, Graph, Eulerian Circuit]
+//! LeetCode Problem 2097
+//!
 use std::collections::HashMap;
 
-///
-/// # `valid_arrangement`
-///
 /// Given a list of pairs representing directed edges, find a valid arrangement where each pair's end
 /// connects to the next pair's start. This is equivalent to finding an Eulerian path in a directed graph.
 ///
-/// ## Algorithm
-///
+/// # Algorithm
 /// 1. Build an adjacency list representation of the graph
 /// 2. For each vertex, calculate in-degree and out-degree
 /// 3. Find a starting vertex (either with out-degree > in-degree, or any vertex with outgoing edges)
 /// 4. Perform Hierholzer's algorithm to find an Eulerian path
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `pairs` - A vector of vectors where each inner vector contains two integers [start, end]
 ///            representing a directed edge from start to end
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `Vec<Vec<i32>>` - A valid arrangement of pairs where each pair's end connects to the next pair's start
 ///
-/// ## Time Complexity
-///
+/// # Time Complexity
 /// * O(E) where E is the number of edges (pairs)
 ///
-/// ## Space Complexity
-///
+/// # Space Complexity
 /// * O(V + E) where V is the number of vertices and E is the number of edges
 ///
 pub fn valid_arrangement(pairs: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
@@ -68,13 +61,9 @@ pub fn valid_arrangement(pairs: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
     arrangement
 }
 
-///
-/// # `build_arrangement_dfs`
-///
 /// Builds the arrangement using depth-first search.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `current` - Current vertex being processed
 /// * `arrangement` - Vector to store the resulting arrangement
 /// * `reverse_adjacency` - HashMap containing the reverse adjacency list

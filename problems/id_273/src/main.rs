@@ -1,9 +1,9 @@
+//!
+//! # Integer to English Words (Hard) [Math, String, Recursion]
+//! LeetCode Problem 273
+//! Convert a non-negative integer into its English words representation.
 ///
-/// # Integer to English Words (Hard) [Math, String, Recursion]
-/// LeetCode Problem 273
-/// Convert a non-negative integer into its English words representation.
-///
-/// ## Example
+/// # Example
 /// ```
 /// assert_eq!(number_to_words(123), "One Hundred Twenty Three");
 /// assert_eq!(number_to_words(12345), "Twelve Thousand Three Hundred Forty Five");
@@ -17,10 +17,10 @@ use std::collections::HashMap;
 /// # `number_to_words`
 /// Converts a non-negative integer into its English words representation.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `num` - A non-negative integer
 ///
-/// ## Returns
+/// # Returns
 /// * `String` - The English words representation of the number
 ///
 pub fn number_to_words(num: i32) -> String {

@@ -1,20 +1,20 @@
-///
-/// # Neighboring Bitwise XOR (Medium) [Array, Bit Manipulation]
-/// LeetCode Problem 2683
-///
+//!
+//! # Neighboring Bitwise XOR (Medium) [Array, Bit Manipulation]
+//! LeetCode Problem 2683
+//!
 
 ///
 /// # `does_valid_array_exist`
 /// Determines if there exists a valid binary array that could have formed the given derived array
 /// through XOR operations of adjacent elements.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `derived` - A vector of integers (0s and 1s) representing the derived array
 ///
-/// ## Returns
+/// # Returns
 /// * `bool` - true if a valid original array exists, false otherwise
 ///
-/// ## Algorithm
+/// # Algorithm
 /// The function works by:
 /// 1. Starting with original[0] = 0
 /// 2. Computing each subsequent element using XOR

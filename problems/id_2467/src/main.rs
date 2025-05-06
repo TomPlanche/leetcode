@@ -1,24 +1,24 @@
-///
-/// # Most Profitable Path in a Tree (Medium) [Array, Tree, Depth First Search, Breadth First Search, Graph]
-/// LeetCode Problem 2467
-///
+//!
+//! # Most Profitable Path in a Tree (Medium) [Array, Tree, Depth First Search, Breadth First Search, Graph]
+//! LeetCode Problem 2467
+//!
 use std::collections::{HashMap, VecDeque};
 
 /// # `most_profitable_path`
 /// Finds the maximum net income Alice can have by traveling to a leaf node while Bob travels to root.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Builds adjacency list from edges
 /// 2. Computes Bob's path and timing to root
 /// 3. Uses DFS to try all possible paths for Alice to leaf nodes
 /// 4. Tracks gate states and shared rewards/costs
 ///
-/// ## Arguments
+/// # Arguments
 /// * `edges` - A vector of vectors where each inner vector contains two integers representing an edge
 /// * `bob` - Starting node for Bob
 /// * `amount` - Vector of gate values (negative for costs, positive for rewards)
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - Maximum possible net income for Alice
 pub fn most_profitable_path(edges: Vec<Vec<i32>>, bob: i32, amount: Vec<i32>) -> i32 {
     // Build adjacency list

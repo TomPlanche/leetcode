@@ -1,10 +1,8 @@
-///
-/// # Rank Transform of an Array (Easy) [Array, Hash Table, Sorting]
-/// Leetcode Problem 1331
-///
+//!
+//! # Rank Transform of an Array (Easy) [Array, Hash Table, Sorting]
+//! Leetcode Problem 1331
+//!
 
-/// # `array_rank_transform`
-///
 /// Given an array of integers arr, replace each element with its rank.
 /// The rank represents how large the element is. The rank has the following rules:
 ///
@@ -12,10 +10,10 @@
 /// - The larger the element, the larger the rank. If two elements are equal, their rank must be the same.
 /// - Rank should be as small as possible.
 ///
-///  ## Arguments
+///  # Arguments
 /// * `arr` - The array of integers
 ///
-/// ## Returns
+/// # Returns
 /// * Vec<i32> The array of integers with the rank
 pub fn array_rank_transform(arr: Vec<i32>) -> Vec<i32> {
     let mut sorted_arr = arr.clone();

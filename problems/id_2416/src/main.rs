@@ -1,7 +1,7 @@
-///
-/// # Sum of Prefix Scores of Strings (Hard) [Array, String, Trie, Counting]
-/// Leetcode Problem 2416
-///
+//!
+//! # Sum of Prefix Scores of Strings (Hard) [Array, String, Trie, Counting]
+//! Leetcode Problem 2416
+//!
 
 #[derive(Default)]
 struct Trie {

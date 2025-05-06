@@ -1,18 +1,18 @@
-///
-/// # Count Servers that Communicate (Medium) [Array, Depth First Search, Breadth First Search, Union Find, Matrix, Counting]
-/// LeetCode Problem 1267
-///
+//!
+//! # Count Servers that Communicate (Medium) [Array, Depth First Search, Breadth First Search, Union Find, Matrix, Counting]
+//! LeetCode Problem 1267
+//!
 
 /// # `count_servers`
 /// Count the number of servers that can communicate with at least one other server.
 ///
 /// A server can communicate with another server if they are on the same row or column.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `grid` - A matrix represented as a vector of vectors where 1 indicates a server
 ///            and 0 indicates no server
 ///
-/// ## Returns
+/// # Returns
 /// * The number of servers that can communicate with at least one other server
 pub fn count_servers(grid: Vec<Vec<i32>>) -> i32 {
     let rows = grid.len();

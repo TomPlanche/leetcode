@@ -1,23 +1,23 @@
-///
-/// # Maximum Candies Allocated to K Children (Medium) [Array, Binary Search]
-/// LeetCode Problem 2226
-///
+//!
+//! # Maximum Candies Allocated to K Children (Medium) [Array, Binary Search]
+//! LeetCode Problem 2226
+//!
 
 /// # `maximum_candies`
 /// Finds the maximum number of candies that can be allocated to each of k children,
 /// where candies can be divided into sub-piles but not merged.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses binary search to find the maximum possible allocation.
 /// For each candidate amount:
 /// 1. Checks if it's possible to divide candies into k portions of that size
 /// 2. Binary searches over the range [0, max(candies)]
 ///
-/// ## Arguments
+/// # Arguments
 /// * `candies` - A vector of integers where each element represents a pile of candies
 /// * `k` - Number of children to receive equal amounts of candies
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - Maximum number of candies each child can receive
 pub fn maximum_candies(candies: Vec<i32>, k: i64) -> i32 {
     // Helper function to check if it's possible to distribute x candies to k children

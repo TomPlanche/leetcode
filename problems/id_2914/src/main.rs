@@ -1,7 +1,7 @@
-///
-/// # Minimum Changes to Make Binary String Beautiful (Medium) [String]
-/// Leetcode Problem 2696
-///
+//!
+//! # Minimum Changes to Make Binary String Beautiful (Medium) [String]
+//! Leetcode Problem 2696
+//!
 
 ///
 /// Given a binary string of even length, determine the minimum number of changes
@@ -10,31 +10,23 @@
 /// - Each substring has even length
 /// - Each substring contains only 1's or only 0's
 ///
-/// ## Algorithm
-///
+/// # Algorithm
 /// The approach is to:
 /// 1. Process the string in chunks of size 2
 /// 2. For each chunk, calculate the cost of making it all 0's or all 1's
 /// 3. Choose the minimum cost option for each chunk
 /// 4. Sum up all minimal costs
 ///
-/// ## Complexity
-///
+/// # Complexity
 /// - Time complexity: O(n) where n is the length of the string
 /// - Space complexity: O(1) as we only use constant extra space
-///
-/// # `min_changes`
-///
-/// ## Arguments
-///
+/// # Arguments
 /// * `s` - A string slice containing only '0' and '1' characters of even length
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `i32` - The minimum number of changes required to make the string beautiful
 ///
-/// ## Examples
-///
+/// # Examples
 /// ```
 /// assert_eq!(min_changes("1001"), 2); // Change to "1100"
 /// assert_eq!(min_changes("10"), 1);   // Change to "11"

@@ -1,7 +1,7 @@
-///
-/// # Special Array II (Medium) [Array, Binary Search, Prefix Sum]
-/// LeetCode Problem 3152
-///
+//!
+//! # Special Array II (Medium) [Array, Binary Search, Prefix Sum]
+//! LeetCode Problem 3152
+//!
 
 ///
 /// # `is_array_special`
@@ -11,11 +11,11 @@
 /// A subarray is special if for any two consecutive elements in the subarray,
 /// the parity of the first element is not equal to the parity of the second element.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers.
 /// * `queries` - A vector of vectors of integers.
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<bool>` - A vector of booleans where each boolean represents if the subarray is special.
 pub fn is_array_special(nums: Vec<i32>, queries: Vec<Vec<i32>>) -> Vec<bool> {
     let n = nums.len();

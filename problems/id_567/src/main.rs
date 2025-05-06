@@ -1,17 +1,17 @@
-///
-/// # Permutation in String (Medium) [Hash Table, Two Pointers, String, Sliding Window]
-/// Leetcode Problem 567
-///
+//!
+//! # Permutation in String (Medium) [Hash Table, Two Pointers, String, Sliding Window]
+//! Leetcode Problem 567
+//!
 
 ///
 /// # `check_inclusion`
 /// Return true if one of s1's permutations is the substring of s2.
 ///
-/// ## Arguments
+/// # Arguments
 /// * s1: The first string to check
 /// * s2: The second string
 ///
-/// ## Returns
+/// # Returns
 /// * a boolean Whether one of s1's permutations is the substring of s2
 pub fn check_inclusion(s1: String, s2: String) -> bool {
     // Convert s1 to a vector of characters

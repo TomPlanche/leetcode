@@ -1,7 +1,7 @@
-///
-/// # Take Gifts From the Richest Pile (Easy) [Array, Heap (priority Queue), Simulation]
-/// LeetCode Problem 2558
-///
+//!
+//! # Take Gifts From the Richest Pile (Easy) [Array, Heap (priority Queue), Simulation]
+//! LeetCode Problem 2558
+//!
 use std::collections::BinaryHeap;
 
 ///
@@ -14,11 +14,11 @@ use std::collections::BinaryHeap;
 ///
 /// Return the number of gifts remaining after k seconds.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `gifts` - A vector of integers representing the number of gifts in each pile
 /// * `k` - An integer representing the number of seconds
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - The number of gifts remaining after k seconds
 pub fn pick_gifts(gifts: Vec<i32>, k: i32) -> i64 {
     let mut max_heap = BinaryHeap::from(gifts);

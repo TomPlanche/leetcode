@@ -1,20 +1,20 @@
-///
-/// # Minimize XOR (Medium) [Greedy, Bit Manipulation]
-/// LeetCode Problem 2429
-///
+//!
+//! # Minimize XOR (Medium) [Greedy, Bit Manipulation]
+//! LeetCode Problem 2429
+//!
 
 /// # `minimize_xor`
 /// Given two positive integers num1 and num2, find the integer x that has the same
 /// number of set bits as num2 and minimizes the value of x XOR num1.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `num1` - First positive integer
 /// * `num2` - Second positive integer whose number of set bits constrains x
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The integer x that satisfies the conditions
 ///
-/// ## Example
+/// # Example
 /// ```
 /// let result = minimize_xor(3, 5);
 /// assert_eq!(result, 3);

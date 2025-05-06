@@ -1,21 +1,21 @@
-///
-/// # Letter Tile Possibilities (Medium) [Hash Table, String, Backtracking, Counting]
-/// LeetCode Problem 1079
-///
+//!
+//! # Letter Tile Possibilities (Medium) [Hash Table, String, Backtracking, Counting]
+//! LeetCode Problem 1079
+//!
 
 /// # `num_tile_possibilities`
 /// Calculates the number of possible non-empty sequences that can be formed using the given tiles.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses backtracking with a frequency array to generate all possible sequences:
 /// 1. Creates a frequency array of 26 elements (A-Z)
 /// 2. For each position, tries all available letters
 /// 3. Recursively builds sequences while tracking used letters
 ///
-/// ## Arguments
+/// # Arguments
 /// * `tiles` - A string containing uppercase English letters
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The number of possible non-empty sequences
 pub fn num_tile_possibilities(tiles: String) -> i32 {
     // Create frequency array for A-Z

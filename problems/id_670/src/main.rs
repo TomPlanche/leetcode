@@ -1,7 +1,7 @@
-///
-/// # Maximum Swap (Medium) [Math, Greedy]
-/// Leetcode Problem 670
-///
+//!
+//! # Maximum Swap (Medium) [Math, Greedy]
+//! Leetcode Problem 670
+//!
 
 pub fn maximum_swap(num: i32) -> i32 {
     // Convert the number to a vector of digits

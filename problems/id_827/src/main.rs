@@ -1,23 +1,23 @@
-///
-/// # Making A Large Island (Hard) [Array, Depth First Search, Breadth First Search, Union Find, Matrix]
-/// LeetCode Problem 827
-///
+//!
+//! # Making A Large Island (Hard) [Array, Depth First Search, Breadth First Search, Union Find, Matrix]
+//! LeetCode Problem 827
+//!
 use std::collections::HashMap;
 use std::collections::HashSet;
 
 /// # `largest_island`
 /// Finds the size of the largest possible island after changing at most one 0 to 1
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. First identifies all existing islands using DFS and assigns unique IDs
 /// 2. Maps island IDs to their sizes
 /// 3. Checks each 0 cell to see what would happen if changed to 1
 /// 4. Returns the maximum possible island size
 ///
-/// ## Arguments
+/// # Arguments
 /// * `grid` - An n x n binary matrix where 1 represents land and 0 represents water
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The size of the largest possible island after changing at most one 0 to 1
 pub fn largest_island(grid: Vec<Vec<i32>>) -> i32 {
     let n = grid.len();

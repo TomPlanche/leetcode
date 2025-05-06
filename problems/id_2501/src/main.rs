@@ -1,25 +1,23 @@
-///
-/// # Longest Square Streak in an Array (Medium) [Array, Hash Table, Binary Search, Dynamic Programming, Sorting]
-/// Leetcode Problem 2501
-///
+//!
+//! # Longest Square Streak in an Array (Medium) [Array, Hash Table, Binary Search, Dynamic Programming, Sorting]
+//! Leetcode Problem 2501
+//!
 use std::collections::HashSet;
 
 const MAX_SQUARE: i32 = 46340; // ~sqrt(2^31-1)
 
-/// # `longest_square_streak`
-///
 /// Finds the length of the longest square streak in the given array.
 ///
 /// A square streak is a subsequence where each element (except the first)
 /// is the square of the previous number.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - Vector of integers to check for square streaks
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - Length of the longest square streak, or -1 if none exists
 ///
-/// ## Examples
+/// # Examples
 /// ```
 /// let nums = vec![4,3,6,16,8,2];
 /// assert_eq!(longest_square_streak(nums), 3);

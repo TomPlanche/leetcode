@@ -1,25 +1,19 @@
-///
-/// # Adding Spaces to a String (Medium) [Array, Two Pointers, String, Simulation]
-/// LeetCode Problem 2109
-///
+//!
+//! # Adding Spaces to a String (Medium) [Array, Two Pointers, String, Simulation]
+//! LeetCode Problem 2109
+//!
 
-///
-/// # `add_spaces`
-///
 /// Given a 0-indexed string and a 0-indexed integer array of indices, adds spaces
 /// before characters at the specified indices in the string.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `s` - The input string to which spaces will be added
 /// * `spaces` - A vector of integers representing indices where spaces should be inserted
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `String` - The modified string with spaces inserted at the specified positions
 ///
-/// ## Example
-///
+/// # Example
 /// ```
 /// let s = String::from("LeetcodeHelpsMeLearn");
 /// let spaces = vec![8,13,15];

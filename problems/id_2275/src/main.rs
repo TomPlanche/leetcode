@@ -1,14 +1,13 @@
-/// # Largest Combination With Bitwise AND Greater Than Zero (Medium) [Array, Hash Table, Bit Manipulation, Counting]
-/// LeetCode Problem 2275
-///
+//!
+//! # Largest Combination With Bitwise AND Greater Than Zero (Medium) [Array, Hash Table, Bit Manipulation, Counting]
+//! LeetCode Problem 2275
+//!
 
-/// # `largest_combination`
-///
 /// Given an array of positive integers `candidates`, evaluate the bitwise AND of every combination of numbers in `candidates`.
 /// Each number in `candidates` may only be used once in each combination.
 /// Return the size of the largest combination of `candidates` with a bitwise AND greater than 0.
 ///
-/// ## Example 1
+/// # Example 1
 /// ```
 /// Input: candidates = [16,17,71,62,12,24,14]
 /// Output: 4
@@ -19,7 +18,7 @@
 /// For example, the combination [62,12,24,14] has a bitwise AND of 62 & 12 & 24 & 14 = 8 > 0.
 /// ```
 ///
-/// ## Example 2
+/// # Example 2
 /// ```
 /// Input: candidates = [8,8]
 /// Output: 2
@@ -27,7 +26,7 @@
 /// The size of the combination is 2, so we return 2.
 /// ```
 ///
-/// ## Constraints
+/// # Constraints
 /// - `1 <= candidates.length <= 10^5`
 /// - `1 <= candidates[i] <= 10^7`
 ///

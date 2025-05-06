@@ -1,21 +1,16 @@
-///
-/// # Two sums (Easy) [Array, Hash Table]
-/// LeetCode Problem 1
-///
+//!
+//! # Two sums (Easy) [Array, Hash Table]
+//! LeetCode Problem 1
+//!
 use std::collections::HashMap;
 
-///
-/// # `two_sum`
-///
 /// Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `nums`: A vector of integers.
 /// * `target`: An integer.
 ///
-/// ## Returns
-///
+/// # Returns
 /// `Vec<i32>`: A vector containing the indices of the two numbers that add up to `target`.
 pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
     // Initialize an empty hash map `h_map` to store the numbers and their indices.

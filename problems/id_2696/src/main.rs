@@ -1,17 +1,17 @@
-///
-/// # Minimum String Length After Removing Substrings (Easy) [String, Stack, Simulation]
-/// Leetcode Problem 2696
-///
+//!
+//! # Minimum String Length After Removing Substrings (Easy) [String, Stack, Simulation]
+//! Leetcode Problem 2696
+//!
 
 ///
 /// # `min_length`
 /// Return the minimum possible length of the resulting string that you can obtain after removing
 /// any occurrence of one of the substrings "AB" or "CD" from s.
 ///
-/// ## Arguments
+/// # Arguments
 /// * s: the input string
 ///
-/// ## Returns
+/// # Returns
 /// * The minimum possible length of the resulting string
 pub fn min_length(s: String) -> i32 {
     const MAX_LOOP: i32 = 1000;

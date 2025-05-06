@@ -1,21 +1,21 @@
-///
-/// # Number of Sub-arrays With Odd Sum (Medium) [Array, Math, Dynamic Programming, Prefix Sum]
-/// LeetCode Problem 1524
-///
+//!
+//! # Number of Sub-arrays With Odd Sum (Medium) [Array, Math, Dynamic Programming, Prefix Sum]
+//! LeetCode Problem 1524
+//!
 
 /// # `num_of_subarrays`
 /// Calculates the number of subarrays with odd sum in the given array.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses prefix sum technique to track running sums and their parity:
 /// 1. Maintains counts of odd and even prefix sums seen so far
 /// 2. For each element, updates the prefix sum and counts
 /// 3. Adds to result based on the current prefix sum's parity
 ///
-/// ## Arguments
+/// # Arguments
 /// * `arr` - A vector of integers
 ///
-/// ## Returns
+/// # Returns
 /// * Number of subarrays with odd sum, modulo 10^9 + 7
 pub fn num_of_subarrays(arr: Vec<i32>) -> i32 {
     const MOD: i64 = 1_000_000_007;

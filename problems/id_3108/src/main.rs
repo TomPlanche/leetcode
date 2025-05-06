@@ -1,24 +1,24 @@
-///
-/// # Minimum Cost Walk in Weighted Graph (Hard) [Array, Bit Manipulation, Union Find, Graph]
-/// LeetCode Problem 3108
-///
+//!
+//! # Minimum Cost Walk in Weighted Graph (Hard) [Array, Bit Manipulation, Union Find, Graph]
+//! LeetCode Problem 3108
+//!
 
 /// # `minimum_cost`
 /// Finds the minimum cost (bitwise AND of weights) path between pairs of nodes in queries
 /// using Union-Find (disjoint set) data structure.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses Union-Find to maintain connected components and their minimum possible AND values:
 /// 1. Initially, each node is in its own component
 /// 2. As edges are processed, components are merged and minimum AND values updated
 /// 3. Queries can be answered by checking if nodes are in same component
 ///
-/// ## Arguments
+/// # Arguments
 /// * `n` - Number of nodes in the graph (0 to n-1)
 /// * `edges` - Vector of edges where each edge is [u, v, weight]
 /// * `query` - Vector of queries where each query is [source, target]
 ///
-/// ## Returns
+/// # Returns
 /// * Vector of minimum costs for each query (-1 if no path exists)
 pub fn minimum_cost(n: i32, edges: Vec<Vec<i32>>, query: Vec<Vec<i32>>) -> Vec<i32> {
     // Initialize Union-Find parent array and minimum path costs

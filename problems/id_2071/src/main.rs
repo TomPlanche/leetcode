@@ -6,20 +6,20 @@
 /// # `max_task_assign`
 /// Calculate the maximum number of tasks that can be completed by workers, considering magical pills.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses binary search on the number of tasks, with a queue-based verification approach:
 /// 1. For each guess k, try to assign k tasks to workers
 /// 2. Process workers from strongest to weakest
 /// 3. Use a queue to track assignable tasks
 /// 4. Prioritize direct assignments before using pills
 ///
-/// ## Arguments
+/// # Arguments
 /// * `tasks` - Vector of task strength requirements
 /// * `workers` - Vector of worker strengths
 /// * `pills` - Number of magical pills available
 /// * `strength` - Strength increase provided by each pill
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - Maximum number of tasks that can be completed
 pub fn max_task_assign(
     mut tasks: Vec<i32>,

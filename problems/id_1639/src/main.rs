@@ -1,7 +1,7 @@
-///
-/// # Number of Ways to Form a Target String Given a Dictionary (Hard) [Array, String, Dynamic Programming]
-/// Leetcode Problem 1639
-///
+//!
+//! # Number of Ways to Form a Target String Given a Dictionary (Hard) [Array, String, Dynamic Programming]
+//! Leetcode Problem 1639
+//!
 use std::collections::HashMap;
 
 ///
@@ -10,11 +10,11 @@ use std::collections::HashMap;
 /// - Characters must be used from left to right
 /// - Once a character at position k is used, all characters at positions ≤ k become unusable
 ///
-/// ## Arguments
+/// # Arguments
 /// * `words` - A list of words
 /// * `target` - The target string to form
 ///
-/// ## Returns
+/// # Returns
 /// The number of possible ways to form the target string.
 pub fn num_ways(words: Vec<String>, target: String) -> i32 {
     const MOD: i64 = 1_000_000_007; // Modulo value used to avoid overflow

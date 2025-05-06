@@ -1,30 +1,24 @@
-///
-/// # Maximum Number of Integers to Choose From a Range I (Medium) [Array, Hash Table, Binary Search, Greedy, Sorting]
-/// LeetCode Problem 2554
-///
+//!
+//! # Maximum Number of Integers to Choose From a Range I (Medium) [Array, Hash Table, Binary Search, Greedy, Sorting]
+//! LeetCode Problem 2554
+//!
 use std::collections::HashSet;
 
-///
-/// # `max_count`
-///
 /// Given an array of banned numbers and constraints, finds the maximum number of integers
 /// that can be chosen from range [1, n] such that:
 /// - Numbers cannot be in the banned array
 /// - Sum of chosen numbers cannot exceed maxSum
 /// - Each number can be chosen at most once
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `banned` - A vector of integers representing banned numbers
 /// * `n` - The upper limit of the range [1, n] from which numbers can be chosen
 /// * `max_sum` - The maximum allowed sum of chosen numbers
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `i32` - The maximum count of numbers that can be chosen following all rules
 ///
-/// ## Example
-///
+/// # Example
 /// ```
 /// let banned = vec![1, 6, 5];
 /// let n = 5;

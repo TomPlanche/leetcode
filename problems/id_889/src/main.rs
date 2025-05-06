@@ -1,7 +1,7 @@
-///
-/// # Construct Binary Tree from Preorder and Postorder Traversal (Medium) [Array, Hash Table, Divide And Conquer, Tree, Binary Tree]
-/// LeetCode Problem 889
-///
+//!
+//! # Construct Binary Tree from Preorder and Postorder Traversal (Medium) [Array, Hash Table, Divide And Conquer, Tree, Binary Tree]
+//! LeetCode Problem 889
+//!
 use std::cell::RefCell;
 use std::rc::Rc;
 
@@ -27,17 +27,17 @@ impl TreeNode {
 /// # `construct_from_pre_post`
 /// Constructs a binary tree from its preorder and postorder traversals.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Takes first element from preorder as root
 /// 2. If there are more elements:
 ///    - Uses next preorder element to find split position in postorder
 ///    - Recursively constructs left and right subtrees
 ///
-/// ## Arguments
+/// # Arguments
 /// * `preorder` - A vector of integers representing preorder traversal
 /// * `postorder` - A vector of integers representing postorder traversal
 ///
-/// ## Returns
+/// # Returns
 /// * `Option<Rc<RefCell<TreeNode>>>` - Root of constructed binary tree
 pub fn construct_from_pre_post(
     preorder: Vec<i32>,

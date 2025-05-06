@@ -1,23 +1,23 @@
-///
-/// # Count Number of Bad Pairs (Medium) [Array, Hash Table, Math, Counting]
-/// LeetCode Problem 2364
-///
+//!
+//! # Count Number of Bad Pairs (Medium) [Array, Hash Table, Math, Counting]
+//! LeetCode Problem 2364
+//!
 use std::collections::HashMap;
 
 /// # `count_bad_pairs`
 /// Counts the number of bad pairs in a given array, where a pair (i,j) is bad if i < j and j - i != nums[j] - nums[i].
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. A pair (i,j) is good if j - i = nums[j] - nums[i]
 /// 2. Rearranging: j - nums[j] = i - nums[i]
 /// 3. Count indices with same value of (i - nums[i])
 /// 4. Calculate good pairs from these counts
 /// 5. Subtract good pairs from total possible pairs
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers where 1 <= nums[i] <= 10^9
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - The total number of bad pairs in nums
 pub fn count_bad_pairs(nums: Vec<i32>) -> i64 {
     let n = nums.len() as i64;

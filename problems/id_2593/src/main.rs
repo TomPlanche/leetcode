@@ -1,7 +1,7 @@
-///
-/// # Find Score of an Array After Marking All Elements (Medium) [Array, Hash Table, Sorting, Heap (priority Queue), Simulation]
-/// LeetCode Problem 2593
-///
+//!
+//! # Find Score of an Array After Marking All Elements (Medium) [Array, Hash Table, Sorting, Heap (priority Queue), Simulation]
+//! LeetCode Problem 2593
+//!
 use std::{cmp::Reverse, collections::BinaryHeap};
 
 ///
@@ -13,10 +13,10 @@ use std::{cmp::Reverse, collections::BinaryHeap};
 /// - Mark the chosen element and its two adjacent elements if they exist.
 /// - Repeat until all the array elements are marked.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - a vector of integers
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - the final score
 pub fn find_score(nums: Vec<i32>) -> i64 {
     let n = nums.len();

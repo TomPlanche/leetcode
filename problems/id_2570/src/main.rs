@@ -1,23 +1,23 @@
-///
-/// # Merge Two 2D Arrays by Summing Values (Easy) [Array, Hash Table, Two Pointers]
-/// LeetCode Problem 2570
-///
+//!
+//! # Merge Two 2D Arrays by Summing Values (Easy) [Array, Hash Table, Two Pointers]
+//! LeetCode Problem 2570
+//!
 
 /// # `merge_arrays`
 /// Merges two 2D arrays by summing values for matching IDs.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses a two-pointer approach to merge the arrays efficiently:
 /// 1. Maintains pointers to current positions in both arrays
 /// 2. Compares IDs at current positions
 /// 3. Adds smaller ID or sums values for matching IDs
 /// 4. Advances pointers accordingly
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums1` - First 2D array where each inner array is [id, value]
 /// * `nums2` - Second 2D array where each inner array is [id, value]
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<Vec<i32>>` - Merged array sorted by ID with summed values
 pub fn merge_arrays(nums1: Vec<Vec<i32>>, nums2: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
     let mut result = Vec::new();

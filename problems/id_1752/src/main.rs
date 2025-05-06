@@ -1,20 +1,20 @@
-///
-/// # Check if Array Is Sorted and Rotated (Easy) [Array]
-/// LeetCode Problem 1752
-///
+//!
+//! # Check if Array Is Sorted and Rotated (Easy) [Array]
+//! LeetCode Problem 1752
+//!
 
 /// # `check`
 /// Determines if an array was originally sorted in non-decreasing order and then rotated.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Counts the number of positions where the current element is greater than the next element
 /// (with wraparound). If there is at most one such position, the array must have been a
 /// rotation of a sorted array.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers to check
 ///
-/// ## Returns
+/// # Returns
 /// * `bool` - True if the array could have been obtained by rotating a sorted array,
 ///           false otherwise
 pub fn check(nums: Vec<i32>) -> bool {

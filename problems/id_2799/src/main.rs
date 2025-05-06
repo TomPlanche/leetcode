@@ -7,10 +7,10 @@
 /// Counts the number of complete subarrays in a given array, where a "complete subarray" is one where the number
 /// of distinct elements in the subarray equals the number of distinct elements in the whole array.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of positive integers.
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The number of complete subarrays.
 pub fn count_complete_subarrays(nums: Vec<i32>) -> i32 {
     use std::collections::HashSet;

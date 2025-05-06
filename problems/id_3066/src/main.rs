@@ -1,7 +1,7 @@
-///
-/// # Minimum Operations to Exceed Threshold Value II (Medium) [Array, Heap (priority Queue), Simulation]
-/// LeetCode Problem 3066
-///
+//!
+//! # Minimum Operations to Exceed Threshold Value II (Medium) [Array, Heap (priority Queue), Simulation]
+//! LeetCode Problem 3066
+//!
 use std::cmp::Reverse;
 use std::collections::BinaryHeap;
 
@@ -9,16 +9,16 @@ use std::collections::BinaryHeap;
 /// Calculates the minimum number of operations needed to make all elements
 /// in the array greater than or equal to the threshold value k.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses a min heap to repeatedly combine the two smallest elements until
 /// all elements are >= k. Each operation removes two smallest elements x, y
 /// and adds (min(x,y) * 2 + max(x,y)).
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers representing the input array
 /// * `k` - An integer representing the threshold value
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The minimum number of operations needed
 pub fn min_operations(nums: Vec<i32>, k: i32) -> i32 {
     // Create min heap using Reverse wrapper

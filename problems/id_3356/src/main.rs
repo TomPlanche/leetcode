@@ -1,22 +1,22 @@
-///
-/// # Zero Array Transformation II (Medium) [Array, Binary Search, Prefix Sum]
-/// LeetCode Problem 3356
-///
+//!
+//! # Zero Array Transformation II (Medium) [Array, Binary Search, Prefix Sum]
+//! LeetCode Problem 3356
+//!
 
 /// # `min_zero_array`
 /// Finds the minimum number of queries needed to transform an array into a zero array
 /// using prefix sum technique for efficient range updates.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses prefix sum array to track cumulative reductions and processes elements
 /// progressively as they become zero. Range updates are handled efficiently
 /// by maintaining difference array.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers representing the initial array
 /// * `queries` - A 2D vector where each query contains [left, right, max_reduction]
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The minimum number of queries needed, or -1 if impossible
 pub fn min_zero_array(nums: Vec<i32>, queries: Vec<Vec<i32>>) -> i32 {
     // Initialize prefix sum array to track cumulative reductions

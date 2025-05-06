@@ -1,28 +1,22 @@
-///
-/// # Make String a Subsequence Using Cyclic Increments (Medium) [Two Pointers, String]
-/// LeetCode Problem 2825
-///
+//!
+//! # Make String a Subsequence Using Cyclic Increments (Medium) [Two Pointers, String]
+//! LeetCode Problem 2825
+//!
 
-///
-/// # `can_make_subsequence`
-///
 /// Determines if it's possible to make str2 a subsequence of str1 by performing
 /// at most one cyclic increment operation on selected characters of str1.
 ///
 /// A cyclic increment means 'a' becomes 'b', 'b' becomes 'c', and 'z' becomes 'a'.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `str1` - The source string that can be modified
 /// * `str2` - The target subsequence string
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `bool` - true if it's possible to make str2 a subsequence of str1 with at most
 ///   one operation, false otherwise
 ///
-/// ## Examples
-///
+/// # Examples
 /// ```
 /// let result = can_make_subsequence(String::from("abc"), String::from("ad"));
 /// assert_eq!(result, true);
@@ -52,18 +46,13 @@ pub fn can_make_subsequence(str1: String, str2: String) -> bool {
     j == s2.len()
 }
 
-///
-/// # `next_char`
-///
 /// Helper function that returns the next character in cyclic order
 /// ('a' -> 'b', 'b' -> 'c', ..., 'z' -> 'a')
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `c` - The input character
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `char` - The next character in cyclic order
 ///
 fn next_char(c: char) -> char {

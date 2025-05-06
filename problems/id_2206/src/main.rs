@@ -1,7 +1,7 @@
-///
-/// # Divide Array Into Equal Pairs (Easy) [Array, Hash Table, Bit Manipulation, Counting]
-/// LeetCode Problem 2206
-///
+//!
+//! # Divide Array Into Equal Pairs (Easy) [Array, Hash Table, Bit Manipulation, Counting]
+//! LeetCode Problem 2206
+//!
 
 /// # `divide_array`
 /// Determines if an array can be divided into pairs of equal elements.
@@ -9,16 +9,16 @@
 /// Given an array of 2*n integers, this function checks if the array can be divided
 /// into n pairs where elements in each pair are equal.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses a HashSet to track unpaired numbers:
 /// 1. For each number encountered, if it's in the set, remove it (paired)
 /// 2. If not in set, add it (unpaired)
 /// 3. At the end, an empty set means all numbers were paired
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers where nums.len() == 2 * n
 ///
-/// ## Returns
+/// # Returns
 /// * `bool` - true if the array can be divided into equal pairs, false otherwise
 pub fn divide_array(nums: Vec<i32>) -> bool {
     let mut unpaired = std::collections::HashSet::new();

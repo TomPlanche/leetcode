@@ -1,7 +1,7 @@
-///
-/// # String Compression III (Medium) [String]
-/// LeetCode Problem 3163
-///
+//!
+//! # String Compression III (Medium) [String]
+//! LeetCode Problem 3163
+//!
 
 pub fn compress_string(word: String) -> String {
     // Convert the input string to bytes and get chunks based on equality of adjacent bytes.

@@ -1,23 +1,23 @@
-///
-/// # Longest Nice Subarray (Medium) [Array, Bit Manipulation, Sliding Window]
-/// LeetCode Problem 2401
-///
+//!
+//! # Longest Nice Subarray (Medium) [Array, Bit Manipulation, Sliding Window]
+//! LeetCode Problem 2401
+//!
 
 /// # `longest_nice_subarray`
 /// Finds the length of the longest nice subarray in the given array of integers.
 /// A nice subarray is one where the bitwise AND of any two elements in different
 /// positions equals 0.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses a sliding window approach with bit manipulation:
 /// 1. Maintains a window of compatible numbers (where all pairs AND to 0)
 /// 2. Uses a bit mask to track all "used" bits in the current window
 /// 3. Expands window when possible, shrinks when necessary
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of positive integers
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - Length of the longest nice subarray
 pub fn longest_nice_subarray(nums: Vec<i32>) -> i32 {
     let mut max_length = 1;

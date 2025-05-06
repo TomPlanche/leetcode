@@ -1,26 +1,26 @@
-///
-/// # Construct K Palindrome Strings (Medium) [Hash Table, String, Greedy, Counting]
-/// LeetCode Problem 1400
-///
+//!
+//! # Construct K Palindrome Strings (Medium) [Hash Table, String, Greedy, Counting]
+//! LeetCode Problem 1400
+//!
 
 /// # `can_construct_k_palindrome`
 /// Given a string s and an integer k, determines if it's possible to construct
 /// k palindrome strings using all characters in s exactly once.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Count the frequency of each character in the string
 /// 2. Count how many characters appear an odd number of times
 /// 3. If the number of characters with odd frequency is greater than k,
 ///    it's impossible to form k palindromes
 ///
-/// ## Arguments
+/// # Arguments
 /// * `s` - A string containing lowercase English letters
 /// * `k` - The number of palindromes to construct
 ///
-/// ## Returns
+/// # Returns
 /// * `bool` - true if k palindromes can be constructed, false otherwise
 ///
-/// ## Examples
+/// # Examples
 /// ```
 /// assert_eq!(can_construct_k_palindrome(String::from("annabelle"), 2), true);
 /// assert_eq!(can_construct_k_palindrome(String::from("leetcode"), 3), false);

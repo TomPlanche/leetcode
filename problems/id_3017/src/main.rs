@@ -1,11 +1,8 @@
-///
-/// # Count the Number of Houses at a Certain Distance II (Hard) [Graph, Prefix Sum]
-/// Leetcode Problem 3017
-///
+//!
+//! # Count the Number of Houses at a Certain Distance II (Hard) [Graph, Prefix Sum]
+//! Leetcode Problem 3017
+//!
 
-///
-/// # `count_of_pairs`
-///
 /// In a city, there exist houses numbered $1$ to $n$ connected by $n$ streets. There
 /// is a street connecting the house numbered i with the house numbered $i + 1$
 /// for all $1 <= i <= n - 1$ . An additional street connects the house numbered $x$
@@ -15,21 +12,20 @@
 /// houses $("house"_1, "house"_2) such that the minimum number of streets that need to
 /// be traveled to reach $"house"_2$ from $"house"_1 is $k$.
 ///
-/// ## Constraints
+/// # Constraints
 /// - $2 <= n <= 10^5$
 /// - $1 <= x$
 /// - $y <= n$
 ///
-/// ## Details
+/// # Details
 /// - `x` and `y` can be equal.
 ///
-/// ## Arguments
+/// # Arguments
 /// - `n`: an integer representing the number of houses in the city.
 /// - `x`: an integer representing the number of the house at one end of the street.
 /// - `y`: an integer representing the number of the house at the other end of the street.
 ///
-/// ## Returns
-///
+/// # Returns
 /// 1-indexed array result of length n where result[k] represents the total
 /// number of pairs of houses such that the minimum streets required to reach
 /// one house from the other is k

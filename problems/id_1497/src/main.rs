@@ -1,7 +1,7 @@
-///
-/// # Check If Array Pairs Are Divisible by k (Medium) [Array, Hash Table, Counting]
-/// Leetcode Problem 1331
-///
+//!
+//! # Check If Array Pairs Are Divisible by k (Medium) [Array, Hash Table, Counting]
+//! Leetcode Problem 1331
+//!
 use std::collections::HashMap;
 
 ///
@@ -11,11 +11,11 @@ use std::collections::HashMap;
 ///
 /// Return true If you can find a way to do that or false otherwise.
 ///
-/// ## Arguments
+/// # Arguments
 /// * arr: Vec<i32> - an array of integers
 /// * k: i32 - the integer to divide the array pairs by
 ///
-/// ## Returns
+/// # Returns
 /// * bool - true if the array can be divided into pairs that sum to k, false otherwise
 pub fn can_arrange(arr: Vec<i32>, k: i32) -> bool {
     let mut remainder_count = HashMap::new();

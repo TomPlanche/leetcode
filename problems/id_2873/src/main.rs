@@ -8,10 +8,10 @@
 /// The value of a triplet is calculated as (nums[i] - nums[j]) * nums[k].
 /// If all possible triplets have negative values, returns 0.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers where 1 <= nums[i] <= 10^6
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - The maximum value possible from any triplet, or 0 if all triplets yield negative values
 pub fn maximum_triplet_value(nums: Vec<i32>) -> i64 {
     let n = nums.len();

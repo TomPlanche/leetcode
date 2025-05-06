@@ -1,7 +1,7 @@
-///
-/// # Find Minimum Diameter After Merging Two Trees (Hard) [Tree, Depth First Search, Breadth First Search, Graph]
-/// LeetCode Problem 3203
-///
+//!
+//! # Find Minimum Diameter After Merging Two Trees (Hard) [Tree, Depth First Search, Breadth First Search, Graph]
+//! LeetCode Problem 3203
+//!
 use std::collections::VecDeque;
 
 ///
@@ -10,11 +10,11 @@ use std::collections::VecDeque;
 /// `[u, v]` indicating a connection between nodes `u` and `v`, this function calculates the
 /// minimum diameter of the merged tree after merging the two trees represented by `edges1` and `edges2`.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `edges1` - A vector of vectors representing the edges of the first tree.
 /// * `edges2` - A vector of vectors representing the edges of the second tree.
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The minimum diameter of the merged tree.
 pub fn minimum_diameter_after_merge(edges1: Vec<Vec<i32>>, edges2: Vec<Vec<i32>>) -> i32 {
     let n = edges1.len() + 1;
@@ -31,11 +31,11 @@ pub fn minimum_diameter_after_merge(edges1: Vec<Vec<i32>>, edges2: Vec<Vec<i32>>
 /// Given a vector of edges `edges` and the number of nodes `n`, this function returns an adjacency
 /// list representation of the graph.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `edges` - A vector of vectors representing the edges of the graph.
 /// * `n` - The number of nodes in the graph.
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<Vec<usize>>` - An adjacency list representation of the graph.
 fn to_graph(edges: Vec<Vec<i32>>, n: usize) -> Vec<Vec<usize>> {
     let mut graph = vec![vec![]; n];
@@ -52,11 +52,11 @@ fn to_graph(edges: Vec<Vec<i32>>, n: usize) -> Vec<Vec<usize>> {
 /// Given a graph represented as an adjacency list and the number of nodes `n`, this function
 /// calculates the diameter of the graph.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `graph` - An adjacency list representation of the graph.
 /// * `n` - The number of nodes in the graph.
 ///
-/// ## Returns
+/// # Returns
 /// * `usize` - The diameter of the graph.
 fn to_diameter(graph: Vec<Vec<usize>>, n: usize) -> usize {
     let mut queue = VecDeque::new();

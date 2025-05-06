@@ -7,11 +7,11 @@ use std::collections::HashSet;
 /// # `get_k_palindromes`
 /// Generates all palindromic numbers of length n that are divisible by k.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `n` - The number of digits
 /// * `k` - The divisibility factor
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i64>` - Vector of all valid k-palindromes
 fn get_k_palindromes(n: i32, k: i32) -> Vec<i64> {
     generate_palindromes(n, true)
@@ -23,11 +23,11 @@ fn get_k_palindromes(n: i32, k: i32) -> Vec<i64> {
 /// # `generate_palindromes`
 /// Recursively generates all palindromic numbers of given length.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `n` - The number of digits
 /// * `is_first` - Flag to handle leading zeros
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i64>` - Vector of all palindromes
 fn generate_palindromes(n: i32, is_first: bool) -> Vec<i64> {
     let start = if is_first { 1 } else { 0 };
@@ -54,10 +54,10 @@ fn generate_palindromes(n: i32, is_first: bool) -> Vec<i64> {
 /// # `number_to_digit_frequency`
 /// Converts a number into its digit frequency representation.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `num` - The number to convert
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<usize>` - Vector where index i contains the frequency of digit i
 fn number_to_digit_frequency(mut num: i64) -> Vec<usize> {
     let mut freq = vec![0; 10];
@@ -71,10 +71,10 @@ fn number_to_digit_frequency(mut num: i64) -> Vec<usize> {
 /// # `count_rearrangements`
 /// Calculates the number of valid permutations for a given digit frequency vector.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `freq` - Vector of digit frequencies
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - Number of valid permutations
 fn count_rearrangements(freq: &Vec<usize>) -> i64 {
     let non_zero_count = freq.iter().skip(1).sum::<usize>();
@@ -89,10 +89,10 @@ fn count_rearrangements(freq: &Vec<usize>) -> i64 {
 /// # `factorial`
 /// Calculates the factorial of a number.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `n` - The number
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - n!
 fn factorial(n: i64) -> i64 {
     (1..=n).product()
@@ -101,16 +101,16 @@ fn factorial(n: i64) -> i64 {
 /// # `count_good_integers`
 /// Counts the number of n-digit integers that can be rearranged to form k-palindromic numbers.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Generate all k-palindromes of length n
 /// 2. For each k-palindrome, count all possible digit rearrangements
 /// 3. Use digit frequency vectors to avoid counting duplicates
 ///
-/// ## Arguments
+/// # Arguments
 /// * `n` - The number of digits
 /// * `k` - The divisibility factor
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - The count of good integers
 pub fn count_good_integers(n: i32, k: i32) -> i64 {
     let mut ans: i64 = 0;

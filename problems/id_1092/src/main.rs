@@ -1,22 +1,22 @@
-///
-/// # Shortest Common Supersequence  (Hard) [String, Dynamic Programming]
-/// LeetCode Problem 1092
-///
+//!
+//! # Shortest Common Supersequence  (Hard) [String, Dynamic Programming]
+//! LeetCode Problem 1092
+//!
 
 /// # `shortest_common_supersequence`
 /// Returns the shortest string that has both input strings as subsequences.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Build a dynamic programming table to find the longest common subsequence (LCS)
 /// 2. Use the DP table to reconstruct the shortest common supersequence by:
 ///    - Including non-matching characters from both strings
 ///    - Including matching characters once
 ///
-/// ## Arguments
+/// # Arguments
 /// * `str1` - First input string
 /// * `str2` - Second input string
 ///
-/// ## Returns
+/// # Returns
 /// * `String` - The shortest string that has both input strings as subsequences
 pub fn shortest_common_supersequence(str1: String, str2: String) -> String {
     let s1: Vec<char> = str1.chars().collect();

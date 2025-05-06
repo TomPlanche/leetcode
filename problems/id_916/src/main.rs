@@ -1,21 +1,19 @@
-///
-/// # Word Subsets (Medium) [Array, Hash Table, String]
-/// LeetCode Problem 916
-///
+//!
+//! # Word Subsets (Medium) [Array, Hash Table, String]
+//! LeetCode Problem 916
+//!
 
-/// # `word_subsets`
-///
 /// Determines which strings in words1 are universal strings with respect to words2.
 /// A string from words1 is universal if every string in words2 is a subset of it.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `words1` - A vector of strings to check for universality
 /// * `words2` - A vector of strings that need to be subsets
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<String>` - A vector of universal strings from words1
 ///
-/// ## Examples
+/// # Examples
 /// ```
 /// let words1 = vec!["amazon".to_string(), "apple".to_string(), "facebook".to_string()];
 /// let words2 = vec!["e".to_string(), "o".to_string()];

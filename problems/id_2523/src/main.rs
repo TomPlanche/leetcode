@@ -1,21 +1,21 @@
-///
-/// # Closest Prime Numbers in Range (Medium) [Math, Number Theory]
-/// LeetCode Problem 2523
-///
+//!
+//! # Closest Prime Numbers in Range (Medium) [Math, Number Theory]
+//! LeetCode Problem 2523
+//!
 
 /// # `closest_primes`
 /// Finds the two closest prime numbers in a given range.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Generate all prime numbers in the range [left, right] using the Sieve of Eratosthenes.
 /// 2. If there are fewer than 2 primes in the range, return [-1, -1].
 /// 3. Find the pair of consecutive primes with the minimum difference.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `left` - The lower bound of the range.
 /// * `right` - The upper bound of the range.
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i32>` - A vector containing the closest prime pair. If no such pair exists, returns [-1, -1].
 pub fn closest_primes(left: i32, right: i32) -> Vec<i32> {
     let primes = generate_primes_in_range(left, right);
@@ -40,14 +40,14 @@ pub fn closest_primes(left: i32, right: i32) -> Vec<i32> {
 
 /// Generates all prime numbers in the range [left, right].
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses the Sieve of Eratosthenes to generate primes.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `left` - The lower bound of the range.
 /// * `right` - The upper bound of the range.
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i32>` - A vector containing all prime numbers in the range.
 fn generate_primes_in_range(left: i32, right: i32) -> Vec<i32> {
     if right <= 1 {

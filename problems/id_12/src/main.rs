@@ -1,18 +1,15 @@
-///
-/// # Integer to Roman (Medium) [Hash Table, Math, String]
-/// LeetCode Problem 12
-///
+//!
+//! # Integer to Roman (Medium) [Hash Table, Math, String]
+//! LeetCode Problem 12
+//!
 
-///
-/// # `int_to_roman`
-///
-/// ## Arguments
+/// # Arguments
 /// * `num` - An integer between 1 and 3999 inclusive
 ///
-/// ## Returns
+/// # Returns
 /// * `String` - A string representing the integer in Roman numerals
 ///
-/// ## Examples
+/// # Examples
 /// ```
 /// let result = int_to_roman(1994);
 /// assert_eq!(result, "MCMXCIV");

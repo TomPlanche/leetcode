@@ -11,13 +11,13 @@
 /// - |arr[j] - arr[k]| <= b
 /// - |arr[i] - arr[k]| <= c
 ///
-/// ## Arguments
+/// # Arguments
 /// * `arr` - A vector of integers where we need to find good triplets
 /// * `a` - Maximum allowed absolute difference between first and second elements
 /// * `b` - Maximum allowed absolute difference between second and third elements
 /// * `c` - Maximum allowed absolute difference between first and third elements
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The number of good triplets found in the array
 pub fn count_good_triplets(arr: Vec<i32>, a: i32, b: i32, c: i32) -> i32 {
     let n = arr.len();

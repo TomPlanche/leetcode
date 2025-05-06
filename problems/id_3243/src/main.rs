@@ -1,23 +1,18 @@
-///
-/// # Shortest Distance After Road Addition Queries I (Medium) [Array, Breadth First Search, Graph]
-/// LeetCode Problem 3243
-///
+//!
+//! # Shortest Distance After Road Addition Queries I (Medium) [Array, Breadth First Search, Graph]
+//! LeetCode Problem 3243
+//!
 use std::collections::VecDeque;
 
-///
-/// # `shortest_distance_after_queries`
-///
 /// Given an integer `n` and a 2D integer array `queries`, this function returns an array where
 /// for each query, it computes the length of the shortest path from city 0 to city n - 1 after
 /// processing the first i + 1 queries.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `n` - An integer representing the number of cities.
 /// * `queries` - A 2D vector of integers representing the road addition queries.
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `Vec<i32>` - A vector of integers representing the shortest path length from city 0 to city n - 1
 /// after each query.
 pub fn shortest_distance_after_queries(n: i32, queries: Vec<Vec<i32>>) -> Vec<i32> {

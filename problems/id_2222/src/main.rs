@@ -1,7 +1,7 @@
-///
-/// # Number of Ways to Select Buildings (Medium) [String, Dynamic Programming, Prefix Sum]
-/// Leetcode Problem 2222
-///
+//!
+//! # Number of Ways to Select Buildings (Medium) [String, Dynamic Programming, Prefix Sum]
+//! Leetcode Problem 2222
+//!
 
 ///
 /// # `number_of_ways`
@@ -9,13 +9,13 @@
 /// no two consecutive selected buildings can be of the same type.
 /// Uses dynamic programming for efficient calculation.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `s` - A binary string where '0' represents an office and '1' represents a restaurant
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - The number of valid ways to select 3 buildings
 ///
-/// ## Examples
+/// # Examples
 /// ```
 /// let s = String::from("001101");
 /// assert_eq!(number_of_ways(s), 6);

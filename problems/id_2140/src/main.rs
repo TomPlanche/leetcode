@@ -6,7 +6,7 @@
 /// # `most_points`
 /// Calculates the maximum points that can be earned by strategically solving exam questions.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses dynamic programming with bottom-up approach:
 /// - dp[i] represents maximum points possible starting from index i
 /// - For each question, we can either:
@@ -14,11 +14,11 @@
 ///   2. Skip it: move to next question
 /// - Process questions from right to left to build optimal solutions
 ///
-/// ## Arguments
+/// # Arguments
 /// * `questions` - A vector of vectors where each inner vector contains [points, brainpower]
 ///                 for each question
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - The maximum possible points that can be earned
 ///
 pub fn most_points(questions: Vec<Vec<i32>>) -> i64 {

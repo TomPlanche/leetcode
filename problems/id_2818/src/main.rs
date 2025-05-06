@@ -10,15 +10,15 @@ const MOD: i64 = 1_000_000_007;
 /// # `mod_pow`
 /// Computes (a^n) % p efficiently using binary exponentiation.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses the square-and-multiply algorithm for efficient modular exponentiation.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `a` - Base number
 /// * `n` - Exponent
 /// * `p` - Modulus
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - Result of (a^n) % p
 fn mod_pow(a: i64, mut n: i64, p: i64) -> i64 {
     let mut result = 1;
@@ -36,10 +36,10 @@ fn mod_pow(a: i64, mut n: i64, p: i64) -> i64 {
 /// # `count_prime_factors`
 /// Counts the number of unique prime factors for a given number.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `num` - Input number
 ///
-/// ## Returns
+/// # Returns
 /// * `usize` - Count of unique prime factors
 fn count_prime_factors(mut num: i32) -> usize {
     let mut primes = HashSet::new();
@@ -60,10 +60,10 @@ fn count_prime_factors(mut num: i32) -> usize {
 /// # `next_greater_on_left`
 /// Finds the nearest element with greater or equal prime factors to the left.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `prime_factors` - Slice containing prime factor counts
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i32>` - Vector where each element is the index of next greater element on left
 fn next_greater_on_left(prime_factors: &[usize]) -> Vec<i32> {
     let mut stack = Vec::new();
@@ -87,10 +87,10 @@ fn next_greater_on_left(prime_factors: &[usize]) -> Vec<i32> {
 /// # `next_greater_on_right`
 /// Finds the nearest element with strictly greater prime factors to the right.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `prime_factors` - Slice containing prime factor counts
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i32>` - Vector where each element is the index of next greater element on right
 fn next_greater_on_right(prime_factors: &[usize]) -> Vec<i32> {
     let mut stack = Vec::new();
@@ -114,17 +114,17 @@ fn next_greater_on_right(prime_factors: &[usize]) -> Vec<i32> {
 /// # `maximum_score`
 /// Calculates the maximum possible score after applying at most k operations.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Calculate prime factor counts for all numbers
 /// 2. Find boundaries using monotonic stack approach
 /// 3. Calculate contributions for each number
 /// 4. Sort by values and compute final score using modular exponentiation
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - Vector of positive integers
 /// * `k` - Maximum number of operations allowed
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The maximum possible score modulo 10^9 + 7
 pub fn maximum_score(nums: Vec<i32>, k: i32) -> i32 {
     let n = nums.len();

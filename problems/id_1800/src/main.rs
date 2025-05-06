@@ -1,17 +1,17 @@
-///
-/// # Maximum Ascending Subarray Sum (Easy) [Array]
-/// LeetCode Problem 1800
-///
+//!
+//! # Maximum Ascending Subarray Sum (Easy) [Array]
+//! LeetCode Problem 1800
+//!
 
 /// # `max_ascending_sum`
 /// Returns the maximum possible sum of an ascending subarray in the given vector of integers.
 /// An ascending subarray is defined as a contiguous sequence where each number is strictly
 /// greater than the previous number.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of positive integers
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The maximum sum of any ascending subarray
 pub fn max_ascending_sum(nums: Vec<i32>) -> i32 {
     let mut max_sum = nums[0];

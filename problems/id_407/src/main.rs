@@ -1,7 +1,7 @@
-///
-/// # Trapping Rain Water II (Hard) [Array, Breadth First Search, Heap (priority Queue), Matrix]
-/// LeetCode Problem 407
-///
+//!
+//! # Trapping Rain Water II (Hard) [Array, Breadth First Search, Heap (priority Queue), Matrix]
+//! LeetCode Problem 407
+//!
 use std::cmp::Ordering;
 use std::collections::BinaryHeap;
 
@@ -28,13 +28,13 @@ impl PartialOrd for Cell {
 /// # `trap_rain_water`
 /// Traps rain water in a 2D elevation map and returns the total volume.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `height_map` - A 2D vector representing the elevation map where each cell contains the height
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The total volume of water that can be trapped
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses a priority queue based approach:
 /// 1. Start from the border cells (which can't hold water)
 /// 2. Process cells from lowest to highest height

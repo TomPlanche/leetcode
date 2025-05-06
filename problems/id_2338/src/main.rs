@@ -9,11 +9,11 @@ const MOD: u64 = 1_000_000_007;
 /// # `pow_mod`
 /// Calculates (x^n) % MOD efficiently using binary exponentiation
 ///
-/// ## Arguments
+/// # Arguments
 /// * `x` - Base number
 /// * `n` - Exponent
 ///
-/// ## Returns
+/// # Returns
 /// * `u64` - Result of (x^n) % MOD
 fn pow_mod(x: u64, n: u64) -> u64 {
     if n == 0 {
@@ -27,10 +27,10 @@ fn pow_mod(x: u64, n: u64) -> u64 {
 /// # `generate_primes`
 /// Generates prime numbers up to limit using Sieve of Eratosthenes
 ///
-/// ## Arguments
+/// # Arguments
 /// * `limit` - Upper bound for prime generation
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<u64>` - Vector of prime numbers
 fn generate_primes(limit: u64) -> Vec<u64> {
     let mut sieve = vec![true; limit as usize + 1];
@@ -53,16 +53,16 @@ fn generate_primes(limit: u64) -> Vec<u64> {
 /// # `ideal_arrays`
 /// Calculates the number of distinct ideal arrays using prime factorization and combinatorics
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Generates prime numbers up to sqrt(maxValue)
 /// 2. For each number, calculates its contribution using prime factorization
 /// 3. Uses combinations with repetition formula
 ///
-/// ## Arguments
+/// # Arguments
 /// * `n` - Length of the arrays
 /// * `max_value` - Maximum allowed value in arrays
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - Number of distinct ideal arrays modulo 10^9 + 7
 pub fn ideal_arrays(n: i32, max_value: i32) -> i32 {
     let n = n as u64;

@@ -6,20 +6,20 @@
 /// # `can_partition`
 /// Determines if a vector of integers can be partitioned into two subsets with equal sums.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses dynamic programming approach:
 /// 1. Check if total sum is odd (if so, return false)
 /// 2. Calculate target sum (total/2)
 /// 3. Use DP array where dp[i] represents if sum i can be achieved using some subset
 /// 4. For each number, update dp[j] for all possible sums j that could include this number
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of positive integers
 ///
-/// ## Returns
+/// # Returns
 /// * `bool` - true if the array can be partitioned into two equal sum subsets, false otherwise
 ///
-/// ## Example
+/// # Example
 /// ```
 /// let nums = vec![1, 5, 11, 5];
 /// assert_eq!(can_partition(nums), true); // Can be split into [1,5,5] and [11]

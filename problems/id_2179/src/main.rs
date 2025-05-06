@@ -11,16 +11,16 @@
 /// the value v in nums1 and pos2v as the index of the value v in nums2, then a good
 /// triplet will be a set (x, y, z) where pos1x < pos1y < pos1z and pos2x < pos2y < pos2z.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Create a position map for nums1 values
 /// 2. Initialize two Fenwick trees: one for left counts and one for right counts
 /// 3. Process elements in nums2 order, calculating potential triplets for each middle element
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums1` - A vector of integers, permutation of [0, 1, ..., n - 1].
 /// * `nums2` - A vector of integers, permutation of [0, 1, ..., n - 1].
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - The total number of good triplets.
 pub fn good_triplets(nums1: Vec<i32>, nums2: Vec<i32>) -> i64 {
     let n = nums1.len();

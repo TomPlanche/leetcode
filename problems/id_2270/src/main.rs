@@ -1,18 +1,19 @@
-///
-/// # Number of Ways to Split Array (Medium) [Array, Prefix Sum]
-/// LeetCode Problem 2270
+//!
+//! # Number of Ways to Split Array (Medium) [Array, Prefix Sum]
+//! LeetCode Problem 2270
+//!
 
 /// # `ways_to_split_array`
 /// Counts the number of valid splits in a given array where the sum of left part
 /// is greater than or equal to the sum of right part.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers to be split
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - Number of valid splits
 ///
-/// ## Examples
+/// # Examples
 /// ```
 /// let nums = vec![10,4,-8,7];
 /// assert_eq!(ways_to_split_array(nums), 2);

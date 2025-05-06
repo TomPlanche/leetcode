@@ -1,11 +1,8 @@
-///
-/// # Maximum Sum of Distinct Subarrays With Length K (Medium) [Array, Hash Table, Sliding Window]
-/// LeetCode Problem 2461
-///
+//!
+//! # Maximum Sum of Distinct Subarrays With Length K (Medium) [Array, Hash Table, Sliding Window]
+//! LeetCode Problem 2461
+//!
 
-///
-/// # `maximum_subarray_sum`
-///
 /// Find the maximum subarray sum of all the subarrays of nums that meet the following conditions:
 ///
 /// The length of the subarray is k, and
@@ -14,13 +11,11 @@
 ///
 /// A subarray is a contiguous non-empty sequence of elements within an array.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `nums` - A vector of integers
 /// * `k` - An integer
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `i64` - The maximum subarray sum
 pub fn maximum_subarray_sum(nums: Vec<i32>, k: i32) -> i64 {
     let k = k as usize;

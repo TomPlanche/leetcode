@@ -1,7 +1,7 @@
-///
-/// # Remove Letter To Equalize Frequency (Easy) [Hash Table, String, Counting]
-/// Leetcode Problem 2423
-///
+//!
+//! # Remove Letter To Equalize Frequency (Easy) [Hash Table, String, Counting]
+//! Leetcode Problem 2423
+//!
 /// # 2423. Remove Letter To Equalize Frequency
 /// You are given a 0-indexed string word, consisting of lowercase English letters.
 /// You need to select one index and remove the letter at that index from word so that the
@@ -19,9 +19,9 @@
 /// My approach to solve the problem is to get a set of all the letters in the word and then
 /// iterate over the set and remove one letter at a time and check if the frequency of all the
 /// letters is equal. If it is, return true, otherwise return false.
-/// ## Arguments
+/// # Arguments
 /// * `word` - {String} the word to check
-/// ## Returns
+/// # Returns
 /// * {bool} - true if it is possible to remove one letter so that the frequency of all letters
 fn equal_frequency(word: String) -> bool {
     let set: std::collections::HashSet<char> = word.chars().collect();

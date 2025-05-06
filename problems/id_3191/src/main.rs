@@ -1,21 +1,21 @@
-///
-/// # Minimum Operations to Make Binary Array Elements Equal to One I (Medium) [Array, Bit Manipulation, Queue, Sliding Window, Prefix Sum]
-/// LeetCode Problem 3191
-///
+//!
+//! # Minimum Operations to Make Binary Array Elements Equal to One I (Medium) [Array, Bit Manipulation, Queue, Sliding Window, Prefix Sum]
+//! LeetCode Problem 3191
+//!
 
 /// # `min_operations`
 /// Calculates the minimum number of operations needed to make all elements in a binary array equal to 1.
 /// An operation consists of flipping 3 consecutive elements (changing 0 to 1 and 1 to 0).
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. First checks if solution is possible by verifying array length and edge cases
 /// 2. Uses greedy approach: whenever we encounter a 0, flip it and next 2 elements
 /// 3. Keeps track of changes and counts operations
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of binary integers (0s and 1s)
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - Minimum number of operations needed, or -1 if impossible
 pub fn min_operations(nums: Vec<i32>) -> i32 {
     // Check if array is too short

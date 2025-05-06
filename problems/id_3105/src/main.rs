@@ -1,22 +1,22 @@
-///
-/// # Longest Strictly Increasing or Strictly Decreasing Subarray (Easy) [Array]
-/// LeetCode Problem 3105
-///
+//!
+//! # Longest Strictly Increasing or Strictly Decreasing Subarray (Easy) [Array]
+//! LeetCode Problem 3105
+//!
 
 /// # `longest_monotonic_subarray`
 /// Finds the length of the longest subarray that is either strictly increasing
 /// or strictly decreasing.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// - Iterates through the array comparing adjacent elements
 /// - Maintains separate counters for increasing and decreasing sequences
 /// - Updates maximum length when either sequence grows
 /// - Resets counters when sequences break
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - Length of the longest strictly increasing or decreasing subarray
 pub fn longest_monotonic_subarray(nums: Vec<i32>) -> i32 {
     if nums.len() <= 1 {

@@ -6,10 +6,10 @@
 /// # `count_subarrays`
 /// Returns the number of subarrays of length 3 such that the sum of the first and third numbers equals exactly half of the second number.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers.
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The count of subarrays that meet the specified condition.
 pub fn count_subarrays(nums: Vec<i32>) -> i32 {
     let mut count = 0;

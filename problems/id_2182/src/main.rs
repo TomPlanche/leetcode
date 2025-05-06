@@ -1,26 +1,20 @@
-///
-/// # Construct String With Repeat Limit (Medium) [Hash Table, String, Greedy, Heap (priority Queue), Counting]
-/// LeetCode Problem 2182
-///
+//!
+//! # Construct String With Repeat Limit (Medium) [Hash Table, String, Greedy, Heap (priority Queue), Counting]
+//! LeetCode Problem 2182
+//!
 
-///
-/// # repeat_limited_string
-///
 /// Constructs a new string using characters from the input string where no letter
 /// appears more than the specified repeat limit times in a row. The function returns
 /// the lexicographically largest possible string meeting these criteria.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `s` - Input string containing lowercase English letters
 /// * `repeat_limit` - Maximum number of times a letter can appear consecutively
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `String` - The lexicographically largest possible string meeting the repeat limit criteria
 ///
-/// ## Example
-///
+/// # Example
 /// ```
 /// let s = String::from("cczazcc");
 /// let result = repeat_limited_string(s, 3);

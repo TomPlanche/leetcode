@@ -1,19 +1,19 @@
-///
-/// # Delete Characters to Make Fancy String (Easy) [String]
-/// Leetcode Problem 1957
-///
+//!
+//! # Delete Characters to Make Fancy String (Easy) [String]
+//! Leetcode Problem 1957
+//!
 
 ///
 /// # `make_fancy_string`
 /// Converts a string into a fancy string where no three consecutive characters are equal.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `s` - The input string to be converted
 ///
-/// ## Returns
+/// # Returns
 /// * `String` - The fancy string after removing minimum characters
 ///
-/// ## Examples
+/// # Examples
 /// ```
 /// let result = make_fancy_string("leeetcode".to_string());
 /// assert_eq!(result, "leetcode");

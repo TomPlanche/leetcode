@@ -1,23 +1,20 @@
-///
-/// # Valid Parentheses (Easy) [String, Stack]
-/// LeetCode Problem 20
-///
+//!
+//! # Valid Parentheses (Easy) [String, Stack]
+//! LeetCode Problem 20
+//!
 
-///
-/// # `is_valid`
-///
 /// A string is considered valid if:
 /// - Open brackets must be closed by the same type of closing bracket
 /// - Open brackets must be closed in the correct order
 /// - Every close bracket has a corresponding open bracket of the same type
 ///
-/// ## Arguments
+/// # Arguments
 /// * `s` - A string containing only the characters '(', ')', '{', '}', '[' and ']'
 ///
-/// ## Returns
+/// # Returns
 /// * `true` if the string has valid nesting, `false` otherwise
 ///
-/// ## Examples
+/// # Examples
 /// ```
 /// assert!(is_valid("()".to_string()));    // true
 /// assert!(is_valid("()[]{}".to_string())); // true

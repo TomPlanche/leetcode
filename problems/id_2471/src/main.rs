@@ -1,7 +1,7 @@
-///
-/// # Minimum Number of Operations to Sort a Binary Tree by Level (Medium) [Tree, Breadth First Search, Binary Tree]
-/// LeetCode Problem 2471
-///
+//!
+//! # Minimum Number of Operations to Sort a Binary Tree by Level (Medium) [Tree, Breadth First Search, Binary Tree]
+//! LeetCode Problem 2471
+//!
 use std::cell::RefCell;
 use std::collections::VecDeque;
 use std::rc::Rc;
@@ -30,15 +30,15 @@ impl TreeNode {
 /// of a binary tree in strictly increasing order. A swap operation allows exchanging values
 /// between any two nodes at the same level.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Performs level-order traversal to group nodes by level
 /// 2. For each level, calculates minimum swaps needed to sort values
 /// 3. Uses cycle detection to optimize swap count calculation
 ///
-/// ## Arguments
+/// # Arguments
 /// * `root` - Optional root node of the binary tree
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - Minimum number of operations needed to sort all levels
 pub fn minimum_operations(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
     // Early return for empty tree
@@ -84,10 +84,10 @@ pub fn minimum_operations(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
 /// Calculates the minimum number of swaps needed to sort an array in ascending order
 /// using cycle detection.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `arr` - Slice of integers to be sorted
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - Minimum number of swaps needed
 fn min_swaps_to_sort(arr: &[i32]) -> i32 {
     let n = arr.len();

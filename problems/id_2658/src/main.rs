@@ -1,7 +1,7 @@
-///
-/// # Maximum Number of Fish in a Grid (Medium) [Array, Depth First Search, Breadth First Search, Union Find, Matrix]
-/// LeetCode Problem 2658
-///
+//!
+//! # Maximum Number of Fish in a Grid (Medium) [Array, Depth First Search, Breadth First Search, Union Find, Matrix]
+//! LeetCode Problem 2658
+//!
 use std::collections::HashSet;
 
 /// # `find_max_fish`
@@ -11,13 +11,13 @@ use std::collections::HashSet;
 /// This function returns the maximum possible sum of fish that can be caught from any
 /// connected component of water cells.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `grid` - A 2D vector where each cell contains either 0 (land) or a positive number (water with fish)
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The maximum number of fish that can be caught, or 0 if no water cells exist
 ///
-/// ## Examples
+/// # Examples
 /// ```
 /// let grid = vec![
 ///     vec![0,2,1,0],
@@ -51,13 +51,13 @@ pub fn find_max_fish(grid: Vec<Vec<i32>>) -> i32 {
 /// # `dfs`
 /// Helper function to perform DFS and calculate total fish in a connected component
 ///
-/// ## Arguments
+/// # Arguments
 /// * `grid` - Reference to the input grid
 /// * `visited` - Mutable reference to HashSet tracking visited cells
 /// * `r` - Current row
 /// * `c` - Current column
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - Sum of fish in current connected component
 fn dfs(grid: &Vec<Vec<i32>>, visited: &mut HashSet<(usize, usize)>, r: usize, c: usize) -> i32 {
     if visited.contains(&(r, c)) || grid[r][c] == 0 {

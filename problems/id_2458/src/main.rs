@@ -1,7 +1,7 @@
-///
-/// # Height of Binary Tree After Subtree Removal Queries (Hard) [Array, Tree, Depth-First Search, Breadth-First Search, Binary Tree]
-/// Leetcode Problem 2458
-///
+//!
+//! # Height of Binary Tree After Subtree Removal Queries (Hard) [Array, Tree, Depth-First Search, Breadth-First Search, Binary Tree]
+//! Leetcode Problem 2458
+//!
 use std::cell::RefCell;
 use std::collections::HashMap;
 use std::rc::Rc;
@@ -24,18 +24,13 @@ impl TreeNode {
     }
 }
 
-///
-/// # `tree_queries`
-///
 /// Given the root of a binary tree and an array of queries, return the height of the tree after each query.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `root`: `Option<Rc<RefCell<TreeNode>>>` - The root of the binary tree.
 /// * `queries`: `Vec<i32>` - An array of integers representing the queries.
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `Vec<i32>` - An array of integers representing the height of the tree after each query.
 pub fn tree_queries(root: Option<Rc<RefCell<TreeNode>>>, queries: Vec<i32>) -> Vec<i32> {
     ///

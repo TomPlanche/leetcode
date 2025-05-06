@@ -1,6 +1,7 @@
-///
-/// # Count Ways To Build Good Strings (Medium) [Dynamic Programming]
-/// LeetCode Problem 2466
+//!
+//! # Count Ways To Build Good Strings (Medium) [Dynamic Programming]
+//! LeetCode Problem 2466
+//!
 
 ///
 /// # `count_good_strings`
@@ -12,17 +13,17 @@
 /// A good string is a string constructed by the above process having a length
 /// between `low` and `high` (inclusive).
 ///
-/// ## Arguments
+/// # Arguments
 /// * `low` - The minimum length of a good string
 /// * `high` - The maximum length of a good string
 /// * `zero` - Number of '0' characters to append in one operation
 /// * `one` - Number of '1' characters to append in one operation
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The number of different good strings that can be constructed,
 ///           modulo 10^9 + 7
 ///
-/// ## Example
+/// # Example
 /// ```
 /// let result = count_good_strings(3, 3, 1, 1);
 /// assert_eq!(result, 8);

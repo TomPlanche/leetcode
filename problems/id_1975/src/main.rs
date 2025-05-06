@@ -1,18 +1,15 @@
-///
-/// # Maximum Matrix Sum (Medium) [Array, Greedy, Matrix]
-/// LeetCode Problem 1975
-///
+//!
+//! # Maximum Matrix Sum (Medium) [Array, Greedy, Matrix]
+//! LeetCode Problem 1975
+//!
 /// You are given an n x n integer matrix. You can perform the following operation
 /// any number of times: Choose any two adjacent elements of the matrix and multiply
 /// each of them by -1. Two elements are considered adjacent if they share a border.
 
-/// # `max_matrix_sum`
-///
 /// Calculates the maximum possible sum of matrix elements after performing any number
 /// of operations where each operation multiplies two adjacent elements by -1.
 ///
-/// ## Algorithm
-///
+/// # Algorithm
 /// The key insights are:
 /// 1. When we multiply two adjacent numbers by -1, we can think of it as "moving"
 ///    the negative sign from one number to another.
@@ -20,16 +17,13 @@
 /// 3. If we have an odd number of negative elements, we must keep one negative number,
 ///    and we should keep it on the smallest absolute value.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `matrix` - A vector of vectors representing an n x n matrix where n >= 2
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `i64` - The maximum possible sum after performing any number of valid operations
 ///
-/// ## Constraints
-///
+/// # Constraints
 /// * n == matrix.length == matrix[i].length
 /// * 2 <= n <= 250
 /// * -10^5 <= matrix[i][j] <= 10^5

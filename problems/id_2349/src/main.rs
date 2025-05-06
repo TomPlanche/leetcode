@@ -1,7 +1,7 @@
-///
-/// # Design a Number Container System (Medium) [Hash Table, Design, Heap (priority Queue), Ordered Set]
-/// LeetCode Problem 2349
-///
+//!
+//! # Design a Number Container System (Medium) [Hash Table, Design, Heap (priority Queue), Ordered Set]
+//! LeetCode Problem 2349
+//!
 use std::collections::{BTreeSet, HashMap};
 
 /// # NumberContainers

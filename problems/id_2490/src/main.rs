@@ -1,19 +1,19 @@
-///
-/// # Circular Sentence (Easy) [String]
-/// Leetcode Problem 2490
-///
+//!
+//! # Circular Sentence (Easy) [String]
+//! Leetcode Problem 2490
+//!
 
 ///
 /// # `is_circular_sentence`
 /// Checks if a given sentence is circular based on the first and last characters of each word.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `sentence` - The input sentence to check
 ///
-/// ## Returns
+/// # Returns
 /// * `bool` - True if the sentence is circular, false otherwise
 ///
-/// ## Examples
+/// # Examples
 /// ```
 /// let sentence1 = String::from("leetcode exercises sound delightful");
 /// assert_eq!(is_circular_sentence(sentence1), true);

@@ -1,11 +1,8 @@
-///
-/// # Find the Power of K-Size Subarrays I (Medium) [Array, Sliding Window]
-/// LeetCode Problem 3254
-///
+//!
+//! # Find the Power of K-Size Subarrays I (Medium) [Array, Sliding Window]
+//! LeetCode Problem 3254
+//!
 
-///
-/// # `results_array`
-///
 /// You are given an array of integers `nums` of length `n` and a positive integer `k`.
 ///
 /// The power of an array is defined as:
@@ -14,13 +11,11 @@
 ///
 /// You need to find the power of all subarrays of `nums` of size `k`.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `nums` - A vector of integers.
 /// * `k` - An integer representing the size of the subarray.
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `Vec<i32>` - A vector of integers representing the power of each subarray of size `k`.
 pub fn results_array(nums: Vec<i32>, k: i32) -> Vec<i32> {
     let mut result = Vec::new();

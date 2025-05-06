@@ -1,19 +1,14 @@
-///
-/// # Count Square Submatrices with All Ones (Medium) [Array, Dynamic Programming, Matrix]
-/// Leetcode Problem 1277
-///
+//!
+//! # Count Square Submatrices with All Ones (Medium) [Array, Dynamic Programming, Matrix]
+//! Leetcode Problem 1277
+//!
 
-///
-/// # `count_squares`
-///
 /// Given a m * n matrix of ones and zeros, return how many square submatrices have all ones.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `matrix` - `Vec<Vec<i32>>`: A m * n matrix of ones and zeros.
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `i32`: The number of square submatrices have all ones.
 pub fn count_squares(matrix: Vec<Vec<i32>>) -> i32 {
     // Check if matrix is empty or has no columns

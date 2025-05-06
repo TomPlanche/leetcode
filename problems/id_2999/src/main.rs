@@ -7,18 +7,18 @@
 /// Counts the number of powerful integers in a given range [start..finish].
 /// A number is powerful if it ends with string s and each digit is at most limit.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Converts range bounds to strings
 /// 2. Calculates count for both bounds using helper function
 /// 3. Returns difference between upper and lower bound counts
 ///
-/// ## Arguments
+/// # Arguments
 /// * `start` - Lower bound of the range (inclusive)
 /// * `finish` - Upper bound of the range (inclusive)
 /// * `limit` - Maximum allowed digit value
 /// * `s` - The required suffix string
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - Count of powerful integers in the range
 pub fn number_of_powerful_int(start: i64, finish: i64, limit: i32, s: String) -> i64 {
     let start_str = (start - 1).to_string();
@@ -30,17 +30,17 @@ pub fn number_of_powerful_int(start: i64, finish: i64, limit: i32, s: String) ->
 /// # `calculate`
 /// Helper function to count powerful integers up to a given bound.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Checks if number length is compatible with suffix
 /// 2. Processes each prefix digit from left to right
 /// 3. Accumulates possible combinations based on digit values and limit
 ///
-/// ## Arguments
+/// # Arguments
 /// * `x` - Upper bound as string
 /// * `s` - Required suffix
 /// * `limit` - Maximum allowed digit value
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - Count of valid numbers up to the bound
 fn calculate(x: &str, s: &str, limit: i32) -> i64 {
     // Handle cases where number length is incompatible with suffix

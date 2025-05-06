@@ -1,7 +1,7 @@
-///
-/// # Max Chunks To Make Sorted (Medium) [Array, Stack, Greedy, Sorting, Monotonic Stack]
-/// LeetCode Problem 769
-///
+//!
+//! # Max Chunks To Make Sorted (Medium) [Array, Stack, Greedy, Sorting, Monotonic Stack]
+//! LeetCode Problem 769
+//!
 
 ///
 /// # max_chunks_to_sorted
@@ -11,11 +11,11 @@
 /// should equal the sorted array. This function returns the largest number of chunks
 /// we can make to sort the array.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `arr` - A vector of integers representing the permutation of the integers in the
 /// range `[0, n - 1]`.
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The largest number of chunks we can make to sort the array.
 pub fn max_chunks_to_sorted(arr: Vec<i32>) -> i32 {
     let mut max_chunks = 0;

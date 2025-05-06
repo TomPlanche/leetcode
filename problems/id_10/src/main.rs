@@ -1,33 +1,26 @@
-///
-/// # Regular Expression Matching (Hard) [String, Dynamic Programming, Recursion]
-/// LeetCode Problem 10
-///
+//!
+//! # Regular Expression Matching (Hard) [String, Dynamic Programming, Recursion]
+//! LeetCode Problem 10
+//!
 
-///
-/// # `is_match`
-///
 /// Implement regular expression matching with support for '.' and '*' characters:
 /// - '.' Matches any single character
 /// - '*' Matches zero or more of the preceding element
 ///
 /// The matching must cover the entire input string.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `s` - Input string to match
 /// * `p` - Pattern string with matching rules
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `bool` - Whether the entire string matches the pattern
 ///
-/// ## Complexity
-///
+/// # Complexity
 /// * Time Complexity: O(m*n), where m and n are lengths of s and p
 /// * Space Complexity: O(m*n) for dynamic programming solution
 ///
-/// ## Examples
-///
+/// # Examples
 /// ```
 /// assert!(!is_match("aa".to_string(), "a".to_string()));
 /// assert!(is_match("aa".to_string(), "a*".to_string()));

@@ -9,19 +9,19 @@ use std::collections::HashMap;
 /// Given an integer n, groups numbers from 1 to n according to their digit sum,
 /// and returns the count of groups that have the largest size.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Calculate digit sum for each number from 1 to n
 /// 2. Group numbers by their digit sum using a HashMap
 /// 3. Find the size of largest group(s)
 /// 4. Count groups of that size
 ///
-/// ## Arguments
+/// # Arguments
 /// * `n` - An integer representing the upper bound of numbers to group
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The count of groups that have the largest size
 ///
-/// ## Example
+/// # Example
 /// ```
 /// let result = count_largest_group(13);
 /// assert_eq!(result, 4);

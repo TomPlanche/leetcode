@@ -1,28 +1,22 @@
-///
-/// # Split a String Into the Max Number of Unique Substrings (Medium) [Hash Table, String, Backtracking]
-/// Leetcode Problem 1593
-///
+//!
+//! # Split a String Into the Max Number of Unique Substrings (Medium) [Hash Table, String, Backtracking]
+//! Leetcode Problem 1593
+//!
 use std::collections::HashSet;
 
-///
-/// # `max_unique_split`
-///
 /// Finds the maximum number of unique substrings that the given string can be split into.
 ///
 /// This function uses a recursive backtracking approach to explore all possible ways to split
 /// the string into unique substrings. It keeps track of the maximum number of unique substrings
 /// found so far.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `s` - The input string to be split.
 ///
-/// ## Returns
-///
+/// # Returns
 /// The maximum number of unique substrings that the input string can be split into.
 ///
-/// ## Examples
-///
+/// # Examples
 /// ```
 /// assert_eq!(max_unique_split("ababccc".to_string()), 5);
 /// assert_eq!(max_unique_split("aba".to_string()), 2);

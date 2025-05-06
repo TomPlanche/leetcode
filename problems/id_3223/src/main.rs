@@ -1,7 +1,7 @@
-///
-/// # Minimum Length of String After Operations (Medium) [Hash Table, String, Counting]
-/// LeetCode Problem 3223
-///
+//!
+//! # Minimum Length of String After Operations (Medium) [Hash Table, String, Counting]
+//! LeetCode Problem 3223
+//!
 
 /// # `minimum_length`
 /// You can perform the following process on s any number of times:
@@ -11,10 +11,10 @@
 ///
 /// Return the minimum length of the final string s that you can achieve.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `s` - Input string containing lowercase English letters
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The minimum length of the string possible after operations
 pub fn minimum_length(s: String) -> i32 {
     let len_s = s.len() as i32;

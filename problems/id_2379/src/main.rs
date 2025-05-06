@@ -1,20 +1,20 @@
-///
-/// # Minimum Recolors to Get K Consecutive Black Blocks (Easy) [String, Sliding Window]
-/// LeetCode Problem 2379
-///
+//!
+//! # Minimum Recolors to Get K Consecutive Black Blocks (Easy) [String, Sliding Window]
+//! LeetCode Problem 2379
+//!
 
 /// # `minimum_recolors`
 /// Returns the minimum number of operations needed to have at least one occurrence of k consecutive black blocks.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses a sliding window approach to find the window of size k with the fewest white blocks.
 /// That's the window that would require the fewest operations to convert all its blocks to black.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `blocks` - A string where each character is either 'W' (white) or 'B' (black).
 /// * `k` - An integer representing the desired number of consecutive black blocks.
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The minimum number of operations needed to have at least one occurrence of k consecutive black blocks.
 pub fn minimum_recolors(blocks: String, k: i32) -> i32 {
     let k = k as usize;

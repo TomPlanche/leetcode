@@ -8,14 +8,14 @@
 /// An operation consists of selecting a valid integer h and reducing all numbers greater than h to h.
 /// A valid h is one where all numbers greater than h in the array are identical.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers where 1 <= nums[i] <= 100
 /// * `k` - The target value where 1 <= k <= 100
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The minimum number of operations required, or -1 if impossible
 ///
-/// ## Examples
+/// # Examples
 /// ```
 /// assert_eq!(min_operations(vec![5,2,5,4,5], 2), 2);
 /// assert_eq!(min_operations(vec![2,1,2], 2), -1);

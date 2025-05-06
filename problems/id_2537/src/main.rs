@@ -9,17 +9,17 @@ use std::collections::HashMap;
 /// Returns the number of good subarrays in nums where a good subarray has at least k pairs
 /// of equal elements.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses sliding window technique with a frequency map to maintain count of pairs:
 /// 1. Expand window to right, updating pair count
 /// 2. Contract from left while pairs >= k
 /// 3. Add count of valid subarrays
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - Vector of integers
 /// * `k` - Minimum number of pairs required for a good subarray
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - Number of good subarrays
 pub fn count_good(nums: Vec<i32>, k: i32) -> i64 {
     let mut result: i64 = 0;

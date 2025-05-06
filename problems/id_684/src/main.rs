@@ -1,7 +1,7 @@
-///
-/// # Redundant Connection (Medium) [Depth First Search, Breadth First Search, Union Find, Graph]
-/// LeetCode Problem 684
-///
+//!
+//! # Redundant Connection (Medium) [Depth First Search, Breadth First Search, Union Find, Graph]
+//! LeetCode Problem 684
+//!
 
 /// # UnionFind
 /// A data structure implementing the Union-Find (Disjoint Set) algorithm
@@ -73,15 +73,15 @@ impl UnionFind {
 /// Finds an edge that can be removed to make the graph a tree.
 /// If there are multiple answers, returns the last one in the input.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses Union-Find to detect cycles in the graph. The last edge that
 /// creates a cycle is the redundant connection.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `edges` - A vector of vectors where each inner vector contains two integers
 ///            representing an edge between two nodes
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i32>` - The redundant edge that can be removed
 pub fn find_redundant_connection(edges: Vec<Vec<i32>>) -> Vec<i32> {
     let n = edges.len();

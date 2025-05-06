@@ -1,8 +1,8 @@
+//!
+//! # Recover a Tree From Preorder Traversal (Hard) [String, Tree, Depth First Search, Binary Tree]
+//! LeetCode Problem 1028
+//!
 use std::cell::RefCell;
-///
-/// # Recover a Tree From Preorder Traversal (Hard) [String, Tree, Depth First Search, Binary Tree]
-/// LeetCode Problem 1028
-///
 use std::rc::Rc;
 
 #[derive(Debug, PartialEq, Eq)]
@@ -28,7 +28,7 @@ impl TreeNode {
 /// The string format consists of node values separated by dashes (-) where
 /// the number of consecutive dashes represents the depth of the node.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Parse the input string into (depth, value) pairs
 /// 2. Use a stack to track nodes and their depths
 /// 3. For each new node:
@@ -36,10 +36,10 @@ impl TreeNode {
 ///    - Attach as left or right child
 ///    - Push new node to stack
 ///
-/// ## Arguments
+/// # Arguments
 /// * `traversal` - A string representing the preorder traversal of the tree
 ///
-/// ## Returns
+/// # Returns
 /// * `Option<Rc<RefCell<TreeNode>>>` - The root node of the reconstructed tree
 pub fn recover_from_preorder(traversal: String) -> Option<Rc<RefCell<TreeNode>>> {
     if traversal.is_empty() {

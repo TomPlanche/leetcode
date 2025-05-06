@@ -8,16 +8,16 @@ use std::collections::HashMap;
 /// # `num_rabbits`
 /// Calculates the minimum number of rabbits in the forest based on the answers provided.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// If a rabbit answers "x", then there are x other rabbits with the same color, making a total of x+1 rabbits of that color.
 /// If more than x+1 rabbits answer "x", then they can't all be the same color, and we need multiple groups.
 /// For each answer x, we calculate how many complete groups of size (x+1) we need to accommodate
 /// all rabbits that answered "x".
 ///
-/// ## Arguments
+/// # Arguments
 /// * `answers` - A vector containing each rabbit's answer to "How many rabbits have the same color as you?"
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The minimum number of rabbits that could be in the forest
 pub fn num_rabbits(answers: Vec<i32>) -> i32 {
     let mut count_map: HashMap<i32, i32> = HashMap::new();

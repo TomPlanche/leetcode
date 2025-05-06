@@ -1,23 +1,17 @@
-///
-/// # Shortest Subarray With OR at Least K II (Medium) [Array, Bit Manipulation, Sliding Window]
-/// LeetCode Problem 3090
-///
+//!
+//! # Shortest Subarray With OR at Least K II (Medium) [Array, Bit Manipulation, Sliding Window]
+//! LeetCode Problem 3090
+//!
 /// You are given an array of non-negative integers and need to find the shortest subarray
 /// whose bitwise OR sum is at least k.
-///
-/// # `minimum_subarray_length`
-///
-/// ## Arguments
-///
+/// # Arguments
 /// * `nums` - A vector of non-negative integers
 /// * `k` - Target value that the bitwise OR of subarray elements should be at least
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `i32` - Length of shortest valid subarray, or -1 if no such subarray exists
 ///
-/// ## Example
-///
+/// # Example
 /// ```
 /// let nums = vec![1, 2, 3];
 /// let k = 2;

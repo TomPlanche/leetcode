@@ -1,7 +1,7 @@
-///
-/// # Final Prices With a Special Discount in a Shop (Easy) [Array, Stack, Monotonic Stack]
-/// LeetCode Problem 1475
-///
+//!
+//! # Final Prices With a Special Discount in a Shop (Easy) [Array, Stack, Monotonic Stack]
+//! LeetCode Problem 1475
+//!
 
 ///
 /// # final_prices
@@ -9,13 +9,13 @@
 /// For each item i, the discount is the price of the first item j (where j > i)
 /// that has a price less than or equal to the current item's price.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `prices` - A vector of integers representing the original prices of items
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i32>` - A vector of integers representing the final prices after applying discounts
 ///
-/// ## Examples
+/// # Examples
 /// ```
 /// let prices = vec![8,4,6,2,3];
 /// assert_eq!(final_prices(prices), vec![4,2,4,2,3]);

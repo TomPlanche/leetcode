@@ -1,13 +1,13 @@
-///
-/// # Construct Smallest Number From DI String (Medium) [String, Backtracking, Stack, Greedy]
-/// LeetCode Problem 2375
-///
+//!
+//! # Construct Smallest Number From DI String (Medium) [String, Backtracking, Stack, Greedy]
+//! LeetCode Problem 2375
+//!
 
 /// # `smallest_number`
 /// Constructs the lexicographically smallest number that satisfies the given pattern of increasing
 /// and decreasing relationships between adjacent digits.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Create a vector to store the result digits
 /// 2. Initialize a counter starting from 1
 /// 3. Iterate through the pattern:
@@ -16,10 +16,10 @@
 /// 4. Add the final number
 /// 5. Convert the numbers to a string
 ///
-/// ## Arguments
+/// # Arguments
 /// * `pattern` - A string consisting of 'I' (increasing) and 'D' (decreasing) characters
 ///
-/// ## Returns
+/// # Returns
 /// * `String` - The lexicographically smallest valid number that satisfies the pattern
 pub fn smallest_number(pattern: String) -> String {
     let n = pattern.len();

@@ -28,7 +28,7 @@ impl TreeNode {
 /// # `lca_deepest_leaves`
 /// Finds the lowest common ancestor of the deepest leaves in a binary tree.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses a depth-first search approach that simultaneously:
 /// 1. Tracks the maximum depth of leaves
 /// 2. Identifies the lowest common ancestor
@@ -37,10 +37,10 @@ impl TreeNode {
 /// - If heights are equal, current node is LCA
 /// - If one side is deeper, LCA is in that subtree
 ///
-/// ## Arguments
+/// # Arguments
 /// * `root` - The root node of the binary tree
 ///
-/// ## Returns
+/// # Returns
 /// * `Option<Rc<RefCell<TreeNode>>>` - The lowest common ancestor node of the deepest leaves
 pub fn lca_deepest_leaves(root: Option<Rc<RefCell<TreeNode>>>) -> Option<Rc<RefCell<TreeNode>>> {
     // Helper function that returns (height, lca_node)

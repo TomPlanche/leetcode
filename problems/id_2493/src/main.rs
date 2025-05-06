@@ -1,22 +1,22 @@
-///
-/// # Divide Nodes Into the Maximum Number of Groups (Hard) [Breadth First Search, Union Find, Graph]
-/// LeetCode Problem 2493
-///
+//!
+//! # Divide Nodes Into the Maximum Number of Groups (Hard) [Breadth First Search, Union Find, Graph]
+//! LeetCode Problem 2493
+//!
 use std::collections::{HashMap, HashSet, VecDeque};
 
 /// # `magnificent_sets`
 /// Finds the maximum number of groups into which nodes can be divided
 /// such that connected nodes must be in adjacent groups.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `n` - Number of nodes in the graph (1-indexed from 1 to n)
 /// * `edges` - Vector of edges where each edge is [a, b] representing
 ///            bidirectional connection between nodes a and b
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - Maximum possible number of groups, or -1 if grouping is impossible
 ///
-/// ## Example
+/// # Example
 /// ```
 /// let n = 6;
 /// let edges = vec![vec![1,2], vec![1,4], vec![1,5], vec![2,6], vec![2,3], vec![4,6]];
@@ -61,7 +61,7 @@ pub fn magnificent_sets(n: i32, edges: Vec<Vec<i32>>) -> i32 {
 /// # `collect_component`
 /// Collects all nodes in the connected component of a given node
 ///
-/// ## Arguments * `node` - Node to start from * `adj` - Adjacency list of the
+/// # Arguments * `node` - Node to start from * `adj` - Adjacency list of the
 /// graph * `component` - Set to store all nodes in the component, mutated in
 /// place * `visited` - Set to store visited nodes, mutated in place
 fn collect_component(
@@ -83,12 +83,12 @@ fn collect_component(
 /// Breadth-first search to find the maximum number of groups in a connected
 /// component
 ///
-/// ## Arguments
+/// # Arguments
 /// * `start` - Node to start from
 /// * `adj` - Adjacency list of the graph
 /// * `component` - Set of nodes in the connected component
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - Maximum number of groups, or -1 if grouping is impossible
 fn bfs_groups(start: i32, adj: &HashMap<i32, Vec<i32>>, component: &HashSet<i32>) -> i32 {
     let mut queue = VecDeque::new();

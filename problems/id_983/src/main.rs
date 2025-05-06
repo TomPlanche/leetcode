@@ -1,7 +1,7 @@
-///
-/// # Minimum Cost For Tickets (Medium) [Array, Dynamic Programming]
-/// LeetCode Problem 983
-///
+//!
+//! # Minimum Cost For Tickets (Medium) [Array, Dynamic Programming]
+//! LeetCode Problem 983
+//!
 
 /// # `mincost_tickets`
 /// Given a list of travel days and costs for different types of passes,
@@ -10,17 +10,17 @@
 /// * 7-day pass (costs[1])
 /// * 30-day pass (costs[2])
 ///
-/// ## Approach
+/// # Approach
 /// Uses dynamic programming to build up the solution:
 /// 1. Create a DP array where dp[i] represents minimum cost up to day i
 /// 2. For each travel day, consider buying each type of pass and take minimum
 /// 3. For non-travel days, cost remains same as previous day
 ///
-/// ## Arguments
+/// # Arguments
 /// * `days` - A vector of integers representing travel days (1 to 365, strictly increasing)
 /// * `costs` - A vector of 3 integers representing costs for 1-day, 7-day, and 30-day passes
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The minimum cost in dollars needed to cover all travel days
 pub fn mincost_tickets(days: Vec<i32>, costs: Vec<i32>) -> i32 {
     let last_day = *days.last().unwrap() as usize;

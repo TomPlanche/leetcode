@@ -1,29 +1,26 @@
-///
-/// # Rotating the Box (Medium) [Array, Two Pointers, Matrix]
-/// LeetCode Problem 1861
+//!
+//! # Rotating the Box (Medium) [Array, Two Pointers, Matrix]
+//! LeetCode Problem 1861
+//!
 
-/// # `rotate_the_box`
-///
 /// You are given an m x n matrix representing a side-view of a box with stones('#'),
 /// obstacles('*'), and empty spaces('.'). The box is rotated 90 degrees clockwise,
 /// and stones fall due to gravity until they hit an obstacle, another stone, or the bottom.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. First, simulate gravity in each row (moving stones right)
 /// 2. Then rotate the matrix 90 degrees clockwise
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `box` - A vector of vectors containing chars ('#' for stones, '*' for obstacles, '.' for empty)
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `Vec<Vec<char>>` - The rotated and gravity-affected box
 ///
-/// ## Time Complexity
+/// # Time Complexity
 /// * O(m*n) where m is the number of rows and n is the number of columns
 ///
-/// ## Space Complexity
+/// # Space Complexity
 /// * O(m*n) for the result matrix
 ///
 pub fn rotate_the_box(box_: Vec<Vec<char>>) -> Vec<Vec<char>> {
@@ -51,12 +48,10 @@ pub fn rotate_the_box(box_: Vec<Vec<char>>) -> Vec<Vec<char>> {
 /// Helper function to simulate gravity in a single row
 /// Stones will fall to the rightmost possible position
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `row` - A slice of chars representing one row of the box
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `Vec<char>` - The row after gravity has been applied
 ///
 fn apply_gravity_to_row(row: &[char]) -> Vec<char> {

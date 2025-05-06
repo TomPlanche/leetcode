@@ -1,22 +1,19 @@
-///
-/// # Sliding Puzzle (Hard) [Array, Breadth First Search, Matrix]
-/// LeetCode Problem 773
-///
+//!
+//! # Sliding Puzzle (Hard) [Array, Breadth First Search, Matrix]
+//! LeetCode Problem 773
+//!
 use std::collections::{HashSet, VecDeque};
 
 /// Solves the sliding puzzle by finding the minimum number of moves to reach
 /// the solved state or returning -1 if impossible.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `board` - A 2x3 matrix representing the initial puzzle state
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `i32` - The least number of moves to solve the puzzle, or -1 if unsolvable
 ///
-/// ## Examples
-///
+/// # Examples
 /// ```
 /// assert_eq!(sliding_puzzle(vec![vec![1,2,3],vec![4,0,5]]), 1);
 /// assert_eq!(sliding_puzzle(vec![vec![1,2,3],vec![5,4,0]]), -1);

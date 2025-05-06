@@ -1,7 +1,7 @@
-///
-/// # Find Largest Value in Each Tree Row (Medium) [Tree, Depth First Search, Breadth First Search, Binary Tree]
-/// LeetCode Problem 515
-///
+//!
+//! # Find Largest Value in Each Tree Row (Medium) [Tree, Depth First Search, Breadth First Search, Binary Tree]
+//! LeetCode Problem 515
+//!
 ///
 /// # Find Largest Value in Each Tree Row (Medium) [Tree, Depth First Search, Breadth First Search, Binary Tree]
 /// LeetCode Problem 515
@@ -32,20 +32,20 @@ impl TreeNode {
 /// # `largest_values`
 /// Returns an array of the largest value in each row of a binary tree.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses Breadth-First Search (BFS) to traverse the tree level by level.
 /// At each level, we keep track of the maximum value seen so far.
 ///
-/// ## Time Complexity
+/// # Time Complexity
 /// O(n) where n is the number of nodes in the tree
 ///
-/// ## Space Complexity
+/// # Space Complexity
 /// O(w) where w is the maximum width of the tree
 ///
-/// ## Arguments
+/// # Arguments
 /// * `root` - Optional root node of the binary tree
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i32>` - Vector containing the maximum value from each level
 pub fn largest_values(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
     let mut result = Vec::new();

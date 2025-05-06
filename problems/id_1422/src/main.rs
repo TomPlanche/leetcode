@@ -1,17 +1,17 @@
-///
-/// # Maximum Score After Splitting a String (Easy) [String, Prefix Sum]
-/// LeetCode Problem 1422
-///
+//!
+//! # Maximum Score After Splitting a String (Easy) [String, Prefix Sum]
+//! LeetCode Problem 1422
+//!
 
 /// # `max_score`
 /// Given a string of zeros and ones, split it into two non-empty substrings and calculate
 /// the maximum possible score. The score is defined as the number of zeros in the left
 /// substring plus the number of ones in the right substring.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `s` - A string containing only '0' and '1' characters
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The maximum possible score achievable by splitting the string
 pub fn max_score(s: String) -> i32 {
     let chars: Vec<char> = s.chars().collect();

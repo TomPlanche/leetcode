@@ -1,7 +1,7 @@
-///
-/// # Kth Largest Sum in a Binary Tree (Medium) [Tree, Breadth-First Search, Sorting, Binary Tree]
-/// Leetcode Problem 2583
-///
+//!
+//! # Kth Largest Sum in a Binary Tree (Medium) [Tree, Breadth-First Search, Sorting, Binary Tree]
+//! Leetcode Problem 2583
+//!
 use std::cell::RefCell;
 use std::collections::VecDeque;
 use std::rc::Rc;
@@ -25,22 +25,16 @@ impl TreeNode {
     }
 }
 
-///
-/// # `kth_largest_level_sum`
-///
 /// Given the root of a binary tree, return the kth largest sum of any subtree in the tree.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `root` - The root of the binary tree.
 /// * `k` - The kth largest sum of any subtree in the tree.
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `i64` - The kth largest sum of any subtree in the tree.
 ///
-/// ## Algorithm
-///
+/// # Algorithm
 /// 1. Check if the root is None. If so, return -1 as there are no levels.
 /// 2. Initialize a queue with the root node for level-order traversal.
 /// 3. Initialize an empty vector to store level sums.
@@ -51,15 +45,9 @@ impl TreeNode {
 /// 5. After traversal, check if k is greater than the number of levels. If so, return -1.
 /// 6. Sort the level_sums vector in descending order.
 /// 7. Return the kth largest sum (k-1 index in the sorted vector).
-///
-/// # Time Complexity
-///
 /// O(n log n), where n is the number of nodes in the tree.
 /// - Level-order traversal: O(n)
 /// - Sorting level sums: O(l log l), where l is the number of levels (worst case: l = n)
-///
-/// # Space Complexity
-///
 /// O(n), where n is the number of nodes in the tree.
 /// - Queue for level-order traversal: O(w), where w is the maximum width of the tree
 /// - Vector to store level sums: O(l), where l is the number of levels

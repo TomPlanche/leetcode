@@ -6,17 +6,17 @@
 /// # `put_marbles`
 /// Calculates the difference between maximum and minimum scores when distributing marbles into bags.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Create array of adjacent pair sums (weights[i] + weights[i+1])
 /// 2. Sort this array
 /// 3. Take k-1 elements from both ends to find min/max possible scores
 /// 4. Calculate difference between max and min scores
 ///
-/// ## Arguments
+/// # Arguments
 /// * `weights` - A vector of integers representing weights of marbles
 /// * `k` - Number of bags to distribute marbles into
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - Difference between maximum and minimum possible scores
 pub fn put_marbles(weights: Vec<i32>, k: i32) -> i64 {
     if k == 1 || weights.len() == 1 {

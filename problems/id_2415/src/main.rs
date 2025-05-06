@@ -1,7 +1,7 @@
-///
-/// # Reverse Odd Levels of Binary Tree (Medium) [Tree, Depth First Search, Breadth First Search, Binary Tree]
-/// LeetCode Problem 2415
-///
+//!
+//! # Reverse Odd Levels of Binary Tree (Medium) [Tree, Depth First Search, Breadth First Search, Binary Tree]
+//! LeetCode Problem 2415
+//!
 use std::cell::RefCell;
 use std::collections::VecDeque;
 use std::rc::Rc;
@@ -27,10 +27,10 @@ impl TreeNode {
 /// # `reverse_odd_levels`
 /// Reverse the values of nodes at odd levels of a binary tree.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `root` - The root of the binary tree
 ///
-/// ## Returns
+/// # Returns
 /// * `Option<Rc<RefCell<TreeNode>>>` - The root of the binary tree with the values of nodes at odd levels reversed
 pub fn reverse_odd_levels(root: Option<Rc<RefCell<TreeNode>>>) -> Option<Rc<RefCell<TreeNode>>> {
     ///

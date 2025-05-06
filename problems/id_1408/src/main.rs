@@ -1,19 +1,19 @@
-///
-/// # String Matching in an Array (Easy) [Array, String, String Matching]
-/// LeetCode Problem 1408
-///
+//!
+//! # String Matching in an Array (Easy) [Array, String, String Matching]
+//! LeetCode Problem 1408
+//!
 
 ///
 /// # `string_matching`
 /// Find all strings that are substrings of other strings in the given array
 ///
-/// ## Arguments
+/// # Arguments
 /// * `words` - A vector of strings to check for substrings
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<String>` - A vector containing all strings that are substrings of other strings
 ///
-/// ## Examples
+/// # Examples
 /// ```
 /// let words = vec!["mass".to_string(), "as".to_string(),
 ///                  "hero".to_string(), "superhero".to_string()];

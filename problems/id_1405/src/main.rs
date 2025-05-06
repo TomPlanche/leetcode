@@ -1,7 +1,7 @@
-///
-/// # Longest Happy String (Medium) [String, Greedy, Heap (Priority Queue)]
-/// Leetcode Problem 1405
-///
+//!
+//! # Longest Happy String (Medium) [String, Greedy, Heap (Priority Queue)]
+//! Leetcode Problem 1405
+//!
 use std::cmp::Ordering;
 use std::collections::BinaryHeap;
 
@@ -28,14 +28,12 @@ impl PartialOrd for CharCount {
 /// - Does not contain "aaa", "bbb", or "ccc" as a substring.
 /// - Contains at most `a` occurrences of 'a', `b` of 'b', and `c` of 'c'.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `a` - The maximum number of 'a' characters.
 /// * `b` - The maximum number of 'b' characters.
 /// * `c` - The maximum number of 'c' characters.
 ///
-/// ## Returns
-///
+/// # Returns
 /// The longest possible happy string, or an empty string if not possible.
 pub fn longest_diverse_string(a: i32, b: i32, c: i32) -> String {
     let mut heap = BinaryHeap::new();

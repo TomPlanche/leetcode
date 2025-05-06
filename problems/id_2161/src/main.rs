@@ -1,23 +1,23 @@
-///
-/// # Partition Array According to Given Pivot (Medium) [Array, Two Pointers, Simulation]
-/// LeetCode Problem 2161
-///
+//!
+//! # Partition Array According to Given Pivot (Medium) [Array, Two Pointers, Simulation]
+//! LeetCode Problem 2161
+//!
 
 /// # `pivot_array`
 /// Rearranges a vector of integers around a pivot value while maintaining relative order.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Partitions elements into three groups:
 ///    - Elements less than pivot
 ///    - Elements equal to pivot
 ///    - Elements greater than pivot
 /// 2. Concatenates the groups in order
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers to be partitioned
 /// * `pivot` - The pivot value to partition around
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i32>` - A new vector with elements properly partitioned around the pivot
 pub fn pivot_array(nums: Vec<i32>, pivot: i32) -> Vec<i32> {
     let mut less = Vec::new();

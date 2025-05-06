@@ -1,20 +1,20 @@
-///
-/// # Maximum Number of Moves in a Grid (Medium) [Array, Dynamic Programming, Matrix]
-/// Leetcode Problem 2684
-///
+//!
+//! # Maximum Number of Moves in a Grid (Medium) [Array, Dynamic Programming, Matrix]
+//! Leetcode Problem 2684
+//!
 
 ///
 /// # Maximum Moves in Grid
 /// Given a matrix of integers, finds the maximum number of moves possible starting from
 /// the first column and moving right while ensuring each move goes to a strictly larger value.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `grid` - A vector of vectors containing positive integers (the matrix)
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The maximum number of possible moves
 ///
-/// ## Example
+/// # Example
 /// ```
 /// let grid = vec![
 ///     vec![2, 4, 3, 5],
@@ -47,13 +47,13 @@ pub fn max_moves(grid: Vec<Vec<i32>>) -> i32 {
 /// # Depth First Search Helper
 /// Recursively explores possible moves from current position using DFS with memoization.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `grid` - Reference to the input grid
 /// * `row` - Current row position
 /// * `col` - Current column position
 /// * `dp` - Mutable reference to dynamic programming array
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - Maximum number of moves possible from current position
 fn dfs(grid: &[Vec<i32>], row: usize, col: usize, dp: &mut Vec<Vec<i32>>) -> i32 {
     // If we've already calculated this position, return memoized result

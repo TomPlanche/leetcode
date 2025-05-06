@@ -1,22 +1,22 @@
-///
-/// # Maximum Count of Positive Integer and Negative Integer (Easy) [Array, Binary Search, Counting]
-/// LeetCode Problem 2529
-///
+//!
+//! # Maximum Count of Positive Integer and Negative Integer (Easy) [Array, Binary Search, Counting]
+//! LeetCode Problem 2529
+//!
 
 /// # `maximum_count`
 /// Returns the maximum between the count of positive integers and negative integers in a sorted array.
 /// Zeros are not counted. Uses binary search for O(log n) time complexity.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses two binary searches:
 /// 1. Find first non-negative number to count negatives
 /// 2. Find first positive number to count positives
 /// Then returns the maximum of these counts
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers sorted in non-decreasing order
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - Maximum between count of positive and negative integers
 pub fn maximum_count(nums: Vec<i32>) -> i32 {
     // Find position of first non-negative number (>= 0)

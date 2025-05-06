@@ -6,13 +6,13 @@
 /// # `find_numbers`
 /// Given a vector of integers, returns the count of numbers that contain an even number of digits.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers where 1 <= nums[i] <= 10^5
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The count of numbers with an even number of digits
 ///
-/// ## Examples
+/// # Examples
 /// ```
 /// let nums = vec![12,345,2,6,7896];
 /// assert_eq!(find_numbers(nums), 2);

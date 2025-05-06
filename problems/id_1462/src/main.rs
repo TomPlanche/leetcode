@@ -1,25 +1,25 @@
-///
-/// # Course Schedule IV (Medium) [Depth First Search, Breadth First Search, Graph, Topological Sort]
-/// LeetCode Problem 1462
-///
+//!
+//! # Course Schedule IV (Medium) [Depth First Search, Breadth First Search, Graph, Topological Sort]
+//! LeetCode Problem 1462
+//!
 
 /// # `check_if_prerequisite`
 /// Determines whether certain courses are prerequisites of other courses.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `num_courses` - Number of courses (labeled from 0 to num_courses - 1)
 /// * `prerequisites` - Vector of vectors where prerequisites[i] = [ai, bi] indicates
 ///                    that course ai must be taken before course bi
 /// * `queries` - Vector of vectors where queries[j] = [uj, vj] asks whether
 ///               course uj is a prerequisite of course vj
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<bool>` - Vector where answer[j] indicates whether uj is a prerequisite of vj
 ///
-/// ## Time Complexity
+/// # Time Complexity
 /// * O(n^3) where n is the number of courses
 ///
-/// ## Space Complexity
+/// # Space Complexity
 /// * O(n^2) where n is the number of courses
 pub fn check_if_prerequisite(
     num_courses: i32,

@@ -1,7 +1,7 @@
-///
-/// # Sudoku Solver (Hard) [Array, Hash Table, Backtracking, Matrix]
-/// Leetcode Problem 37
-///
+//!
+//! # Sudoku Solver (Hard) [Array, Hash Table, Backtracking, Matrix]
+//! Leetcode Problem 37
+//!
 
 ///
 /// # Sudoku struct
@@ -18,7 +18,7 @@ struct Sudoku<'a> {
 
 /// This struct represents a Sudoku puzzle solver.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `board`: A mutable reference to a 9x9 board represented as a vector of vectors of characters.
 /// * `squares`: A 9x10 array to store the number of occurrences of each digit (1-9) in each 3x3 square.
 /// * `rows`: A 9x10 array to store the number of occurrences of each digit (1-9) in each row.
@@ -26,10 +26,10 @@ struct Sudoku<'a> {
 ///
 /// The extra element in each array (making them 10 instead of 9) is to allow for 1-based indexing of digits.
 ///
-/// ## Lifetime
+/// # Lifetime
 /// The lifetime 'a is used to ensure that the reference to the board remains valid for the entire lifetime of the Sudoku struct.
 ///
-/// ## Implementation
+/// # Implementation
 /// The implementation of this struct includes methods for:
 /// - Creating a new Sudoku instance
 /// - Solving the Sudoku puzzle

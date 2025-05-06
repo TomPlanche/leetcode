@@ -1,37 +1,29 @@
-///
-/// # Shortest Subarray with Sum at Least K (Hard) [Array, Binary Search, Queue, Sliding Window, Heap (Priority Queue), Prefix Sum, Monotonic Queue]
-/// LeetCode Problem 862
-///
-///
-/// # `shortest_subarray`
-///
+//!
+//! # Shortest Subarray with Sum at Least K (Hard) [Array, Binary Search, Queue, Sliding Window, Heap (Priority Queue), Prefix Sum, Monotonic Queue]
+//! LeetCode Problem 862
+//!
 /// Given an integer array `nums` and an integer `k`, return the length of the shortest non-empty subarray of `nums`
 /// with a sum of at least `k`. If there is no such subarray, return `-1`.
 ///
-/// ## Algorithm
-///
+/// # Algorithm
 /// 1. Convert input array to i64 to handle potential overflow
 /// 2. Calculate prefix sums to convert range sum problem to range difference problem
 /// 3. Use a monotonic deque to maintain potential minimum prefix sums
 /// 4. For each prefix sum, find the leftmost prefix sum that makes difference >= k
 /// 5. Update minimum length if valid subarray is found
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `nums` - A vector of integers.
 /// * `k` - An integer representing the target sum.
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `i32` - An integer representing the length of the shortest subarray with sum at least k,
 ///           or -1 if no such subarray exists.
 ///
-/// ## Time Complexity
-///
+/// # Time Complexity
 /// O(n) where n is the length of nums. Each element is pushed and popped at most once.
 ///
-/// ## Space Complexity
-///
+/// # Space Complexity
 /// O(n) for storing the prefix sums and deque.
 pub fn shortest_subarray(nums: Vec<i32>, k: i32) -> i32 {
     let k = k as i64;

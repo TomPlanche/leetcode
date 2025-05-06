@@ -1,45 +1,35 @@
-///
-/// # Maximum Average Pass Ratio (Medium) [Array, Greedy, Heap (Priority Queue)]
-/// LeetCode Problem 1792
-///
+//!
+//! # Maximum Average Pass Ratio (Medium) [Array, Greedy, Heap (Priority Queue)]
+//! LeetCode Problem 1792
+//!
 use std::collections::BinaryHeap;
 
-/// # Ratio difference calculation
-///
 /// Calculate the difference in pass ratio when adding one student
 /// to a class with current passing students p and total students t.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `p` - Number of passing students (f64)
 /// * `t` - Total number of students (f64)
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `f64` - The difference in pass ratio
 #[inline(always)]
 fn ratio_diff(p: f64, t: f64) -> f64 {
     (p + 1.0) / (t + 1.0) - p / t
 }
 
-///
-/// # max_average_ratio
-///
 /// Given a 2D integer array `classes` where `classes[i] = [passi, totali]` and an integer `extraStudents`,
 /// this function returns the maximum possible average pass ratio after assigning the `extraStudents` students.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `classes` - A vector of vectors of integers where each sub-vector contains two integers representing
 ///               the number of students passing and the total number of students in a class.
 /// * `extra_students` - An integer representing the number of extra students that are guaranteed to pass.
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `f64` - The maximum possible average pass ratio after assigning the extra students.
 ///
-/// ## Example
-///
+/// # Example
 /// ```
 /// let classes = vec![vec![1, 2], vec![3, 5], vec![2, 2]];
 /// let extra_students = 2;

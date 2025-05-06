@@ -7,19 +7,19 @@
 /// Finds the minimum index where an array can be split such that both parts
 /// have the same dominant element as the original array.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Find the dominant element using Boyer-Moore voting algorithm
 /// 2. Calculate total count of dominant element
 /// 3. Iterate through possible split points while maintaining running counts
 /// 4. For each split point, check if element is dominant in both parts
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers where exactly one element appears more than half the time
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The minimum valid split index or -1 if no valid split exists
 ///
-/// ## Time Complexity: O(n)
+/// # Time Complexity: O(n)
 /// ## Space Complexity: O(1)
 pub fn minimum_index(nums: Vec<i32>) -> i32 {
     /// Helper function to find the dominant element using Boyer-Moore algorithm

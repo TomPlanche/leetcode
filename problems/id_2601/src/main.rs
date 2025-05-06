@@ -1,27 +1,21 @@
-///
-/// #  Prime Subtraction Operation (Medium) [Array, Math, Binary Search, Greedy, Number Theory]
-/// LeetCode Problem 2601
-///
+//!
+//! #  Prime Subtraction Operation (Medium) [Array, Math, Binary Search, Greedy, Number Theory]
+//! LeetCode Problem 2601
+//!
 
-///
-/// # `prime_sub_operation`
-///
 /// You are given a 0-indexed integer array `nums` of length `n`.
 /// You can perform the following operation as many times as you want:
 /// Pick an index `i` that you haven’t picked before, and pick a prime `p` strictly less than `nums[i]`,
 /// then subtract `p` from `nums[i]`.
 /// Return true if you can make `nums` a strictly increasing array using the above operation and false otherwise.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `nums` - A vector of integers.
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `bool` - A boolean indicating whether the array can be made strictly increasing.
 ///
-/// ## Examples
-///
+/// # Examples
 /// ```
 /// let nums = vec![4, 9, 6, 10];
 /// assert_eq!(prime_sub_operation(nums), true);

@@ -1,17 +1,17 @@
-///
-/// # Count Prefix and Suffix Pairs I (Easy) [Array, String, Trie, Rolling Hash, String Matching, Hash Function]
-/// LeetCode Problem 3042
-///
+//!
+//! # Count Prefix and Suffix Pairs I (Easy) [Array, String, Trie, Rolling Hash, String Matching, Hash Function]
+//! LeetCode Problem 3042
+//!
 
 ///
 /// # `count_prefix_suffix_pairs`
 /// Given a vector of strings, returns the number of index pairs (i, j) such that i < j and
 /// words[i] is both a prefix and a suffix of words[j].
 ///
-/// ## Arguments
+/// # Arguments
 /// * `words` - A vector of strings.
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The number of index pairs (i, j) that satisfy the condition.
 pub fn count_prefix_suffix_pairs(words: Vec<String>) -> i32 {
     let mut count = 0;
@@ -31,11 +31,11 @@ pub fn count_prefix_suffix_pairs(words: Vec<String>) -> i32 {
 /// Given two strings, returns true if the first string is both a prefix and a suffix of the second string,
 /// and false otherwise.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `str1` - The first string.
 /// * `str2` - The second string.
 ///
-/// ## Returns
+/// # Returns
 /// * `bool` - true if str1 is both a prefix and a suffix of str2, false otherwise.
 fn is_prefix_and_suffix(str1: &str, str2: &str) -> bool {
     let len1 = str1.len();

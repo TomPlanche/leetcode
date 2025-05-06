@@ -1,13 +1,13 @@
-///
-/// # Minimum Cost to Make at Least One Valid Path in a Grid (Hard) [Array, Breadth First Search, Graph, Heap (priority Queue), Matrix, Shortest Path]
-/// LeetCode Problem 1368
-///
+//!
+//! # Minimum Cost to Make at Least One Valid Path in a Grid (Hard) [Array, Breadth First Search, Graph, Heap (priority Queue), Matrix, Shortest Path]
+//! LeetCode Problem 1368
+//!
 use std::cmp::Ordering;
 use std::collections::BinaryHeap;
 
 /// Represents a state in the grid traversal
 ///
-/// ## Fields
+/// # Fields
 /// * `cost` - Current cost to reach this position
 /// * `row` - Current row position
 /// * `col` - Current column position

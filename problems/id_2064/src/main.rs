@@ -1,7 +1,7 @@
-///
-/// # Minimized Maximum of Products Distributed to Any Store (Medium) [Array, Binary Search]
-/// LeetCode Problem 2064
-///
+//!
+//! # Minimized Maximum of Products Distributed to Any Store (Medium) [Array, Binary Search]
+//! LeetCode Problem 2064
+//!
 
 /// Helper struct to manage binary search boundaries
 struct BinarySearchRange {
@@ -18,12 +18,12 @@ impl BinarySearchRange {
 
 /// Checks if it's possible to distribute products to n stores with the given maximum limit
 ///
-/// ## Arguments
+/// # Arguments
 /// * `n` - Number of available stores
 /// * `quantities` - Reference to vector of product quantities
 /// * `max_per_store` - Maximum number of products allowed per store
 ///
-/// ## Returns
+/// # Returns
 /// true if distribution is possible, false otherwise
 fn is_distribution_possible(n: i32, quantities: &[i32], max_per_store: i32) -> bool {
     let stores_needed: i32 = quantities
@@ -36,20 +36,17 @@ fn is_distribution_possible(n: i32, quantities: &[i32], max_per_store: i32) -> b
 
 /// Calculates number of stores needed for a given quantity with max limit per store
 ///
-/// ## Arguments
+/// # Arguments
 /// * `quantity` - Total quantity of products to distribute
 /// * `max_per_store` - Maximum number of products allowed per store
 ///
-/// ## Returns
+/// # Returns
 /// Number of stores needed
 #[inline]
 fn calculate_stores_needed(quantity: i32, max_per_store: i32) -> i32 {
     ((quantity as f64) / (max_per_store as f64)).ceil() as i32
 }
 
-///
-/// # `minimized_maximum`
-///
 /// Given n stores and an array of quantities for different product types,
 /// distribute all products to stores such that:
 /// * Each store gets at most one product type
@@ -57,17 +54,14 @@ fn calculate_stores_needed(quantity: i32, max_per_store: i32) -> i32 {
 ///
 /// Uses binary search to find the minimum possible maximum value.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `n` - Number of stores available for distribution
 /// * `quantities` - Vector of integers representing quantities of each product type
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `i32` - The minimum possible maximum number of products that any store receives
 ///
-/// ## Example
-///
+/// # Example
 /// ```
 /// let n = 6;
 /// let quantities = vec![11, 6];

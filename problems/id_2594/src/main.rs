@@ -6,16 +6,16 @@
 /// # `repair_cars`
 /// Calculates the minimum time needed to repair all cars given mechanics with different ranks.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses binary search to find the minimum time where all cars can be repaired.
 /// For each time T, calculates how many cars each mechanic can repair using the formula:
 /// number of cars = floor(sqrt(T/rank))
 ///
-/// ## Arguments
+/// # Arguments
 /// * `ranks` - A vector of integers representing the ranks of mechanics
 /// * `cars` - The total number of cars that need to be repaired
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - The minimum time needed to repair all cars
 pub fn repair_cars(ranks: Vec<i32>, cars: i32) -> i64 {
     let cars = i64::from(cars);

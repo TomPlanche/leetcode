@@ -1,17 +1,17 @@
-///
-/// # Count Vowel Strings in Ranges (Medium) [Array, String, Prefix Sum]
-/// LeetCode Problem 2559
-///
+//!
+//! # Count Vowel Strings in Ranges (Medium) [Array, String, Prefix Sum]
+//! LeetCode Problem 2559
+//!
 
 /// # `vowel_strings`
 /// Given an array of strings and queries, count strings that start and end with vowels
 /// in specified ranges.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `words` - Vector of strings containing lowercase English letters
 /// * `queries` - 2D vector where each query [li, ri] specifies a range
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i32>` - Vector of integers where each integer is the count of strings
 pub fn vowel_strings(words: Vec<String>, queries: Vec<Vec<i32>>) -> Vec<i32> {
     // Helper function to check if character is vowel

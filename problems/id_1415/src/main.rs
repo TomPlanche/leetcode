@@ -1,24 +1,24 @@
-///
-/// # The k-th Lexicographical String of All Happy Strings of Length n (Medium) [String, Backtracking]
-/// LeetCode Problem 1415
-///
+//!
+//! # The k-th Lexicographical String of All Happy Strings of Length n (Medium) [String, Backtracking]
+//! LeetCode Problem 1415
+//!
 
 /// # `get_happy_string`
 /// Returns the k-th lexicographically sorted happy string of length n.
 /// A happy string consists of letters 'a', 'b', 'c' with no two identical consecutive letters.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Calculate total possible strings (3 * 2^(n-1))
 /// 2. If k exceeds total, return empty string
 /// 3. Build string character by character:
 ///    - First character based on k / 2^(n-1)
 ///    - Subsequent characters chosen from two possibilities based on previous character
 ///
-/// ## Arguments
+/// # Arguments
 /// * `n` - Length of the happy string to generate
 /// * `k` - Position in lexicographically sorted list (1-based)
 ///
-/// ## Returns
+/// # Returns
 /// * `String` - The k-th happy string, or empty string if k exceeds possible count
 pub fn get_happy_string(n: i32, k: i32) -> String {
     // Calculate total possible strings

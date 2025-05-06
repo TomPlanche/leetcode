@@ -6,18 +6,18 @@
 /// # `count_subarrays`
 /// Returns the number of non-empty subarrays with a score less than k.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses a sliding window approach to find all valid subarrays.
 /// For each right pointer position, we:
 /// 1. Add nums[right] to the running sum
 /// 2. Shrink the window from the left if the current score is too large
 /// 3. Count all valid subarrays ending at the current right position
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of positive integers.
 /// * `k` - The maximum score (exclusive).
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - The number of non-empty subarrays with a score less than k.
 pub fn count_subarrays(nums: Vec<i32>, k: i64) -> i64 {
     let mut left = 0;

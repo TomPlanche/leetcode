@@ -1,22 +1,22 @@
-///
-/// # Find Missing and Repeated Values (Easy) [Array, Hash Table, Math, Matrix]
-/// LeetCode Problem 2965
-///
+//!
+//! # Find Missing and Repeated Values (Easy) [Array, Hash Table, Math, Matrix]
+//! LeetCode Problem 2965
+//!
 
 /// # `find_missing_and_repeated_values`
 /// Finds the repeated and missing values in an n x n grid containing numbers from 1 to n².
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Creates a frequency vector to count occurrences of each number
 /// 2. Iterates through the grid to count frequencies
 /// 3. Finds the number that appears twice (repeated)
 /// 4. Finds the number that appears zero times (missing)
 ///
-/// ## Arguments
+/// # Arguments
 /// * `grid` - A 2D vector representing an n x n grid where each number from 1 to n² should appear
 ///            exactly once, except for one number that appears twice and one that is missing
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i32>` - A vector containing [repeated_number, missing_number]
 pub fn find_missing_and_repeated_values(grid: Vec<Vec<i32>>) -> Vec<i32> {
     let n = grid.len();

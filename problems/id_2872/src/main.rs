@@ -1,16 +1,16 @@
-///
-/// # Maximum Number of K-Divisible Components (Hard) [Tree, Depth First Search]
-/// LeetCode Problem 2872
-///
+//!
+//! # Maximum Number of K-Divisible Components (Hard) [Tree, Depth First Search]
+//! LeetCode Problem 2872
+//!
 
 /// # `build_adjacency_list`
 /// Converts an edge list representation of a tree into an adjacency list.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `n` - Number of nodes in the tree
 /// * `edges` - Vector of edge pairs representing connections between nodes
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<Vec<i32>>` - Adjacency list where index i contains all neighbors of node i
 fn build_adjacency_list(n: i32, edges: &Vec<Vec<i32>>) -> Vec<Vec<i32>> {
     let mut adj = vec![Vec::new(); n as usize];
@@ -24,7 +24,7 @@ fn build_adjacency_list(n: i32, edges: &Vec<Vec<i32>>) -> Vec<Vec<i32>> {
 /// # `dfs`
 /// Performs depth-first search to calculate subtree sums and count valid components.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `node` - Current node being processed
 /// * `parent` - Parent of current node (-1 for root)
 /// * `adj` - Adjacency list representation of the tree
@@ -32,7 +32,7 @@ fn build_adjacency_list(n: i32, edges: &Vec<Vec<i32>>) -> Vec<Vec<i32>> {
 /// * `k` - Divisibility factor
 /// * `components` - Mutable reference to count of valid components
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - Sum of values in the current subtree
 fn dfs(
     node: i32,
@@ -63,16 +63,16 @@ fn dfs(
 /// Finds the maximum number of components in a valid split of a tree where each
 /// component's sum of values is divisible by k.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `n` - Number of nodes in the tree (0 to n-1)
 /// * `edges` - Vector of edge pairs [ai, bi] indicating connections between nodes
 /// * `values` - Vector of values associated with each node
 /// * `k` - Divisibility factor
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - Maximum number of components possible in a valid split
 ///
-/// ## Example
+/// # Example
 /// ```rust
 /// let n = 5;
 /// let edges = vec![vec![0,2], vec![1,2], vec![1,3], vec![2,4]];

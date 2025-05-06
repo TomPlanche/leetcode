@@ -1,13 +1,13 @@
-///
-/// # Shifting Letters II (Medium) [Array, String, Prefix Sum]
-/// LeetCode Problem 2381
-///
+//!
+//! # Shifting Letters II (Medium) [Array, String, Prefix Sum]
+//! LeetCode Problem 2381
+//!
 
 /// # `shifting_letters`
 /// Shifts characters in a string according to given shift operations. Each shift operation
 /// specifies a range and direction to shift characters within that range.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses a prefix sum array to track cumulative shifts at each position:
 /// 1. Create a diff array to track changes at each position
 /// 2. For each shift operation:
@@ -16,12 +16,12 @@
 /// 3. Calculate prefix sum of diff array to get total shifts at each position
 /// 4. Apply shifts to each character using modulo arithmetic
 ///
-/// ## Arguments
+/// # Arguments
 /// * `s` - Input string of lowercase English letters
 /// * `shifts` - Vector of shift operations where each operation is [start, end, direction]
 ///              direction = 1 means forward shift, 0 means backward shift
 ///
-/// ## Returns
+/// # Returns
 /// * `String` - Final string after applying all shift operations
 pub fn shifting_letters(s: String, shifts: Vec<Vec<i32>>) -> String {
     let n = s.len();

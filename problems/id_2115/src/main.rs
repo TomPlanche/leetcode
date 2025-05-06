@@ -1,25 +1,25 @@
-///
-/// # Find All Possible Recipes from Given Supplies (Medium) [Array, Hash Table, String, Graph, Topological Sort]
-/// LeetCode Problem 2115
-///
+//!
+//! # Find All Possible Recipes from Given Supplies (Medium) [Array, Hash Table, String, Graph, Topological Sort]
+//! LeetCode Problem 2115
+//!
 use std::collections::{HashMap, HashSet};
 
 /// # `find_all_recipes`
 /// Returns a list of all recipes that can be created given the available supplies and ingredients.
 /// Uses a topological sort approach with cycle detection to handle recipe dependencies.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Convert supplies to HashSet for O(1) lookup
 /// 2. Build graph representation of recipe dependencies
 /// 3. Use DFS with state tracking to detect cycles and find makeable recipes
 /// 4. Return all recipes that can be made
 ///
-/// ## Arguments
+/// # Arguments
 /// * `recipes` - Vector of recipe names
 /// * `ingredients` - 2D vector where ingredients[i] contains ingredients needed for recipes[i]
 /// * `supplies` - Vector of initially available ingredients
 ///
-/// ## Returns
+/// # Returns
 /// * Vector of recipe names that can be created
 pub fn find_all_recipes(
     recipes: Vec<String>,

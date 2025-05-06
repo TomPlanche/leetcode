@@ -1,31 +1,31 @@
-///
-/// # Find Building Where Alice and Bob Can Meet (Hard) [Array, Binary Search, Stack, Monotonic Stack]
-/// LeetCode Problem 2940
-///
+//!
+//! # Find Building Where Alice and Bob Can Meet (Hard) [Array, Binary Search, Stack, Monotonic Stack]
+//! LeetCode Problem 2940
+//!
 
 ///
 /// # `leftmost_building_queries`
 /// Finds the leftmost building where Alice and Bob can meet for each query using
 /// a monotonic stack and binary search approach.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Process immediate answers (same building or direct moves)
 /// 2. Group remaining queries by the right position
 /// 3. Use monotonic stack to maintain potential meeting points
 /// 4. Binary search on the stack to find the leftmost valid meeting point
 ///
-/// ## Time Complexity
+/// # Time Complexity
 /// * O(n + q * log n) where n is the length of heights and q is the number of queries
 ///
-/// ## Space Complexity
+/// # Space Complexity
 /// * O(n + q) for the monotonic stack and grouped queries
 ///
-/// ## Arguments
+/// # Arguments
 /// * `heights` - A vector of positive integers representing building heights
 /// * `queries` - A vector of vectors, where each inner vector contains two integers [ai, bi]
 ///   representing starting positions for Alice and Bob
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i32>` - A vector where the ith element is the leftmost building index where
 ///   Alice and Bob can meet for the ith query, or -1 if they cannot meet
 pub fn leftmost_building_queries(heights: Vec<i32>, queries: Vec<Vec<i32>>) -> Vec<i32> {
@@ -80,11 +80,11 @@ pub fn leftmost_building_queries(heights: Vec<i32>, queries: Vec<Vec<i32>>) -> V
 /// Performs binary search on the monotonic stack to find the leftmost building
 /// that is taller than the given height.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `stack` - Reference to a vector of (height, index) pairs
 /// * `height` - The height to search for
 ///
-/// ## Returns
+/// # Returns
 /// * `Option<usize>` - The index in the stack of the leftmost building taller than
 ///   the given height, or None if no such building exists
 fn binary_search(stack: &Vec<(i32, usize)>, height: i32) -> Option<usize> {

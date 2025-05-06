@@ -1,23 +1,23 @@
-///
-/// # Check if One String Swap Can Make Strings Equal (Easy) [Hash Table, String, Counting]
-/// LeetCode Problem 1790
-///
+//!
+//! # Check if One String Swap Can Make Strings Equal (Easy) [Hash Table, String, Counting]
+//! LeetCode Problem 1790
+//!
 
 /// # `are_almost_equal`
 /// Determines if two strings can be made equal by performing at most one string swap
 /// operation on exactly one of the strings.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Check if strings are already equal
 /// 2. Find positions where characters differ
 /// 3. Verify there are exactly two differences
 /// 4. Verify characters can be swapped to make strings equal
 ///
-/// ## Arguments
+/// # Arguments
 /// * `s1` - First string to compare
 /// * `s2` - Second string to compare
 ///
-/// ## Returns
+/// # Returns
 /// * `bool` - True if strings are equal or can be made equal with one swap,
 ///           false otherwise
 pub fn are_almost_equal(s1: String, s2: String) -> bool {

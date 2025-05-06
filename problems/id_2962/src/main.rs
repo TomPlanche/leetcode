@@ -6,18 +6,18 @@
 /// # `count_subarrays`
 /// Returns the number of subarrays where the maximum element appears at least k times.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses a sliding window approach with two pointers:
 /// 1. Find the maximum element in the array
 /// 2. Keep track of count of maximum element in current window
 /// 3. When count reaches k, add number of possible subarrays
 /// 4. Move window accordingly to find all valid subarrays
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers representing the input array
 /// * `k` - A positive integer representing the minimum required occurrences of max element
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - The number of valid subarrays
 pub fn count_subarrays(nums: Vec<i32>, k: i32) -> i64 {
     // Find maximum element

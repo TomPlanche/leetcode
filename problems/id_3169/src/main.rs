@@ -1,21 +1,21 @@
-///
-/// # Count Days Without Meetings (Medium) [Array, Sorting]
-/// LeetCode Problem 3169
-///
+//!
+//! # Count Days Without Meetings (Medium) [Array, Sorting]
+//! LeetCode Problem 3169
+//!
 
 /// # `count_days`
 /// Counts the number of days when an employee is available for work but no meetings are scheduled.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Sort meetings by start time
 /// 2. Merge overlapping intervals
 /// 3. Count days not covered by any interval
 ///
-/// ## Arguments
+/// # Arguments
 /// * `days` - Total number of days the employee is available (1-based)
 /// * `meetings` - Vector of meeting intervals where each meeting is [start, end]
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - Number of days without any meetings
 pub fn count_days(days: i32, meetings: Vec<Vec<i32>>) -> i32 {
     if meetings.is_empty() {

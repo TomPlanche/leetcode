@@ -1,7 +1,7 @@
-///
-/// # Remove Sub-Folders from the Filesystem (Medium) [Array, String, Depth-First Search, Trie]
-/// Leetcode Problem 1233
-///
+//!
+//! # Remove Sub-Folders from the Filesystem (Medium) [Array, String, Depth-First Search, Trie]
+//! Leetcode Problem 1233
+//!
 
 // Helper function to check if a folder is a subfolder of another
 fn is_subfolder(parent: &str, child: &str) -> bool {

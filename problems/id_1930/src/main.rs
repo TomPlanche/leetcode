@@ -1,6 +1,7 @@
-///
-/// # Unique Length-3 Palindromic Subsequences (Medium) [Hash Table, String, Bit Manipulation, Prefix Sum]
-/// LeetCode Problem 1930
+//!
+//! # Unique Length-3 Palindromic Subsequences (Medium) [Hash Table, String, Bit Manipulation, Prefix Sum]
+//! LeetCode Problem 1930
+//! 
 
 /// # `count_palindromic_subsequence`
 /// Given a string s, return the number of unique palindromes of length three that are a subsequence of s.
@@ -8,15 +9,15 @@
 /// A subsequence is a string generated from the original by deleting some characters without changing
 /// the relative order of remaining characters.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. For each character 'a' to 'z', find its first and last occurrence in the string
 /// 2. For each unique pair of first/last same characters, count distinct characters between them
 /// 3. Each distinct middle character forms a unique palindrome with the outer characters
 ///
-/// ## Arguments
+/// # Arguments
 /// * `s` - Input string containing only lowercase English letters
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - Number of unique palindromic subsequences of length 3
 pub fn count_palindromic_subsequence(s: String) -> i32 {
     let s_bytes = s.as_bytes();

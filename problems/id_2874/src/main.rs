@@ -8,16 +8,16 @@
 /// The value of a triplet is calculated as (nums[i] - nums[j]) * nums[k].
 /// Returns 0 if no positive value is possible.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses a single pass through the array while maintaining:
 /// 1. Maximum value seen before current position (for i)
 /// 2. Maximum difference seen before current position (nums[i] - nums[j])
 /// 3. Current value * maximum difference for each position k
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers where 1 <= nums[i] <= 10^6
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - The maximum value possible from any valid triplet, or 0 if no positive value exists
 pub fn maximum_triplet_value(nums: Vec<i32>) -> i64 {
     let n = nums.len();

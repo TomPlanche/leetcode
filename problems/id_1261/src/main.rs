@@ -1,7 +1,7 @@
-///
-/// # Find Elements in a Contaminated Binary Tree (Medium) [Hash Table, Tree, Depth First Search, Breadth First Search, Design, Binary Tree]
-/// LeetCode Problem 1261
-///
+//!
+//! # Find Elements in a Contaminated Binary Tree (Medium) [Hash Table, Tree, Depth First Search, Breadth First Search, Design, Binary Tree]
+//! LeetCode Problem 1261
+//!
 use std::{cell::RefCell, collections::HashSet, rc::Rc};
 
 // Definition for a binary tree node.
@@ -26,7 +26,7 @@ impl TreeNode {
 /// # FindElements
 /// A struct to recover and search in a contaminated binary tree.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses a HashSet to store all valid values during tree recovery.
 /// Recovery process follows the rule where root becomes 0,
 /// left child becomes 2x + 1, and right child becomes 2x + 2

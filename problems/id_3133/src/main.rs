@@ -1,7 +1,7 @@
-///
-/// # Minimum Array End (Medium) [Bit Manipulation]
-/// LeetCode Problem 3133
-///
+//!
+//! # Minimum Array End (Medium) [Bit Manipulation]
+//! LeetCode Problem 3133
+//!
 
 ///
 /// # Minimum Array End (Medium) [Bit Manipulation]
@@ -11,13 +11,11 @@
 /// - For every 0 <= i < n - 1, nums[i + 1] > nums[i]
 /// - The bitwise AND of all elements equals x
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `n` - The size of the array to construct (1 <= n <= 10^8)
 /// * `x` - The target bitwise AND result (1 <= x <= 10^8)
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `i64` - The minimum possible value of nums[n - 1]
 pub fn min_end(n: i32, x: i32) -> i64 {
     let mut n = n;

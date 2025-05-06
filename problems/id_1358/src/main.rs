@@ -1,24 +1,24 @@
-///
-/// # Number of Substrings Containing All Three Characters (Medium) [Hash Table, String, Sliding Window]
-/// LeetCode Problem 1358
-///
+//!
+//! # Number of Substrings Containing All Three Characters (Medium) [Hash Table, String, Sliding Window]
+//! LeetCode Problem 1358
+//!
 
 /// # `number_of_substrings`
 /// Counts the number of substrings containing at least one occurrence of each character 'a', 'b', and 'c'.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses a sliding window approach with two pointers:
 /// 1. Maintain a window with character counts
 /// 2. When we have all three characters, all substrings starting from left to end are valid
 /// 3. Move the left pointer when we have all characters to find more combinations
 ///
-/// ## Arguments
+/// # Arguments
 /// * `s` - A string containing only characters 'a', 'b', and 'c'
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The number of valid substrings containing all three characters
 ///
-/// ## Time Complexity: O(n)
+/// # Time Complexity: O(n)
 /// ## Space Complexity: O(1)
 pub fn number_of_substrings(s: String) -> i32 {
     let s = s.as_bytes();

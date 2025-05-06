@@ -1,22 +1,22 @@
-///
-/// # Grid Game (Medium) [Array, Matrix, Prefix Sum]
-/// LeetCode Problem 2017
-///
+//!
+//! # Grid Game (Medium) [Array, Matrix, Prefix Sum]
+//! LeetCode Problem 2017
+//!
 
 /// # `grid_game`
 /// Calculates the optimal score that the second robot can achieve in a two-robot grid game.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Calculate prefix sums for both rows
 /// 2. For each possible path of robot 1, calculate:
 ///    - The remaining sum in top row after the down move
 ///    - The remaining sum in bottom row before the down move
 /// 3. Find the minimum of the maximum of these two values
 ///
-/// ## Arguments
+/// # Arguments
 /// * `grid` - A 2xn matrix where grid[r][c] represents points at position (r,c)
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - The optimal (maximum) score that the second robot can achieve
 ///
 pub fn grid_game(grid: Vec<Vec<i32>>) -> i64 {

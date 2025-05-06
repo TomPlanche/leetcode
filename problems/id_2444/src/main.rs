@@ -7,17 +7,17 @@
 /// Counts the number of fixed-bound subarrays in the given array where the minimum value
 /// is exactly min_k and the maximum value is exactly max_k.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses a sliding window approach to count valid subarrays:
 /// 1. Track the last position of min_k, max_k, and any out-of-bound elements
 /// 2. For each index, calculate how many valid subarrays end at that position
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers to analyze
 /// * `min_k` - The required minimum value for a valid subarray
 /// * `max_k` - The required maximum value for a valid subarray
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - The total count of fixed-bound subarrays
 pub fn count_subarrays(nums: Vec<i32>, min_k: i32, max_k: i32) -> i64 {
     let mut result: i64 = 0;

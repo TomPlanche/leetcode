@@ -1,7 +1,7 @@
-///
-/// # Apply Operations to an Array (Easy) [Array, Two Pointers, Simulation]
-/// LeetCode Problem 2460
-///
+//!
+//! # Apply Operations to an Array (Easy) [Array, Two Pointers, Simulation]
+//! LeetCode Problem 2460
+//!
 
 /// # `apply_operations`
 /// Applies a series of operations to an array and moves all zeros to the end.
@@ -10,13 +10,13 @@
 /// the first is doubled and the second is set to zero.
 /// Then moves all zeros to the end of the array.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of non-negative integers where 2 <= nums.length <= 2000
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i32>` - The resulting array after all operations and zero-shifting
 ///
-/// ## Example
+/// # Example
 /// ```
 /// let nums = vec![1, 2, 2, 1, 1, 0];
 /// let result = apply_operations(nums);

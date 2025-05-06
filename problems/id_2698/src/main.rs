@@ -1,19 +1,19 @@
-///
-/// # Find the Punishment Number of an Integer (Medium) [Math, Backtracking]
-/// LeetCode Problem 2698
-///
+//!
+//! # Find the Punishment Number of an Integer (Medium) [Math, Backtracking]
+//! LeetCode Problem 2698
+//!
 
 /// # `can_partition`
 /// Checks if a string representation of a number can be partitioned into substrings
 /// whose sum equals the target.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `s` - The string slice to partition
 /// * `start` - Starting index for current partition
 /// * `target` - The target sum to achieve
 /// * `current_sum` - Current running sum of partitions
 ///
-/// ## Returns
+/// # Returns
 /// * `bool` - True if a valid partition exists, false otherwise
 fn can_partition(s: &str, start: usize, target: i32, current_sum: i32) -> bool {
     if start == s.len() {
@@ -42,10 +42,10 @@ fn can_partition(s: &str, start: usize, target: i32, current_sum: i32) -> bool {
 /// Determines if a number is a punishment number by checking if its square
 /// can be partitioned into parts that sum to the original number.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `i` - The number to check
 ///
-/// ## Returns
+/// # Returns
 /// * `bool` - True if the number is a punishment number, false otherwise
 fn is_punishment_number(i: i32) -> bool {
     let square = i * i;
@@ -58,10 +58,10 @@ fn is_punishment_number(i: i32) -> bool {
 /// where the decimal representation of i² can be partitioned into contiguous
 /// substrings that sum to i.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `n` - The upper limit for checking punishment numbers
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The sum of squares of all punishment numbers up to n
 pub fn punishment_number(n: i32) -> i32 {
     (1..=n)

@@ -1,23 +1,23 @@
-///
-/// # Minimum Number of Operations to Move All Balls to Each Box (Medium) [Array, String, Prefix Sum]
-/// LeetCode Problem 1769
-///
+//!
+//! # Minimum Number of Operations to Move All Balls to Each Box (Medium) [Array, String, Prefix Sum]
+//! LeetCode Problem 1769
+//!
 
 ///
 /// # `min_operations`
 /// Given a binary string representing boxes with or without balls, calculate the minimum
 /// number of operations needed to move all balls to each box position.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// For each target position i:
 /// 1. Iterate through all other positions j
 /// 2. If there's a ball at position j, add |i - j| to the operations count
 /// 3. This gives us the minimum operations needed to move all balls to position i
 ///
-/// ## Arguments
+/// # Arguments
 /// * `boxes` - A string of '0's and '1's where '1' represents a box containing a ball
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i32>` - A vector where the i-th element represents the minimum number of
 ///   operations needed to move all balls to the i-th box
 pub fn min_operations(boxes: String) -> Vec<i32> {

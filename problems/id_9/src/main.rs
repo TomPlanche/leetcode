@@ -1,16 +1,16 @@
-///
-/// # Palindrome Number (Easy) [Math]
-/// LeetCode Problem 9
-///
+//!
+//! # Palindrome Number (Easy) [Math]
+//! LeetCode Problem 9
+//!
 /// Determines if an integer is a palindrome by comparing digits from left to right.
 /// A number is a palindrome when it reads the same backward as forward.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Handle edge cases: negative numbers and numbers ending with 0
 /// 2. Reverse the number and compare with original
 /// 3. Use mathematical operations to avoid string conversion
 ///
-/// ## Complexity
+/// # Complexity
 /// - Time: O(log10(n)) where n is the input number
 /// - Space: O(1) as we only use a few variables
 ///
@@ -19,13 +19,13 @@
 /// # `is_palindrome`
 /// Checks if a given integer is a palindrome.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `x` - The integer to check
 ///
-/// ## Returns
+/// # Returns
 /// * `bool` - true if the number is a palindrome, false otherwise
 ///
-/// ## Examples
+/// # Examples
 /// ```
 /// assert!(is_palindrome(121));
 /// assert!(!is_palindrome(-121));

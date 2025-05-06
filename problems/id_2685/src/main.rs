@@ -1,23 +1,23 @@
-///
-/// # Count the Number of Complete Components (Medium) [Depth First Search, Breadth First Search, Union Find, Graph]
-/// LeetCode Problem 2685
-///
+//!
+//! # Count the Number of Complete Components (Medium) [Depth First Search, Breadth First Search, Union Find, Graph]
+//! LeetCode Problem 2685
+//!
 use std::collections::HashSet;
 
 /// # `count_complete_components`
 /// Counts the number of complete connected components in an undirected graph.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Build adjacency list representation of the graph
 /// 2. Use DFS to find all connected components
 /// 3. For each component, verify if it's complete by checking:
 ///    - Number of edges = n*(n-1)/2 where n is number of vertices
 ///
-/// ## Arguments
+/// # Arguments
 /// * `n` - Number of vertices in the graph (0 to n-1)
 /// * `edges` - Vector of edges where each edge is [u, v] connecting vertices u and v
 ///
-/// ## Returns
+/// # Returns
 /// * Number of complete connected components in the graph
 pub fn count_complete_components(n: i32, edges: Vec<Vec<i32>>) -> i32 {
     // Build adjacency list
@@ -55,7 +55,7 @@ pub fn count_complete_components(n: i32, edges: Vec<Vec<i32>>) -> i32 {
 /// # `dfs`
 /// Performs depth-first search to find connected components and count edges.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `node` - Current node being visited
 /// * `adj` - Adjacency list representation of the graph
 /// * `visited` - Set of visited nodes

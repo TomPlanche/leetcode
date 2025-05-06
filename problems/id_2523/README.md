@@ -19,14 +19,14 @@ The problem asks us to find the two closest prime numbers within a given range [
 ```rust []
 /// Generates all prime numbers in the range [left, right].
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses the Sieve of Eratosthenes to generate primes.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `left` - The lower bound of the range.
 /// * `right` - The upper bound of the range.
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i32>` - A vector containing all prime numbers in the range.
 fn generate_primes_in_range(left: i32, right: i32) -> Vec<i32> {
     if right <= 1 {

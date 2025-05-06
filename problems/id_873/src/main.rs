@@ -1,24 +1,24 @@
-///
-/// # Length of Longest Fibonacci Subsequence (Medium) [Array, Hash Table, Dynamic Programming]
-/// LeetCode Problem 873
-///
+//!
+//! # Length of Longest Fibonacci Subsequence (Medium) [Array, Hash Table, Dynamic Programming]
+//! LeetCode Problem 873
+//!
 use std::collections::HashSet;
 
 /// # `len_longest_fib_subseq`
 /// Finds the length of the longest Fibonacci-like subsequence in a strictly increasing array.
 /// A sequence is Fibonacci-like if it has length >= 3 and each element is the sum of the previous two.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses a two-pointer approach with HashSet for efficient lookup:
 /// 1. Store all numbers in HashSet for O(1) lookup
 /// 2. Try all possible starting pairs
 /// 3. For each pair, extend sequence as far as possible
 /// 4. Track maximum length found
 ///
-/// ## Arguments
+/// # Arguments
 /// * `arr` - A vector of strictly increasing positive integers
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - Length of longest Fibonacci-like subsequence, or 0 if none exists
 pub fn len_longest_fib_subseq(arr: Vec<i32>) -> i32 {
     if arr.len() < 3 {

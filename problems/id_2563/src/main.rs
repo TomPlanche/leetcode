@@ -1,36 +1,31 @@
-///
-/// # Count the Number of Fair Pairs (Medium) [Array, Two Pointers, Binary Search, Sorting]
-/// LeetCode Problem 2563
+//!
+//! # Count the Number of Fair Pairs (Medium) [Array, Two Pointers, Binary Search, Sorting]
+//! LeetCode Problem 2563
+//!
 
-///
-/// # `count_fair_pairs`
-///
-/// ## Approach
+/// # Approach
 /// 1. Sort the array to enable efficient two-pointer technique
 /// 2. For each element, find the range of indices that form valid pairs
 /// 3. Use two pointers to count pairs within the valid range
 ///
-/// ## Complexity
+/// # Complexity
 /// - Time: O(n log n) due to sorting
 /// - Space: O(1) excluding the sorting space
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `nums` - A vector of integers to find fair pairs in
 /// * `lower` - The lower bound for the sum of pairs
 /// * `upper` - The upper bound for the sum of pairs
 ///
 ///
-/// ## Examples
-///
+/// # Examples
 /// ```
 /// let nums = vec![0,1,7,4,4,5];
 /// let result = count_fair_pairs(nums, 3, 6);
 /// assert_eq!(result, 6);
 /// ```
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `i64` - The number of fair pairs that satisfy the given conditions
 pub fn count_fair_pairs(mut nums: Vec<i32>, lower: i32, upper: i32) -> i64 {
     // Sort array to enable two-pointer technique
@@ -43,13 +38,11 @@ pub fn count_fair_pairs(mut nums: Vec<i32>, lower: i32, upper: i32) -> i64 {
 ///
 /// Helper function to count pairs with sum less than or equal to target
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `nums` - Sorted vector of integers
 /// * `target` - Target sum to compare against
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `i64` - Number of pairs with sum <= target
 ///
 fn count_pairs_less_equal(nums: &[i32], target: i32) -> i64 {

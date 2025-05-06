@@ -1,33 +1,26 @@
-///
-/// # Find if Array Can Be Sorted (Medium) [Array, Bit Manipulation, Sorting]
-/// LeetCode Problem 3011
-///
+//!
+//! # Find if Array Can Be Sorted (Medium) [Array, Bit Manipulation, Sorting]
+//! LeetCode Problem 3011
+//!
 
-///
-/// # `can_sort_array_by_bits`
-///
 /// Given a 0-indexed array of positive integers, determines if it's possible to sort
 /// the array by swapping adjacent elements that have the same number of set bits (1s)
 /// in their binary representation.
 ///
-/// ## Algorithm
-///
+/// # Algorithm
 /// 1. For each adjacent pair of elements, we can only swap them if they have the same
 ///    number of set bits.
 /// 2. This effectively divides numbers into groups based on their set bit count.
 /// 3. Each group must be able to be sorted independently.
 /// 4. The final array must be sorted in ascending order.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `nums` - A vector of positive integers where 1 <= nums[i] <= 2^8
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `bool` - true if the array can be sorted using valid swaps, false otherwise
 ///
-/// ## Examples
-///
+/// # Examples
 /// ```
 /// let nums = vec![8, 4, 2, 30, 15];
 /// assert_eq!(can_sort_array_by_bits(nums), true);

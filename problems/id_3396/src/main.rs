@@ -9,14 +9,14 @@ use std::collections::HashSet;
 /// Calculates the minimum number of operations needed to make all elements in the array distinct.
 /// Each operation removes 3 elements from the start of the array (or all remaining elements if less than 3).
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses a right-to-left scan with a HashSet to find the rightmost duplicate.
 /// The index of this duplicate determines how many elements need to be removed.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers where we need to make elements distinct
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The minimum number of operations needed
 pub fn minimum_operations(nums: Vec<i32>) -> i32 {
     (0..nums.len())

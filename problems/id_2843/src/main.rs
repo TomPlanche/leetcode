@@ -8,10 +8,10 @@
 /// A number is symmetric if it has even number of digits and
 /// sum of first half digits equals sum of second half digits.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `num` - An integer to check for symmetry
 ///
-/// ## Returns
+/// # Returns
 /// * `bool` - True if the number is symmetric, false otherwise
 fn is_symmetric(num: i32) -> bool {
     let num_str = num.to_string();
@@ -40,11 +40,11 @@ fn is_symmetric(num: i32) -> bool {
 /// A symmetric integer has an even number of digits and the sum of its
 /// first half digits equals the sum of its second half digits.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `low` - Lower bound of the range (inclusive)
 /// * `high` - Upper bound of the range (inclusive)
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - Number of symmetric integers in the range
 pub fn count_symmetric_integers(low: i32, high: i32) -> i32 {
     (low..=high).filter(|&num| is_symmetric(num)).count() as i32

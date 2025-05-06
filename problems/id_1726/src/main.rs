@@ -1,22 +1,22 @@
-///
-/// # Tuple with Same Product (Medium) [Array, Hash Table, Counting]
-/// LeetCode Problem 1726
-///
+//!
+//! # Tuple with Same Product (Medium) [Array, Hash Table, Counting]
+//! LeetCode Problem 1726
+//!
 use std::collections::HashMap;
 
 /// # `tuple_same_product`
 /// Counts the number of tuples (a,b,c,d) where a*b = c*d and all elements are distinct.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// 1. Creates a HashMap to store products and their frequency
 /// 2. Generates all possible pairs and their products
 /// 3. For each product that appears multiple times, calculates number of valid tuples
 /// 4. Uses formula: for k pairs with same product, generates k*(k-1)/2*8 tuples
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of distinct positive integers
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The number of valid tuples (a,b,c,d) where a*b = c*d
 pub fn tuple_same_product(nums: Vec<i32>) -> i32 {
     let n = nums.len();

@@ -7,17 +7,17 @@
 /// Finds the largest subset such that for any two numbers in the subset,
 /// one is divisible by the other.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses dynamic programming approach:
 /// 1. Sort the input array
 /// 2. For each number, find the largest valid subset it can be appended to
 /// 3. Track the parent indices to reconstruct the final subset
 /// 4. Build the result by backtracking from the largest subset
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of distinct positive integers
 ///
-/// ## Returns
+/// # Returns
 /// * `Vec<i32>` - The largest subset where any two numbers are divisible by each other
 pub fn largest_divisible_subset(mut nums: Vec<i32>) -> Vec<i32> {
     let n = nums.len();

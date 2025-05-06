@@ -1,33 +1,26 @@
-///
-/// # Minimum Limit of Balls in a Bag (Medium) [Array, Binary Search]
-/// LeetCode Problem 1760
-///
+//!
+//! # Minimum Limit of Balls in a Bag (Medium) [Array, Binary Search]
+//! LeetCode Problem 1760
+//!
 
-///
-/// # `minimum_size`
-///
 /// Determines the minimum possible maximum number of balls in any bag after performing
 /// at most maxOperations divisions of bags.
 ///
-/// ## Algorithm
-///
+/// # Algorithm
 /// Uses binary search to find the minimum penalty (maximum balls in any bag) that's achievable
 /// within the given number of operations. For each potential penalty value:
 /// 1. Calculate how many operations needed to ensure no bag has more than that many balls
 /// 2. If operations needed <= maxOperations, this penalty might be achievable
 /// 3. Binary search for the smallest such penalty
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `nums` - A vector of integers where nums[i] represents the number of balls in the ith bag
 /// * `max_operations` - Maximum number of allowed operations to divide bags
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `i32` - The minimum possible maximum number of balls in any bag after operations
 ///
-/// ## Example
-///
+/// # Example
 /// ```
 /// let nums = vec![9];
 /// let max_operations = 2;

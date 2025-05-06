@@ -1,18 +1,18 @@
-///
-/// # Reverse Integer (Medium) [Math]
-/// LeetCode Problem 7
-///
+//!
+//! # Reverse Integer (Medium) [Math]
+//! LeetCode Problem 7
+//!
 
 /// # `reverse`
 /// Reverses the digits of a signed 32-bit integer.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `x` - A signed 32-bit integer to reverse
 ///
-/// ## Returns
+/// # Returns
 /// * `i32` - The reversed number, or 0 if the result would overflow
 ///
-/// ## Examples
+/// # Examples
 /// ```
 /// assert_eq!(reverse(123), 321);
 /// assert_eq!(reverse(-123), -321);

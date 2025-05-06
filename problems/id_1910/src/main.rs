@@ -1,24 +1,24 @@
-///
-/// # Remove All Occurrences of a Substring (Medium) [String, Stack, Simulation]
-/// LeetCode Problem 1910
-///
+//!
+//! # Remove All Occurrences of a Substring (Medium) [String, Stack, Simulation]
+//! LeetCode Problem 1910
+//!
 
 /// # `remove_occurrences`
 /// Removes all occurrences of a substring from a string, working from left to right.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Repeatedly finds the leftmost occurrence of the substring and removes it until
 /// no occurrences remain. The process is performed iteratively using String's
 /// built-in methods.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `s` - The source string to remove occurrences from
 /// * `part` - The substring to remove from the source string
 ///
-/// ## Returns
+/// # Returns
 /// * `String` - The resulting string after all occurrences of part are removed
 ///
-/// ## Example
+/// # Example
 /// ```
 /// let result = remove_occurrences("daabcbaabcbc".to_string(), "abc".to_string());
 /// assert_eq!(result, "dab");

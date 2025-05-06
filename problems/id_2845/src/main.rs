@@ -11,17 +11,17 @@ use std::collections::HashMap;
 /// A subarray is considered "interesting" if the count of elements with remainder k when
 /// divided by modulo, itself has a remainder of k when divided by modulo.
 ///
-/// ## Algorithm
+/// # Algorithm
 /// Uses a prefix sum approach with a hash map to track the frequency of remainders.
 /// For each position, we calculate how many previous positions would form an interesting
 /// subarray with the current position as the end.
 ///
-/// ## Arguments
+/// # Arguments
 /// * `nums` - A vector of integers.
 /// * `modulo` - The modulo value to use for calculations.
 /// * `k` - The target remainder value.
 ///
-/// ## Returns
+/// # Returns
 /// * `i64` - The count of interesting subarrays.
 pub fn count_interesting_subarrays(nums: Vec<i32>, modulo: i32, k: i32) -> i64 {
     let mut result = 0i64;

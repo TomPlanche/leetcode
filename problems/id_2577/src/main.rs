@@ -1,27 +1,21 @@
-///
-/// # Minimum Time to Visit a Cell In a Grid (Hard) [Array, Breadth First Search, Graph, Heap (priority Queue), Matrix, Shortest Path]
-/// LeetCode Problem 2577
-///
+//!
+//! # Minimum Time to Visit a Cell In a Grid (Hard) [Array, Breadth First Search, Graph, Heap (priority Queue), Matrix, Shortest Path]
+//! LeetCode Problem 2577
+//!
 use std::cmp::Reverse;
 use std::collections::{BinaryHeap, HashSet};
 
-///
-/// # `minimum_time`
-///
 /// Given a matrix where each cell has a minimum time requirement, find the minimum time
 /// to reach the bottom-right cell starting from top-left at t=0. Can only move to adjacent cells,
 /// each move takes 1 second.
 ///
-/// ## Arguments
-///
+/// # Arguments
 /// * `grid` - A matrix where grid[row][col] represents minimum time required to visit cell (row, col)
 ///
-/// ## Returns
-///
+/// # Returns
 /// * `i32` - Minimum time required to reach bottom-right cell, or -1 if impossible
 ///
-/// ## Algorithm
-///
+/// # Algorithm
 /// Uses Dijkstra's algorithm with a priority queue to find shortest path, considering:
 /// 1. Can only move to adjacent cells (up, down, left, right)
 /// 2. Must wait until time >= cell's minimum requirement
