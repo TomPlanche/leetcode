@@ -6,7 +6,7 @@
     style="display: flex; justify-content: center; align-items: center;"
 >
     <img
-        src="https://img.shields.io/badge/Solutions-230-green" width="10%"
+        src="https://img.shields.io/badge/Solutions-232-green" width="10%"
         alt="Solutions"
     />
     <img
@@ -67,10 +67,10 @@
 
 ## 📊 Progress
 
-- **Total Solved**: 230 problems
-    - **Easy**: 43 (18.7%) 🟢
-    - **Medium**: 149 (64.8%) 🟡
-    - **Hard**: 38 (16.5%) 🔴
+- **Total Solved**: 232 problems
+    - **Easy**: 43 (18.5%) 🟢
+    - **Medium**: 151 (65.1%) 🟡
+    - **Hard**: 38 (16.4%) 🔴
 
 
 ## 📁 Repository Structure
@@ -385,6 +385,8 @@ Each solution includes this header format for easy navigation and reference (and
 | [3264](./problems/id_3264) | Final Array State After K Multiplication Operations I | Easy | `Array`, `Math`, `Heap (priority Queue)`, `Simulation` |
 | [3272](./problems/id_3272) | Find the Count of Good Integers | Hard | `Hash Table`, `Math`, `Combinatorics`, `Enumeration` |
 | [3306](./problems/id_3306) | Count of Substrings Containing Every Vowel and K Consonants II | Medium | `Hash Table`, `String`, `Sliding Window` |
+| [3341](./problems/id_3341) | Find Minimum Time to Reach Last Room I | Medium | `Array`, `Graph`, `Heap (priority Queue)`, `Matrix`, `Shortest Path` |
+| [3342](./problems/id_3342) | Find Minimum Time to Reach Last Room II | Medium | `Array`, `Graph`, `Heap (priority Queue)`, `Matrix`, `Shortest Path` |
 | [3356](./problems/id_3356) | Zero Array Transformation II | Medium | `Array`, `Binary Search`, `Prefix Sum` |
 | [3375](./problems/id_3375) | Minimum Operations to Make Array Values Equal to K | Easy | `Array`, `Hash Table` |
 | [3392](./problems/id_3392) | Count Subarrays of Length Three With a Condition | Easy | `Array` |
